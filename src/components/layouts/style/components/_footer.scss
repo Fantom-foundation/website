@@ -1,0 +1,88 @@
+footer{
+    min-height: 660px;
+    background-color: #426ed5;
+    .footer-section {
+        color: #fff;
+        .inner-container.footer-container {
+            padding: 60px 0;
+            max-width: 1240px;
+            .footer-fantom-icon {
+                display: inline-block;
+                width: 32%;
+                ul{
+                    li {
+                        list-style-type:none;
+                        padding-bottom: 90px;
+                        img{
+                            max-width: 250px;
+                            min-height: 60px;
+                        }
+                        span{
+                            padding: 10px;
+                            padding-right: 15px;
+                            a{
+                                img{
+                                    width: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-link {
+                display: inline-block;
+                width: 68%;
+                .footer-first-col {
+                    display: inline-block;
+                    width: 50%;
+                    ul{
+                        li{
+                            list-style-type:none;
+                            padding: 30px 50px;
+                            font-size: 25px;
+                            
+                            a{
+                                color: #fff;
+                                text-decoration: none;
+                                a:hover{
+                                    color: #fff;
+                                    text-decoration: none;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-small-section {
+                color: #C9C9C9;
+                margin-left: 50px;
+                .footer-left{
+                    width: 37%;
+                }
+                .footer-right{
+                    width: 60%;
+                    p{
+                        width: 30%;
+                    }
+                }
+                div {
+                    display: inline-block;
+                    p{
+                        font-size: 18px;
+                        display: inline-block;
+                        a{
+                            color: #C9C9C9;
+                            text-decoration: none;
+                            a:hover {
+                                color: #C9C9C9;
+                            text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

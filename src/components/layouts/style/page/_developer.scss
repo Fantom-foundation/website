@@ -1,0 +1,149 @@
+.developer-hero{
+    background-image: url("/images/home/Bg_grey_shapes.svg");
+    height: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1; 
+    .inner-container {
+        text-align: left;
+        height:auto;        
+        padding: 180px 0px;
+        padding-top: 250px;
+        h1{
+            width: 70%;
+            font-size: $h1;
+            color: $font-color;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+    }
+}
+
+// Build section
+
+.build {
+    border: 10px solid #59C5DD;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    .build-section-text {
+        h2{
+            font-size: $h2;
+            font-weight: $semibold;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: $body-font;
+            width: 65%;
+            margin-bottom: 35px;
+
+        }
+        input {
+            background: #FE9D8B;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 50px;
+            border: 1px solid #fe9d8b;
+            color: #2C3B57;
+            box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.08);
+        }
+    }
+    .build-section-img{
+        display: flex;
+        align-items: center;
+        .build-block{
+            img{
+                vertical-align: middle;
+                border-style: none;
+                max-width: 140px;
+                min-height: 140px;
+            }
+        }
+    }
+}
+
+// Learn section
+
+.learn {
+    border: 10px solid #CDD4D8;
+    padding: 50px 10px;
+    border-radius: 20px;
+    .learn-section{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        width: 90%;
+        margin-left: 10px;
+        .learn-text{
+            flex-basis: 80%;
+            h2{
+                font-size: $h2;
+                font-weight: $semibold;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: $body-font;
+                margin-bottom: 35px;
+    
+            }
+        }
+        .learn-img{
+            display: flex;
+            align-items: flex-end;
+            img{
+
+            }
+        }
+    }
+    .learn-list{
+        width: 55%;
+        .list{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 60px;
+            margin-left: 32px;
+            .list-text{
+                flex-basis: 85%;
+                h4{
+                    font-size: $h4;
+                    font-weight: $bold;
+                    width: 90%;
+                }
+            }
+            .list-icon{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+                a{
+                    img{
+                        vertical-align: top;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+// What is Fantom
+
+.introduction {
+    width: 67%;
+    h4{
+        font-size: $h4;
+        font-weight: $semibold;
+    }
+    p{
+        font-size: $body-font;
+        font-weight: $regular;
+        margin: 30px 0;
+        span{
+            font-weight: $bold;
+        }
+    }
+}

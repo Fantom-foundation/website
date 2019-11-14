@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="122px" height="28px" viewBox="0 0 122 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>fantom logo white v3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.708333333" y="21.328125" width="20.5416667" height="4.921875"></rect>
+        <rect id="path-3" x="2.63712833" y="21.0386029" width="17.5520344" height="2.70220588"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-1920-v4" transform="translate(-91.000000, -30.000000)">
+            <g id="fantom-logo-white-v3" transform="translate(90.000000, 29.000000)">
+                <g id="fantom-new-logo" stroke-width="1" fill-rule="evenodd" transform="translate(1.875000, 2.500000)">
+                    <g id="rounded-copy">
+                        <path d="M11.5742781,0.193546578 L18.0869041,3.63429973 C18.5753617,3.89236183 18.5753617,4.31076317 18.0869041,4.56882527 L11.5742781,8.00957842 C11.0858205,8.26764053 10.2938743,8.26764053 9.80541673,8.00957842 L3.29279076,4.56882527 C2.80433318,4.31076317 2.80433318,3.89236183 3.29279076,3.63429973 L9.80541673,0.193546578 C10.2938743,-0.064515526 11.0858205,-0.064515526 11.5742781,0.193546578 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="1.5625"></path>
+                        <path d="M11.5742781,8.58968628 L18.0869041,12.0304394 C18.5753617,12.2885015 18.5753617,12.7069029 18.0869041,12.964965 L11.5742781,16.4057181 C11.0858205,16.6637802 10.2938743,16.6637802 9.80541673,16.4057181 L3.29279076,12.964965 C2.80433318,12.7069029 2.80433318,12.2885015 3.29279076,12.0304394 L9.80541673,8.58968628 C10.2938743,8.33162418 11.0858205,8.33162418 11.5742781,8.58968628 Z" id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="1.5625"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <path d="M11.5742781,17.3718554 L18.0869041,20.8126086 C18.5753617,21.0706707 18.5753617,21.489072 18.0869041,21.7471341 L11.5742781,25.1878872 C11.0858205,25.4459493 10.2938743,25.4459493 9.80541673,25.1878872 L3.29279076,21.7471341 C2.80433318,21.489072 2.80433318,21.0706707 3.29279076,20.8126086 L9.80541673,17.3718554 C10.2938743,17.1137933 11.0858205,17.1137933 11.5742781,17.3718554 Z" id="Rectangle-Copy-2" stroke="#FFFFFF" stroke-width="1.5625" mask="url(#mask-2)"></path>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <path d="M2.8782277,19.832261 C2.81393453,20.8938419 2.89430099,21.4970129 3.11932707,21.6417739" id="Path-10" stroke="#FFFFFF" stroke-width="1.5625" mask="url(#mask-4)"></path>
+                        <path d="M18.3085876,19.832261 C18.2442945,20.8938419 18.3246609,21.4970129 18.549687,21.6417739" id="Path-10-Copy" stroke="#FFFFFF" stroke-width="1.5625" mask="url(#mask-4)" transform="translate(18.418422, 20.737017) scale(-1, 1) translate(-18.418422, -20.737017) "></path>
+                        <path d="M19.226428,1.12418025 C20.5015758,1.89623907 21.1284342,2.18576113 21.1284342,4.11590819" id="Path-11" stroke="#FFFFFF" stroke-width="1.5625"></path>
+                        <path d="M0.128032081,20.9760036 C1.40317988,21.7480624 2.03003825,22.0375845 2.03003825,23.9677315" id="Path-11-Copy" stroke="#FFFFFF" stroke-width="1.5625" transform="translate(1.079035, 22.471868) scale(-1, -1) translate(-1.079035, -22.471868) "></path>
+                        <line x1="2.88000782" y1="21.183364" x2="2.88000782" y2="4.19166652" id="Line-2" stroke="#FFFFFF" stroke-width="1.5625" stroke-linecap="square"></line>
+                        <line x1="18.5032473" y1="21.183364" x2="18.5032473" y2="4.19166652" id="Line-2-Copy" stroke="#FFFFFF" stroke-width="1.5625" stroke-linecap="square"></line>
+                        <line x1="10.6898474" y1="16.3579963" x2="10.6898474" y2="8.44439338" id="Line-2-Copy-2" stroke="#FFFFFF" stroke-width="1.5625" stroke-linecap="square"></line>
+                    </g>
+                </g>
+                <text id="fantom" font-family="WorkSans-SemiBold, WorkSans" font-size="28.125" font-weight="500" fill="#FFFFFF">
+                    <tspan x="29.4296875" y="24.25">fantom</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,391 @@
+*{
+    margin: 0px;
+}
+body{
+    color: $font-color;
+    font-size: $body-font;
+    font-family: "Work Sans", Helvetica, sans-serif;
+}
+
+.inner-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1124px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: "Work Sans", Helvetica, sans-serif;
+}
+.section{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.hero-section{
+    background-image: url("/images/home/Mask-Group1.png");
+    height: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1; 
+    .inner-container {
+        text-align: left;
+        height:auto;        
+        padding: 180px 0px;
+        padding-top: 250px;
+        h1{
+            width: 70%;
+            font-size: $h1;
+            color: $primary-white;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+    }
+}
+
+.subtitle-section {
+   
+    h2{
+        font-size: $h2;
+        color: $primary-blue;
+        margin-bottom: 40px;
+        width: 75%;
+    }
+    p{
+        font-size: $body-font;
+        color:$font-color;
+        width: 65%;
+    }
+}
+
+.offer {
+    background: $light-grey;
+    padding: 50px 32px;
+    border-radius: 20px;
+    margin-left: -35px;
+    h2 {
+        font-size: $h2;
+        margin-bottom: 20px;
+    }
+    p{
+        width: 45%;
+    }
+}
+.offer-group{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 10px;
+    margin-left: -35px;
+    .Scalable {
+        .offer-icon {
+            background: $card-footer-3;
+        }  
+    }
+    .Secure {
+        .offer-icon {
+            background: $card-bg-2;
+        }
+    }
+    .Fast {
+        .offer-icon{
+            background: $card-bg-1;
+        }
+        
+    }
+    .Connected{
+        .offer-icon{
+            background: $card-bg-3;
+        } 
+    }
+    .Permissionless{
+        .offer-icon{
+            background: $card-footer-1;
+        }   
+    }
+    .Open-source{
+        .offer-icon{
+            background: $card-footer-2;
+        }  
+    }
+    .offer-item{
+        margin-top: 20px;
+        background: $light-grey;
+        border-radius: 20px;
+        flex-basis: 30%;
+        .offer-text {
+            padding: 20px 10px;
+            width: 350px;
+            height: 260px;
+            padding-left: 20px;
+            h4{
+                font-size: $h4;
+                font-weight: bolder;
+            }
+        }
+        p{
+            margin-top: 20px;
+            font-size: $body-font;
+        }
+        .offer-icon {
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 0 0 20px 20px;
+            img {
+                width: 70px;
+                height: 130px;
+            }
+        }
+    }
+}
+
+.intro-section.section {
+    display: flex;
+    justify-content: flex-end;
+    .intro-text{
+        flex-basis: 50%;
+    }
+    .intro-text{
+        align-self: center;
+        h2{
+            font-size: $h2;
+            font-weight: $semibold;
+            width: 60%;
+        }
+        p{
+            width: 40%;
+            margin-top: 30px;
+            font-size: $body-font;
+            font-weight: normal;
+        }
+        .intro-button {
+            display: inline-block;
+            border-radius: 30px;
+            margin-top: 20px;
+            .button {
+                padding: 15px 0px;
+                width: 150px;
+                border-radius: 50px;
+                text-align: center;
+                border-style: solid;
+                border: 1px solid #FF573B;
+                background: #FF573B;
+                color: #fff;
+            }
+      }  }
+}
+.bg-circle {
+    // background: #FBFBFC;
+    // border-radius: 50%;
+    // width: 207px;
+    // height: 620px;
+    // display: inline-block;
+    flex-basis: 50%;
+    .intro-icon{
+            text-align: right;
+            padding-right: 90px;
+            position: relative;
+        img{
+            // width: 40%;
+            // display: flex;
+            // margin-left: 450px;
+            // margin-top: 130px;
+            max-width: 300px;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            background-color: #fbfbfc;
+            border-radius: 50%;
+            height: 600px;
+            z-index: -1;
+            width: 600px;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -45%;
+        }
+    }  
+}
+
+
+.update-section {
+    overflow: hidden;
+    img{
+        max-height: 200px;
+        width: 100%;
+    }
+    .inner-container{
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        .developer-potal{
+            background-image: url("/images/cards/Developer_Portal.svg");    
+        }
+        .fantom-foundation{
+            background-image: url("/images/cards/The_Fantom_Foundation.svg");
+        }
+        .developer-potal, .fantom-foundation{
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: inline-block;
+            justify-content: space-between;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 20px;
+            text-align: left;
+            min-width: 504px;
+            height: 322px;
+            position: relative;
+            h3{
+                width: 274px;
+                font-size: 48px;
+                font-weight: 400;
+                line-height: 1.13;
+            }
+            h3, p{
+                color: #fff;
+                margin: 0;
+                width: 80%;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 21px;
+                font-weight: lighter;
+                width: 335px;
+                line-height: 1.52;
+
+            }
+            .intro-button {
+                position: absolute;
+                bottom: 40px;
+                padding: 10px 15px;
+                display: inline-block;
+                background: #fff;
+                border-radius: 30px;
+                margin-top: 20px;
+                box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.08);
+                a{
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    text-align: center;
+                    color: #426ed5;
+                }
+           }
+            
+        }
+    }
+    h2{
+        font-size: $h2;
+    }
+    form{
+        margin-top: 30px;
+        input{
+            font-size: 16px;
+        }
+        .email-input{
+            padding: 10px;
+            width: 60%;
+            border-radius: 25px;
+            border-style: solid;
+            border: 1px solid #426ED5;
+            font-weight: 600;
+            letter-spacing: 0.38px;
+            color: #7c89a1;
+        }
+        .button{
+            padding: 10px;
+            width: 20%;
+            margin-left: -40px;
+            border-radius: 25px;
+            border-style: solid;
+            border: 1px solid #FF573B;
+            background: #FF573B;
+            color: #fff;
+            font-weight: 700;
+            letter-spacing: 0.38px;
+        }
+    
+    }
+}
+
+.foundation-hero {
+    h1{
+        color: #2C3B57 !important;
+    }
+}
+
+.intro-section.section .intro-text .intro-button .button  {
+    box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.08);
+}
+
+// carousel section
+    // .carousel-section{
+    //     display: flex;
+    //     justify-content: space-between;
+    //     .carousel-card {
+    //         flex-basis: 45%;
+    //         background: #000;
+    //     }
+    // }
+    .inner-container.carousel-section {
+        margin-right: 0px;
+        max-width: 1557px;
+       .slider-heading {
+            font-size: 32px;
+        }
+    }
+    .carousel-card {
+            display: flex !important;
+            justify-content: space-between;
+            flex-flow: row wrap;
+            margin-top: 30px;
+            color: $font-color;
+        .subcard {
+            flex-basis: 85%;
+            padding: 30px;
+            border-radius: 30px;
+            min-height: 760px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .heading {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    font-weight: bold;
+                }
+            }
+            h2, p{
+                margin: 10px 0px;
+            }
+
+            div{
+                min-height: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+            .read{
+                a {
+                    color: $font-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .Technical-Update{
+            background: #59C5DD;
+        }
+        .Fantom-Status{
+            background: #FF9C8B;
+        }
+        .When-Mainnet{
+            background: #CDD4D8;
+        }
+        .Adapt{
+            background: #59C5DD;
+        }
+    }
