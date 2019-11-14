@@ -1,12 +1,12 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://fantom.foundation/">
-    <img alt="Fantom Foundation" src="Fantom-development/static/images/home/fantom_logo_blue.svg" width="60" />
+    <h1 align="center">
+       Fantom Foundation
+    </h1>
   </a>
 </p>
-<h1 align="center">
-  Fantom Foundation
-</h1>
+
 
 Fantom is a distributed ledger technology stack. At its foundation, it is a DAG-based distributed ledger incorporating new methods of scalability, combined with a high-performance virtual machine and safe, secure smart contract execution.
 
