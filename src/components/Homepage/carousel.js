@@ -27,10 +27,10 @@ console.log('postsState type', typeof postsState);
       arrows: true,
       infinite: true,
       speed: 100,
-      slidesToShow: 4,
+      slidesToShow: 3,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 5000,
+      // autoplay: true,
+      // autoplaySpeed: 5000,
       // nextArrow: true,
       // prevArrow: true,
 
@@ -45,14 +45,14 @@ console.log('postsState type', typeof postsState);
               var StrippedString = post.content.split(" ").splice(0, 20).join(" ");
               var StrippedText = StrippedString.replace(/(<([^>]+)>)/ig,"");
               return (
-                <div className="carousel-card ">
-                  <div className="Technical-Update subcard">
+                <div className="carousel-card">
+                  <div className="subcard">
                     <div className="heading">
                       <h2>{post.title}</h2>
                       <p>{post.pubDate}</p>
-                      <div className="card-content">
-                        <p>{StrippedText}</p>
-                      </div>
+                    </div>
+                    <div className="card-content">
+                      <p>{StrippedText}</p>
                     </div>
                     <div className="read"><a href="{post.link}">Read More</a></div>
                   </div>
