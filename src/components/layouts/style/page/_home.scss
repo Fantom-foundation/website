@@ -1,6 +1,18 @@
 *{
     margin: 0px;
 }
+input{
+    &:focus{
+        outline: none;
+    }
+}
+
+button{
+    &:focus{
+        outline: none;
+    }
+}
+
 body{
     color: $font-color;
     font-size: $body-font;
@@ -197,6 +209,48 @@ body{
         }
     }  
 }
+
+// update form 
+
+.section.update-form div {
+    input {
+        border-radius: 30px;
+        width: 451px;
+        border: solid 1px #426ed5;
+        background: #fff;
+        padding: 10px;
+        &:focus{
+            outline: none;
+        }
+        
+    }
+    ::placeholder {
+        font-family: WorkSans;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.38px;
+        color: #7c89a1;
+        margin-right: 15px !important;
+    }
+    button{
+        width: 100px;
+        border-radius: 30px;
+        background-color: #ff573b;
+        font-family: WorkSans;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.38px;
+        text-align: center;
+        color: #ffffff;
+        padding: 12px;
+        margin-left: -98px;
+        padding-top: 15px;
+        &:focus{
+            outline: none;
+        }
+    }
+} 
+
 
 
 .update-section {
