@@ -37,7 +37,7 @@ console.log('postsState type', typeof postsState);
     };
    
     return (
-      <div className="inner-container carousel-section section">
+      <div className="container carousel-section section">
         <h2 className="slider-heading">Latest articles</h2>
         <Slider {...settings}>
           {

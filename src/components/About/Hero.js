@@ -4,7 +4,7 @@ const Hero = () => {
     return(
 
             <div className="hero-section">
-                <div className="inner-container">
+                <div className="container">
                     <h1>What is Fantom?</h1>
                 </div>
             </div>

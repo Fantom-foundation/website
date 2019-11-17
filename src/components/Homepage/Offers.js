@@ -2,7 +2,7 @@ import React from "react"
 
 const OffersSection = () => {
     return(
-        <div className="offers-section inner-container section">
+        <div className="offers-section container section">
             <div className="offer">
                 <h2>Built with the future in mind</h2>
                 <p>Fantom offers the most powerful foundations for decentralized ledgers. </p>

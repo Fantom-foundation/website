@@ -4,7 +4,7 @@ const Hero = () => {
     return(
 
             <div className="hero-section developer-hero">
-                <div className="inner-container">
+                <div className="container">
                     <h1>Fantom is open source</h1>
                 </div>
             </div>

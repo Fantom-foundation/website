@@ -2,7 +2,7 @@
 	padding-top: .5em;
 	padding-bottom: .5em;
     background: #3478ef;
-    .inner-container{
+    .container{
         display: flex;
         justify-content: space-between;
         // max-width: 1768px;
@@ -53,7 +53,7 @@ header.header.nav-development {
     background: $light-grey;
 }
 
-header.header.nav-development .inner-container .main-nav li a {
+header.header.nav-development .container .main-nav li a {
     color: $primary-blue;
 }
 
@@ -61,7 +61,7 @@ header.header.nav-development .inner-container .main-nav li a {
 
 .nav-foundation {
     background: #fb9c8a;
-    .inner-container .main-nav li a {
+    .container .main-nav li a {
         color: $primary-blue;  
     }
 }

@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <footer>
             <div className="footer-section">
-                <div className="inner-container footer-container">
+                <div className="container footer-inner-container">
                     <div className="footer-fantom-icon">
                         <ul>
                             <li><a href="#"><img src="/images/home/fantom logo white v3.png" alt="fantom icon" /></a></li>

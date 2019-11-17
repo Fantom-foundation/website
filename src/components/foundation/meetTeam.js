@@ -2,7 +2,7 @@ import React from "react"
 
 const MeetTeam = () => {
     return(
-        <div className="inner-container section">
+        <div className="container section">
             <div className ="meet-team">
                 <h2>Meet the team</h2>
                 <p>

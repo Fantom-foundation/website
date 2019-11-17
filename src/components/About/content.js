@@ -2,7 +2,7 @@ import React from "react"
 
 const Content = () => {
     return(
-        <div className="inner-container section">
+        <div className="container section">
             <div className="introduction section">
                 <h4>
                     Introduction

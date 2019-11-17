@@ -3,7 +3,7 @@ import React from "react"
 
 const Learn = () => {
     return(
-        <div className="inner-container section">
+        <div className="container section">
             <div className="learn">
                 <div className="learn-section">
                     <div className="learn-text">

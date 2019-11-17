@@ -3,9 +3,9 @@ import { teamMemberData } from "./Data"
 
 const TeamMember = () => {
     return (
-        <div className="inner-container team-container ">
+        <div className="container team-inner-container ">
             <div className="team-grid">
-                <div className="grid-container section">
+                <div className="grid-inner-container section">
                     {teamMemberData.map(member => {
                         const { id,
                             imgUrl,

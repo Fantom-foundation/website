@@ -23,7 +23,7 @@ const Header = ({location}) => {
 
     return(
         <header className={`header ${headerClass}`}>
-            <div className="inner-container">
+            <div className="container">
                 <h1 className="logo"><Link to="#"><img src={imgsrc} alt=""/></Link></h1>
                 <ul className="main-nav">
                     <li><Link to="/about">What is Fantom?</Link></li>

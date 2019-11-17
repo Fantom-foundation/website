@@ -2,7 +2,7 @@ import React from "react"
 
 const Build = () => {
     return(
-        <div className="inner-container section">
+        <div className="container section">
             <div className="build">
                 <div className="build-section-text">
                     <h2>BUILD.</h2>

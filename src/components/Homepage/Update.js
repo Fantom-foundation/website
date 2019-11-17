@@ -35,7 +35,7 @@ class LatestUpdate extends React.Component {
         return (
             <div className="update-section section">
                 <img src="/images/home/Bg_bottom.png" alt="" />
-                <div className="inner-container">
+                <div className="container">
                     <div className="developer-potal">
                         <h3>Developer Portal</h3>
                         <p>Open source. Scalable. Secure.</p>
@@ -51,7 +51,7 @@ class LatestUpdate extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="inner-container main-update">
+                <div className="container main-update">
                     <div className="section update-form">
                         <h2>Get the latest updates</h2>
                         {/* <form method="POST" onSubmit={e => this.handleSubmit(e)} >

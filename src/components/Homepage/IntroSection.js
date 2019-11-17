@@ -3,7 +3,7 @@ import React from "react"
 
 const Intro = () => {
     return(
-        <div className="intro-section section inner-container">
+        <div className="intro-section section container">
             <div className="bg-circle"> 
                 <div className="intro-icon">
                     <img src="/images/home/fantom_logo.png" alt="fantom icon" />
