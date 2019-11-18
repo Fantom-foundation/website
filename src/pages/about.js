@@ -5,7 +5,6 @@ import About from "../components/About/index"
 
 const Developer = (props) => {
     const path = props.path;
-    console.log('path', props);
     return (
         <Layout location={props.location}>
             <About />

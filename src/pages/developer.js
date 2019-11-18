@@ -5,7 +5,6 @@ import DeveloperPage from "../components/DeveloperPage/index"
 
 const Developer = (props) => {
     const path = props.path;
-    console.log('path', props);
     return (
         <Layout location={props.location}>
             <DeveloperPage />
