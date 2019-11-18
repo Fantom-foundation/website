@@ -1,21 +1,34 @@
 import React from "react"
+import { buildData } from "./Data"
+
+
 
 const Build = () => {
     return(
         <div className="container section">
-            <div className="build">
+            {buildData.map(buildcontent => {
+                        const { 
+                            heading,
+                            discription,
+                            href,
+                            img,
+                        } = buildcontent;
+            return(
+                <div className="build">
                 <div className="build-section-text">
-                    <h2>BUILD.</h2>
-                    <p>Join our developer community on Github and stay up to date with our progress.</p>
-                    <a href="https://github.com/Fantom-foundation" target="_blank"><input type="submit" value="Get Started" className="button"/></a>
+                    <h2>{heading}</h2>
+                    <p>{discription}</p>
+                    <a href={href} target="_blank"><input type="submit" value="Get Started" className="button"/></a>
                     
                 </div>
                 <div className="build-section-img">
                         <div className="build-block">
-                            <img src="/images/home/600px-Octicons-mark-github.png" alt="github" />
+                            <img src={img} alt="github" />
                         </div>
                 </div>
             </div>
+            )
+            })}  
 
         </div>
     )

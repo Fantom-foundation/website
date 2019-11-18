@@ -54,3 +54,12 @@ export const learnMoreData = [
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
 ]
+
+export const buildData = [
+    {
+        heading:`BUILD.`,
+        discription:`Join our developer community on Github and stay up to date with our progress.`,
+        href:`https://github.com/Fantom-foundation`,
+        img:`/images/home/600px-Octicons-mark-github.png`,
+    }
+]
