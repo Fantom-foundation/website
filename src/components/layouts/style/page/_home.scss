@@ -206,12 +206,13 @@ body{
 // update form 
 
 .section.update-form div {
+    margin-top: 62px;
     input {
         border-radius: 30px;
-        width: 451px;
+        width: 85%;
         border: solid 1px #426ed5;
         background: #fff;
-        padding: 10px;
+        padding: 9px;
         &:focus{
             outline: none;
         }
@@ -235,7 +236,7 @@ body{
         letter-spacing: 0.38px;
         text-align: center;
         color: #ffffff;
-        padding: 12px;
+        padding: 16px 12px 12px 0;
         margin-left: -98px;
         padding-top: 15px;
         &:focus{
@@ -359,63 +360,64 @@ body{
     box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.08);
 }
 
-    .inner-container.carousel-section {
-        margin-right: 0px;
-        max-width: 1557px;
-       .slider-heading {
-            font-size: 32px;
-        }
+.inner-container.carousel-section {
+    margin-right: 0px;
+    max-width: 100%;
+    margin-left: 250px;
+    .slider-heading {
+        font-size: 32px;
     }
-    .carousel-card {
-            display: flex !important;
-            justify-content: space-between;
-            flex-flow: row wrap;
-            margin-top: 30px;
-            color: $font-color;
-        .subcard {
-            flex-basis: 85%;
-            padding: 30px;
-            border-radius: 30px;
-            min-height: 760px;
+}
+.carousel-card {
+        display: flex !important;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        margin-top: 30px;
+        color: $font-color;
+    .subcard {
+        flex-basis: 85%;
+        padding: 30px;
+        border-radius: 30px;
+        min-height: 760px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        &:nth-child(2n-1)
+        .heading {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            &:nth-child(2n-1)
-            .heading {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                p{
-                    font-weight: bold;
-                }
-            }
-            h2, p{
-                margin: 10px 0px;
-            }
-
-            div{
-                min-height: 200px;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-            }
-            .read{
-                a {
-                    color: $font-color;
-                    text-decoration: underline;
-                }
+            justify-content: space-between;
+            p{
+                font-weight: bold;
             }
         }
-       
+        h2, p{
+            margin: 10px 0px;
+        }
+
+        div{
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .read{
+            a {
+                color: $font-color;
+                text-decoration: underline;
+            }
+        }
     }
+    
+}
 
 
-    .slick-track .slick-slide:nth-child(2n-1) .subcard{
-        background: #59C5DD !important;
-    }
-    .slick-track .slick-slide:nth-child(2n) .subcard{
-        background: #FF9C8B !important;
-    }
-    .slick-track .slick-slide:nth-child(3n) .subcard{
-        background: #CDD4D8 !important;
-    }
+.slick-track .slick-slide:nth-child(2n-1) .subcard{
+    background: #59C5DD !important;
+}
+.slick-track .slick-slide:nth-child(2n) .subcard{
+    background: #FF9C8B !important;
+}
+.slick-track .slick-slide:nth-child(3n) .subcard{
+    background: #CDD4D8 !important;
+}

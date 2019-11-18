@@ -1,5 +1,6 @@
 import React from "react"
-// import Pdf from '../Documents/Document'
+// import { teamMemberData } from "./Data"
+
 
 const Learn = () => {
     return(

@@ -40,14 +40,14 @@ class LatestUpdate extends React.Component {
                         <h3>Developer Portal</h3>
                         <p>Open source. Scalable. Secure.</p>
                         <div className="intro-button">
-                            <Link to="#">Learn More</Link>
+                            <Link to="/developer">Learn More</Link>
                         </div>
                     </div>
                     <div className="fantom-foundation">
                         <h3>The Fantom Foundation</h3>
                         <p>The people, the culture.</p>
                         <div className="intro-button">
-                            <Link to="#">Learn More</Link>
+                            <Link to="/foundation">Learn More</Link>
                         </div>
                     </div>
                 </div>
