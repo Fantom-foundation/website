@@ -42,7 +42,6 @@ const Content = () => {
                                                 {li}
                                             </li>
                                         )
-
                                     })}
                                 </ul>
                             }

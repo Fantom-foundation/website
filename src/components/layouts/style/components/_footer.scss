@@ -12,7 +12,7 @@ footer{
                 ul{
                     li {
                         list-style-type:none;
-                        padding-bottom: 90px;
+                        padding-bottom: 75px;
                         img{
                             max-width: 250px;
                             min-height: 60px;
@@ -44,8 +44,8 @@ footer{
                             a{
                                 color: #fff;
                                 text-decoration: none;
-                                a:hover{
-                                    color: #fff;
+                                &:hover{
+                                    color: #efefef !important;
                                     text-decoration: none;
 
                                 }

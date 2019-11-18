@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
-
+import CustomForm from "./emailForms"
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 const url = "https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6";
@@ -59,6 +59,16 @@ class LatestUpdate extends React.Component {
                             <input type="submit" value="Sign Up" className="button" />
                         </form> */}
                         <MailchimpSubscribe url={url}/>
+                        {/* <MailchimpSubscribe
+          url={url}
+          render={({ subscribe, status, message }) => (
+            <CustomForm
+              status={status}
+              message={message}
+              onValidated={formData => subscribe(formData)}
+            />
+          )}
+        /> */}
                     </div>
                 </div>
                 
