@@ -1,5 +1,5 @@
 import React from "react"
-// import { teamMemberData } from "./Data"
+import { learnMoreData } from "./Data"
 
 
 const Learn = () => {
@@ -16,78 +16,24 @@ const Learn = () => {
                     </div>
                 </div>
                 <div className="learn-list">
-                    <div className="list">
-                        <div className="list-text">
-                            <h4>Fantom: A scalable framework for asynchronous distributed systems</h4>
+                    {learnMoreData.map(learnList => {
+                        const { 
+                            id,
+                            heading,
+                            link,
+                            imgSrc,
+                        } = learnList;
+                        return(
+                        <div className="list" key={id}>
+                            <div className="list-text">
+                                <h4>{heading}</h4>
+                            </div>
+                            <div className="list-icon">
+                                <a href={link} target="_blank"><img src= {imgSrc} alt="learn" /></a>
+                            </div>
                         </div>
-                        <div className="list-icon">
-                            <a href="https://fantom.foundation/contents/data/2018files/10/TP_arXiv_v51.pdf" target="_blank"><img src="/images/home/Arrow-Forward.svg" alt="learn" /></a>
-                        </div>
-                    </div>
-                    <div className="list">
-                        <div className="list-text">
-                            <h4>StakeDag</h4>
-                        </div>
-                        <div className="list-icon">
-                            <a href="https://arxiv.org/abs/1907.03655" target="_blank"><img src="/images/home/Arrow-Forward.svg" alt="learn" /></a>
-                        </div>
-                    </div>
-                    <div className="list">
-                        <div className="list-text">
-                            <h4>StairDAG</h4>
-                        </div>
-                        <div className="list-icon">
-                            <a href="https://arxiv.org/pdf/1908.11810.pdf" target="_blank"><img src="/images/home/Arrow-Forward.svg" alt="learn" /></a>
-                        </div>
-                    </div>
-                    <div className="list">
-                        <div className="list-text">
-                            <h4>ONLAY: Online Layering</h4>
-                        </div>
-                        <div className="list-icon">
-                            <a href="https://arxiv.org/abs/1905.04867" target="_blank"><img src="/images/home/Arrow-Forward.svg" alt="learn" /></a>
-                        </div>
-                    </div>
-                    <div className="list">
-                        <div className="list-text">
-                            <h4>StakeDag: Stake-based Consensus</h4>
-                        </div>
-                        <div className="list-icon">
-                            <a href="https://arxiv.org/abs/1907.03655" target="_blank"><img src="/images/home/Arrow-Forward.svg" alt="learn" /></a>
-                        </div>
-                    </div>
-                    <div className="list">
-                        <div className="list-text">
-                            <h4>Stairdag: Cross-DAG Validation</h4>
-                        </div>
-                        <div className="list-icon">
-                            <a href="https://arxiv.org/pdf/1908.11810.pdf" target="_blank"><img src="/images/home/Arrow-Forward.svg" alt="learn" /></a>
-                        </div>
-                    </div>
-                    <div className="list">
-                        <div className="list-text">
-                            <h4>Defi Modules</h4>
-                        </div>
-                        <div className="list-icon">
-                            <a href="/Documents/documents.pdf" target="_blank"><img src="/images/home/Arrow-Forward.svg" alt="learn" /></a>
-                        </div>
-                    </div>
-                    <div className="list">
-                        <div className="list-text">
-                            <h4>Lachesis Consensus</h4>
-                        </div>
-                        <div className="list-icon">
-                            <a href="https://fantom.foundation/contents/data/2018files/10/Fantom_Paper_vRelease.pdf" target="_blank"><img src="/images/home/Arrow-Forward.svg" alt="learn" /></a>
-                        </div>
-                    </div>
-                    <div className="list">
-                        <div className="list-text">
-                            <h4>Economics of Smart Contracts</h4>
-                        </div>
-                        <div className="list-icon">
-                            <a href="#"><img src="/images/home/Arrow-Forward.svg" alt="learn" /></a>
-                        </div>
-                    </div>
+                        )
+                    })}
                     
                 </div>
             </div>
