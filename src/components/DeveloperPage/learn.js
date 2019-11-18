@@ -1,20 +1,29 @@
 import React from "react"
-import { learnMoreData } from "./Data"
+import { learnMoreData, learnHeadingData } from "./Data"
 
 
 const Learn = () => {
     return(
         <div className="container section">
             <div className="learn">
-                <div className="learn-section">
-                    <div className="learn-text">
-                        <h2>Learn.</h2>
-                        <p>Browse our technical papers and resources.</p>
-                    </div>
-                    <div className="learn-img">
-                        <img src="/images/home/learn.svg" alt="learn" />
-                    </div>
-                </div>
+            {learnHeadingData.map(headingData => {
+                const {
+                    heading,
+                    discription,
+                    img,
+                } = headingData;
+                return(
+                        <div className="learn-section">
+                            <div className="learn-text">
+                                <h2>{heading}</h2>
+                                <p>{discription}</p>
+                            </div>
+                            <div className="learn-img">
+                                <img src={img} alt="learn" />
+                            </div>
+                        </div>
+                    )
+                })}
                 <div className="learn-list">
                     {learnMoreData.map(learnList => {
                         const { 

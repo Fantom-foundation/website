@@ -55,6 +55,14 @@ export const learnMoreData = [
     },
 ]
 
+export const learnHeadingData=[
+    {
+        heading:`Learn.`,
+        discription:`Browse our technical papers and resources.`,
+        img:`/images/home/learn.svg`,
+    }
+]
+
 export const buildData = [
     {
         heading:`BUILD.`,

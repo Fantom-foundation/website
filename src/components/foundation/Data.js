@@ -182,3 +182,10 @@ export const teamMemberData = [
 
 
 ]
+
+export const teamData = [
+    {
+        heading:`Meet the team`,
+        discription:`Our team members collectively have years of research and development experience in networking, distributed systems, middleware research, and running technology companies.`,
+    }
+]
