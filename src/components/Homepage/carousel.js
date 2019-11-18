@@ -42,12 +42,29 @@ console.log('postsState type', typeof postsState);
             postsState.map((post, index) => {
               var StrippedString = post.content.split(" ").splice(0, 20).join(" ");
               var StrippedText = StrippedString.replace(/(<([^>]+)>)/ig,"");
+              var newDate = post.pubDate;
+              function formatDate(newDate) {
+                var monthNames = [
+                  "January", "February", "March",
+                  "April", "May", "June", "July",
+                  "August", "September", "October",
+                  "November", "December"
+                ];
+              
+                var day = newDate.getDate();
+                var monthIndex = newDate.getMonth();
+                var year = newDate.getFullYear();
+              
+                return monthNames[monthIndex] + ' ' + day + ', ' + year;
+              }
+              
+              console.log(formatDate(new Date()));
               return (
                 <div className="carousel-card">
                   <div className="subcard">
                     <div className="heading">
                       <h4>{post.title}</h4>
-                      <p>{post.pubDate}</p>
+                      <p>{formatDate(new Date())}</p>
                     </div>
                     <div className="card-content">
                       <p>{StrippedText}</p>
