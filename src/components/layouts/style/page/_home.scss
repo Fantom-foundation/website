@@ -19,6 +19,14 @@ body{
     font-family: "Work Sans", Helvetica, sans-serif;
 }
 
+h2{
+    font-size: $h2;
+    font-weight: $semibold;
+}
+h1{
+    font-size: $h1;
+    font-weight: $bold;
+}
 .container {
     font-family: "Work Sans", Helvetica, sans-serif;
 }
@@ -71,6 +79,7 @@ body{
     h2 {
         font-size: $h2;
         margin-bottom: 20px;
+        color: #2c3b57;
     }
     p{
         width: 45%;
@@ -121,11 +130,12 @@ body{
         .offer-text {
             padding: 20px 10px;
             width: 350px;
-            height: 260px;
+            height: 283px;
             padding-left: 20px;
             h4{
                 font-size: $h4;
                 font-weight: bolder;
+                color: #2c3b57;
             }
         }
         p{
@@ -156,6 +166,7 @@ body{
             font-size: $h2;
             font-weight: $semibold;
             width: 60%;
+            color: #2c3b57;
         }
         p{
             width: 40%;
@@ -366,6 +377,7 @@ body{
     margin-left: 250px;
     .slider-heading {
         font-size: 32px;
+        color: #2c3b57;
     }
 }
 .carousel-card {
@@ -388,10 +400,14 @@ body{
             flex-direction: column;
             justify-content: space-between;
             p{
-                font-weight: bold;
+                font-weight: $semibold;
             }
         }
-        h2, p{
+        h4{
+            color: #2c3b57;
+            font-weight: 600;
+        }
+        h4, p{
             margin: 10px 0px;
         }
 

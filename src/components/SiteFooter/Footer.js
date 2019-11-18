@@ -30,7 +30,7 @@ const Footer = () => {
                         <div className="footer-first-col">
                             <ul>
                                 <li><a href="/foundation">Foundation</a></li>
-                                <li><a href="https://fantom.foundation/contents/data/2018files/10/wp_fantom_v1.6.pdf">White Paper</a></li>
+                                <li><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank">White Paper</a></li>
                                 <li><a href="#">Careers</a></li>
                             </ul>
                         </div>

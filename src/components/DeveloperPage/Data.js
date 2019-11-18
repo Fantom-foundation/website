@@ -2,7 +2,7 @@ export const learnMoreData = [
     {
         id: 1,
         heading:`Fantom: A scalable framework for asynchronous distributed systems`,
-        link:`https://fantom.foundation/contents/data/2018files/10/TP_arXiv_v51.pdf`,
+        link:`/Documents/TP_arXiv_v51.pdf`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {
@@ -44,7 +44,7 @@ export const learnMoreData = [
     {
         id: 8,
         heading:`Lachesis Consensus`,
-        link:`https://fantom.foundation/contents/data/2018files/10/Fantom_Paper_vRelease.pdf`,
+        link:`/Documents/Fantom_Paper_vRelease.pdf`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {

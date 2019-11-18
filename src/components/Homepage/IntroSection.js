@@ -13,7 +13,10 @@ const Intro = () => {
                 <h2>Introduction to Fantom</h2>
                 <p>The Ecosystem, The Consensus, The Innovation.</p>
                 <div className="intro-button">
-                    <input type="submit" value="Learn More" className="button"/>
+                    <a href="/about">
+                        <input type="submit" value="Learn More" className="button"/>
+                    </a>
+                    
                 </div>
             </div>  
         </div>

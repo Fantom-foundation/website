@@ -46,7 +46,7 @@ console.log('postsState type', typeof postsState);
                 <div className="carousel-card">
                   <div className="subcard">
                     <div className="heading">
-                      <h2>{post.title}</h2>
+                      <h4>{post.title}</h4>
                       <p>{post.pubDate}</p>
                     </div>
                     <div className="card-content">
