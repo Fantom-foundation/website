@@ -17,6 +17,7 @@ class Carousel extends React.Component {
         posts: fetchedPosts
       });
       console.log('posts', fetchedPosts)
+      console.log('post.link');
     })
   }
   render() {
@@ -29,11 +30,8 @@ console.log('postsState type', typeof postsState);
       speed: 100,
       slidesToShow: 3,
       slidesToScroll: 1,
-      // autoplay: true,
-      // autoplaySpeed: 5000,
-      // nextArrow: true,
-      // prevArrow: true,
-
+      autoplay: true,
+      autoplaySpeed: 5000,
     };
    
     return (
@@ -54,7 +52,7 @@ console.log('postsState type', typeof postsState);
                     <div className="card-content">
                       <p>{StrippedText}</p>
                     </div>
-                    <div className="read"><a href="{post.link}">Read More</a></div>
+                    <div className="read"><a href={post.link} target="_blank">Read More</a></div>
                   </div>
                 </div>
               )
