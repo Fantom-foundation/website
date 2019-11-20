@@ -418,6 +418,9 @@ h1{
             flex-direction: column;
             justify-content: flex-end;
         }
+        .card-content{
+            min-height: 130px !important;
+        }
         .read{
             a {
                 color: $font-color;

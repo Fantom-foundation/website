@@ -50,7 +50,7 @@ export const learnMoreData = [
     {
         id: 9,
         heading:`Economics of Smart Contracts`,
-        link:`#`,
+        link:`https://arxiv.org/pdf/1910.11143.pdf`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
 ]

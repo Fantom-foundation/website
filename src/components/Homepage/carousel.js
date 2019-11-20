@@ -38,12 +38,20 @@ class Carousel extends React.Component {
     console.log('postsState type', typeof postsState);
     var settings = {
       arrows: true,
-      infinite: true,
+      infinite: false,
       speed: 100,
+      mobileFirst: true,
       slidesToShow: 3,
+      pauseOnHover: false,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 5000,
+      responsive: [
+        {
+            breakpoint: 769,
+            settings: 'unslick'
+        }
+    ],
+      //autoplay: true,
+      //autoplaySpeed: 5000,
     };
    
     return (

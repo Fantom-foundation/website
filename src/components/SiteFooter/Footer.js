@@ -22,16 +22,16 @@ const Footer = () => {
                     <div className="footer-link">
                         <div className="footer-first-col">
                             <ul>
-                                <li><a href="/about">What is Fantom?</a></li>
-                                <li><a href="/developer">Developers</a></li>
-                                <li><a href="#">Articles</a></li>
+                                <li><a href="/about/">What is Fantom?</a></li>
+                                <li><a href="/developer/">Developers</a></li>
+                                <li><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></li>
                             </ul>
                         </div>
                         <div className="footer-first-col">
                             <ul>
-                                <li><a href="/foundation">Foundation</a></li>
+                                <li><a href="/foundation/">Foundation</a></li>
                                 <li><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank">White Paper</a></li>
-                                <li><a href="#">Careers</a></li>
+                                <li className="careers-link-hide"><a href="#">Careers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -40,9 +40,7 @@ const Footer = () => {
                             <p>@2019 Fantom Foundation</p>
                         </div>
                         <div className="footer-right">
-                            <p> <a href="#">Cookies </a></p>
-                            <p> <a href="#">Privacy Policy</a></p>
-                            <p> <a href="#">Terms and Conditions</a></p>
+                            <p> <a href="/privay-policy/">Privacy Policy</a></p>
                         </div>
                     </div>
                 </div>

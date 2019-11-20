@@ -61,7 +61,8 @@ footer{
                     width: 37%;
                 }
                 .footer-right{
-                    width: 60%;
+                    width: 46%;
+                    text-align: right;
                     p{
                         width: 30%;
                     }
@@ -83,6 +84,12 @@ footer{
                 }
             }
         }
+    }
+}
+.careers-link-hide {
+    opacity: 0; 
+    a{
+        cursor: default;
     }
 }
 

@@ -81,7 +81,10 @@ header.header.nav-development .container .main-nav li a {
         }
     .main-nav {
 		display: flex;
-	}
+    }
+    .mobile-menu{
+        display: none;
+    }
 
 
 }
@@ -101,6 +104,16 @@ header.header.nav-development .container .main-nav li a {
    .main-nav {
        display: flex;
    }
-
+   .main-nav {
+       display: none;
+   }
+   .mobile-menu {
+    display: inline;
+   }
+   .collapse-menu {
+    display: inline;
+   }
 
 }
+
+
