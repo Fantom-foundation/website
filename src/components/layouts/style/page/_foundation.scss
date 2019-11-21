@@ -53,13 +53,21 @@
             }
         }
         .member-linkedin{
-            text-align: center;
-            a {
-                img{
-                    
-                }
-            }
-            
+            text-align: center;  
         }
+    }
+}
+
+@media (max-width: 769px)  {
+    .grid-inner-container{
+        grid-template-columns: auto auto;
+        .grid-item .member-image img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+    }
+
+    .meet-team p {
+        width: 85%;
     }
 }

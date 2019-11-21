@@ -44,6 +44,29 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div className="container footer-inner-container-mobile section">
+                    <div className="footer-fantom-icon">
+                        <a href="#"><img src="/images/footer/fantom new logo.svg" alt="fantom icon" /></a>
+                    </div>
+                    <div className="footer-first-col">
+                        <p className="footer-link"><a href="/about/">What is Fantom?</a></p>
+                        <p className="footer-link"><a href="/developer/">Developers</a></p>
+                        <p className="footer-link"><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></p>
+                        <p className="footer-link"><a href="/foundation/">Foundation</a></p>
+                        <p className="footer-link"><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank">White Paper</a></p>
+                        <p className="footer-link"><a href="#">Careers</a></p>
+                        <p className="footer-link">
+                            <span><a href="https://twitter.com/FantomFDN"><img src="/images/footer/twitter.svg" alt="twitter" /></a></span>
+                            <span><a href="https://t.me/Fantom_English"><img src="/images/footer/telegram.svg" alt="telegram" /></a></span>
+                            <span><a href="https://github.com/Fantom-Foundation"><img src="/images/footer/github.svg" alt="github" /></a></span>
+                            <span><a href="#"><img src="/images/footer/reddit.svg" alt="reddit" /></a></span>
+                            <span><a href="https://www.linkedin.com/company/fantom-foundation/"><img src="/images/footer/linkedin.svg" alt="linkedin" /></a></span>
+                            <span><a href="https://medium.com/fantomfoundation"><img src="/images/footer/medium.svg" alt="medium" /></a></span>
+                        </p>
+                        <p className="footer-link footer-link-light"><a href="/privay-policy/">Privacy Policy</a></p>
+                        <p className="footer-link footer-link-light">@2019 Fantom Foundation</p>
+                    </div>
+                </div>
             </div>
         </footer>
     )

@@ -44,7 +44,9 @@
               }
         }
     }
-    
+    .mobile-nav-only{
+        display: none;
+    }
     
 }
 
@@ -115,5 +117,68 @@ header.header.nav-development .container .main-nav li a {
    }
 
 }
+@media (max-width: 991px) {
+    .navbar-collapse {
+        margin-top: 95px;
+    }
+    .mobile-nav-only{
+        display: block !important;
+    }
+    .header .container .main-nav a, .nav-development .container .main-nav li a {
+        font-weight: 600;
+        text-align: left;
+        padding: 10px;
+        display: block;
+        color: #2c3b57 !important;
+        font-size: 28px;
+        text-decoration: none;
+    }
+}
+
+.navbar-light {
+    .navbar-toggler {
+        border-color: none;
+        .navbar-toggler-icon {
+            width: 40px;
+            color: #fff;
+            border: 1px solid #fff;
+            height: 3px;
+            background: #fff;
+            display: block;
+            margin-top: 9px;
+        }
+    }
+    
+}
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+}
 
 
+button.navbar-toggler{
+    .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+    }
+    .middle-bar {
+        opacity: 0;
+    }
+    .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+    }
+} 
+
+button.navbar-toggler.collapsed{
+    .top-bar {
+        transform: rotate(0deg);
+        transform-origin: 10% 10%;
+    }
+    .middle-bar {
+        opacity: 1;
+    }
+    .bottom-bar {
+        transform: rotate(0deg);
+        transform-origin: 10% 90%;
+    }
+} 

@@ -40,18 +40,22 @@ class Carousel extends React.Component {
       arrows: true,
       infinite: false,
       speed: 100,
-      mobileFirst: true,
       slidesToShow: 3,
       pauseOnHover: false,
       slidesToScroll: 1,
       responsive: [
         {
             breakpoint: 769,
-            settings: 'unslick'
+            settings:{
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+              arrows: false,
+            }
         }
     ],
-      //autoplay: true,
-      //autoplaySpeed: 5000,
+      autoplay: true,
+      autoplaySpeed: 5000,
     };
    
     return (

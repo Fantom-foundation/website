@@ -33,7 +33,7 @@ class LatestUpdate extends React.Component {
     }
     render() {
         return (
-            <div className="update-section section">
+            <div className="update-section">
                 <img src="/images/home/Bg_bottom.png" alt="" />
                 <div className="container">
                     <div className="developer-potal">

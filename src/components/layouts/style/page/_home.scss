@@ -441,3 +441,147 @@ h1{
 .slick-track .slick-slide:nth-child(3n) .subcard{
     background: #CDD4D8 !important;
 }
+
+@media (max-width: 769px) {
+    .header .container .main-nav {
+        display: inline-block;
+    }
+    .hero-section{
+        .container{
+            padding-bottom: 150px;
+            padding-top: 100px;
+            h1{
+                width: 80%;
+            }
+        }
+    }
+    .subtitle-section{
+        h2 {
+            font-size: 64px;
+            color: #426ED5;
+            margin-bottom: 40px;
+            width: 90%;
+        }
+        p{
+            width: 85%;
+        }
+    } 
+    .offer p {
+        width: 90%;
+    }
+    .offer-item {
+        flex-basis: 100% !important;
+    }
+    .intro-section.section{
+        flex-direction: column-reverse;
+        overflow-x: hidden;
+        .bg-circle {
+            margin-left: 65%;
+        }
+        .intro-text {
+            p {
+            width: 80%;
+            margin-top: 30px;
+            font-size: 21px;
+            font-weight: normal;
+            }
+        }
+        .intro-text .intro-button .button {
+            padding: 11px 0px;
+            width: 120px;
+            font-size: 16px;
+        }
+    }
+    .update-section .container {
+        text-align: center;
+        display: contents;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+    .build {
+        border: 10px solid #59C5DD;
+        padding: 25px;
+        border-radius: 20px;
+        display: flex;
+        .build-section-text p {
+            width: 130% !important;
+        }
+        .build-section-img{
+            display: block !important;
+            .build-block img {
+                vertical-align: top;
+                max-width: 70px !important;
+                min-height: 70px !important;
+            }
+        } 
+    }
+
+    .developer-potal, .fantom-foundation {
+        min-width: 400px !important;
+        height: 300px !important;
+        h3{
+            font-size: 36px !important;
+        }
+        .intro-button{
+            padding: 10px;
+            font-size: 16px;
+        }
+
+    }
+    .section{
+        margin: 60px 30px !important;
+        margin-left: 0px !important;
+        padding-left: 30px;
+        
+    }
+    .update-form:before { 
+        left: -5%;
+        top: 95%;
+    }
+    .update-form:after { 
+        bottom: 135px;
+        left: 95%;
+    }
+    .learn {
+        .learn-section .learn-img {
+            align-items: baseline !important;
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+        .learn-list{
+            width: 100% !important;
+            margin-left: -20px;
+        }
+    }
+
+    .carousel-section {
+        margin-left: 30px !important;
+        .carousel-card .subcard {
+            padding: 20px;
+            min-height: 600px;
+            flex-basis: 100%;
+            div{
+                min-height: 30px;
+            }
+        }
+        .slick-dots li button:before {
+            font-family: 'slick';
+            font-size: 46px;
+            line-height: 24px;
+            position: absolute;
+            top: 0;
+            left: -28px;
+            width: 20px;
+            height: 20px;
+            content: '_';
+            text-align: center;
+            opacity: 0.25;
+            color: black;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+    
+    
+}

@@ -3,6 +3,9 @@ footer{
     background-color: #426ed5;
     .footer-section {
         color: #fff;
+        .footer-inner-container-mobile{
+            display: none;
+        }
         .container.footer-inner-container {
             padding: 60px 0;
             max-width: 1240px;
@@ -93,3 +96,30 @@ footer{
     }
 }
 
+@media (max-width: 769px) {
+    .footer-inner-container{
+        display: none;
+    }
+    .footer-inner-container-mobile{
+        display: block !important;
+        padding: 60px 0;
+        .footer-first-col{
+            .footer-link{
+                margin-top: 43px;
+                a{
+                    font-size: 22px;
+                    font-weight: 600;
+                    color: #fff;
+                    text-decoration: none;
+                }
+                span{
+                    margin-right: 33px;
+                }
+            }
+            .footer-link.footer-link-light, .footer-link.footer-link-light a {
+                color: #e0e0e0;
+                font-weight: 400;
+            }
+        }
+    }
+}
