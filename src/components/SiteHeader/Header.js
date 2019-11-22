@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import 'bootstrap/dist/js/bootstrap.bundle.min'
+// import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 const Header = ({location}) => {
     console.log()
@@ -22,10 +22,9 @@ const Header = ({location}) => {
     else {
         imgsrc = '/images/home/fantom header logo white v3.png'
     }
-
     return(
         <header className={`header ${headerClass}`}>
-            {/* <div className="container">
+            <div className="container">
                 <h1 className="logo"><Link to="#"><img src={imgsrc} alt=""/></Link></h1>
                 <ul className="main-nav">
                     <li><Link to="/about/">What is Fantom?</Link></li>
@@ -33,10 +32,26 @@ const Header = ({location}) => {
                     <li><Link to="#">Articles</Link></li>
                     <li><Link to="/foundation/">Foundation</Link></li>
                 </ul>
-            </div>  */}
-            <nav className="navbar navbar-expand-lg navbar-light container">
+            </div> 
+            <div id="mySidenav" className="sidenav">
+                <button className="sideNav-button">
+                    <span className="navbar-toggler-icon top-bar"></span>
+                    <span className="navbar-toggler-icon middle-bar"></span>
+                    <span className="navbar-toggler-icon bottom-bar"></span>
+                </button>
+                <div>
+                    <ul className="main-nav">
+                        <li><Link to="/about/">What is Fantom?</Link></li>
+                        <li><Link to="/developer/">Developers</Link></li>
+                        <li><Link to="#">Articles</Link></li>
+                        <li><Link to="/foundation/">Foundation</Link></li>
+                    </ul>
+                </div>
+            </div>
+            
+            {/* <nav className="navbar navbar-expand-lg navbar-light container">
                 <h1 className="logo navbar-brand"><Link to="#"><img src={imgsrc} alt=""/><span className="sr-only">(current)</span></Link></h1>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
                     <span class="sr-only">Toggle navigation</span>
                     <span className="navbar-toggler-icon top-bar"></span>
                     <span className="navbar-toggler-icon middle-bar"></span>
@@ -62,7 +77,7 @@ const Header = ({location}) => {
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </nav> */}
         </header>   
     )
 }

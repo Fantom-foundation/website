@@ -443,6 +443,9 @@ h1{
 }
 
 @media (max-width: 769px) {
+    .container{
+        
+    }
     .header .container .main-nav {
         display: inline-block;
     }
@@ -466,8 +469,14 @@ h1{
             width: 85%;
         }
     } 
-    .offer p {
-        width: 90%;
+    .offer {
+        margin-left: 0px;
+        p {
+            width: 90%;
+        }
+    }
+    .offer-group{
+        margin-left: 0px;
     }
     .offer-item {
         flex-basis: 100% !important;
@@ -476,7 +485,7 @@ h1{
         flex-direction: column-reverse;
         overflow-x: hidden;
         .bg-circle {
-            margin-left: 65%;
+            margin-left: 129%;
         }
         .intro-text {
             p {
@@ -517,10 +526,11 @@ h1{
     }
 
     .developer-potal, .fantom-foundation {
-        min-width: 400px !important;
+        min-width: 480px !important;
         height: 300px !important;
         h3{
             font-size: 36px !important;
+            width: 60% !important;
         }
         .intro-button{
             padding: 10px;
@@ -557,7 +567,6 @@ h1{
     }
 
     .carousel-section {
-        margin-left: 30px !important;
         .carousel-card .subcard {
             padding: 20px;
             min-height: 600px;
@@ -566,22 +575,24 @@ h1{
                 min-height: 30px;
             }
         }
-        .slick-dots li button:before {
-            font-family: 'slick';
-            font-size: 46px;
-            line-height: 24px;
-            position: absolute;
-            top: 0;
-            left: -28px;
-            width: 20px;
-            height: 20px;
-            content: '_';
-            text-align: center;
-            opacity: 0.25;
-            color: black;
-            -webkit-font-smoothing: antialiased;
-        }
-    }
-    
+        .slick-dots{
+            left: 20;
+            li button:before {
+                font-family: 'slick';
+                font-size: 46px;
+                line-height: 24px;
+                position: absolute;
+                top: 0;
+                left: -28px;
+                width: 20px;
+                height: 20px;
+                content: '_';
+                text-align: center;
+                opacity: 0.25;
+                color: black;
+                -webkit-font-smoothing: antialiased;
+            }
+        } 
+    } 
     
 }
