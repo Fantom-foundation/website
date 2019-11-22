@@ -1,14 +1,21 @@
 import React from "react"
 import { offerData } from "./Data"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
+
+  
 const OffersSection = () => {
+    AOS.init({
+        duration: 1200,
+      })
     return(
         <div className="offers-section container section">
-            <div className="offer">
+            <div className="offer" data-aos="slide-up">
                 <h2>Built with the future in mind</h2>
                 <p>Fantom offers the most powerful foundations for decentralized ledgers. </p>
             </div>
-            <div className="offer-group">
+            <div className="offer-group" data-aos="slide-up">
             {offerData.map(offerCard => {
                 const {
                     id,
@@ -20,11 +27,11 @@ const OffersSection = () => {
                 } = offerCard;
                 return(
                         <div className={classname} key={id}>
-                            <div className="offer-text">
+                            <div className="offer-text" data-aos="slide-up">
                                 <h4>{heading}</h4>
                                 <p>{des}</p>
                             </div>
-                            <div className="offer-icon">
+                            <div className="offer-icon" data-aos="slide-up">
                                 <img src={img} alt={alt} />
                             </div>
                         </div>

@@ -4,8 +4,8 @@ const Hero = () => {
     return(
 
             <div className="hero-section">
-                <div className="container">
-                    <h1>What is Fantom?</h1>
+                <div className="container animation-section">
+                    <h1 className="cssanimation sequence fadeInBottom">What is Fantom?</h1>
                 </div>
             </div>
     )

@@ -219,36 +219,29 @@ header.header.nav-development .container .main-nav li a {
     } 
 }
 
+.animation-section {
+    .cssanimation, .cssanimation span {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+    .cssanimation span { 
+        display: inline-block;
+    }
+    .fadeInBottom { 
+        animation-name: fadeInBottom;
+    }
+}
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { 
+        opacity: 1;
+    }
+}
 
-// .navbar-light .navbar-toggler {
-//     border-color: rgba(0, 0, 0, 0);
-// }
 
 
-// button.navbar-toggler{
-//     .top-bar {
-//         transform: rotate(45deg);
-//         transform-origin: 10% 10%;
-//     }
-//     .middle-bar {
-//         opacity: 0;
-//     }
-//     .bottom-bar {
-//         transform: rotate(-45deg);
-//         transform-origin: 10% 90%;
-//     }
-// } 
 
-// button.navbar-toggler.collapsed{
-//     .top-bar {
-//         transform: rotate(0deg);
-//         transform-origin: 10% 10%;
-//     }
-//     .middle-bar {
-//         opacity: 1;
-//     }
-//     .bottom-bar {
-//         transform: rotate(0deg);
-//         transform-origin: 10% 90%;
-//     }
-// } 
+

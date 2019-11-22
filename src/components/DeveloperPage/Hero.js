@@ -4,8 +4,8 @@ const Hero = () => {
     return(
 
             <div className="hero-section developer-hero">
-                <div className="container">
-                    <h1>Fantom is open source</h1>
+                <div className="container animation-section">
+                    <h1 className="cssanimation sequence fadeInBottom">Fantom is open source</h1>
                 </div>
             </div>
     )

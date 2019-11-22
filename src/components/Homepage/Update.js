@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 import CustomForm from "./emailForms"
 import MailchimpSubscribe from "react-mailchimp-subscribe"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const url = "https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6";
  
@@ -32,18 +35,21 @@ class LatestUpdate extends React.Component {
             })
     }
     render() {
+        AOS.init({
+            duration: 1200,
+          })
         return (
             <div className="update-section">
                 <img src="/images/home/Bg_bottom.png" alt="" />
                 <div className="container">
-                    <div className="developer-potal">
+                    <div className="developer-potal" data-aos="slide-right">
                         <h3>Developer Portal</h3>
                         <p>Open source. Scalable. Secure.</p>
                         <div className="intro-button">
                             <Link to="/developer">Learn More</Link>
                         </div>
                     </div>
-                    <div className="fantom-foundation">
+                    <div className="fantom-foundation" data-aos="slide-left">
                         <h3>The Fantom Foundation</h3>
                         <p>The people, the culture.</p>
                         <div className="intro-button">
