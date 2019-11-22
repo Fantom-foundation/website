@@ -442,9 +442,10 @@ h1{
     background: #CDD4D8 !important;
 }
 
+
 @media (max-width: 769px) {
-    .container{
-        
+    .container {
+        max-width: 100% !important;
     }
     .hero-section{
         .container{
@@ -482,7 +483,7 @@ h1{
         flex-direction: column-reverse;
         overflow-x: hidden;
         .bg-circle {
-            margin-left: 129%;
+            margin-left: 75%;
         }
         .intro-text {
             p {
@@ -536,14 +537,14 @@ h1{
 
     }
     .section{
-        margin: 60px 30px !important;
+        margin: 60px 30px;
         margin-left: 0px !important;
-        padding-left: 30px;
+        padding: 40px;
         
     }
     .update-form:before { 
-        left: -5%;
-        top: 95%;
+        left: 3%;
+        top: 80%;
     }
     .update-form:after { 
         bottom: 135px;
