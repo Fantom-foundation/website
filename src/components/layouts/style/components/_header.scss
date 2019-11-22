@@ -129,13 +129,16 @@ header.header.nav-development .container .main-nav li a {
     }
     }
    .container.navigation {
-    display: inline-block;
-    width: 90%;
+    display: inline;
+        h1{
+            display: inline;
+        }
     }
    .sidenav {
-    display: inline-block !important;
-    position: absolute;
-    right: 30px;
+        display: inline-block;
+        float: right;
+        margin-top: 20px;
+        margin-right: 20px;
     }
     .collapse-menu {
     display: inline;
@@ -169,19 +172,24 @@ header.header.nav-development .container .main-nav li a {
                 right: 25px;
                 top: 20px;
             }
-            .nav-img {
-                position: absolute;
-                left: 40px;
-                top: 35px;
-                img{
-                    width: 125px;
-                    height: 30px;
+            .mobile-nav-header{
+                .nav-img {
+                    position: absolute;
+                    left: 40px;
+                    top: 35px;
+                    a{
+                        display: block;
+                        img{
+                            min-width: 175px;
+                        }
+                    } 
                 }
             }
+            
         }
     }
     .introduction {
-        width: 90% !important;
+        width: 85% !important;
     }
 }
 @media (max-width: 991px) {

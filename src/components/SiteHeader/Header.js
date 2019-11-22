@@ -61,8 +61,11 @@ class Header extends React.Component{
                     <span className="navbar-toggler-icon bottom-bar"></span>
                 </button>
                 <div className={`slide-right ${menuClass}` }>
-                    <span className="nav-img"><Link to="#"><img src="/images/home/fantom_name_blue.svg" alt=""/></Link></span>
-                    <span className="close-button" onClick={() => this.toggle()}>X</span>
+                    <div className="mobile-nav-header">
+                        <span className="nav-img"><Link to="#"><img src="/images/home/fantom_name_blue.svg" alt=""/></Link></span>
+                        <span className="close-button" onClick={() => this.toggle()}>X</span>
+                    </div>
+                    
                     <ul>
                         <li><Link to="/about/">What is Fantom?</Link></li>
                         <li><Link to="/developer/">Developers</Link></li>
