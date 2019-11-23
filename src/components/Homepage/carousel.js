@@ -29,9 +29,6 @@ class Carousel extends React.Component {
     this.aos.init()
 }
 
-// componentDidUpdate() {
-//     this.aos.refresh()
-// }
   componentDidMount() {
     const data = 'https://medium.com/feed/fantomfoundation';
     axios.get('https://api.rss2json.com/v1/api.json?rss_url=' + data).then(response => {

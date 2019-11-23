@@ -1,23 +1,32 @@
 import React from "react"
 import { teamData } from "./Data"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-const MeetTeam = () => {
-    return(
-        <div className="container section">
-            {teamData .map(headingData => {
-                const {
-                    heading,
-                    discription,
-                } = headingData;
-                return(
-                    <div className ="meet-team">
-                        <h2>{heading}</h2>
-                        <p>{discription}</p>
-                    </div>
-                )
-            })}
-        </div>
-    )
+class MeetTeam extends React.Component {
+    componentDidMount() {
+        const AOS = require('aos');
+        this.aos = AOS
+        this.aos.init()
+    }
+    render(){
+        return(
+            <div className="container section">
+                {teamData .map(headingData => {
+                    const {
+                        heading,
+                        discription,
+                    } = headingData;
+                    return(
+                        <div className ="meet-team">
+                            <h2 data-aos="slide-up">{heading}</h2>
+                            <p data-aos="slide-up">{discription}</p>
+                        </div>
+                    )
+                })}
+            </div>
+        )
+    }
 }
 
 export default MeetTeam

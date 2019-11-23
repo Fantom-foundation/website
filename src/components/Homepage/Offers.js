@@ -11,10 +11,6 @@ class OffersSection extends React.Component {
         this.aos = AOS
         this.aos.init()
     }
-    
-    // componentDidUpdate() {
-    //     this.aos.refresh()
-    // }
     render(){ 
         return(
             <div className="offers-section container section">

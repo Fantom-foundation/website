@@ -1,37 +1,47 @@
 import React from "react"
 import { buildData } from "./Data"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
-const Build = () => {
-    return(
-        <div className="container section">
-            {buildData.map(buildcontent => {
-                        const { 
-                            heading,
-                            discription,
-                            href,
-                            img,
-                        } = buildcontent;
-            return(
-                <div className="build">
-                <div className="build-section-text">
-                    <h2>{heading}</h2>
-                    <p>{discription}</p>
-                    <a href={href} target="_blank"><input type="submit" value="Get Started" className="button"/></a>
-                    
+class Build extends React.Component {
+    componentDidMount() {
+        const AOS = require('aos');
+        this.aos = AOS
+        this.aos.init()
+    }
+
+    render(){
+        return(
+            <div className="container section">
+                {buildData.map(buildcontent => {
+                            const { 
+                                heading,
+                                discription,
+                                href,
+                                img,
+                            } = buildcontent;
+                return(
+                    <div className="build">
+                    <div className="build-section-text">
+                        <h2 data-aos="slide-up">{heading}</h2>
+                        <p data-aos="slide-up">{discription}</p>
+                        <a href={href} target="_blank" data-aos="slide-up"><input type="submit" value="Get Started" className="button"/></a>
+                        
+                    </div>
+                    <div className="build-section-img" data-aos="slide-up">
+                            <div className="build-block" data-aos="slide-up">
+                                <img src={img} alt="github" data-aos="slide-up"/>
+                            </div>
+                    </div>
                 </div>
-                <div className="build-section-img">
-                        <div className="build-block">
-                            <img src={img} alt="github" />
-                        </div>
-                </div>
+                )
+                })}  
+
             </div>
-            )
-            })}  
-
-        </div>
-    )
+        )
+    }
 }
 
 export default Build

@@ -10,10 +10,6 @@ class Intro extends React.Component {
         this.aos = AOS
         this.aos.init()
     }
-    
-    // componentDidUpdate() {
-    //     this.aos.refresh()
-    // }
     render(){
         return(
             <div className="intro-section section container">

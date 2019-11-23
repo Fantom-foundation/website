@@ -16,9 +16,6 @@ class LatestUpdate extends React.Component {
         this.aos.init()
     }
     
-    // componentDidUpdate() {
-    //     this.aos.refresh()
-    // }
     state = {
         email: ''
     }

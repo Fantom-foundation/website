@@ -8,10 +8,6 @@ class Subtitle extends React.Component {
         this.aos = AOS
         this.aos.init()
     }
-    
-    // componentDidUpdate() {
-    //     this.aos.refresh()
-    // }
     render(){
         return(
             <div className="container section">

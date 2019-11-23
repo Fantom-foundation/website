@@ -18,7 +18,9 @@ body{
     font-size: $body-font;
     font-family: "Work Sans", Helvetica, sans-serif;
 }
-
+#gatsby-focus-wrapper{
+    overflow-x: hidden;
+}
 h2{
     font-size: $h2;
     font-weight: $semibold;
