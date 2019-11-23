@@ -5,41 +5,44 @@ import 'aos/dist/aos.css'
 
 
   
-const OffersSection = () => {
-    AOS.init({
-        duration: 1200,
-      })
-    return(
-        <div className="offers-section container section">
-            <div className="offer" data-aos="slide-up">
-                <h2>Built with the future in mind</h2>
-                <p>Fantom offers the most powerful foundations for decentralized ledgers. </p>
-            </div>
-            <div className="offer-group" data-aos="slide-up">
-            {offerData.map(offerCard => {
-                const {
-                    id,
-                    classname,
-                    heading,
-                    des,
-                    img,
-                    alt,
-                } = offerCard;
-                return(
-                        <div className={classname} key={id}>
-                            <div className="offer-text" data-aos="slide-up">
-                                <h4>{heading}</h4>
-                                <p>{des}</p>
+class OffersSection extends React.Component {
+    componentWillMount(){
+        AOS.init({
+            duration: 1200,
+          })
+    }
+    render(){ 
+        return(
+            <div className="offers-section container section">
+                <div className="offer" data-aos="slide-up">
+                    <h2>Built with the future in mind</h2>
+                    <p>Fantom offers the most powerful foundations for decentralized ledgers. </p>
+                </div>
+                <div className="offer-group" data-aos="slide-up">
+                {offerData.map(offerCard => {
+                    const {
+                        id,
+                        classname,
+                        heading,
+                        des,
+                        img,
+                        alt,
+                    } = offerCard;
+                    return(
+                            <div className={classname} key={id}>
+                                <div className="offer-text" data-aos="slide-up">
+                                    <h4>{heading}</h4>
+                                    <p>{des}</p>
+                                </div>
+                                <div className="offer-icon" data-aos="slide-up">
+                                    <img src={img} alt={alt} />
+                                </div>
                             </div>
-                            <div className="offer-icon" data-aos="slide-up">
-                                <img src={img} alt={alt} />
-                            </div>
-                        </div>
-                    )
-                })}   
+                        )
+                    })}   
+                </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
-
 export default OffersSection

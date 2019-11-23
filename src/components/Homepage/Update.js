@@ -10,7 +10,11 @@ import 'aos/dist/aos.css'
 const url = "https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6";
  
 class LatestUpdate extends React.Component {
-     
+    componentWillMount(){
+        AOS.init({
+            duration: 1200,
+        })
+    } 
     state = {
         email: ''
     }
@@ -35,9 +39,6 @@ class LatestUpdate extends React.Component {
             })
     }
     render() {
-        AOS.init({
-            duration: 1200,
-          })
         return (
             <div className="update-section">
                 <img src="/images/home/Bg_bottom.png" alt="" />

@@ -24,6 +24,11 @@ class Carousel extends React.Component {
     }
   }
   componentDidMount() {
+    AOS.init({
+      duration: 1200,
+    })
+  }
+  componentDidMount() {
     const data = 'https://medium.com/feed/fantomfoundation';
     axios.get('https://api.rss2json.com/v1/api.json?rss_url=' + data).then(response => {
       const fetchedPosts = response.data.items.slice(0, 10);
@@ -84,10 +89,6 @@ class Carousel extends React.Component {
       autoplaySpeed: 5000,
     };
    
-    AOS.init({
-      duration: 1200,
-    })
-    
     return (
       <div className="inner-container carousel-section section">
         <h2 className="slider-heading" data-aos="fade-right">Latest articles</h2>
