@@ -10,11 +10,15 @@ import 'aos/dist/aos.css'
 const url = "https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6";
  
 class LatestUpdate extends React.Component {
-    componentWillMount(){
-        AOS.init({
-            duration: 1200,
-        })
-    } 
+    componentDidMount() {
+        const AOS = require('aos');
+        this.aos = AOS
+        this.aos.init()
+    }
+    
+    // componentDidUpdate() {
+    //     this.aos.refresh()
+    // }
     state = {
         email: ''
     }

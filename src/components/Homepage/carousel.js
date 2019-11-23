@@ -24,10 +24,14 @@ class Carousel extends React.Component {
     }
   }
   componentDidMount() {
-    AOS.init({
-      duration: 1200,
-    })
-  }
+    const AOS = require('aos');
+    this.aos = AOS
+    this.aos.init()
+}
+
+// componentDidUpdate() {
+//     this.aos.refresh()
+// }
   componentDidMount() {
     const data = 'https://medium.com/feed/fantomfoundation';
     axios.get('https://api.rss2json.com/v1/api.json?rss_url=' + data).then(response => {

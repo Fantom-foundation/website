@@ -5,11 +5,15 @@ import 'aos/dist/aos.css'
 
 
 class Intro extends React.Component {
-    componentWillMount(){
-        AOS.init({
-            duration: 1200,
-        })
+    componentDidMount() {
+        const AOS = require('aos');
+        this.aos = AOS
+        this.aos.init()
     }
+    
+    // componentDidUpdate() {
+    //     this.aos.refresh()
+    // }
     render(){
         return(
             <div className="intro-section section container">
