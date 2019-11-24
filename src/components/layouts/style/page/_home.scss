@@ -472,6 +472,14 @@ h1{
         max-width: 100px !important;
     }
 }
+@media (max-width: 361px){
+    .offer-item {
+        width: 200px;
+        .offer-text{
+            width: 291px !important;
+        }
+    }   
+}
 @media (max-width: 769px) {
     .introduction.section {
         padding: 0;
