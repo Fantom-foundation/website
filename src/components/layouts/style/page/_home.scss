@@ -1,6 +1,9 @@
 *{
     margin: 0px;
 }
+html {
+    overflow-x: hidden
+}
 input{
     &:focus{
         outline: none;
@@ -612,13 +615,20 @@ h1{
         }
     }
 
+    .slick-slide { 
+        margin-right: 10px;
+    }
+    
     .carousel-section {
-        .carousel-card .subcard {
-            padding: 20px;
-            min-height: 600px;
-            flex-basis: 100%;
-            div{
-                min-height: 30px;
+        .carousel-card {
+            width: 95% !important;
+            .subcard {
+                padding: 20px;
+                min-height: 600px;
+                flex-basis: 100%;
+                div{
+                    min-height: 30px;
+                }
             }
         }
         .slick-dots{
