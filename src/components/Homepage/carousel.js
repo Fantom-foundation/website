@@ -26,7 +26,10 @@ class Carousel extends React.Component {
   componentDidMount() {
     const AOS = require('aos');
     this.aos = AOS
-    this.aos.init()
+    this.aos.init({
+      once: true,
+      disable: 'mobile',
+  })
 }
 
   componentDidMount() {
@@ -100,7 +103,7 @@ class Carousel extends React.Component {
               var StrippedText = StrippedString.replace(/(<([^>]+)>)/ig,"");
               console.log(formatDate(post.pubDate));
               return (
-                <div className="carousel-card" data-aos="fade-left">
+                <div className="carousel-card" data-aos="fade-left" data-index={index} key={index}>
                   <div className="subcard">
                     <div className="heading">
                       <h4>{post.title}</h4>

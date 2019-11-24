@@ -7,7 +7,10 @@ class TeamMember extends React.Component{
     componentDidMount() {
         const AOS = require('aos');
         this.aos = AOS
-        this.aos.init()
+        this.aos.init({
+            disable: 'mobile',
+            once: true,
+        })
     }
     render(){
         return (
