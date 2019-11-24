@@ -272,13 +272,33 @@ h1{
         display: flex;
         justify-content: space-evenly;
         margin-top: 50px;
-        .developer-potal{
-            background-image: url("/images/cards/Developer_Portal.svg");    
+        .developer-potal .card-img{
+            position: absolute;
+            background-image: url("/images/cards/Oval.png");
+            background-repeat: no-repeat;
+            background-position: right -10px center;
+            background-size: contain;
+            width: 504px;
+            height: 322px;
+            border-radius: 20px;
+            right: 0px;
+            bottom: 0px; 
         }
-        .fantom-foundation{
-            background-image: url("/images/cards/The_Fantom_Foundation.svg");
+        .fantom-foundation .card-img{
+            position: absolute;
+            background-image: url("/images/cards/Polygon.png");
+            background-repeat: no-repeat;
+            background-position: right -10px center;
+            background-size: contain;
+            width: 504px;
+            height: 322px;
+            border-radius: 20px;
+            right: 0px;
+            bottom: 0px;  
         }
         .developer-potal, .fantom-foundation{
+            background: #3478ef;
+            max-width: 504px;
             background-position: bottom;
             background-repeat: no-repeat;
             background-size: cover;
@@ -446,6 +466,12 @@ h1{
 
 
 @media (max-width: 769px) {
+    .update-section .container {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
     .container {
         max-width: 100% !important;
     }
