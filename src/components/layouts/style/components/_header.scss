@@ -116,6 +116,25 @@ header.header.nav-development .container .main-nav li a {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     padding-top: 60px;
+    span.close-button {
+        font-size: 46px;
+        position: absolute;
+        right: 25px;
+        top: 20px;
+    }
+    .mobile-nav-header{
+        .nav-img {
+            position: absolute;
+            left: 40px;
+            top: 35px;
+            a{
+                display: block;
+                img{
+                    min-width: 175px;
+                }
+            } 
+        }
+    }
     ul{
         list-style-type: none;
         li{
@@ -159,26 +178,6 @@ header.header.nav-development .container .main-nav li a {
          }
     .slide-right.openMenu{
         right: 0px;
-            span.close-button {
-                font-size: 46px;
-                position: absolute;
-                right: 25px;
-                top: 20px;
-            }
-            .mobile-nav-header{
-                .nav-img {
-                    position: absolute;
-                    left: 40px;
-                    top: 35px;
-                    a{
-                        display: block;
-                        img{
-                            min-width: 175px;
-                        }
-                    } 
-                }
-            }
-            
         }
     }
     .introduction {
