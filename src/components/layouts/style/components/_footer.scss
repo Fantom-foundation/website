@@ -124,3 +124,20 @@ footer{
         }
     }
 }
+@media (max-width: 360px){
+    .footer-inner-container-mobile{
+        .footer-first-col{
+            .footer-link{
+                margin-top: 43px;
+                span{
+                    margin-right: 20px;
+                    a{
+                        img{
+                            max-width: 24px;
+                        }
+                    }
+                }
+            }   
+        }
+    }  
+}
