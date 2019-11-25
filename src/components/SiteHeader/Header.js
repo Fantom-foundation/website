@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-// import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 class Header extends React.Component{
     constructor() {
@@ -21,7 +20,7 @@ class Header extends React.Component{
         this.toggle()
       }
     render () {
-        const { menuOpen, visible } = this.state;
+        const { menuOpen} = this.state;
         console.log();
         const menuClass = menuOpen ? "openMenu" : ""
         let headerClass

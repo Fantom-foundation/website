@@ -54,7 +54,6 @@ const Footer = () => {
                         <p className="footer-link"><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></p>
                         <p className="footer-link"><a href="/foundation/">Foundation</a></p>
                         <p className="footer-link"><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank">White Paper</a></p>
-                        <p className="footer-link"><a href="#">Careers</a></p>
                         <p className="footer-link">
                             <span><a href="https://twitter.com/FantomFDN"><img src="/images/footer/twitter.svg" alt="twitter" /></a></span>
                             <span><a href="https://t.me/Fantom_English"><img src="/images/footer/telegram.svg" alt="telegram" /></a></span>

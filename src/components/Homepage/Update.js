@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 import CustomForm from "./emailForms"
 import MailchimpSubscribe from "react-mailchimp-subscribe"
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 

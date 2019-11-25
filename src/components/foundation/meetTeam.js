@@ -1,6 +1,5 @@
 import React from "react"
 import { teamData } from "./Data"
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 class MeetTeam extends React.Component {
@@ -12,7 +11,7 @@ class MeetTeam extends React.Component {
     render(){
         return(
             <div className="container section">
-                {teamData .map(headingData => {
+                {teamData.map(headingData => {
                     const {
                         heading,
                         discription,

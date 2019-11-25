@@ -1,4 +1,4 @@
- import React, { Component } from "react"
+ import React from "react"
  var emailValidation;
 const CustomForm = ({ status, message, onValidated }) => {
   let email;
