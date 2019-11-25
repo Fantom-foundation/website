@@ -39,7 +39,7 @@ class Header extends React.Component{
             imgsrc =  '/images/home/fantom_name_blue.svg'
         }
         else {
-            imgsrc = '/images/home/fantom header logo white v3.png'
+            imgsrc = '/images/footer/fantom logo white v3.svg'
         }
     
     return(

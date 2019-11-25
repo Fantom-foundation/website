@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="container footer-inner-container">
                     <div className="footer-fantom-icon">
                         <ul>
-                            <li><a href="#"><img src="/images/home/fantom logo white v3.png" alt="fantom icon" /></a></li>
+                            <li><a href="#"><img src="/images/footer/fantom logo white v3.svg" alt="fantom icon" /></a></li>
                             <li></li>
                             <li>
                                 <span><a href="https://twitter.com/FantomFDN"><img src="/images/footer/twitter.svg" alt="twitter" /></a></span>
