@@ -7,6 +7,8 @@ class Hero extends React.Component {
         this.aos = AOS
         this.aos.init({
             duration: 1000,
+            disable: 'mobile',
+            once: true,
         })
     }
     render(){
