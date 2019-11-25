@@ -33,10 +33,10 @@ class Header extends React.Component{
     
         let imgsrc 
         if(this.props.location.pathname === "/developer/"){
-            imgsrc =  '/images/home/fantom_name_blue.svg'
+            imgsrc =  '/images/menu-Icon/fantom-logo-blue.svg'
         }
         else if(this.props.location.pathname === "/foundation/"){
-            imgsrc =  '/images/home/fantom_name_blue.svg'
+            imgsrc =  '/images/menu-Icon/fantom-logo-blue.svg'
         }
         else {
             imgsrc = '/images/footer/fantom logo white v3.svg'
@@ -60,7 +60,7 @@ class Header extends React.Component{
                     <ul className="main-nav">
                         <li><Link to="/about/">What is Fantom?</Link></li>
                         <li><Link to="/developer/">Developers</Link></li>
-                        <li><Link to="#">Articles</Link></li>
+                        <li><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></li>
                         <li><Link to="/foundation/">Foundation</Link></li>
                     </ul>
                 </div> 
@@ -77,7 +77,7 @@ class Header extends React.Component{
                         <ul>
                             <li><Link to="/about/">What is Fantom?</Link></li>
                             <li><Link to="/developer/">Developers</Link></li>
-                            <li><Link to="#">Articles</Link></li>
+                            <li><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></li>
                             <li><Link to="/foundation/">Foundation</Link></li>
                             <li><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank">White Paper</a></li>
                         </ul>
