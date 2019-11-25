@@ -13,9 +13,9 @@ class OffersSection extends React.Component {
     render(){ 
         return(
             <div className="offers-section container section">
-                <div className="offer" data-aos="slide-up">
-                    <h2>Built with the future in mind</h2>
-                    <p>Fantom offers the most powerful foundations for decentralized ledgers. </p>
+                <div className="offer">
+                    <h2 data-aos="slide-up">Built with the future in mind</h2>
+                    <p data-aos="slide-up">Fantom offers the most powerful foundations for decentralized ledgers. </p>
                 </div>
                 <div className="offer-group" data-aos="slide-up">
                 {offerData.map(offerCard => {
@@ -29,11 +29,11 @@ class OffersSection extends React.Component {
                     } = offerCard;
                     return(
                             <div className={classname} key={id}>
-                                <div className="offer-text" data-aos="slide-up">
+                                <div className="offer-text">
                                     <h4>{heading}</h4>
-                                    <p>{des}</p>
+                                    <p data-aos="slide-up" data-aos-duration='2000'>{des}</p>
                                 </div>
-                                <div className="offer-icon" data-aos="slide-up">
+                                <div className="offer-icon">
                                     <img src={img} alt={alt} />
                                 </div>
                             </div>

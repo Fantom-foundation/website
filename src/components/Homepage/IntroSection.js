@@ -12,12 +12,12 @@ class Intro extends React.Component {
     render(){
         return(
             <div className="intro-section section container">
-                <div className="bg-circle" data-aos="fade-right"> 
+                <div className="bg-circle" data-aos="fade-right" data-aos-duration="2000"> 
                     <div className="intro-icon">
-                        <img src="/images/home/fantom_logo.png" alt="fantom icon" data-aos="zoom-in"/>
+                        <img src="/images/home/fantom_logo.png" alt="fantom icon" data-aos="zoom-in" data-aos-duration="2000"/>
                     </div>
                 </div>  
-                <div className="intro-text" data-aos="fade-right">
+                <div className="intro-text" data-aos="fade-left" data-aos-duration="1000">
                     <h2>Introduction to Fantom</h2>
                     <p>The Ecosystem, The Consensus, The Innovation.</p>
                     <div className="intro-button">

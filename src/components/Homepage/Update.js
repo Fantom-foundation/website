@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
-import CustomForm from "./emailForms"
+//import CustomForm from "./emailForms"
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 import 'aos/dist/aos.css'
+
 
 
 const url = "https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6";
@@ -12,12 +13,8 @@ class LatestUpdate extends React.Component {
     componentDidMount() {
         const AOS = require('aos');
         this.aos = AOS
-        this.aos.init({
-            disable: 'mobile',
-            once: true,
-        })
+        this.aos.init()
     }
-    
     state = {
         email: ''
     }
@@ -47,7 +44,7 @@ class LatestUpdate extends React.Component {
                 <img src="/images/home/Bg_bottom.png" alt="" />
                 <div className="container">
                     <div className="developer-potal">
-                        <div className="card-img" data-aos="slide-left"> </div>
+                        <div className="card-img" data-aos="slide-left" data-aos-easing="ease-in" data-aos-duration="1000"> </div>
                             <h3>Developer Portal</h3>
                             <p>Open source. Scalable. Secure.</p>
                             <div className="intro-button">
@@ -56,7 +53,7 @@ class LatestUpdate extends React.Component {
                         
                     </div>
                     <div className="fantom-foundation">
-                        <div className="card-img" data-aos="slide-up"> </div>
+                        <div className="card-img" data-aos="slide-up" data-aos-easing="ease-in" data-aos-duration="1000"> </div>
                             <h3>The Fantom Foundation</h3>
                             <p>The people, the culture.</p>
                             <div className="intro-button">
