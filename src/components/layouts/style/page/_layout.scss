@@ -91,4 +91,16 @@
     font-size: 18px !important; 
   }
 }
-
+@media (max-width: 1199px){
+.header .container .main-nav a {
+  padding: 10px 20px;
+}
+.hero-section .container h1 {
+  font-size: 80px !important;
+}
+}
+@media (max-width: 991px){
+  .hero-section .container h1{
+    width: 100% !important;
+  }
+}

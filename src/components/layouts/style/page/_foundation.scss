@@ -57,7 +57,11 @@
         }
     }
 }
-
+@media (max-width: 991px){
+    .grid-inner-container {
+        grid-template-columns: auto auto auto;
+    }
+}
 @media (max-width: 769px)  {
     .grid-inner-container{
         grid-template-columns: auto auto;
@@ -69,5 +73,11 @@
 
     .meet-team p {
         width: 85%;
+    }
+}
+@media (max-width: 480px){
+    .grid-inner-container {
+        grid-template-columns: auto;
+        margin-right: 0 !important;
     }
 }
