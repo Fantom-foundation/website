@@ -27,21 +27,22 @@
             list-style: none;
             display: flex;
             // padding-right: 165px;
-            a {
+            li{
                 padding: 10px 30px;
-                text-align: center;
-                display: block;
-                color: $primary-white;
-                font-size: $body-font;
-                text-decoration: none;
-            }
-            a[aria-current="page"] {
-                text-decoration: underline;
-              }
-              a:hover {
-                color: #efefef;
-                text-decoration: none;
-              }
+                a {
+                    text-align: center;
+                    display: block;
+                    color: $primary-white;
+                    font-size: $body-font;
+                    text-decoration: none;
+                }
+                a[aria-current="page"] {
+                    border-bottom: 1px solid;
+                }
+                a:hover {
+                    border-bottom: 1px solid;
+                }
+            }  
         }
     }
     .mobile-nav-only{
