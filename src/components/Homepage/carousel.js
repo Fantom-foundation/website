@@ -39,14 +39,10 @@ class Carousel extends React.Component {
       this.setState({
         posts: fetchedPosts
       });
-      console.log('posts', fetchedPosts)
-      console.log('post.link');
     })
   }
   render() {
     let postsState = this.state.posts
-    console.log('postsState ', postsState);
-    console.log('postsState type', typeof postsState);
     var settings = {
       arrows: true,
       infinite: false,
@@ -123,7 +119,6 @@ class Carousel extends React.Component {
             postsState.map((post, index) => {
               var StrippedString = post.content.split(" ").splice(0, 20).join(" ");
               var StrippedText = StrippedString.replace(/(<([^>]+)>)/ig,"");
-              console.log(formatDate(post.pubDate));
               return (
                 <div className="carousel-card" data-index={index} key={index}>
                   <div className="subcard">

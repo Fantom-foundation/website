@@ -22,7 +22,6 @@ class Header extends React.Component{
       }
     render () {
         const { menuOpen, visible } = this.state;
-        console.log();
         const menuClass = menuOpen ? "openMenu" : ""
         let headerClass
         if(this.props.location.pathname === "/developer/"){
@@ -62,7 +61,7 @@ class Header extends React.Component{
                     <ul className="main-nav">
                         <li><Link to="/about/">What is Fantom?</Link></li>
                         <li><Link to="/developer/">Developers</Link></li>
-                        <li><Link to="#">Articles</Link></li>
+                        <li><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></li>
                         <li><Link to="/foundation/">Foundation</Link></li>
                     </ul>
                 </div> 

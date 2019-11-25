@@ -33,10 +33,8 @@ class LatestUpdate extends React.Component {
             .then(data => {
                 // I recommend setting data to React state
                 // but you can do whatever you want (including ignoring this `then()` altogether)
-                console.log(data)
             })
             .catch((error) => {
-                console.log(error)
                 // unnecessary because Mailchimp only ever
                 // returns a 200 status code
                 // see below for how to handle errors
@@ -49,7 +47,7 @@ class LatestUpdate extends React.Component {
                 <div className="container">
                     <Link to="/developer">
                         <div className="developer-potal">
-                            <div className="card-img" data-aos="slide-left" data-aos-easing="ease-in-cubic" data-aos-offset="400" data-aos-duration="1000" data-aos-delay="1000"> </div>
+                            <div className="card-img" data-aos="slide-left" data-aos-easing="ease-in-cubic" data-aos-offset="400" data-aos-duration="1000"> </div>
                             <h3>Developer Portal</h3>
                             <p>Open source. Scalable. Secure.</p>
                             <div className="intro-button">
@@ -60,7 +58,7 @@ class LatestUpdate extends React.Component {
                     </Link>
                     <Link to="/foundation">
                         <div className="fantom-foundation">
-                            <div className="card-img" data-aos="slide-up" data-aos-easing="ease-in-cubic" data-aos-offset="400" data-aos-duration="1000" data-aos-delay="1000"> </div>
+                            <div className="card-img" data-aos="slide-up" data-aos-easing="ease-in-cubic" data-aos-offset="400" data-aos-duration="1000"> </div>
                             <h3>The Fantom Foundation</h3>
                             <p>The people, the culture.</p>
                             <div className="intro-button">

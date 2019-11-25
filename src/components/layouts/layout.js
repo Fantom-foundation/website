@@ -4,9 +4,6 @@ import Footer from "../SiteFooter/Footer"
 import "./style/app.scss"
 
 const Layout = ({children, location}) => {
-  console.log('layout location');
-  console.log(location);
-  console.log(children);
   return(
     <div>
       <Header location={location}/>
