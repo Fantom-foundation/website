@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="72" viewBox="0 0 250 72">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="41.186" height="9.844" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle-2" data-name="Rectangle" width="35.192" height="5.404" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="fantom_logo_white_v3" data-name="fantom logo white v3" transform="translate(0 12)">
+    <rect id="fantom_logo_white_v3_background" data-name="fantom logo white v3 background" width="250" height="60" fill="none"/>
+    <g id="fantom_new_logo" data-name="fantom new logo" transform="translate(4.016 5)">
+      <g id="rounded_copy" data-name="rounded copy" transform="translate(0)">
+        <path id="Rectangle-3" data-name="Rectangle" d="M17.339.387,30.4,7.269c.979.516.979,1.353,0,1.869L17.339,16.019a4.255,4.255,0,0,1-3.547,0L.735,9.138c-.979-.516-.979-1.353,0-1.869L13.792.387A4.255,4.255,0,0,1,17.339.387Z" transform="translate(5.611)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+        <path id="Rectangle_Copy" data-name="Rectangle Copy" d="M17.339.387,30.4,7.269c.979.516.979,1.353,0,1.869L17.339,16.019a4.255,4.255,0,0,1-3.547,0L.735,9.138c-.979-.516-.979-1.353,0-1.869L13.792.387A4.255,4.255,0,0,1,17.339.387Z" transform="translate(5.611 16.792)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+        <rect id="Rectangle-4" data-name="Rectangle" width="41.186" height="9.844" transform="translate(1.164 42.656)" fill="none"/>
+        <g id="rounded_copy-2" data-name="rounded copy" transform="translate(1.164 42.656)" clip-path="url(#clip-path)">
+          <path id="Rectangle_Copy_2" data-name="Rectangle Copy 2" d="M17.339.387,30.4,7.269c.979.516.979,1.353,0,1.869L17.339,16.019a4.255,4.255,0,0,1-3.547,0L.735,9.138c-.979-.516-.979-1.353,0-1.869L13.792.387A4.255,4.255,0,0,1,17.339.387Z" transform="translate(4.447 -8.3)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+        </g>
+        <rect id="Rectangle-5" data-name="Rectangle" width="35.192" height="5.404" transform="translate(5.031 42.077)" fill="none"/>
+        <g id="rounded_copy-3" data-name="rounded copy" transform="translate(5.031 42.077)" clip-path="url(#clip-path-2)">
+          <path id="Path_10" data-name="Path 10" d="M.053,0S-.14,3.185.537,3.619" transform="translate(0.43 -2.413)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+          <path id="Path_10_Copy" data-name="Path 10 Copy" d="M-.357,0S-.163,3.185-.84,3.619" transform="translate(32.219 -2.413)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+        </g>
+        <path id="Path_11" data-name="Path 11" d="M0,0C2.557,1.544,3.814,2.123,3.814,5.983" transform="translate(38.293 2.248)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+        <path id="Path_11_Copy" data-name="Path 11 Copy" d="M0,0C2.557,1.544,3.814,2.123,3.814,5.983" transform="translate(3.814 47.935) rotate(-180)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+        <path id="Line_2" data-name="Line 2" d="M.154,34.117V.134" transform="translate(5.36 8.249)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="5"/>
+        <path id="Line_2_Copy" data-name="Line 2 Copy" d="M.154,34.117V.134" transform="translate(36.685 8.249)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="5"/>
+        <path id="Line_2_Copy_2" data-name="Line 2 Copy 2" d="M.309,15.827V0" transform="translate(20.868 16.889)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+    </g>
+    <text id="fantom" transform="translate(154.211 44)" fill="#fff" font-size="56" font-family="Muli-SemiBold, Muli" font-weight="600"><tspan x="-94.64" y="0">fantom</tspan></text>
+  </g>
+</svg>

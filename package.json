@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "deploy:dev": "npm run build && aws s3 sync public/ s3://fantom-global/ --region us-east-2 --delete --cache-control max-age=604800",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

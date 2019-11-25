@@ -1,7 +1,5 @@
 import React from "react"
 import { teamMemberData } from "./Data"
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 
 class TeamMember extends React.Component{
     componentDidMount() {

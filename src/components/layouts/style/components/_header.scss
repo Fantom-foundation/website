@@ -1,6 +1,20 @@
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+.header.home{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    background: transparent
+}
 .header {
 	padding-top: .5em;
-	padding-bottom: .5em;
+    padding-bottom: .5em;
+    position: relative;
     background: #3478ef;
     .container{
         display: flex;
@@ -11,13 +25,14 @@
             font-size: $font-md;
             flex-basis: 30%;
             padding: 10px 0;
-            img {
-                max-width: 121px;
-            }
+         
             a {
                 color: $primary-white;
                 text-decoration: none;
                 font-weight: $semibold;
+            }
+            img{
+                max-width: 126px;
             }
         }
         .main-nav {
@@ -27,21 +42,22 @@
             list-style: none;
             display: flex;
             // padding-right: 165px;
-            a {
+            li{
                 padding: 10px 30px;
-                text-align: center;
-                display: block;
-                color: $primary-white;
-                font-size: $body-font;
-                text-decoration: none;
-            }
-            a[aria-current="page"] {
-                text-decoration: underline;
-              }
-              a:hover {
-                color: #efefef;
-                text-decoration: none;
-              }
+                a {
+                    text-align: center;
+                    display: block;
+                    color: $primary-white;
+                    font-size: $body-font;
+                    text-decoration: none;
+                }
+                a[aria-current="page"] {
+                    border-bottom: 1px solid;
+                }
+                a:hover {
+                    border-bottom: 1px solid;
+                }
+            }  
         }
     }
     .mobile-nav-only{
@@ -116,6 +132,25 @@ header.header.nav-development .container .main-nav li a {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     padding-top: 60px;
+    span.close-button {
+        font-size: 46px;
+        position: absolute;
+        right: 25px;
+        top: 20px;
+    }
+    .mobile-nav-header{
+        .nav-img {
+            position: absolute;
+            left: 40px;
+            top: 35px;
+            a{
+                display: block;
+                img{
+                    min-width: 126px;
+                }
+            } 
+        }
+    }
     ul{
         list-style-type: none;
         li{
@@ -157,35 +192,8 @@ header.header.nav-development .container .main-nav li a {
                 margin-top: 9px;
             }
          }
-         .sideNav-button.nav-foundation, .sideNav-button.nav-development{
-            .navbar-toggler-icon{
-                color: #426ED5;
-                border: 1px solid #426ED5;
-                background: #426ED5;
-            }
-         }
     .slide-right.openMenu{
         right: 0px;
-            span.close-button {
-                font-size: 46px;
-                position: absolute;
-                right: 25px;
-                top: 20px;
-            }
-            .mobile-nav-header{
-                .nav-img {
-                    position: absolute;
-                    left: 40px;
-                    top: 35px;
-                    a{
-                        display: block;
-                        img{
-                            min-width: 175px;
-                        }
-                    } 
-                }
-            }
-            
         }
     }
     .introduction {
@@ -217,29 +225,11 @@ header.header.nav-development .container .main-nav li a {
             width: 100% !important;
         }
     } 
+    body .hero-section .container {
+        padding-top: 200px !important;
+    }
 }
 
-.animation-section {
-    .cssanimation, .cssanimation span {
-        animation-duration: 1s;
-        animation-fill-mode: both;
-    }
-    .cssanimation span { 
-        display: inline-block;
-    }
-    .fadeInBottom { 
-        animation-name: fadeInBottom;
-    }
-}
-@keyframes fadeInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-    to { 
-        opacity: 1;
-    }
-}
 
 
 

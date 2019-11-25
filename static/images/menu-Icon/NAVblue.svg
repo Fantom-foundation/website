@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.857" height="19.941" viewBox="0 0 25.857 19.941">
+  <g id="NAV" transform="translate(-305.071 -22.029)">
+    <g id="menu_blue" data-name="menu blue" transform="translate(306 23)">
+      <g id="menu">
+        <path id="Line" d="M.571.529H23.429" fill="none" stroke="#426ed5" stroke-linecap="square" stroke-miterlimit="10" stroke-width="3"/>
+        <path id="Line_Copy" data-name="Line Copy" d="M.571.529H23.429" transform="translate(0 8.471)" fill="none" stroke="#426ed5" stroke-linecap="square" stroke-miterlimit="10" stroke-width="3"/>
+        <path id="Line_Copy_2" data-name="Line Copy 2" d="M.571.529H23.429" transform="translate(0 16.941)" fill="none" stroke="#426ed5" stroke-linecap="square" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

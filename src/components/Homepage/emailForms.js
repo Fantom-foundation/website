@@ -1,43 +1,62 @@
- import React, { Component } from "react"
- var emailValidation;
-const CustomForm = ({ status, message, onValidated }) => {
-  let email;
-  const submit = () =>{
-    email &&
-    email.value.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: email.value,
-    });
-    
+import React, { Component } from "react"
+class CustomForm extends React.Component {
+  state = {
+    email: "",
+    invaidEmail: false,
+    status: this.props.status,
+    onValidated : '',
+    message : ""
+
+}
+setEmail(evt) {
+  if (evt == "") {
+      this.setState({invaidEmail: true});
+  } else {
+      this.setState({invaidEmail: false});
   }
-  return (
-    <div>
-      {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-      {status === "error" && (
-        <div
-          style={{ color: "red" }}
-          dangerouslySetInnerHTML={{ __html: message }}
+  this.setState({email: evt});
+
+}
+ submit = (e) => {
+ 
+  let email = this.state.email;
+  if (email == "") {
+    this.setState({invaidEmail: true});
+} else {
+    this.setState({invaidEmail: false});
+}
+this.props.onValidated({
+        EMAIL: this.state.email,
+      });
+}
+
+  render() {
+    let email = this.state.email;
+    
+    let status = this.state.status;
+    let message = this.state.message
+    return (
+      <div>
+        {/* {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
+        {status === "error" && 'Enter Valid Email'}
+        {status === "success" && (
+          <div
+            style={{ color: "green" }}
+            dangerouslySetInnerHTML={{ __html: message }}
+          />
+        )} */}
+        <input
+          value={this.state.email}  onChange={e => this.setEmail(e.currentTarget.value)}
+          type="email"
+          required
+          placeholder="Email Address"
         />
-      )}
-      {status === "success" && (
-        <div
-          style={{ color: "green" }}
-          dangerouslySetInnerHTML={{ __html: message }}
-        />
-      )}
-      <input
-        style={{ fontSize: "2em", padding: 5 }}
-        ref={node => (email = node)}
-        type="email"
-        required
-        placeholder="Your email"
-      />
-      {emailValidation === 'blank'? 'here' : 'there'}
-      <br />
-      <button style={{ fontSize: "2em", padding: 5 }} onClick={submit}>
-        Submit
-      </button>
-    </div>
-  );
+        
+        <button onClick={this.submit}>
+          Signup
+      </button>  
+      </div>
+    );
+  }
 };
 export default CustomForm

@@ -1,18 +1,19 @@
 import React from "react"
 import { teamData } from "./Data"
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 
 class MeetTeam extends React.Component {
     componentDidMount() {
         const AOS = require('aos');
         this.aos = AOS
-        this.aos.init()
+        this.aos.init({
+            disable: 'mobile',
+            once: true,
+        })
     }
     render(){
         return(
             <div className="container section">
-                {teamData .map(headingData => {
+                {teamData.map(headingData => {
                     const {
                         heading,
                         discription,

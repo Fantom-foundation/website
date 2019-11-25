@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 
 
 const url = "https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6";
- 
+
 class LatestUpdate extends React.Component {
     componentDidMount() {
         const AOS = require('aos');
@@ -18,7 +18,7 @@ class LatestUpdate extends React.Component {
             once: true,
         })
     }
-    
+
     state = {
         email: ''
     }
@@ -47,23 +47,27 @@ class LatestUpdate extends React.Component {
             <div className="update-section">
                 <img src="/images/home/Bg_bottom.png" alt="" />
                 <div className="container">
-                    <div className="developer-potal">
-                        <div className="card-img" data-aos="slide-left"> </div>
+                    <Link to="/developer">
+                        <div className="developer-potal">
+                            <div className="card-img" data-aos="slide-left" data-aos-easing="ease-in-cubic" data-aos-offset="400" data-aos-duration="1000" data-aos-delay="1000"> </div>
                             <h3>Developer Portal</h3>
                             <p>Open source. Scalable. Secure.</p>
                             <div className="intro-button">
-                                <Link to="/developer">Learn More</Link>
-                            </div>
-                        
-                    </div>
-                    <div className="fantom-foundation">
-                        <div className="card-img" data-aos="slide-up"> </div>
+                                Learn More
+                        </div>
+
+                        </div>
+                    </Link>
+                    <Link to="/foundation">
+                        <div className="fantom-foundation">
+                            <div className="card-img" data-aos="slide-up" data-aos-easing="ease-in-cubic" data-aos-offset="400" data-aos-duration="1000" data-aos-delay="1000"> </div>
                             <h3>The Fantom Foundation</h3>
                             <p>The people, the culture.</p>
                             <div className="intro-button">
-                                <Link to="/foundation">Learn More</Link>
+                                Learn More
                             </div>
-                    </div>
+                        </div>
+                    </Link>
                 </div>
                 <div className="container main-update">
                     <div className="section update-form">
@@ -72,22 +76,22 @@ class LatestUpdate extends React.Component {
                             <input type="email" placeholder="Email Address" value={this.state.email} onChange={e => this.setEmail(e.target.value)} className="email-input" />
                             <input type="submit" value="Sign Up" className="button" />
                         </form> */}
-                        <MailchimpSubscribe url={url}/>
-                        {/* <MailchimpSubscribe
-          url={url}
-          render={({ subscribe, status, message }) => (
-            <CustomForm
-              status={status}
-              message={message}
-              onValidated={formData => subscribe(formData)}
-            />
-          )}
-        /> */}
+                        <MailchimpSubscribe
+                            url={url}
+                            render={({ subscribe, status, message }) => (
+                                <div>
+                                <CustomForm  onValidated={formData => subscribe(formData)} />
+                                {status === "sending" && <div className="message-section" style={{ color: "blue" }}>sending...</div>}
+                                {status === "error" && <div  className="message-section" style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}
+                                {status === "success" && <div  style={{ color: "green" }}>Subscribed !</div>}
+                                </div>
+                            )}
+                        />
                     </div>
                 </div>
-                
-            </div>
-            
+
+            </div >
+
         )
     }
 }

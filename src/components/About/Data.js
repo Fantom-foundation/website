@@ -13,7 +13,7 @@ export const aboutData = [
         heading:`Why do we need another distributed ledger?`,
         content: `If the majority of the enterprises in the world used a single centralized database, transactions would quickly be bottlenecked. \n
         With the rise of Bitcoin and decentralized smart contract platforms, we have seen an industry-wide calling for a complete migration from centralized networks to a single ledger, to achieve safely, security, and more efficiency. \n
-        Contradictory to these expectations, decentralized networks have found to be inherently less responsive and scalable than their centralized counterparts due to the latency introduced by having multiple nodes communicate to one another. \n
+        Contrary to these expectations, decentralized networks have found to be inherently less responsive and scalable than their centralized counterparts due to the latency introduced by having multiple nodes communicate to one another. \n
         At Fantom we believe in the future of decentralized and permissionless networks, and the potential of distributed ledgers to disrupt legacy systems across a wide range of industries across Finance, supply chain management, and the sharing economy. \n
         But we do not believe that one single ledger is necessarily the solution. \n
         The vision of Fantom is to make it easy for users to deploy and tailor their own distributed ledgers within an interoperable network, in which they can freely communicate and transact with other distributed ledgers. \n
@@ -28,7 +28,7 @@ export const aboutData = [
         It is based on principles about gossip protocols where small bits of information are propagated throughout the network rapidly. Distributed ledgers deployed on top of this technology deliver the highest grade of network security, high transaction throughputs, and low time to finality. \n
         In order to make it as easy as possible to build distributed ledgers tailored to the needs of the user, we designed Lachesis aBFT to be highly adaptable and compatible with existing codebases such as Cosmos SDK and Go-Ethereum. \n \n`,
         spanTwo:`TxFlow`,
-        contentTwo:`is a protocol for transaction responsiveness. <br/>It is not a new consensus mechanism, but a protocol to run concurrently to consensus wherein users submit transactions and receive confirmations in real time. \n
+        contentTwo:`is a protocol for transaction responsiveness. It is not a new consensus mechanism, but a protocol to run concurrently to consensus wherein users submit transactions and receive confirmations in real time. \n
         Regular consensus systems, such as BFT creating blocks and voting on them, are still required as a secondary—or perhaps rather primary—security mechanism. So if the transaction did not receive enough votes before the block proposal that would have included it, it will still be added. \n`
     },
     {

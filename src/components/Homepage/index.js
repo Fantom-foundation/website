@@ -5,7 +5,7 @@ import OffersSection from "./Offers"
 import Intro from "./IntroSection"
 import LatestUpdate from "./Update"
 import Carousel from "./carousel"
-// import Email from "./emailForm"
+
 
 const HomePage = () => {
     return(
@@ -16,7 +16,6 @@ const HomePage = () => {
             <Intro />
             <Carousel />
             <LatestUpdate />
-            {/* <Email /> */}
         </div>
     )
 }

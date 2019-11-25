@@ -1,6 +1,5 @@
 import React from "react"
 import { offerData } from "./Data"
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 
@@ -9,16 +8,19 @@ class OffersSection extends React.Component {
     componentDidMount() {
         const AOS = require('aos');
         this.aos = AOS
-        this.aos.init()
+        this.aos.init({
+            disable: 'mobile',
+            once: true,
+        })
     }
     render(){ 
         return(
             <div className="offers-section container section">
-                <div className="offer" data-aos="slide-up">
-                    <h2>Built with the future in mind</h2>
-                    <p>Fantom offers the most powerful foundations for decentralized ledgers. </p>
+                <div className="offer">
+                    <h2 data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-offset="200">Built with the future in mind</h2>
+                    <p data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-offset="200">Fantom offers the most powerful foundations for decentralized ledgers. </p>
                 </div>
-                <div className="offer-group" data-aos="slide-up">
+                <div className="offer-group">
                 {offerData.map(offerCard => {
                     const {
                         id,
@@ -30,11 +32,11 @@ class OffersSection extends React.Component {
                     } = offerCard;
                     return(
                             <div className={classname} key={id}>
-                                <div className="offer-text" data-aos="slide-up">
-                                    <h4>{heading}</h4>
-                                    <p>{des}</p>
+                                <div className="offer-text">
+                                    <h4 data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-offset="200">{heading}</h4>
+                                    <p data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-offset="200">{des}</p>
                                 </div>
-                                <div className="offer-icon" data-aos="slide-up">
+                                <div className="offer-icon">
                                     <img src={img} alt={alt} />
                                 </div>
                             </div>

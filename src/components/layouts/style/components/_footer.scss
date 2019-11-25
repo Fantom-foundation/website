@@ -13,6 +13,7 @@ footer{
                 display: inline-block;
                 width: 32%;
                 ul{
+                    padding-left: 0px;
                     li {
                         list-style-type:none;
                         padding-bottom: 75px;
@@ -22,7 +23,7 @@ footer{
                         }
                         span{
                             padding: 10px;
-                            padding-right: 15px;
+                            padding-right: 20px;
                             a{
                                 img{
                                     width: 30px;
@@ -38,12 +39,14 @@ footer{
                 .footer-first-col {
                     display: inline-block;
                     width: 50%;
+                    padding-left: 50px;
                     ul{
+                        padding-left: 0px; 
                         li{
                             list-style-type:none;
-                            padding: 30px 50px;
-                            font-size: 25px;
-                            
+                            padding: 30px 50px 20px;
+                            font-size: 32px;
+                            font-weight: 600;
                             a{
                                 color: #fff;
                                 text-decoration: none;
@@ -59,7 +62,9 @@ footer{
             }
             .footer-small-section {
                 color: #C9C9C9;
-                margin-left: 50px;
+                margin-left: 0px;
+                display: flex;
+                justify-content: space-between;
                 .footer-left{
                     width: 37%;
                 }
@@ -95,7 +100,13 @@ footer{
         cursor: default;
     }
 }
-
+.footer-fantom-icon ul li:last-of-type span:last-of-type{
+    padding-right: 0 !important;
+}
+.footer-fantom-icon ul li:last-of-type span:last-of-type img{
+    width: 35px !important;
+    padding-top: 5px;
+}
 @media (max-width: 769px) {
     .footer-inner-container{
         display: none;
@@ -105,6 +116,7 @@ footer{
         padding: 60px 0;
         margin-bottom: 0px !important;
         .footer-first-col{
+            padding-left: 50px;
             .footer-link{
                 margin-top: 43px;
                 a{
@@ -123,4 +135,21 @@ footer{
             }
         }
     }
+}
+@media (max-width: 360px){
+    .footer-inner-container-mobile{
+        .footer-first-col{
+            .footer-link{
+                margin-top: 43px;
+                span{
+                    margin-right: 20px;
+                    a{
+                        img{
+                            max-width: 24px;
+                        }
+                    }
+                }
+            }   
+        }
+    }  
 }

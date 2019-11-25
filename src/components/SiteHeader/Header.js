@@ -31,7 +31,9 @@ class Header extends React.Component{
         else if(this.props.location.pathname === "/foundation/"){
             headerClass = 'nav-foundation'
         }
-    
+        else if(this.props.location.pathname === "/"){
+            headerClass = 'home'
+        }
         let imgsrc 
         if(this.props.location.pathname === "/developer/"){
             imgsrc =  '/images/home/fantom_name_blue.svg'
@@ -40,7 +42,17 @@ class Header extends React.Component{
             imgsrc =  '/images/home/fantom_name_blue.svg'
         }
         else {
-            imgsrc = '/images/home/fantom header logo white v3.png'
+            imgsrc = '/images/footer/fantom-logo-white-v-3.svg'
+        }
+        let navicon 
+        if(this.props.location.pathname === "/developer/"){
+            navicon =  '/images/menu-Icon/NAVblue.svg'
+        }
+        else if(this.props.location.pathname === "/foundation/"){
+            navicon =  '/images/menu-Icon/NAVblue.svg'
+        }
+        else {
+            navicon = '/images/menu-Icon/NAV.svg'
         }
     
     return(
@@ -55,15 +67,13 @@ class Header extends React.Component{
                     </ul>
                 </div> 
                 <div id="mySidenav" className="sidenav">
-                    <button className= {`sideNav-button ${headerClass}`} onClick={() => this.toggle()}>
-                        <span className="navbar-toggler-icon top-bar"></span>
-                        <span className="navbar-toggler-icon middle-bar"></span>
-                        <span className="navbar-toggler-icon bottom-bar"></span>
+                <button className= {`sideNav-button ${headerClass}`} onClick={() => this.toggle()}>
+                        <span><img src={navicon} alt="navigation"/></span>
                     </button>
                     <div className={`slide-right ${menuClass}` }>
-                        <div className="mobile-nav-header">
+                    <div className="mobile-nav-header">
                             <span className="nav-img"><Link to="#"><img src="/images/home/fantom_name_blue.svg" alt=""/></Link></span>
-                            <span className="close-button" onClick={() => this.toggle()}>X</span>
+                            <span className="close-button" onClick={() => this.toggle()}><img src="/images/menu-Icon/X.svg" alt="close Button"/></span>
                         </div>
                         
                         <ul>

@@ -45,8 +45,8 @@ h1{
     position: relative;
     z-index: -1; 
     .container {     
-        padding: 180px 0px;
-        padding-top: 250px;
+        padding: 200px 0px;
+        padding-top: 350px;
         h1{
             width: 70%;
             font-size: $h1;
@@ -130,9 +130,9 @@ h1{
         border-radius: 20px;
         flex-basis: 30%;
         .offer-text {
-            padding: 20px 10px;
+            padding: 50px 10px 20px;
             width: 350px;
-            height: 283px;
+            min-height: 327px;
             padding-left: 20px;
             h4{
                 font-size: $h4;
@@ -226,14 +226,14 @@ h1{
         width: 85%;
         border: solid 1px #426ed5;
         background: #fff;
-        padding: 9px;
+        padding:  9px 20px;
         &:focus{
             outline: none;
         }
         
     }
     ::placeholder {
-        font-family: WorkSans;
+        font-family: "Work Sans", Helvetica, sans-serif;
         font-size: 16px;
         font-weight: 600;
         letter-spacing: 0.38px;
@@ -244,15 +244,18 @@ h1{
         width: 100px;
         border-radius: 30px;
         background-color: #ff573b;
-        font-family: WorkSans;
+        font-family: "Work Sans", Helvetica, sans-serif;
         font-size: 16px;
         font-weight: bold;
         letter-spacing: 0.38px;
         text-align: center;
         color: #ffffff;
-        padding: 16px 12px 12px 0;
-        margin-left: -98px;
+        padding: 16px 12px 12px;
+        margin-left: -100px;
         padding-top: 15px;
+        border: 0px;
+        position: relative;
+        top: 0px;
         &:focus{
             outline: none;
         }
@@ -263,6 +266,7 @@ h1{
 
 .update-section {
     overflow: hidden;
+    margin-bottom: 150px;
     img{
         max-height: 200px;
         width: 100%;
@@ -284,6 +288,14 @@ h1{
             right: 0px;
             bottom: 0px; 
         }
+        .fantom-foundation,
+        .developer-potal{
+            transition: all ease-in-out 0.4s
+        }
+        .fantom-foundation:hover,
+        .developer-potal:hover{
+            transform: scale(1.03)
+        }
         .fantom-foundation .card-img{
             position: absolute;
             background-image: url("/images/cards/Polygon.png");
@@ -295,7 +307,9 @@ h1{
             right: 0px;
             bottom: 0px;  
             border-bottom-right-radius: 20px;
+            
         }
+       
         .developer-potal, .fantom-foundation{
             background: #3478ef;
             max-width: 504px;
@@ -314,7 +328,7 @@ h1{
             h3{
                 width: 274px;
                 font-size: 48px;
-                font-weight: 400;
+                font-weight: 600;
                 line-height: 1.13;
             }
             h3, p{
@@ -338,20 +352,18 @@ h1{
                 background: #fff;
                 border-radius: 30px;
                 margin-top: 20px;
-                box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.08);
-                a{
-                    font-size: 16px;
-                    font-weight: bold;
-                    text-decoration: none;
-                    text-align: center;
-                    color: #426ed5;
-                }
+                box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.08);    
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+                text-align: center;
+                color: #426ed5;
            }
             
         }
     }
     h2{
-        font-size: $h2;
+        font-size: 48px
     }
     form{
         margin-top: 30px;
@@ -401,22 +413,38 @@ h1{
     .slider-heading {
         font-size: 32px;
         color: #2c3b57;
+        padding-left:200px;
+    }
+    .slick-list::before{
+        background: #fff;
+        content: "";
+        left: 0;
+        width: 200px;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
     }
 }
 .carousel-card {
         display: flex !important;
-        justify-content: space-between;
         flex-flow: row wrap;
         margin-top: 30px;
         color: $font-color;
+        padding: 10px 5px;
+        transition: all ease-in-out 0.4s !important;
+    a{
+        text-decoration: none;
+    }
     .subcard {
-        flex-basis: 85%;
+        flex-basis: 90%;
         padding: 30px;
         border-radius: 30px;
-        min-height: 760px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        transition: all ease-in-out 0.4s !important;
         &:hover{
             transform: scale(1.02);
         }
@@ -427,26 +455,37 @@ h1{
             justify-content: space-between;
             p{
                 font-weight: $semibold;
+                color: #2c3b57
             }
         }
         h4{
             color: #2c3b57;
             font-weight: 600;
+            min-height: 90px;
         }
         h4, p{
             margin: 10px 0px;
         }
-
+       .card-content p{
+            min-height: 255px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            color: #2c3b57
+        }
         div{
-            min-height: 200px;
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
         }
         .card-content{
             min-height: 130px !important;
         }
         .read{
+               span{ 
+                   color: #2c3b57;
+                 border-bottom: 1px solid #2c3b57;
+                display: inline-block;
+                max-width: 114px;
+            }
             a {
                 color: $font-color;
                 text-decoration: underline;
@@ -467,6 +506,62 @@ h1{
     background: #CDD4D8 !important;
 }
 
+@media (max-width: 1199px){
+    .inner-container.carousel-section .slick-list::before{
+        display: none
+    }
+    .inner-container.carousel-section .slider-heading {
+        padding-left: 0;
+    }
+    .header .container .main-nav a {
+        padding: 10px 15px;
+    }
+    .update-section .container .developer-potal, 
+    .update-section .container .fantom-foundation {
+        min-width: 454px;
+    }
+    .update-section .container .developer-potal p, 
+    .update-section .container .fantom-foundation p {
+        font-size: 20px;
+    }
+    .intro-section.section .intro-text h2 {
+        font-size: 48px;
+    }
+    footer .footer-section .container.footer-inner-container .footer-link .footer-first-col ul li {
+        font-size: 22px;
+    
+    }
+    footer .footer-section .container.footer-inner-container {
+        max-width: 960px;
+    }
+    footer .footer-section .container.footer-inner-container .footer-link .footer-first-col ul li {
+
+        padding: 30px 30px 20px;
+    }
+    footer .footer-section .container.footer-inner-container .footer-fantom-icon ul li {
+        list-style-type: none;
+        padding-bottom: 25px;
+    }
+    footer .footer-section .container.footer-inner-container .footer-fantom-icon ul li span a img {
+        width: 20px;
+    }
+    .footer-fantom-icon ul li:last-of-type span:last-of-type img {
+        width: 21px !important;
+
+    }
+    footer {
+        min-height: 0;
+    }
+}
+@media (max-width: 991px){
+.update-section a {
+    margin: auto;
+    display: block;
+    list-style: none;
+    outline: none;
+    margin: 80px 0;
+}
+}
 @media (max-width: 321px){
     .grid-inner-container .grid-item .member-image img {
         max-width: 100px !important;
@@ -479,6 +574,7 @@ h1{
             width: 291px !important;
         }
     }   
+
 }
 @media (max-width: 769px) {
     .introduction.section {
@@ -640,5 +736,54 @@ h1{
             }
         } 
     } 
+    .offer {
+    padding: 20px 15px;
+    }
+    .section {
+        padding: 20px;
+    }
+    .update-section .container .developer-potal .card-img{
+        height: 300px;
+    }
+    .carousel-card .subcard .card-content p {
+        min-height: 155px;
+    }
+    .developer-potal, .fantom-foundation {
+        min-width: 91% !important;
+        height: 300px !important;
+    }
+    .update-section .container .developer-potal p,
+     .update-section .container .fantom-foundation p {
+        width: 100%;
+    }
+    .update-section .container .fantom-foundation .card-img {
+        height: 210px;
+
+    }
+    .update-section h2 {
+        text-align: left;
+    }
+    .footer-inner-container-mobile .footer-first-col {
+        padding-left: 15px;
+    }
+    .intro-section.section .bg-circle {
+        margin-left: 45%;
+    }
+    .update-section {
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    footer {
+        padding-top: 10px;
+    }
+    .update-section .container .developer-potal p{
+        max-width: 80%;
+    }
     
+}
+.carousel-card a {
+
+    text-decoration: none;
+    outline: none !important;
+
 }

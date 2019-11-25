@@ -52,8 +52,11 @@ class Carousel extends React.Component {
       infinite: false,
       speed: 100,
       pauseOnHover: false,
-      slidesToShow: 4,
+      slidesToShow:3,
       slidesToScroll: 1,
+      centerMode: true,
+      centerPadding: '200px',
+      initialSlide: 1,
       responsive: [
         {
           breakpoint: 1920,
@@ -63,10 +66,27 @@ class Carousel extends React.Component {
           }
       },
       {
+        breakpoint: 1440, 
+        settings:{
+          slidesToShow:2,
+          slidesToScroll: 1,
+        }
+    },
+    {
+      breakpoint: 1199,
+      settings: {
+        slidesToShow:2,
+        slidesToScroll: 1,
+        centerPadding: '0',
+        
+      }
+    },
+      {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow:2,
           slidesToScroll: 1,
+          centerPadding: '0',
           
         }
       },
@@ -75,21 +95,23 @@ class Carousel extends React.Component {
             settings:{
               slidesToShow: 2,
               slidesToScroll: 1,
-              dots: true,
+              dots: false,
               arrows: false,
+              centerPadding: '00px',
             }
         },
         {
-          breakpoint: 480,
+          breakpoint: 540,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            dots: true,
+            dots: false,
             arrows: false,
+            centerPadding: '00px',
           }
         }
     ],
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 5000,
     };
    
@@ -103,16 +125,18 @@ class Carousel extends React.Component {
               var StrippedText = StrippedString.replace(/(<([^>]+)>)/ig,"");
               console.log(formatDate(post.pubDate));
               return (
-                <div className="carousel-card" data-aos="fade-left" data-index={index} key={index}>
+                <div className="carousel-card" data-index={index} key={index}>
                   <div className="subcard">
+                  <a href={post.link} target="_blank">
                     <div className="heading">
                       <h4>{post.title}</h4>
                       <p>{formatDate(post.pubDate)}</p>
                     </div>
                     <div className="card-content">
-                      <p>{StrippedText}</p>
+                      <p>{StrippedText} ...</p>
                     </div>
-                    <div className="read"><a href={post.link} target="_blank">Read More</a></div>
+                    <div className="read"><span>Read More</span></div>
+                    </a>
                   </div>
                 </div>
               )

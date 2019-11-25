@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="30" viewBox="0 0 125 30">
+    <defs>
+        <path id="a" d="M.708 21.328H21.25v4.922H.708z"/>
+        <path id="c" d="M2.637 21.039h17.552v2.702H2.637z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(1.875 2.5)">
+            <path stroke="#FFF" stroke-width="1.563" d="M11.574.194l6.513 3.44c.488.258.488.677 0 .935l-6.513 3.44c-.488.259-1.28.259-1.769 0L3.293 4.57c-.489-.258-.489-.677 0-.935L9.805.194c.489-.259 1.28-.259 1.77 0zM11.574 8.59l6.513 3.44c.488.259.488.677 0 .935l-6.513 3.44c-.488.259-1.28.259-1.769 0l-6.512-3.44c-.489-.258-.489-.676 0-.935l6.512-3.44c.489-.258 1.28-.258 1.77 0z"/>
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path stroke="#FFF" stroke-width="1.563" d="M11.574 17.372l6.513 3.44c.488.259.488.677 0 .935l-6.513 3.44c-.488.259-1.28.259-1.769 0l-6.512-3.44c-.489-.258-.489-.676 0-.934l6.512-3.441c.489-.258 1.28-.258 1.77 0z" mask="url(#b)"/>
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path stroke="#FFF" stroke-width="1.563" d="M2.878 19.832c-.064 1.062.016 1.665.241 1.81" mask="url(#d)"/>
+            <path stroke="#FFF" stroke-width="1.563" d="M18.309 19.832c-.065 1.062.016 1.665.24 1.81" mask="url(#d)" transform="matrix(-1 0 0 1 36.837 0)"/>
+            <path stroke="#FFF" stroke-width="1.563" d="M19.226 1.124c1.276.772 1.902 1.062 1.902 2.992M2.03 23.968C.755 23.196.128 22.906.128 20.976"/>
+            <path stroke="#FFF" stroke-linecap="square" stroke-width="1.563" d="M2.88 21.183V4.192M18.503 21.183V4.192M10.69 16.358V8.444"/>
+        </g>
+        <text fill="#FFF" font-family="Muli-SemiBold, Muli" font-size="28.125" font-weight="500" transform="translate(0 -4)">
+            <tspan x="29.43" y="28.25">fantom</tspan>
+        </text>
+    </g>
+</svg>
