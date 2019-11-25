@@ -41,6 +41,17 @@ class Header extends React.Component{
         else {
             imgsrc = '/images/footer/fantom logo white v3.svg'
         }
+
+        let navicon 
+        if(this.props.location.pathname === "/developer/"){
+            navicon =  '/images/menu-Icon/NAVblue.svg'
+        }
+        else if(this.props.location.pathname === "/foundation/"){
+            navicon =  '/images/menu-Icon/NAVblue.svg'
+        }
+        else {
+            navicon = '/images/menu-Icon/NAV.svg'
+        }
     
     return(
         <header className={`header ${headerClass}`}>
@@ -55,7 +66,7 @@ class Header extends React.Component{
                 </div> 
                 <div id="mySidenav" className="sidenav">
                     <button className= {`sideNav-button ${headerClass}`} onClick={() => this.toggle()}>
-                        <span><img src="/images/menu-Icon/NAV.svg" alt="navigation"/></span>
+                        <span><img src={navicon} alt="navigation"/></span>
                     </button>
                     <div className={`slide-right ${menuClass}` }>
                         <div className="mobile-nav-header">

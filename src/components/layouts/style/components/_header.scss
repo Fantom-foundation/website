@@ -157,13 +157,6 @@ header.header.nav-development .container .main-nav li a {
                 margin-top: 9px;
             }
          }
-         .sideNav-button.nav-foundation, .sideNav-button.nav-development{
-            .navbar-toggler-icon{
-                color: #426ED5;
-                border: 1px solid #426ED5;
-                background: #426ED5;
-            }
-         }
     .slide-right.openMenu{
         right: 0px;
             span.close-button {
@@ -222,27 +215,6 @@ header.header.nav-development .container .main-nav li a {
     }
 }
 
-.animation-section {
-    .cssanimation, .cssanimation span {
-        animation-duration: 1s;
-        animation-fill-mode: both;
-    }
-    .cssanimation span { 
-        display: inline-block;
-    }
-    .fadeInBottom { 
-        animation-name: fadeInBottom;
-    }
-}
-@keyframes fadeInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-    to { 
-        opacity: 1;
-    }
-}
 
 
 
