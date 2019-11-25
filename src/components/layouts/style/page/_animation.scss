@@ -1,4 +1,6 @@
+
 [data-aos][data-aos][data-aos-easing=ease-in-cubic], body[data-aos-easing=ease-in-cubic] [data-aos] {
     -webkit-transition-timing-function: cubic-bezier(.17,.17,.05,1);
     transition-timing-function: cubic-bezier(.17,.17,.05,1);
+    transform: translateY(3rem);
 }

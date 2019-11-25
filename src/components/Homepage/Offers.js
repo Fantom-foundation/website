@@ -14,10 +14,10 @@ class OffersSection extends React.Component {
         return(
             <div className="offers-section container section">
                 <div className="offer">
-                    <h2 data-aos="slide-up">Built with the future in mind</h2>
-                    <p data-aos="slide-up">Fantom offers the most powerful foundations for decentralized ledgers. </p>
+                    <h2 data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-offset="200">Built with the future in mind</h2>
+                    <p data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-offset="200">Fantom offers the most powerful foundations for decentralized ledgers. </p>
                 </div>
-                <div className="offer-group" data-aos="slide-up">
+                <div className="offer-group">
                 {offerData.map(offerCard => {
                     const {
                         id,
@@ -30,8 +30,8 @@ class OffersSection extends React.Component {
                     return(
                             <div className={classname} key={id}>
                                 <div className="offer-text">
-                                    <h4>{heading}</h4>
-                                    <p data-aos="slide-up" data-aos-duration='2000'>{des}</p>
+                                    <h4 data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-offset="200">{heading}</h4>
+                                    <p data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-offset="200">{des}</p>
                                 </div>
                                 <div className="offer-icon">
                                     <img src={img} alt={alt} />
