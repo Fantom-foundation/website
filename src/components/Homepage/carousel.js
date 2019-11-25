@@ -81,7 +81,7 @@ class Carousel extends React.Component {
             settings:{
               slidesToShow: 2,
               slidesToScroll: 1,
-              dots: true,
+              dots: false,
               arrows: false,
             }
         },
@@ -90,7 +90,7 @@ class Carousel extends React.Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
-            dots: true,
+            dots: false,
             arrows: false,
           }
         },
