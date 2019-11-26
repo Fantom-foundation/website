@@ -536,13 +536,18 @@ h1{
     }
 }
 @media (max-width: 991px){
-.update-section a {
-    margin: auto;
-    display: block;
-    list-style: none;
-    outline: none;
-    margin: 80px 0;
-}
+    .update-section a {
+        margin: auto;
+        display: block;
+        list-style: none;
+        outline: none;
+        margin: 80px 0;
+    }
+    .subtitle-section{
+        h2, p{
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 769px) {

@@ -94,6 +94,11 @@ footer{
     }
 }
 @media (max-width: 769px) {
+    .footer-section {
+        .container {
+            padding-top: 0px !important;
+        }
+    }
     .footer-inner-container{
         display: none;
     }
