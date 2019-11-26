@@ -197,7 +197,7 @@ header.header.nav-development .container .main-nav li a {
         }
     }
     .introduction {
-        width: 85% !important;
+        width: 100% !important;
     }
 }
 @media (max-width: 991px) {
@@ -217,7 +217,9 @@ header.header.nav-development .container .main-nav li a {
         text-decoration: none;
     }
 }
-
+.mobile-nav-header {
+    margin-bottom: 95px;
+}
 @media (max-width: 768px){
     .sidenav{
         position: relative !important;

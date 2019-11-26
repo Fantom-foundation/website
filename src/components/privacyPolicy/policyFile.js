@@ -2,7 +2,7 @@ import React from 'react'
 
 const Privacy = () => {
     return(
-        <div className="container">
+        <div className="container privacy-page">
             <div className="section">
                 <h3>Website Privacy Policy</h3>
                 <p>This privacy policy applies to Fantom Foundation’s websites</p>
@@ -30,7 +30,7 @@ const Privacy = () => {
                     <li>when you respond to a survey that we run, participate in any sale bounty campaign or fill in forms on one of our websites</li>
                     <li>by tracking your use of our products and services (including our website)</li>
                     <li>through analytics providers (such as Google which processes personal information subject to its own privacy policy: 
-                        <a href="https://policies.google.com/privacy/partners">https://policies.google.com/privacy/partners)</a>
+                        <a href="https://policies.google.com/privacy/partners"><br/>https://policies.google.com/privacy/partners)</a>
                     </li>
                     <li>from public sources (including social media platforms which have their own separate privacy policies that govern the access and use of personal information held by those sources)</li>
                     <li>from third parties who are entitled to disclose that information to us</li>

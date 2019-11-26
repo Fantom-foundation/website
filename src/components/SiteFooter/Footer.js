@@ -32,12 +32,12 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="second-section">
-                        <div>@2019 Fantom Foundation</div>
+                        <div>&copy;2019 Fantom Foundation</div>
                         <div></div>
                         <div className="privacy-policy"><a href="/privay-policy/">Privacy Policy</a></div>
                     </div>
                 </div>
-                
+
                 <div className="container footer-inner-container-mobile section">
                     <div className="footer-first-col">
                         <p className="footer-link"><a href="#"><img src="/images/footer/fantom new logo.svg" alt="fantom icon" /></a></p>
@@ -55,7 +55,7 @@ const Footer = () => {
                             <span><a target="_blank" href="https://medium.com/fantomfoundation"><img src="/images/footer/medium.svg" alt="medium" /></a></span>
                         </p>
                         <p className="footer-link footer-link-light"><a href="/privay-policy/">Privacy Policy</a></p>
-                        <p className="footer-link footer-link-light">@2019 Fantom Foundation</p>
+                        <p className="footer-link footer-link-light">&copy;2019 Fantom Foundation</p>
                     </div>
                 </div>
             </div>
