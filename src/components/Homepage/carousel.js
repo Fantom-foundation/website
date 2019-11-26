@@ -11,7 +11,8 @@ function formatDate(newDate) {
     "August", "September", "October",
     "November", "December"
   ];
-  let date = new Date(newDate);
+  let date = new Date(newDate.replace(' ', 'T'));
+  //let date = new Date(newDate);
 
   return monthNames[date.getMonth()] + ' ' + date.getDate() + ', ' + date.getFullYear();
 }
