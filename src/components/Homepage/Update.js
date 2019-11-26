@@ -78,10 +78,20 @@ class LatestUpdate extends React.Component {
                             url={url}
                             render={({ subscribe, status, message }) => (
                                 <div>
-                                <CustomForm  onValidated={formData => subscribe(formData)} />
-                                {status === "sending" && <div className="message-section" style={{ color: "blue" }}>sending...</div>}
-                                {status === "error" && <div  className="message-section" style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}
-                                {status === "success" && <div  style={{ color: "green" }}>Subscribed !</div>}
+                                    <CustomForm onValidated={formData => subscribe(formData)} />
+                                    {status === "sending" && <div className="message-section" style={{ color: "blue" }}>sending...</div>}
+                                    {/* {status === "error" && <div  className="message-section" style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>} */}
+                                    {status === "error" ? (
+                                        message === "0 - Please enter a value" ? <div className='message-section' style={{ color: 'red' }} dangerouslySetInnerHTML={{ __html: 'Please enter email' }} />
+                                            :
+                                            ( message === "0 - An email address must contain a single @" ? <div className='message-section' style={{ color: 'red' }} dangerouslySetInnerHTML={{ __html: 'Please enter a valid email' }} />
+                                             : <div className="message-section" style={{ color: "red" }} dangerouslySetInnerHTML={{ __html: message }} />
+                                            )
+                                          )
+
+                                        : ""
+                                    }
+                                    {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
                                 </div>
                             )}
                         />

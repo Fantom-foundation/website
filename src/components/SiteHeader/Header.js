@@ -57,7 +57,7 @@ class Header extends React.Component{
     return(
         <header className={`header ${headerClass}`}>
             <div className="container navigation">
-                    <h1 className="logo"><Link to="#"><img src={imgsrc} alt=""/></Link></h1>
+                    <h1 className="logo"><Link to="/"><img src={imgsrc} alt=""/></Link></h1>
                     <ul className="main-nav">
                         <li><Link to="/about/">What is Fantom?</Link></li>
                         <li><Link to="/developer/">Developers</Link></li>
@@ -71,7 +71,7 @@ class Header extends React.Component{
                     </button>
                     <div className={`slide-right ${menuClass}` }>
                     <div className="mobile-nav-header">
-                            <span className="nav-img"><Link to="#"><img src="/images/home/fantom_name_blue.svg" alt=""/></Link></span>
+                            <span className="nav-img"><Link to="/"><img src="/images/home/fantom_name_blue.svg" alt=""/></Link></span>
                             <span className="close-button" onClick={() => this.toggle()}><img src="/images/menu-Icon/X.svg" alt="close Button"/></span>
                         </div>
                         

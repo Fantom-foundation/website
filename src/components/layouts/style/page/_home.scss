@@ -775,6 +775,11 @@ h1{
     outline: none !important;
 
 }
+.message-section {
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+}
 @media (max-width: 414px){
     .grid-inner-container {
         grid-template-columns: auto;
