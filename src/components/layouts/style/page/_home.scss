@@ -605,6 +605,9 @@ h1{
         justify-content: space-evenly;
         margin-top: 50px;
     }
+    .update-section .main-update .update-form{
+        margin-right: 0px;
+    }
     .container {
         max-width: 100% !important;
     }
@@ -703,7 +706,7 @@ h1{
     }
     .update-form:after { 
         bottom: 135px;
-        left: 95%;
+        left: 86%;
     }
     .learn {
         .learn-section .learn-img {
