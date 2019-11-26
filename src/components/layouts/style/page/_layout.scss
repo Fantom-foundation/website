@@ -45,11 +45,11 @@
 
 
 .update-section {
-    .main-update {
-       .update-form {
-           position: relative;
-       }
+  .main-update {
+    .update-form {
+      position: relative;
     }
+  }
 }
 
 .update-form:before {
@@ -77,12 +77,32 @@
 
 // Media query
 
-@media (max-width: 769px){
+@media (min-width: 769px) {
+  h1{
+    font-size: 90px !important;
+  }
+  h2{
+    font-size: 64px !important;
+  }
+  h3{
+    font-size: 48px !important;
+  }
+  h4{
+    font-size: 30px !important;
+  }
+  p{
+    font-size: 21px !important; 
+  }
+}
+@media (max-width: 768px){
   h1{
     font-size: 54px !important;
   }
   h2{
     font-size: 42px !important;
+  }
+  h3{
+    font-size: 36px !important;
   }
   h4{
     font-size: 28px !important;
@@ -92,3 +112,17 @@
   }
 }
 
+@media (max-width: 360px){
+  .update-section {
+    .main-update {
+      .update-form {
+        h3{
+          text-align: left;
+        }
+        div input {
+          width: 95%;
+        }
+      }
+    }
+  }
+}

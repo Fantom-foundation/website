@@ -69,7 +69,7 @@ class LatestUpdate extends React.Component {
                 </div>
                 <div className="container main-update">
                     <div className="section update-form">
-                        <h2>Get the latest updates</h2>
+                        <h3>Get the latest updates</h3>
                         {/* <form method="POST" onSubmit={e => this.handleSubmit(e)} >
                             <input type="email" placeholder="Email Address" value={this.state.email} onChange={e => this.setEmail(e.target.value)} className="email-input" />
                             <input type="submit" value="Sign Up" className="button" />
