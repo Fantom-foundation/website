@@ -79,19 +79,19 @@
 
 @media (min-width: 769px) {
   h1{
-    font-size: 90px !important;
+    font-size: 90px;
   }
   h2{
-    font-size: 64px !important;
+    font-size: 64px;
   }
   h3{
-    font-size: 48px !important;
+    font-size: 48px;
   }
   h4{
-    font-size: 30px !important;
+    font-size: 30px;
   }
   p{
-    font-size: 21px !important; 
+    font-size: 21px; 
   }
 }
 @media (max-width: 768px){
@@ -116,9 +116,6 @@
   .update-section {
     .main-update {
       .update-form {
-        h3{
-          text-align: left;
-        }
         div input {
           width: 95%;
         }

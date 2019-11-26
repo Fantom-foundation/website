@@ -68,7 +68,10 @@
         }
     }
 
-    .meet-team p {
-        width: 100%;
+    .meet-team {
+        text-align: center;
+        p {
+            width: 100% !important;
+        }
     }
 }
