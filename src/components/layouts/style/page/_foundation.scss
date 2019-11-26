@@ -59,13 +59,26 @@
     }
 }
 
-@media (max-width: 769px)  {
+@media (max-width: 959px) {
     .grid-inner-container{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
+        .section{
+            width: 100%;
+        }
         .grid-item .member-image img {
             max-width: 150px;
             border-radius: 50%;
         }
+    }
+}
+
+@media (max-width: 769px)  {
+    .grid-inner-container{
+        grid-template-columns: auto auto;
+    }
+    .grid-inner-container.section {
+        margin-right: 0;
+        width: 100%;
     }
 
     .meet-team {
@@ -73,5 +86,15 @@
         p {
             width: 100% !important;
         }
+    }
+}
+
+@media (max-width: 375px){
+    .grid-inner-container{
+        grid-template-columns: auto;
+    }
+    .grid-inner-container.section {
+        margin-right: 0;
+        width: 100%;
     }
 }
