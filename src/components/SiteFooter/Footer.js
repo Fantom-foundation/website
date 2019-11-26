@@ -46,9 +46,10 @@ const Footer = () => {
                 </div>
                 <div className="container footer-inner-container-mobile section">
                     <div className="footer-fantom-icon">
-                        <a href="#"><img src="/images/footer/fantom new logo.svg" alt="fantom icon" /></a>
+                        
                     </div>
                     <div className="footer-first-col">
+                        <p className="footer-link"><a href="#"><img src="/images/footer/fantom new logo.svg" alt="fantom icon" /></a></p>
                         <p className="footer-link"><a href="/about/">What is Fantom?</a></p>
                         <p className="footer-link"><a href="/developer/">Developers</a></p>
                         <p className="footer-link"><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></p>
