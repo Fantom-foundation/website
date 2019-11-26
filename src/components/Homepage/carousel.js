@@ -126,7 +126,7 @@ class Carousel extends React.Component {
                   <div className="subcard">
                   <a href={post.link} target="_blank">
                     <div className="heading">
-                      <h4>{StrippedHeading}</h4>
+                      <h4>{StrippedHeading}...</h4>
                       <p>{formatDate(post.pubDate)}</p>
                     </div>
                     <div className="card-content">

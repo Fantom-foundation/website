@@ -535,6 +535,14 @@ h1{
     }
 }
 @media (max-width: 991px){
+    .intro-section.section .intro-text {
+        h2, p{
+            width: 100%;
+        }
+    }
+    .offer-group .offer-item .offer-text {
+        width: 330px;
+    }
     .carousel-card .subcard h4 {
         word-break: break-word;
     }
