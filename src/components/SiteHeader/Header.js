@@ -78,7 +78,7 @@ class Header extends React.Component{
                         <ul>
                             <li><Link to="/about/">What is Fantom?</Link></li>
                             <li><Link to="/developer/">Developers</Link></li>
-                            <li><Link to="#">Articles</Link></li>
+                            <li><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></li>
                             <li><Link to="/foundation/">Foundation</Link></li>
                             <li><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank">White Paper</a></li>
                         </ul>
