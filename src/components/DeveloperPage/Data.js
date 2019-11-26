@@ -2,7 +2,7 @@ export const learnMoreData = [
     {
         id: 1,
         heading:`Fantom: A scalable framework for asynchronous distributed systems`,
-        link:`/Documents/TP_arXiv_v51.pdf`,
+        link:`https://arxiv.org/abs/1810.10360`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {
@@ -14,7 +14,7 @@ export const learnMoreData = [
     {
         id: 3,
         heading:`StairDAG`,
-        link:`https://arxiv.org/pdf/1908.11810.pdf`,
+        link:`https://arxiv.org/abs/1908.11810`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {
@@ -25,30 +25,18 @@ export const learnMoreData = [
     },
     {
         id: 5,
-        heading:`StakeDag: Stake-based Consensus`,
-        link:`https://arxiv.org/abs/1907.03655`,
-        imgSrc:`/images/home/Arrow-Forward.svg`,
-    },
-    {
-        id: 6,
-        heading:`Stairdag: Cross-DAG Validation`,
-        link:`https://arxiv.org/pdf/1908.11810.pdf`,
-        imgSrc:`/images/home/Arrow-Forward.svg`,
-    },
-    {
-        id: 7,
         heading:`Defi Modules`,
         link:`/Documents/documents.pdf`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {
-        id: 8,
-        heading:`Lachesis Consensus`,
+        id: 6,
+        heading:`Opera`,
         link:`/Documents/Fantom_Paper_vRelease.pdf`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {
-        id: 9,
+        id: 7,
         heading:`Economics of Smart Contracts`,
         link:`https://arxiv.org/pdf/1910.11143.pdf`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
