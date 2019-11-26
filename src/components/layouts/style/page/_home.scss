@@ -535,6 +535,12 @@ h1{
     }
 }
 @media (max-width: 991px){
+    .carousel-card .subcard h4 {
+        word-break: break-word;
+    }
+    .slick-prev{
+        left: 55%;
+    }
     .privacy-page{
         .section{
             h4, p{
