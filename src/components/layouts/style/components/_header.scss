@@ -102,7 +102,14 @@ header.header.nav-development .container .main-nav li a {
         align-items: center;
     }
 }
-
+@media (min-width: 768px) and (max-width: 1199px){
+    .header .container .main-nav li {
+        padding: 10px 12px;
+    }
+    .header .container .main-nav a {
+        font-size: 18px !important;
+    }
+}
 @media (min-width: 1025px) {
 	.header {
 		flex-direction: row;

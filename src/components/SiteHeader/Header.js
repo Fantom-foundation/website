@@ -35,10 +35,10 @@ class Header extends React.Component{
         }
         let imgsrc 
         if(this.props.location.pathname === "/developer/"){
-            imgsrc =  '/images/home/fantom_name_blue.svg'
+            imgsrc =  '/images/menu-Icon/fantomBluelogo.svg'
         }
         else if(this.props.location.pathname === "/foundation/"){
-            imgsrc =  '/images/home/fantom_name_blue.svg'
+            imgsrc =  '/images/menu-Icon/fantomBluelogo.svg'
         }
         else {
             imgsrc = '/images/footer/fantom-logo-white-v-3.svg'

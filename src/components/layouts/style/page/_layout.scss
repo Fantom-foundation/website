@@ -48,6 +48,10 @@
   .main-update {
     .update-form {
       position: relative;
+      h3{
+        font-weight: 600;
+        color: #2c3b57;
+      }
     }
   }
 }
@@ -92,6 +96,9 @@
   }
   p{
     font-size: 21px; 
+  }
+  .update-form:after {
+    left: 107%;
   }
 }
 @media (max-width: 768px){

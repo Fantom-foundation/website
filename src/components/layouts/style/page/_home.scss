@@ -77,7 +77,6 @@ h1{
     background: $light-grey;
     padding: 50px 32px;
     border-radius: 20px;
-    margin-left: -35px;
     h2 {
         font-size: $h2;
         margin-bottom: 20px;
@@ -92,7 +91,6 @@ h1{
     justify-content: space-between;
     flex-flow: row wrap;
     margin-top: 10px;
-    margin-left: -35px;
     .Scalable {
         .offer-icon {
             background: $card-footer-3;
@@ -753,7 +751,7 @@ h1{
         min-height: 155px;
     }
     .developer-potal, .fantom-foundation {
-        min-width: 91% !important;
+        min-width: 454px !important;
         height: 300px !important;
     }
     .update-section .container .developer-potal p,
@@ -790,6 +788,11 @@ h1{
     text-decoration: none;
     outline: none !important;
 
+}
+@media (max-width: 480px){
+    .developer-potal, .fantom-foundation {
+        min-width: 90% !important;  
+    }
 }
 @media (max-width: 414px){
     .grid-inner-container {

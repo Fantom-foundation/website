@@ -1,3 +1,7 @@
+footer .footer-section .container .first-section .col.third-col {
+    justify-content: normal;
+    max-width: 300px;
+}
 footer{
     background-color: #426ed5;
     .footer-section {
@@ -37,9 +41,6 @@ footer{
                     }
                 }     
                 }
-                .col.third-col{
-                    max-width: 300px;
-                }
             }
             .second-section {
                 display: flex;
@@ -77,6 +78,9 @@ footer{
                                 width: 200px;
                             }
                         }
+                    }
+                    .col.third-col {
+                        justify-content: normal;
                     }
                     div{
                         margin-bottom: 52px;
