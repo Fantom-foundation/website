@@ -1,6 +1,5 @@
 import React from "react"
 import { learnMoreData, learnHeadingData } from "./Data"
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 
