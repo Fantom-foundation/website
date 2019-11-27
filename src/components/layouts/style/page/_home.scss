@@ -285,7 +285,7 @@ h1{
             }
             .fantom-foundation,
             .developer-potal{
-                transition: all ease-in-out 0.4s
+                transition: all ease-in-out 0.2s
             }
             .fantom-foundation:hover,
             .developer-potal:hover{
@@ -416,7 +416,7 @@ h1{
         margin-top: 30px;
         color: $font-color;
         padding: 10px 20px;
-        transition: all ease-in-out 0.4s !important;
+        transition: all ease-in-out 0.2s !important;
     a{
         text-decoration: none;
     }
@@ -427,7 +427,7 @@ h1{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        transition: all ease-in-out 0.4s !important;
+        transition: all ease-in-out 0.2s !important;
         &:hover{
             transform: scale(1.02);
         }
@@ -828,6 +828,24 @@ h1{
     .section{
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+    .section.update-form div button {
+        margin: auto;
+        margin-top: 20px;
+        line-height: 1.4;
+    }
+    
+    .section.update-form div input {
+        width: 100%; }
+    .section.update-form div {
+        margin-top: 30px;
+    }
+    
+    .update-form:before, .update-form:after {display: none}
+    
+    .update-section .main-update .update-form {
+        padding-left: 0;
+        padding-right: 0;
     }
     
 }
