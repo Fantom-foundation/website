@@ -83,13 +83,12 @@
         width: 100%;
     }
 }
-
-@media (max-width: 375px){
+@media (max-width: 480px){
     .grid-inner-container{
         grid-template-columns: auto;
-    }
-    .grid-inner-container.section {
-        margin-right: 0;
-        width: 100%;
+        .section{
+            margin-right: 0;
+            width: 100%;
+        }
     }
 }

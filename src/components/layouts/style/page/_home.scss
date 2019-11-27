@@ -655,25 +655,6 @@ h1{
             font-size: 16px;
         }
     }
-
-    .build {
-        border: 10px solid #59C5DD;
-        padding: 25px;
-        border-radius: 20px;
-        display: flex;
-        .build-section-text p {
-            width: 130% !important;
-        }
-        .build-section-img{
-            display: block !important;
-            .build-block img {
-                vertical-align: top;
-                max-width: 70px !important;
-                min-height: 70px !important;
-            }
-        } 
-    }
-
     .developer-potal, .fantom-foundation {
         min-width: 480px !important;
         height: 300px !important;
@@ -789,11 +770,10 @@ h1{
     
 }
 .carousel-card a {
-
     text-decoration: none;
     outline: none !important;
-
 }
+
 @media (max-width: 480px){
     .hero-section{
         min-height: 500px;
@@ -807,8 +787,28 @@ h1{
     .developer-potal, .fantom-foundation {
         min-width: 90% !important;  
     }
+    .carousel-section .carousel-card .subcard {
+        min-height: 450px;
+        h4 {
+            min-height: 70px;
+        }
+        .card-content p {
+            min-height: 120px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        } 
+    }
     .slider-heading{
         text-align: center;
+    }
+    .section{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .learn{
+        .learn-section{
+            margin-bottom: 30px;
+        }
     }
 }
 @media (max-width: 414px){
