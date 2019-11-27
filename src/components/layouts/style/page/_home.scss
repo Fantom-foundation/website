@@ -480,13 +480,13 @@ h1{
 
 
 .slick-track .slick-slide:nth-child(2n-1) .subcard{
-    background: #59C5DD !important;
+    border: 4px solid #58c4dc;
 }
 .slick-track .slick-slide:nth-child(2n) .subcard{
-    background: #FF9C8B !important;
+    border: 4px solid #ff9b8b;
 }
 .slick-track .slick-slide:nth-child(3n) .subcard{
-    background: #CDD4D8 !important;
+    border: 4px solid #95b3f6;
 }
 
 @media (max-width: 1199px){
