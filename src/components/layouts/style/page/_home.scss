@@ -488,6 +488,7 @@ h1{
 @media (max-width: 1199px){
     .inner-container{
         .carousel-section {
+            margin-left: 40px;
             .slider-heading {
                 padding-left: 0;
             }
@@ -498,18 +499,15 @@ h1{
             }
         }
     }
-    .inner-container.carousel-section{
-        margin-left: 40px;
-    }
     .header .container .main-nav a {
         padding: 10px 15px;
     }
-    .update-section .container .developer-potal, 
-    .update-section .container .fantom-foundation {
+    .update-section .update-section-bg .container .developer-potal, 
+    .update-section .update-section-bg .container .fantom-foundation {
         min-width: 454px;
     }
-    .update-section .container .developer-potal p, 
-    .update-section .container .fantom-foundation p {
+    .update-section .update-section-bg .container .developer-potal p, 
+    .update-section .update-section-bg .container .fantom-foundation p {
         font-size: 20px;
     }
     .intro-section.section .intro-text h2 {
@@ -524,12 +522,17 @@ h1{
     }
 }
 @media (max-width: 991px){
-    .update-section .container {
-        text-align: center;
-        display: contents;
-        justify-content: space-evenly;
-        margin-top: 50px;
-    }
+    .update-section{
+        .update-section-bg{
+            padding: 50px 0;
+            .container {
+                text-align: center;
+                display: contents;
+                justify-content: space-evenly;
+                margin-top: 50px;
+            }
+        }
+    } 
     .intro-section.section .intro-text {
         h2, p{
             width: 100%;
@@ -577,7 +580,7 @@ h1{
     }
 }
 @media (min-width: 769px) and (max-width: 991px){
-    .update-section .container .developer-potal, .update-section .container .fantom-foundation {
+    .update-section .update-section-bg .container .developer-potal, .update-section .update-section-bg .container .fantom-foundation {
         min-width: 504px;
     }
 }
@@ -586,13 +589,13 @@ h1{
         padding: 0;
         padding-left: 20px;
     }
-    .update-section .container {
+    .update-section .update-section-bg .container {
         text-align: center;
         display: contents;
         justify-content: space-evenly;
         margin-top: 50px;
     }
-    .update-section .main-update .update-form{
+    .update-section .update-section-bg .main-update .update-form{
         margin-right: 0px;
     }
     .container {
@@ -743,7 +746,7 @@ h1{
     .section {
         padding: 20px;
     }
-    .update-section .container .developer-potal .card-img{
+    .update-section .update-section-bg .container .developer-potal .card-img{
         height: 300px;
     }
     .carousel-card .subcard .card-content p {
@@ -753,11 +756,11 @@ h1{
         min-width: 454px !important;
         height: 300px !important;
     }
-    .update-section .container .developer-potal p,
-     .update-section .container .fantom-foundation p {
+    .update-section .update-section-bg .container .developer-potal p,
+     .update-section .update-section-bg.container .fantom-foundation p {
         width: 100%;
     }
-    .update-section .container .fantom-foundation .card-img {
+    .update-section .update-section-bg .container .fantom-foundation .card-img {
         height: 210px;
 
     }
@@ -777,7 +780,7 @@ h1{
     footer {
         padding-top: 10px;
     }
-    .update-section .container .developer-potal p{
+    .update-section .update-section-bg .container .developer-potal p{
         max-width: 80%;
     }
     
