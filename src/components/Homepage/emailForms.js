@@ -49,7 +49,7 @@ this.props.onValidated({
           value={this.state.email}  onChange={e => this.setEmail(e.currentTarget.value)}
           type="email"
           required
-          placeholder="Email Address"
+          placeholder="Enter your email address"
         />
         
         <button onClick={this.submit}>
