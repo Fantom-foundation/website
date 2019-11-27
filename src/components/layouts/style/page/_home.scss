@@ -404,24 +404,9 @@ h1{
     box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.08);
 }
 .inner-container.carousel-section {
-    margin-right: 0px;
-    max-width: 100%;
-    margin-left: 250px;
     .slider-heading {
         font-size: 32px;
         color: #2c3b57;
-        padding-left:200px;
-    }
-    .slick-list::before{
-        background: #fff;
-        content: "";
-        left: 0;
-        width: 200px;
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        position: absolute;
-        z-index: 10;
     }
 }
 .carousel-card {

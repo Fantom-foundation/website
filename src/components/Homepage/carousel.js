@@ -51,14 +51,11 @@ class Carousel extends React.Component {
       pauseOnHover: false,
       slidesToShow:3,
       slidesToScroll: 1,
-      centerMode: true,
-      centerPadding: '200px',
-      initialSlide: 1,
       responsive: [
         {
           breakpoint: 1920,
           settings:{
-            slidesToShow: 3,
+            slidesToShow:3,
             slidesToScroll: 1,
           }
       },
@@ -74,7 +71,6 @@ class Carousel extends React.Component {
       settings: {
         slidesToShow:2,
         slidesToScroll: 1,
-        centerPadding: '0',
         
       }
     },
@@ -83,7 +79,6 @@ class Carousel extends React.Component {
         settings: {
           slidesToShow:2,
           slidesToScroll: 1,
-          centerPadding: '0',
           
         }
       },
@@ -94,7 +89,6 @@ class Carousel extends React.Component {
               slidesToScroll: 1,
               dots: false,
               arrows: false,
-              centerPadding: '00px',
             }
         },
         {
@@ -104,7 +98,6 @@ class Carousel extends React.Component {
             slidesToScroll: 1,
             dots: false,
             arrows: false,
-            centerPadding: '00px',
           }
         }
     ],
@@ -113,7 +106,7 @@ class Carousel extends React.Component {
     };
    
     return (
-      <div className="inner-container carousel-section section">
+      <div className="inner-container container carousel-section section">
         <h2 className="slider-heading" data-aos="fade-right">Latest articles</h2>
         <Slider {...settings}>
           {
