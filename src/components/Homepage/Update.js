@@ -85,7 +85,7 @@ class LatestUpdate extends React.Component {
                                         message === "0 - Please enter a value" ? <div className='message-section' style={{ color: 'red' }} dangerouslySetInnerHTML={{ __html: 'Please enter email' }} />
                                             :
                                             ( message === "0 - An email address must contain a single @" ? <div className='message-section' style={{ color: 'red' }} dangerouslySetInnerHTML={{ __html: 'Please enter a valid email' }} />
-                                             : <div className="message-section" style={{ color: "red" }} dangerouslySetInnerHTML={{ __html: message }} />
+                                             : <div className="message-section" style={{ color: "red" }} dangerouslySetInnerHTML={{ __html: message.replace('0 - ','') }} />
                                             )
                                           )
                                         : ""
