@@ -62,14 +62,14 @@ class Carousel extends React.Component {
       {
         breakpoint: 1440, 
         settings:{
-          slidesToShow:2,
+          slidesToShow:3,
           slidesToScroll: 1,
         }
     },
     {
       breakpoint: 1199,
       settings: {
-        slidesToShow:2,
+        slidesToShow:3,
         slidesToScroll: 1,
         
       }
