@@ -259,105 +259,101 @@ h1{
         }
     }
 } 
-
-
-
 .update-section {
     overflow: hidden;
     margin-bottom: 150px;
-    img{
-        max-height: 200px;
-        width: 100%;
-    }
-    .container{
-        text-align: center;
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 50px;
-        .developer-potal .card-img{
-            position: absolute;
-            background-image: url("/images/cards/Oval.png");
-            background-repeat: no-repeat;
-            background-position: right -10px center;
-            background-size: contain;
-            width: 504px;
-            height: 322px;
-            border-radius: 20px;
-            right: 0px;
-            bottom: 0px; 
-        }
-        .fantom-foundation,
-        .developer-potal{
-            transition: all ease-in-out 0.4s
-        }
-        .fantom-foundation:hover,
-        .developer-potal:hover{
-            transform: scale(1.03)
-        }
-        .fantom-foundation .card-img{
-            position: absolute;
-            background-image: url("/images/cards/Polygon.png");
-            background-repeat: no-repeat;
-            background-position: right -10px center;
-            background-size: contain;
-            width: 504px;
-            height: 250px;
-            right: 0px;
-            bottom: 0px;  
-            border-bottom-right-radius: 20px;
-            
-        }
-       
-        .developer-potal, .fantom-foundation{
-            background: #3478ef;
-            max-width: 504px;
-            background-position: bottom;
-            background-repeat: no-repeat;
-            background-size: cover;
-            display: inline-block;
-            justify-content: space-between;
-            padding: 30px;
-            margin: 20px;
-            border-radius: 20px;
-            text-align: left;
-            min-width: 504px;
-            height: 322px;
-            position: relative;
-            h3{
-                width: 274px;
-                font-size: 48px;
-                font-weight: 600;
-                line-height: 1.13;
-            }
-            h3, p{
-                color: #fff;
-                margin: 0;
-                width: 80%;
-                margin-bottom: 20px;
-            }
-            p{
-                font-size: 21px;
-                font-weight: lighter;
-                width: 335px;
-                line-height: 1.52;
-
-            }
-            .intro-button {
+    .update-section-bg{
+        background: #f1f6ff;
+        padding: 180px 480px;
+        .container{
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            .developer-potal .card-img{
                 position: absolute;
-                bottom: 40px;
-                padding: 10px 15px;
+                background-image: url("/images/cards/Oval.png");
+                background-repeat: no-repeat;
+                background-position: right -10px center;
+                background-size: contain;
+                width: 504px;
+                height: 322px;
+                border-radius: 20px;
+                right: 0px;
+                bottom: 0px; 
+            }
+            .fantom-foundation,
+            .developer-potal{
+                transition: all ease-in-out 0.4s
+            }
+            .fantom-foundation:hover,
+            .developer-potal:hover{
+                transform: scale(1.03)
+            }
+            .fantom-foundation .card-img{
+                position: absolute;
+                background-image: url("/images/cards/Polygon.png");
+                background-repeat: no-repeat;
+                background-position: right -10px center;
+                background-size: contain;
+                width: 504px;
+                height: 250px;
+                right: 0px;
+                bottom: 0px;  
+                border-bottom-right-radius: 20px;
+                
+            }
+        
+            .developer-potal, .fantom-foundation{
+                background: #3478ef;
+                max-width: 504px;
+                background-position: bottom;
+                background-repeat: no-repeat;
+                background-size: cover;
                 display: inline-block;
-                background: #fff;
-                border-radius: 30px;
-                margin-top: 20px;
-                box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.08);    
-                font-size: 16px;
-                font-weight: bold;
-                text-decoration: none;
-                text-align: center;
-                color: #426ed5;
-           }
-            
+                justify-content: space-between;
+                padding: 30px;
+                margin: 20px;
+                border-radius: 20px;
+                text-align: left;
+                min-width: 504px;
+                height: 322px;
+                position: relative;
+                h3{
+                    width: 274px;
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 1.13;
+                }
+                h3, p{
+                    color: #fff;
+                    margin: 0;
+                    width: 80%;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 21px;
+                    font-weight: lighter;
+                    width: 335px;
+                    line-height: 1.52;
+
+                }
+                .intro-button {
+                    position: absolute;
+                    bottom: 40px;
+                    padding: 10px 15px;
+                    display: inline-block;
+                    background: #fff;
+                    border-radius: 30px;
+                    margin-top: 20px;
+                    box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.08);    
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    text-align: center;
+                    color: #426ed5;
+            }
+                
+            }
         }
     }
     h2{
@@ -490,11 +486,17 @@ h1{
 }
 
 @media (max-width: 1199px){
-    .inner-container.carousel-section .slick-list::before{
-        display: none
-    }
-    .inner-container.carousel-section .slider-heading {
-        padding-left: 0;
+    .inner-container{
+        .carousel-section {
+            .slider-heading {
+                padding-left: 0;
+            }
+            .slick-list{
+                &:before{
+                    display: none
+                }
+            }
+        }
     }
     .inner-container.carousel-section{
         margin-left: 40px;
