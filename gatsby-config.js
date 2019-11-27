@@ -6,6 +6,19 @@
 
 module.exports = {
   plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Fantom Global`,
+        short_name: `Fantom`,
+        start_url: `/`,
+        // background_color: `#f7f0eb`,
+        // theme_color: `#a2466c`,
+        // display: `standalone`,
+        icon: `static/images/favicon-fantom.svg`,
+      },
+    },
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -17,8 +30,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-          endpoint: 'https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6', 
+        endpoint: 'https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6',
       },
-  },
+    },
   ],
 }

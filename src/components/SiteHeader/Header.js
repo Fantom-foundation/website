@@ -26,7 +26,7 @@ class Header extends React.Component{
     return(
         <header className= "header">
             <div className="container navigation">
-                    <h1 className="logo"><Link to="#"><img src="/images/footer/fantom-logo-white-v-3.svg" alt="Fantom"/></Link></h1>
+                    <h1 className="logo"><Link to="#"><img src="/images/menu-Icon/fantom_logo_white_new.svg" alt="Fantom"/></Link></h1>
                     <ul className="main-nav">
                         <li><Link to="/about/">What is Fantom?</Link></li>
                         <li><Link to="/developer/">Developers</Link></li>
