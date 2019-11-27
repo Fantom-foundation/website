@@ -779,6 +779,19 @@ h1{
 }
 
 @media (max-width: 480px){
+    h1{
+        font-size: 45px !important;
+    }
+    h2{
+        font-size: 32px !important;
+    }
+    .update-section .update-section-bg .container .developer-potal h3, .update-section .update-section-bg .container .fantom-foundation h3{
+        font-size: 30px !important;
+    }
+    .offer-group .offer-item .offer-text{
+        min-height: 280px !important;
+    }
+
     .hero-section{
         min-height: 500px;
         .container{
