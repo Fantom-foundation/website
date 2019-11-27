@@ -38,21 +38,19 @@ h1{
 }
 .hero-section{
     background-image: url("/images/home/Mask-Group1.png");
-    height: auto;
+    min-height: 700px;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     z-index: -1; 
     .container {     
-        padding: 200px 0px;
-        padding-top: 350px;
+        padding: 150px 0px;
         h1{
             width: 70%;
             font-size: $h1;
             color: $primary-white;
-            margin-top: 30px;
-            margin-bottom: 30px;
+            margin-top: 100px;
             font-weight: bold;
         }
     }
@@ -603,9 +601,7 @@ h1{
     }
     .hero-section, .developer-hero{
         .container{
-            padding-bottom: 150px !important;
-            padding-top: 100px !important;
-            padding-left: 20px !important;
+            padding: 50px 0 0 15px ;
             h1{
                 width: 100% !important;
             }
@@ -792,6 +788,15 @@ h1{
 
 }
 @media (max-width: 480px){
+    .hero-section{
+        min-height: 500px;
+        .container{
+            padding: 50px 0 0 15px ;
+            h1{
+                width: 100% !important;
+            }
+        }
+    }
     .developer-potal, .fantom-foundation {
         min-width: 90% !important;  
     }

@@ -1,27 +1,3 @@
-.developer-hero{
-    background-image: url("/images/home/Bg_grey_shapes.svg");
-    height: auto;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: -1; 
-    .container {
-        text-align: left;
-        height:auto;        
-        padding: 180px 0px;
-        padding-top: 250px;
-        h1{
-            width: 70%;
-            font-size: $h1;
-            color: $font-color;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            font-weight: bold;
-        }
-    }
-}
-
 // Build section
 
 .build {
