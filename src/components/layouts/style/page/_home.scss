@@ -407,18 +407,21 @@ h1{
         color: #2c3b57;
     }
 }
+.slick-list, .slick-slider {
+    margin: 0 -10px;
+}
 .carousel-card {
         display: flex !important;
         flex-flow: row wrap;
         margin-top: 30px;
         color: $font-color;
-        padding: 10px 5px;
+        padding: 10px 20px;
         transition: all ease-in-out 0.4s !important;
     a{
         text-decoration: none;
     }
     .subcard {
-        flex-basis: 90%;
+        flex-basis: 100%;
         padding: 30px;
         border-radius: 30px;
         display: flex;
