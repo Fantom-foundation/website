@@ -589,6 +589,14 @@ h1{
         min-width: 504px;
     }
 }
+@media (min-width: 770px) and (max-width: 991px){
+    .update-form:after {
+        left: 95%;
+    }
+    .update-form:before {
+        left: 0%;
+    }
+}
 @media (max-width: 769px) {
     .introduction.section {
         padding: 0;
@@ -655,9 +663,9 @@ h1{
             font-size: 16px;
         }
     }
-    .developer-potal, .fantom-foundation {
-        min-width: 480px !important;
-        height: 300px !important;
+    .update-section .update-section-bg .container .developer-potal, .update-section .update-section-bg .container .fantom-foundation {
+        min-width: 480px;
+        height: 300px;
         h3{
             font-size: 36px !important;
             width: 60% !important;
@@ -736,10 +744,6 @@ h1{
     .carousel-card .subcard .card-content p {
         min-height: 155px;
     }
-    .developer-potal, .fantom-foundation {
-        min-width: 454px !important;
-        height: 300px !important;
-    }
     .update-section .update-section-bg .container .developer-potal p,
      .update-section .update-section-bg.container .fantom-foundation p {
         width: 100%;
@@ -784,8 +788,12 @@ h1{
             }
         }
     }
-    .developer-potal, .fantom-foundation {
-        min-width: 90% !important;  
+    .update-section .update-section-bg .container .fantom-foundation, .update-section .update-section-bg .container .developer-potal {
+        min-width: 90%;  
+        width: 90%;
+    }
+    .update-section .update-section-bg .container .developer-potal p {
+        max-width: 200px;
     }
     .carousel-section .carousel-card .subcard {
         min-height: 450px;
@@ -815,6 +823,7 @@ h1{
     .grid-inner-container {
         grid-template-columns: auto;
     }
+
 }
 @media (max-width: 361px){
     .offer-item {
