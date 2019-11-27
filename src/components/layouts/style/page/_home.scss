@@ -214,6 +214,9 @@ h1{
 }
 
 // update form 
+.main-update{
+    max-width: 720px;
+}
 
 .section.update-form div {
     margin-top: 62px;
@@ -593,7 +596,7 @@ h1{
         justify-content: space-evenly;
         margin-top: 50px;
     }
-    .update-section .update-section-bg .main-update .update-form{
+    .update-section .main-update .update-form{
         margin-right: 0px;
     }
     .container {

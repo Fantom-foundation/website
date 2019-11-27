@@ -1,6 +1,6 @@
 footer .footer-section .container .first-section .col.third-col {
     justify-content: normal;
-    max-width: 300px;
+    max-width: 200px;
 }
 footer{
     background-color: #426ed5;
@@ -10,7 +10,7 @@ footer{
             display: none;
         }
         .container {
-            padding: 100px 0 120px 0;
+            padding: 50px 10px;
          .first-section {
             display: flex;
             .col{
@@ -18,7 +18,7 @@ footer{
                 flex-direction: column;
                 justify-content: space-between;
                 font-family: "Work Sans";
-                font-size: 32px;
+                font-size: $body-font;
                 font-weight: 600;
                 padding: 0;
                 .footer-logo{
@@ -52,11 +52,11 @@ footer{
                 }
                 div, div a{
                     color: #c9c9c9;
-                    font-size: 18px;
+                    font-size: $link-font;
                     font-family: "Work Sans";
                 }
                 .privacy-policy{
-                    max-width: 300px;
+                    max-width: 200px;
                 }
             }
         }

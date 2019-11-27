@@ -15,7 +15,7 @@ class Hero extends React.Component {
         return(
             <div className="hero-section container-fluid">
                 <div className="container">
-                    <h1 data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-offset="200">The core of the new internet</h1>
+                    <h1 data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600">The core of the new internet</h1>
                 </div>
             </div>
         )
