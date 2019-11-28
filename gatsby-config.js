@@ -12,7 +12,7 @@ module.exports = {
       options: {
         name: `Fantom Foundation`,
         short_name: `Fantom`,
-        start_url: `/`,
+        // start_url: `/`,
         // background_color: `#f7f0eb`,
         // theme_color: `#a2466c`,
         // display: `standalone`,
