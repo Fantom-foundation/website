@@ -600,6 +600,15 @@ h1{
         left: 0%;
     }
 }
+@media (min-width: 770px){
+    .hero-section{
+        min-height: 500px;
+        .container{
+            padding: 0px;
+        }
+    }
+}
+
 @media (max-width: 769px) {
     .introduction.section {
         padding: 0;
@@ -619,7 +628,7 @@ h1{
     }
     .hero-section, .developer-hero{
         .container{
-            padding: 50px 0 0 15px ;
+            //padding: 50px 0 0 15px ;
             h1{
                 width: 100% !important;
             }

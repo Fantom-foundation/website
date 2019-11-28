@@ -1,16 +1,6 @@
 export const teamMemberData = [
     {
-        id: 1,
-        imgUrl: `/images/team-member/Ahn Byung Ik.png`,
-        imgAlt : `Ahn Byung Ik`,
-        name : `Ahn Byung Ik`,
-        designation : `Founder`,
-        linkedInImg : `/images/team-member/linkedin.png`,
-        linkedInAlt : `linkedin Ahn`,
-        linkedInUrl : `https://www.linkedin.com/in/ahnbyungik/`,
-    },
-    {
-        id : 2,
+        id : 1,
         imgUrl : `/images/team-member/Michael Kong.png`,
         imgAlt : `Michael Kong`,
         name : `Michael Kong`,
@@ -20,7 +10,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/michael-kong-89817544/`,
     },
     {
-        id : 3,
+        id : 2,
         imgUrl : `/images/team-member/xMichael.png.pagespeed.ic.myh9n1dicT.png`,
         imgAlt : `Michael Chen`,
         name : `Michael Chen`,
@@ -30,7 +20,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/michael-chen-b982a9157/`,
     },
     {
-        id : 4,
+        id : 3,
         imgUrl : `/images/team-member/Guillaume Drevon.png`,
         imgAlt : `Guillaume Drevon`,
         name : `Guillaume Drevon`,
@@ -40,7 +30,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/bariq-sikandari-597752153/`,
     },
     {
-        id : 5,
+        id : 4,
         imgUrl : `/images/team-member/Barek Sekandari.png`,
         imgAlt : `Barek Sekandari`,
         name : `Barek Sekandari`,
@@ -50,7 +40,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/bariq-sikandari-597752153/`,
     },
     {
-        id : 6,
+        id : 5,
         imgUrl : `/images/team-member/Samuel-Harcourt.png`,
         imgAlt : `Samuel Harcourt`,
         name : `Samuel Harcourt`,
@@ -60,7 +50,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/samuel-harcourt-9aa7a9161/`,
     },
     {
-        id : 7,
+        id : 6,
         imgUrl : `/images/team-member/Samuel Marks.png`,
         imgAlt : `Samuel Marks`,
         name : `Samuel Marks`,
@@ -70,7 +60,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/samuelmarks/`,
     },
     {
-        id : 8,
+        id : 7,
         imgUrl : `/images/team-member/QuanNguyen.png.pagespeed.ic.VSWJTsdUpY.png`,
         imgAlt : `Quan Nguyen`,
         name : `Quan Nguyen`,
@@ -80,7 +70,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/quannguyenh/`,
     },
     {
-        id :  9,
+        id : 8,
         imgUrl : `/images/team-member/Maxim Zakharov.png`,
         imgAlt : `Maxim Zakharov`,
         name : `Maxim Zakharov`,
@@ -90,7 +80,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/dpmaxime/`,
     },
     {
-        id :  10,
+        id :  9,
         imgUrl : `/images/team-member/AndreCronjepng.pagespeed.ic.E-xJP1cNRJ.png`,
         imgAlt : `Andre Cronje`,
         name : `Andre Cronje`,
@@ -100,7 +90,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/andre-cronje/`,
     },
     {
-        id :  11,
+        id :  10,
         imgUrl : `/images/team-member/Alex_Kampa.png.pagespeed.ic.o0gt0gRC6m.png`,
         imgAlt : `Alex Kampa`,
         name : `Alex Kampa`,
@@ -110,7 +100,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/aleksander-alex-kampa-97436571/`,
     },
     {
-        id :  12,
+        id :  11,
         imgUrl : `/images/team-member/Agustine-min.png`,
         imgAlt : `Augustine Chiappe`,
         name : `Augustine Chiappe`,
@@ -120,7 +110,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/agust%C3%ADn-chiappe-berrini-21369131/`,
     },
     {
-        id :  13,
+        id :  12,
         imgUrl : `/images/team-member/Maxim Prishchepo.png`,
         imgAlt : `Maxim Prishchepo`,
         name : `Maxim Prishchepo`,
@@ -130,7 +120,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/mprishchepo/`,
     },
     {
-        id :  14,
+        id :  13,
         imgUrl : `/images/team-member/Alexandr Guzev.png`,
         imgAlt : `Alexandr Guzev`,
         name : `Alexander Guzev`,
@@ -140,7 +130,7 @@ export const teamMemberData = [
         linkedInUrl : ``,
     },
     {
-        id :  15,
+        id :  14,
         imgUrl : `/images/team-member/Chernyshov Yury.png`,
         imgAlt : `Yury Chernyshov`,
         name : `Yury Chernyshov`,
@@ -150,7 +140,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/yury-chernyshov/`,
     },
     {
-        id :  16,
+        id :  15,
         imgUrl : `/images/team-member/Anatoly Sokolnikov.png`,
         imgAlt : `Anatoly Sokolnikov`,
         name : `Anatoly Sokolnikov`,
@@ -160,7 +150,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/anatoliy-sokolnikov/`,
     },
     {
-        id :  17,
+        id :  16,
         imgUrl : `/images/team-member/Egor Lysenko.png`,
         imgAlt : `Egor Lysenko`,
         name : `Egor Lysenko`,
@@ -170,7 +160,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/egor-lysenko-377186115/`,
     },
     {
-        id :  18,
+        id :  17,
         imgUrl : `/images/team-member/Gleb Selyukov.png`,
         imgAlt : `Gleb Selyukov`,
         name : `Gleb Selyukov`,
@@ -180,7 +170,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/prospik/`,
     },
     {
-        id :  19,
+        id :  18,
         imgUrl : `/images/team-member/Oleg Kislisin.png`,
         imgAlt : `Oleg Kislisin`,
         name : `Oleg Kislisin`,
