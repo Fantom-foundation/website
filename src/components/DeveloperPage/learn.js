@@ -44,12 +44,14 @@ class Learn extends React.Component {
                             } = learnList;
                             return(
                             <div className="list" key={id}>
-                                <div className="list-text">
-                                    <h4 data-aos="slide-up">{heading}</h4>
-                                </div>
-                                <div className="list-icon">
-                                    <a href={link} target="_blank" rel="noopener noreferrer"><img src= {imgSrc} alt="learn" data-aos="fade-up-left" /></a>
-                                </div>
+                                <a href={link} target="_blank" rel="noopener noreferrer">
+                                    <div className="list-text">
+                                        <h4 data-aos="slide-up">{heading}</h4>
+                                    </div>
+                                    <div className="list-icon">
+                                        <img src= {imgSrc} alt="learn" data-aos="fade-up-left" />
+                                    </div>
+                                </a>
                             </div>
                             )
                         })}

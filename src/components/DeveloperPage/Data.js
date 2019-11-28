@@ -1,14 +1,14 @@
 export const learnMoreData = [
     {
         id: 1,
-        heading:`Fantom: A scalable framework for asynchronous distributed systems`,
-        link:`https://arxiv.org/abs/1810.10360`,
+        heading:`Defi Modules`,
+        link:`/Documents/documents.pdf`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {
         id: 2,
-        heading:`StakeDag`,
-        link:`https://arxiv.org/abs/1907.03655`,
+        heading:`Economics of Smart Contracts`,
+        link:`https://arxiv.org/pdf/1910.11143.pdf`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {
@@ -19,26 +19,26 @@ export const learnMoreData = [
     },
     {
         id: 4,
+        heading:`StakeDag`,
+        link:`https://arxiv.org/abs/1907.03655`,
+        imgSrc:`/images/home/Arrow-Forward.svg`,
+    },
+    {
+        id: 5,
         heading:`ONLAY: Online Layering`,
         link:`https://arxiv.org/abs/1905.04867`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {
-        id: 5,
-        heading:`Defi Modules`,
-        link:`/Documents/documents.pdf`,
-        imgSrc:`/images/home/Arrow-Forward.svg`,
-    },
-    {
         id: 6,
-        heading:`Opera`,
-        link:`/Documents/Fantom_Paper_vRelease.pdf`,
+        heading:`Fantom: A scalable framework for asynchronous distributed systems`,
+        link:`https://arxiv.org/abs/1810.10360`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
     {
         id: 7,
-        heading:`Economics of Smart Contracts`,
-        link:`https://arxiv.org/pdf/1910.11143.pdf`,
+        heading:`Opera`,
+        link:`/Documents/Fantom_Paper_vRelease.pdf`,
         imgSrc:`/images/home/Arrow-Forward.svg`,
     },
 ]

@@ -76,12 +76,17 @@
         }
     }
     .learn-list{
-        width: 55%;
-        .list{
+        width: 90%;
+        .list a{
             display: flex;
             justify-content: space-around;
             margin-top: 60px;
             margin-left: 32px;
+            color: #404a64;
+            &:hover{
+                text-decoration: none;
+                color: #404a64;
+            }
             .list-text{
                 flex-basis: 85%;
                 h4{
@@ -95,14 +100,11 @@
                 align-items: center;
                 flex-direction: column;
                 justify-content: space-between;
-                a{
-                    img{
-                        vertical-align: top;
-                    }
+                img{
+                    vertical-align: top;
                 }
             }
-        }
-
+        } 
     }
 }
 
@@ -127,7 +129,7 @@
 @media (max-width: 1199px){
     .learn{
         .learn-list{
-            .list{
+            .list a{
                 margin-top: 40px;
                 .list-text{
                     h4 {
@@ -135,12 +137,10 @@
                     }
                 }
                 .list-icon{
-                    a{
-                        img{
-                            max-width: 50px;
-                        }
+                    img{
+                        max-width: 50px;
                     }
-                }
+                } 
             }
         }
     } 
@@ -163,6 +163,9 @@
             }
         } 
     }
+    .learn .learn-section {
+        width: 95%;
+    }
 }
 @media (max-width: 480px){
     .build {
@@ -180,18 +183,16 @@
             margin-bottom: 30px;
         }
         .learn-list{
-            .list{
-                margin-top: 20px;
+            .list a{
+            margin-top: 20px;
                 .list-text{
                     h4 {
                         font-size: 15px !important;
                     }
                 }
                 .list-icon{
-                    a{
-                        img{
-                            max-width: 40px;
-                        }
+                    img{
+                        max-width: 40px;
                     }
                 }
             }
