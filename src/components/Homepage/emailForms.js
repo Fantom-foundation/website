@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 class CustomForm extends React.Component {
   state = {
     email: "",
@@ -9,7 +9,7 @@ class CustomForm extends React.Component {
 
 }
 setEmail(evt) {
-  if (evt == "") {
+  if (evt === "") {
       this.setState({invaidEmail: true});
   } else {
       this.setState({invaidEmail: false});
@@ -17,10 +17,10 @@ setEmail(evt) {
   this.setState({email: evt});
 
 }
- submit = (e) => {
+ submit = () => {
  
   let email = this.state.email;
-  if (email == "") {
+  if (email === "") {
     this.setState({invaidEmail: true});
 } else {
     this.setState({invaidEmail: false});
@@ -30,11 +30,7 @@ this.props.onValidated({
       });
 }
 
-  render() {
-    let email = this.state.email;
-    
-    let status = this.state.status;
-    let message = this.state.message
+  render() {    
     return (
       <div>
         {/* {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}

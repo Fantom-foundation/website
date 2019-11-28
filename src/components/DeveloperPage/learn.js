@@ -16,14 +16,14 @@ class Learn extends React.Component {
         return(
             <div className="container section">
                 <div className="learn">
-                {learnHeadingData.map(headingData => {
+                {learnHeadingData.map((headingData,i) => {
                     const {
                         heading,
                         discription,
                         img,
                     } = headingData;
                     return(
-                            <div className="learn-section">
+                            <div className="learn-section" key={i}>
                                 <div className="learn-text">
                                     <h2>{heading}</h2>
                                     <p>{discription}</p>
@@ -48,7 +48,7 @@ class Learn extends React.Component {
                                     <h4 data-aos="slide-up">{heading}</h4>
                                 </div>
                                 <div className="list-icon">
-                                    <a href={link} target="_blank"><img src= {imgSrc} alt="learn" data-aos="fade-up-left" /></a>
+                                    <a href={link} target="_blank" rel="noopener noreferrer"><img src= {imgSrc} alt="learn" data-aos="fade-up-left" /></a>
                                 </div>
                             </div>
                             )

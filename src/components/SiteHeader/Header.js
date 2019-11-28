@@ -21,7 +21,7 @@ class Header extends React.Component{
         this.toggle()
       }
     render () {
-        const { menuOpen, visible } = this.state;
+        const { menuOpen} = this.state;
         const menuClass = menuOpen ? "openMenu" : ""
     return(
         <header className= "header">
@@ -30,7 +30,7 @@ class Header extends React.Component{
                     <ul className="main-nav">
                         <li><Link to="/about/">What is Fantom?</Link></li>
                         <li><Link to="/developer/">Developers</Link></li>
-                        <li><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></li>
+                        <li><a href="https://medium.com/fantomfoundation" target="_blank" rel="noopener noreferrer">Articles</a></li>
                         <li><Link to="/foundation/">Foundation</Link></li>
                     </ul>
                 </div> 
@@ -47,9 +47,9 @@ class Header extends React.Component{
                         <ul>
                             <li><Link to="/about/">What is Fantom?</Link></li>
                             <li><Link to="/developer/">Developers</Link></li>
-                            <li><a href="https://medium.com/fantomfoundation" target="_blank">Articles</a></li>
+                            <li><a href="https://medium.com/fantomfoundation" target="_blank" rel="noopener noreferrer">Articles</a></li>
                             <li><Link to="/foundation/">Foundation</Link></li>
-                            <li><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank">White Paper</a></li>
+                            <li><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank" rel="noopener noreferrer">White Paper</a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,7 +1,6 @@
 import React from "react"
 import Slider from "react-slick"
 import axios from "axios"
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function formatDate(newDate) {
@@ -24,15 +23,7 @@ class Carousel extends React.Component {
       posts: []
     }
   }
-  componentDidMount() {
-    const AOS = require('aos');
-    this.aos = AOS
-    this.aos.init({
-      once: true,
-      disable: 'mobile',
-  })
-}
-
+  
   componentDidMount() {
     const data = 'https://medium.com/feed/fantomfoundation';
     axios.get('https://api.rss2json.com/v1/api.json?rss_url=' + data).then(response => {
@@ -41,7 +32,14 @@ class Carousel extends React.Component {
         posts: fetchedPosts
       });
     })
-  }
+
+    const AOS = require('aos');
+    this.aos = AOS
+    this.aos.init({
+      once: true,
+      disable: 'mobile',
+    })
+    }
   render() {
     let postsState = this.state.posts
     var settings = {
@@ -117,7 +115,7 @@ class Carousel extends React.Component {
               return (
                 <div className="carousel-card" data-index={index} key={index}>
                   <div className="subcard">
-                  <a href={post.link} target="_blank">
+                  <a href={post.link} target="_blank" rel="noopener noreferrer">
                     <div className="heading">
                       <h4>{post.title}</h4>
                       <p>{formatDate(post.pubDate)}</p>

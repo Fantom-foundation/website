@@ -13,13 +13,13 @@ class MeetTeam extends React.Component {
     render(){
         return(
             <div className="container section">
-                {teamData.map(headingData => {
+                {teamData.map((headingData,i) => {
                     const {
                         heading,
                         discription,
                     } = headingData;
                     return(
-                        <div className ="meet-team">
+                        <div className ="meet-team" key={i}>
                             <h2 data-aos="slide-up">{heading}</h2>
                             <p data-aos="slide-up">{discription}</p>
                         </div>

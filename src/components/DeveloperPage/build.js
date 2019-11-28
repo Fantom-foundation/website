@@ -1,6 +1,5 @@
 import React from "react"
 import { buildData } from "./Data"
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 
@@ -18,7 +17,7 @@ class Build extends React.Component {
     render(){
         return(
             <div className="container section">
-                {buildData.map(buildcontent => {
+                {buildData.map((buildcontent,i) => {
                             const { 
                                 heading,
                                 discription,
@@ -26,11 +25,11 @@ class Build extends React.Component {
                                 img,
                             } = buildcontent;
                 return(
-                    <div className="build">
+                    <div className="build" key={i}>
                     <div className="build-section-text">
                         <h2 data-aos="slide-up">{heading}</h2>
                         <p data-aos="slide-up">{discription}</p>
-                        <a href={href} target="_blank" data-aos="slide-up"><input type="submit" value="Get Started" className="button"/></a>
+                        <a href={href} target="_blank" data-aos="slide-up" rel="noopener noreferrer"><input type="submit" value="Get Started" className="button"/></a>
                         
                     </div>
                     <div className="build-section-img" data-aos="slide-up">
