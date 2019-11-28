@@ -102,6 +102,10 @@
                 justify-content: space-between;
                 img{
                     vertical-align: top;
+                    transition: all ease-in-out 0.2s;
+                    &:hover{
+                        transform: scale(1.08);
+                    }
                 }
             }
         } 
