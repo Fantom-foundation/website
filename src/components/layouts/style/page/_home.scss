@@ -899,6 +899,14 @@ h1{
     .grid-inner-container {
         grid-template-columns: auto;
     }
+    .update-section .update-section-bg .container a .developer-potal, .update-section .update-section-bg .container a .fantom-foundation{
+        h3{
+            font-size: 26px !important;
+        }
+        p{
+            font-size: 14px !important;
+        }
+    }
 }
 @media (max-width: 321px){
     .grid-inner-container .grid-item .member-image img {
