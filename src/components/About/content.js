@@ -20,7 +20,7 @@ const Content = () => {
                 return(
                     <div className="introduction section" key={id}>
                         <h4>{heading}</h4>
-                        <p>
+                        <div>
                             {spanOne && <span> {spanOne} </span>}
                             {content && content}
                             {spanTwo && <span> {spanTwo} </span>}
@@ -28,8 +28,8 @@ const Content = () => {
                             {contentBefore && contentBefore}
                             {spanAfter && spanAfter}
                             {spanAfterTwo && spanAfterTwo}
-                        </p>
-                        <p>
+                        </div>
+                        <div>
                             {list &&
                                 <ul>
                                     {list.map(listContent => {
@@ -45,7 +45,7 @@ const Content = () => {
                                     })}
                                 </ul>
                             }
-                        </p>        
+                        </div>        
                     </div>
                 )  
             })}                
