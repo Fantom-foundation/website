@@ -810,6 +810,13 @@ h1{
     }  
 }
 @media (max-width: 480px){
+
+    .update-section .update-section-bg{
+        padding: 50px 0 20px;
+    }
+    .main-update{
+        margin-bottom: 80px;
+    }
     h1{
         font-size: 45px !important;
     }
