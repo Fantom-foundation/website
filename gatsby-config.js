@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Fantom Global`,
+        name: `Fantom Foundation`,
         short_name: `Fantom`,
         start_url: `/`,
         // background_color: `#f7f0eb`,
