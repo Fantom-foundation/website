@@ -58,7 +58,7 @@ class LatestUpdate extends React.Component {
                             <div className="fantom-foundation">
                                 <div className="card-img" data-aos="slide-up" data-aos-easing="ease" data-aos-duration="600" data-aos-offset="500"> </div>
                                 <h3>The Fantom Foundation</h3>
-                                <p>The people, the culture.</p>
+                                <p>The people. The culture.</p>
                                 <div className="intro-button">
                                     Learn More
                                 </div>

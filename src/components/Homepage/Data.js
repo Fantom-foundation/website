@@ -27,7 +27,7 @@ export const offerData = [
         id:`4`,
         classname:`Connected offer-item`,
         heading:`Connected`,
-        des:`Products and blockchains using Fantom SDK can interact with each other through non-custodial bridges and bonded tokens.`,
+        des:`Products and ledgers using Fantom's SDK can interact with each other through non-custodial bridges and bonded tokens.`,
         img:`/images/offer-icon/Connected.svg`,
         alt:`Connected`,
     },
