@@ -9,7 +9,6 @@ class Header extends React.Component{
             menuOpen: false,
         }
     }
-    
       toggle = () => {
         this.setState({
           menuOpen: !this.state.menuOpen,
