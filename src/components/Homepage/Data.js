@@ -44,7 +44,7 @@ export const offerData = [
         classname:`Open-source offer-item`,
         heading:`Open-source`,
         des:`All code, research, and repositories created by the Fantom core development team are available publicly for peer review and improvements.`,
-        img:`/images/offer-icon/open source.svg`,
+        img:`/images/offer-icon/openSource.svg`,
         alt:`Open-source`,
     },
 ]
