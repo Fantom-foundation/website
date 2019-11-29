@@ -197,11 +197,18 @@ header.header.nav-development .container .main-nav li a {
     .introduction {
         width: 100% !important;
     }
-    .sidenav .sideNav-button span img {
-        vertical-align: text-top;
-    }
+
 }
 @media (max-width: 991px) {
+    .sidenav .sideNav-button span{
+        position: relative;
+        img{
+            position: absolute;
+            top: 2px;
+            right: 10px;
+        }
+    } 
+    
     .navbar-collapse {
         margin-top: 95px;
     }
@@ -237,6 +244,21 @@ header.header.nav-development .container .main-nav li a {
    }
 }
 
+@media (max-width: 480px){
+    .sidenav .sideNav-button span img{
+        top: -18px;
+    }
+}
+
+// @media (max-width: 769px) and (min-width: 481px){
+//     .sidenav .sideNav-button span img {
+//         vertical-align: top;
+//         padding-bottom: 2px;
+//         position: absolute;
+//         top: -6px;
+//         right: 10px;
+//     }
+// }
 
 
 
