@@ -111,17 +111,17 @@ class Carousel extends React.Component {
             postsState.map((post, index) => {
               var StrippedString = post.content.split(" ").splice(0, 25).join(" ");
               var StrippedText = StrippedString.replace(/(<([^>]+)>)/ig,"");
-              var StrippedHeading = post.title.split(" ").splice(0, 5).join(" ");
+              //var StrippedHeading = post.title.split(" ").splice(0, 5).join(" ");
               return (
                 <div className="carousel-card" data-index={index} key={index}>
                   <div className="subcard">
                   <a href={post.link} target="_blank" rel="noopener noreferrer">
                     <div className="heading">
-                      <h4>{StrippedHeading}..</h4>
+                      <h4>{post.title}</h4>
                       <p>{formatDate(post.pubDate)}</p>
                     </div>
                     <div className="card-content">
-                      <p>{StrippedText} ...</p>
+                      <p>{StrippedText}...</p>
                     </div>
                     <div className="read"><span>Read More</span></div>
                     </a>

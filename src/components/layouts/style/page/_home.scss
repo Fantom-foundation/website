@@ -189,7 +189,10 @@ h1{
       }  }
 }
 .carousel-card .subcard a .heading h4 {
-    font-size: 22px !important;
+    font-size: 20px;
+}
+.carousel-card .subcard p {
+    font-size: 18px;
 }
 .bg-circle {
     flex-basis: 50%;
@@ -459,7 +462,7 @@ h1{
             margin: 10px 0px;
         }
        .card-content p{
-            min-height: 255px;
+            min-height: 200px;
             margin-top: 40px;
             margin-bottom: 30px;
             color: #2c3b57;
@@ -516,8 +519,12 @@ h1{
             }
         }
     }
+    .carousel-card .subcard a .heading h4 {
+        font-size: 17px;
+    }
     .carousel-card .subcard a .card-content p {
         font-size: 17px;
+        min-height: 230px;
     }
     .header .container .main-nav a {
         padding: 10px 15px;
@@ -545,10 +552,16 @@ h1{
     .carousel-card .subcard a .card-content p {
         font-size: 20px;
     }
+    .carousel-card .subcard a .heading h4 {
+        font-size: 22px;
+    }
 }
 @media (max-width: 991px){
     .carousel-card .subcard a .card-content p {
         font-size: 18px;
+    }
+    .carousel-card .subcard a .heading h4 {
+        font-size: 19px;
     }
     .update-section{
         .update-section-bg{
@@ -824,6 +837,14 @@ h1{
             }
         } 
     }  
+}
+@media (max-width: 646px){
+    .carousel-card .subcard a .heading h4 {
+        font-size: 18px;
+    }
+    .carousel-card .subcard a .card-content p {
+        min-height: 184px;
+    }
 }
 @media (max-width: 600px){
     .carousel-card .subcard a .card-content p {
