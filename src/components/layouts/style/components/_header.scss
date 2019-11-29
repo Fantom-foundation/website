@@ -129,18 +129,16 @@ header.header.nav-development .container .main-nav li a {
     overflow-x: hidden;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    padding-top: 60px;
     span.close-button {
-        font-size: 46px;
         position: absolute;
-        right: 25px;
+        right: 45px;
         top: 20px;
     }
     .mobile-nav-header{
         .nav-img {
             position: absolute;
             left: 40px;
-            top: 35px;
+            top: 20px;
             a{
                 display: block;
                 img{
@@ -151,6 +149,7 @@ header.header.nav-development .container .main-nav li a {
     }
     ul{
         list-style-type: none;
+        margin-top: 165px;
         li{
             margin-top:40px;
             a{
@@ -204,7 +203,7 @@ header.header.nav-development .container .main-nav li a {
         position: relative;
         img{
             position: absolute;
-            top: 2px;
+            top: -32px;
             right: 10px;
         }
     } 
@@ -224,9 +223,6 @@ header.header.nav-development .container .main-nav li a {
         font-size: 28px;
         text-decoration: none;
     }
-}
-.mobile-nav-header {
-    margin-bottom: 95px;
 }
 @media (max-width: 768px){
     .sidenav{

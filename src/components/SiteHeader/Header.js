@@ -38,7 +38,7 @@ class Header extends React.Component{
                         <span><img src="/images/menu-Icon/NAV.svg" alt="navigation"/></span>
                     </button>
                     <div className={`slide-right ${menuClass}` }>
-                    <div className="mobile-nav-header">
+                        <div className="mobile-nav-header">
                             <span className="nav-img"><Link to="/"><img src="/images/menu-Icon/fantomBluelogo.svg" alt=""/></Link></span>
                             <span className="close-button" onClick={() => this.toggle()}><img src="/images/menu-Icon/X.svg" alt="close Button"/></span>
                         </div>
