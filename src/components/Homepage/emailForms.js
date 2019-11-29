@@ -49,7 +49,7 @@ this.props.onValidated({
         />
         
         <button onClick={this.submit}>
-          Signup
+          Sign up
       </button>  
       </div>
     );

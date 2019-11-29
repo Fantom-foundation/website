@@ -225,6 +225,7 @@ h1{
 
 .section.update-form div {
     margin-top: 62px;
+    position: relative;
     input {
         border-radius: 30px;
         width: 78%;
@@ -254,12 +255,11 @@ h1{
         letter-spacing: 0.38px;
         text-align: center;
         color: #ffffff;
-        padding: 10px;
         margin-left: -100px;
-        padding-top: 15px;
-        border: 0px;
-        position: relative;
+        border: 1px #ff573b;
+        position: absolute;
         top: 0px;
+        bottom: 0px;
         &:focus{
             outline: none;
         }
@@ -811,6 +811,27 @@ h1{
         } 
     }  
 }
+@media (max-width: 550px){
+    .section.update-form div button {
+        margin: auto;
+        margin-top: 20px;
+        line-height: 1.4;
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .update-form:before, .update-form:after {display: none}
+    
+    .update-section .main-update .update-form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .section.update-form div input {
+        width: 100%; }
+    .section.update-form div {
+        margin-top: 30px;
+    }  
+}
 @media (max-width: 480px){
 
     .update-section .update-section-bg{
@@ -869,25 +890,11 @@ h1{
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .section.update-form div button {
-        margin: auto;
-        margin-top: 20px;
-        line-height: 1.4;
-    }
-    
     .section.update-form div input {
         width: 100%; }
     .section.update-form div {
         margin-top: 30px;
-    }
-    
-    .update-form:before, .update-form:after {display: none}
-    
-    .update-section .main-update .update-form {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    
+    }   
 }
 @media (max-width: 414px){
     .grid-inner-container {
