@@ -10,7 +10,7 @@ const Layout = ({ children, location }) => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Fantom Global</title>
+        <title>Fantom Foundation</title>
         {/* <link rel="canonical" href="" /> */}
       </Helmet>
       <Header location={location} />

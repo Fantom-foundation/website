@@ -19,7 +19,7 @@ module.exports = {
         icon: `static/images/favicon-blue.svg`,
       },
     },
-    `gatsby-plugin-offline`,
+    //`gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
