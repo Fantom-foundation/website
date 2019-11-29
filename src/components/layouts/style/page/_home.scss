@@ -516,6 +516,9 @@ h1{
             }
         }
     }
+    .carousel-card .subcard a .card-content p {
+        font-size: 17px;
+    }
     .header .container .main-nav a {
         padding: 10px 15px;
     }
@@ -538,7 +541,15 @@ h1{
         justify-content: space-around;
     }
 }
+@media (max-width: 1024px){
+    .carousel-card .subcard a .card-content p {
+        font-size: 20px;
+    }
+}
 @media (max-width: 991px){
+    .carousel-card .subcard a .card-content p {
+        font-size: 18px;
+    }
     .update-section{
         .update-section-bg{
             padding: 50px 0;
@@ -792,6 +803,9 @@ h1{
     .update-section .update-section-bg .container .developer-potal p{
         max-width: 80%;
     }
+    .carousel-card .subcard a .card-content p {
+        font-size: 16px;
+    }
     
 }
 .carousel-card a {
@@ -810,6 +824,11 @@ h1{
             }
         } 
     }  
+}
+@media (max-width: 600px){
+    .carousel-card .subcard a .card-content p {
+        font-size: 15px;
+    }
 }
 @media (max-width: 550px){
     .section.update-form div button {
@@ -830,7 +849,12 @@ h1{
         width: 100%; }
     .section.update-form div {
         margin-top: 30px;
-    }  
+    } 
+}
+@media (max-width: 540px){
+    .carousel-card .subcard a .card-content p {
+        font-size: 18px;
+    }
 }
 @media (max-width: 480px){
 
@@ -922,6 +946,9 @@ h1{
         p{
             font-size: 14px !important;
         }
+    }
+    .carousel-card .subcard a .card-content p {
+        font-size: 14px;
     }
 }
 @media (max-width: 321px){
