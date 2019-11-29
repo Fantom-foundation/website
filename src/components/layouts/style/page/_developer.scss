@@ -83,9 +83,11 @@
             margin-top: 60px;
             margin-left: 32px;
             color: #404a64;
+            transition: all ease-in-out 0.2s;
             &:hover{
                 text-decoration: none;
                 color: #404a64;
+                transform: scale(1.03);
             }
             .list-text{
                 flex-basis: 85%;
@@ -102,10 +104,6 @@
                 justify-content: space-between;
                 img{
                     vertical-align: top;
-                    transition: all ease-in-out 0.2s;
-                    &:hover{
-                        transform: scale(1.08);
-                    }
                 }
             }
         } 

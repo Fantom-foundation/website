@@ -25,7 +25,7 @@ class TeamMember extends React.Component{
                                 linkedInAlt,
                                 linkedInImg } = member;
                             return(
-                                <div className="grid-item" key={id} data-aos="slide-up">
+                                <div className="grid-item" key={id} data-aos="fade-up" data-aos-delay={100*id}>
                                     <div className="member-image">
                                         <img src= {imgUrl} alt= {imgAlt} />
                                     </div>

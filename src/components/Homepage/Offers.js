@@ -17,8 +17,8 @@ class OffersSection extends React.Component {
         return(
             <div className="offers-section container section">
                 <div className="offer">
-                    <h2 data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600">Built with the future in mind</h2>
-                    <p data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600">Fantom offers the most powerful foundations for decentralized ledgers. </p>
+                    <h2 data-aos="fade-up" data-aos-easing="ease"data-aos-delay="100" data-aos-duration="600">Built with the future in mind</h2>
+                    <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200" data-aos-duration="600">Fantom offers the most powerful foundations for decentralized ledgers. </p>
                 </div>
                 <div className="offer-group">
                 {offerData.map(offerCard => {
@@ -33,8 +33,8 @@ class OffersSection extends React.Component {
                     return(
                             <div className={classname} key={id}>
                                 <div className="offer-text">
-                                    <h4 data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600">{heading}</h4>
-                                    <p data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600">{des}</p>
+                                    <h4 data-aos="fade-up"  data-aos-delay={150*id} data-aos-easing="ease" data-aos-duration="600">{heading}</h4>
+                                    <p data-aos="fade-up" data-aos-delay={150*id} data-aos-easing="ease" data-aos-duration="600">{des}</p>
                                 </div>
                                 <div className="offer-icon">
                                     <img src={img} alt={alt} />

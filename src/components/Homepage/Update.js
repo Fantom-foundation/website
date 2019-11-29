@@ -46,7 +46,7 @@ class LatestUpdate extends React.Component {
                     <div className="container">
                         <Link to="/developer">
                             <div className="developer-potal">
-                                <div className="card-img" data-aos="slide-left" data-aos-easing="ease" data-aos-duration="600" data-aos-offset="500"> </div>
+                                <div className="card-img" data-aos="slide-left" data-aos-easing="ease" data-aos-duration="600" data-aos-offset="500" data-aos-delay="150"> </div>
                                 <h3>Developer Portal</h3>
                                 <p>Open source. Scalable. Secure.</p>
                                 <div className="intro-button">
@@ -56,7 +56,7 @@ class LatestUpdate extends React.Component {
                         </Link>
                         <Link to="/foundation">
                             <div className="fantom-foundation">
-                                <div className="card-img" data-aos="slide-up" data-aos-easing="ease" data-aos-duration="600" data-aos-offset="500"> </div>
+                                <div className="card-img" data-aos="slide-up" data-aos-easing="ease" data-aos-duration="600" data-aos-offset="500" data-aos-delay="150"> </div>
                                 <h3>The Fantom Foundation</h3>
                                 <p>The people. The culture.</p>
                                 <div className="intro-button">
