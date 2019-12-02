@@ -291,6 +291,7 @@ h1{
                 border-radius: 20px;
                 right: 0px;
                 bottom: 0px; 
+            
             }
             .fantom-foundation,
             .developer-potal{
@@ -328,6 +329,7 @@ h1{
                 min-width: 504px;
                 height: 322px;
                 position: relative;
+                overflow: hidden;
                 box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 
                 0 8px 16px -8px rgba(0,0,0,.3),
                  0 -6px 16px -6px rgba(0,0,0,.025);
@@ -421,6 +423,14 @@ h1{
 .slick-list, .slick-slider {
     margin: 0 -10px;
 }
+.slick-initialized .slick-slide {
+    display: flex;
+    margin-bottom: 80px;
+}
+.slick-slide>div{
+    height: 100%;
+    display: flex;
+}
 .carousel-card {
         display: flex !important;
         flex-flow: row wrap;
@@ -428,6 +438,7 @@ h1{
         color: $font-color;
         padding: 10px 20px;
         transition: all ease-in-out 0.2s !important;
+        height: 100%;
     a{
         text-decoration: none;
     }
@@ -455,7 +466,7 @@ h1{
         h4{
             color: #2c3b57;
             font-weight: 600;
-            min-height: 90px;
+            min-height: 100px;
             word-break: break-word;
         }
         h4, p{
@@ -547,6 +558,9 @@ h1{
     }
     .offer-group {
         justify-content: space-around;
+    }
+    .carousel-card .subcard h4 {
+        min-height: 108px;
     }
 }
 @media (max-width: 1024px){
@@ -844,7 +858,7 @@ h1{
         font-size: 18px;
     }
     .carousel-card .subcard a .card-content p {
-        min-height: 184px;
+        min-height: 208px;
     }
 }
 @media (max-width: 600px){

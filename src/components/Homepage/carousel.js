@@ -28,6 +28,7 @@ class Carousel extends React.Component {
     const data = 'https://medium.com/feed/fantomfoundation';
     axios.get('https://api.rss2json.com/v1/api.json?rss_url=' + data).then(response => {
       const fetchedPosts = response.data.items.slice(0, 10);
+      console.log(fetchedPosts);
       this.setState({
         posts: fetchedPosts
       });
@@ -39,6 +40,7 @@ class Carousel extends React.Component {
       once: true,
       disable: 'mobile',
     })
+   
     }
   render() {
     let postsState = this.state.posts
@@ -109,7 +111,9 @@ class Carousel extends React.Component {
         <Slider {...settings}>
           {
             postsState.map((post, index) => {
-              var StrippedString = post.content.split(" ").splice(0, 25).join(" ");
+              var postdata = post.content;
+              var anchorTagsRemoved = postdata.replace(/<h3.*>.*?<\/h3>/ig,'');
+              var StrippedString = anchorTagsRemoved.split(" ").splice(0, 25).join(" ");
               var StrippedText = StrippedString.replace(/(<([^>]+)>)/ig,"");
               //var StrippedHeading = post.title.split(" ").splice(0, 5).join(" ");
               return (
