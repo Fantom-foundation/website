@@ -1,7 +1,6 @@
 import React from "react"
 import Slider from "react-slick"
 import axios from "axios"
-import 'aos/dist/aos.css'
 
 function formatDate(newDate) {
   const monthNames = [
@@ -33,14 +32,6 @@ class Carousel extends React.Component {
         posts: fetchedPosts
       });
     })
-
-    const AOS = require('aos');
-    this.aos = AOS
-    this.aos.init({
-      once: true,
-      disable: 'mobile',
-    })
-   
     }
   render() {
     let postsState = this.state.posts
@@ -92,7 +83,7 @@ class Carousel extends React.Component {
             }
         },
         {
-          breakpoint: 540,
+          breakpoint: 575,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,

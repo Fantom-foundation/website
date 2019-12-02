@@ -4,23 +4,15 @@ import 'aos/dist/aos.css'
 
 
 class Intro extends React.Component {
-    componentDidMount() {
-        const AOS = require('aos');
-        this.aos = AOS
-        this.aos.init({
-            disable: 'mobile',
-            once: true,
-        })
-    }
     render(){
         return(
             <div className="intro-section section container">
-                <div className="bg-circle" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="600"> 
+                <div className="bg-circle card-img wow fadeInLeft" data-wow-duration="600" data-wow-delay="0.8s"> 
                     <div className="intro-icon">
-                        <img src="/images/home/fantom_logo.png" alt="fantom icon" data-aos="zoom-in" data-aos-easing="ease" data-aos-duration="600"/>
+                        <img src="/images/home/fantom_logo.png" alt="fantom icon" className="card-img wow fadeInRight" data-wow-duration="600" data-wow-delay="0.8s"/>
                     </div>
                 </div>  
-                <div className="intro-text" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="600">
+                <div className="intro-text  wow fadeInRight" data-wow-duration="600" data-wow-delay="0.8s">
                     <h2>Introduction to Fantom</h2>
                     <p>The Ecosystem, The Consensus, The Innovation.</p>
                     <div className="intro-button">

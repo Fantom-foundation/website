@@ -562,6 +562,9 @@ h1{
     .carousel-card .subcard h4 {
         min-height: 108px;
     }
+    .carousel-card .subcard a .card-content p {
+        min-height: 280px;
+    }
 }
 @media (max-width: 1024px){
     .carousel-card .subcard a .card-content p {
@@ -569,6 +572,9 @@ h1{
     }
     .carousel-card .subcard a .heading h4 {
         font-size: 22px;
+    }
+    .carousel-card .subcard a .card-content p {
+        min-height: 230px;
     }
 }
 @media (max-width: 991px){

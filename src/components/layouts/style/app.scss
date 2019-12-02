@@ -21,6 +21,7 @@ $aos-distance: 70px; // It has to be above import
 // COMPONENTS
 @import "components/header";
 @import "components/footer";
+@import "components/animate";
 
 // PAGES
 @import "page/layout";

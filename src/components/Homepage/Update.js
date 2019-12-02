@@ -1,44 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import addToMailchimp from 'gatsby-plugin-mailchimp'
 import CustomForm from "./emailForms"
 import MailchimpSubscribe from "react-mailchimp-subscribe"
-import 'aos/dist/aos.css'
 
 
 const url = "https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6";
 
 class LatestUpdate extends React.Component {
-    componentDidMount() {
-        const AOS = require('aos');
-        this.aos = AOS
-        this.aos.init({
-            disable: 'mobile',
-            once: true,
-        })
-    }
-
-    state = {
-        email: ''
-    }
-    setEmail(evt) {
-        console.log('event', evt);
-        this.setState({ email: evt });
-    }
-
-    handleSubmit = e => {
-        e.preventDefault();
-        addToMailchimp(this.state.email, '') // listFields are optional if you are only capturing the email address.
-            .then(data => {
-                // I recommend setting data to React state
-                // but you can do whatever you want (including ignoring this `then()` altogether)
-            })
-            .catch((error) => {
-                // unnecessary because Mailchimp only ever
-                // returns a 200 status code
-                // see below for how to handle errors
-            })
-    }
     render() {
         return (
             <div className="update-section">
@@ -46,7 +14,7 @@ class LatestUpdate extends React.Component {
                     <div className="container">
                         <Link to="/developer">
                             <div className="developer-potal">
-                                <div className="card-img" data-aos="slide-left" data-aos-easing="ease" data-aos-duration="600" data-aos-offset="500" data-aos-delay="150"> </div>
+                                <div className="card-img wow fadeInUp" data-wow-duration="1000" data-wow-delay="0.6s"> </div>
                                 <h3>Developer Portal</h3>
                                 <p>Open source. Scalable. Secure.</p>
                                 <div className="intro-button">
@@ -56,9 +24,9 @@ class LatestUpdate extends React.Component {
                         </Link>
                         <Link to="/foundation">
                             <div className="fantom-foundation">
-                                <div className="card-img" data-aos="slide-up" data-aos-easing="ease" data-aos-duration="600" data-aos-offset="500" data-aos-delay="150"> </div>
+                                <div className="card-img wow fadeInUp" data-wow-duration="1000" data-wow-delay="0.6s"> </div>
                                 <h3>The Fantom Foundation</h3>
-                                <p>The people. The culture.</p>
+                                <p>The people, the culture.</p>
                                 <div className="intro-button">
                                     Learn More
                                 </div>
@@ -84,7 +52,7 @@ class LatestUpdate extends React.Component {
                                         message === "0 - Please enter a value" ? <div className='message-section' style={{ color: 'red' }} dangerouslySetInnerHTML={{ __html: 'Please enter email' }} />
                                             :
                                             ( message === "0 - An email address must contain a single @" ? <div className='message-section' style={{ color: 'red' }} dangerouslySetInnerHTML={{ __html: 'Please enter a valid email' }} />
-                                             : <div className="message-section" style={{ color: "red" }} dangerouslySetInnerHTML={{ __html: message.replace('0 - ','') }} />
+                                             : <div className="message-section" style={{ color: "red" }} dangerouslySetInnerHTML={{ __html: message }} />
                                             )
                                           )
                                         : ""
