@@ -4,14 +4,6 @@ import 'aos/dist/aos.css'
 
 
 class Learn extends React.Component {
-    componentDidMount() {
-        const AOS = require('aos');
-        this.aos = AOS
-        this.aos.init({
-            disable: 'mobile',
-            once: true,
-        })
-    }
     render(){
         return(
             <div className="container section">
@@ -25,11 +17,11 @@ class Learn extends React.Component {
                     return(
                             <div className="learn-section" key={i}>
                                 <div className="learn-text">
-                                    <h2>{heading}</h2>
-                                    <p>{discription}</p>
+                                    <h2 className="wow fadeInUp" data-wow-duration="600">{heading}</h2>
+                                    <p className="wow fadeInUp" data-wow-duration="600">{discription}</p>
                                 </div>
                                 <div className="learn-img">
-                                    <img src={img} alt="learn" data-aos="fade-up-left"/>
+                                    <img src={img} alt="learn" className="wow fadeInUp" data-wow-duration="600"/>
                                 </div>
                             </div>
                         )
@@ -46,10 +38,10 @@ class Learn extends React.Component {
                             <div className="list" key={id}>
                                 <a href={link} target="_blank" rel="noopener noreferrer">
                                     <div className="list-text">
-                                        <h4 data-aos="slide-up">{heading}</h4>
+                                        <h4 className="wow fadeInUp" data-wow-duration="600">{heading}</h4>
                                     </div>
                                     <div className="list-icon">
-                                        <img src= {imgSrc} alt="learn" data-aos="fade-up-left" />
+                                        <img src= {imgSrc} alt="learn" className="wow fadeInRight" data-wow-duration="600" />
                                     </div>
                                 </a>
                             </div>

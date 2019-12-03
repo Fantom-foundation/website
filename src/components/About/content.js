@@ -18,7 +18,7 @@ const Content = () => {
                     list,
                 } = aboutContent;
                 return(
-                    <div className="introduction section" key={id}>
+                    <div className="introduction section wow fadeInUp" data-wow-duration="600" key={id}>
                         <h4>{heading}</h4>
                         <div>
                             {spanOne && <span> {spanOne} </span>}

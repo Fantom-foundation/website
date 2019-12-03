@@ -2,14 +2,6 @@ import React from "react"
 import { teamData } from "./Data"
 
 class MeetTeam extends React.Component {
-    componentDidMount() {
-        const AOS = require('aos');
-        this.aos = AOS
-        this.aos.init({
-            disable: 'mobile',
-            once: true,
-        })
-    }
     render(){
         return(
             <div className="container section">
@@ -20,8 +12,8 @@ class MeetTeam extends React.Component {
                     } = headingData;
                     return(
                         <div className ="meet-team" key={i}>
-                            <h2 data-aos="slide-up" data-aos-delay={150*i}>{heading}</h2>
-                            <p data-aos="slide-up" data-aos-delay={150*i}>{discription}</p>
+                            <h2 className="wow fadeInUp" data-wow-duration="600"  data-wow-delay={0+"."+(parseInt(i)+parseInt(3))+"s"}>{heading}</h2>
+                            <p className="wow fadeInUp" data-wow-duration="600"  data-wow-delay={0+"."+(parseInt(i)+parseInt(3))+"s"}>{discription}</p>
                         </div>
                     )
                 })}
