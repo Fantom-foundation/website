@@ -24,7 +24,7 @@ export const aboutData = [
         id:3,
         heading:`What are Lachesis aBFT and TxFlow?`,
         spanOne:`Lachesis aBFT`,
-        content:`is a Fantom’s core asynchronous and leaderless byzantine fault tolerant consensus protocol \n
+        content:`is a Fantom’s core asynchronous and leaderless byzantine fault tolerant consensus protocol.  \n
         It is based on principles about gossip protocols where small bits of information are propagated throughout the network rapidly. Distributed ledgers deployed on top of this technology deliver the highest grade of network security, high transaction throughputs, and low time to finality. \n
         In order to make it as easy as possible to build distributed ledgers tailored to the needs of the user, we designed Lachesis aBFT to be highly adaptable and compatible with existing codebases such as Cosmos SDK and Go-Ethereum. \n \n`,
         spanTwo:`TxFlow`,
@@ -34,24 +34,24 @@ export const aboutData = [
     {
         id:4,
         heading:`What is finality?`,
-        contentBefore:`Before explaining what finality is and why it is important, let’s backtrack to the`,
+        contentBefore:`Before explaining what finality is and why it is important, let’s backtrack to the `,
         spanAfter:`double-spending problem. \n`,
         content:`Double-spending is a problem in which the same digital currency can be spent more than once.\n
         This is a flaw that is unique to digital assets and currencies, as numbers on a computer are quite simple to reproduce. This problem is comparable to the gift card market, where monetary value is stored in a simple voucher code, which can be reproduced and handed out to multiple people, while it can only be redeemed once. \n
         To put it simply, finality is knowing that when you buy a cup of coffee, the exact same money cannot be used to buy a cup of tea. \n
-        You transfer value to the cashier, it subtracted from your wallet and added to theirs. This is important because a merchant or service provider would like to make sure they have received the money,before providing their services or transferring the ownership of their goods. \n
-        Bitcoin and Ethereum use a consensus mechanism called Proof-of -Work (PoW); in these networks there is a decentralized group of individuals known as miners whom verify that transactions are not double spends. 
+        You transfer value to the cashier, it subtracted from your wallet and added to theirs. This is important because a merchant or service provider would like to make sure they have received the money, before providing their services or transferring the ownership of their goods. \n
+        Bitcoin and Ethereum use a consensus mechanism called Proof-of-Work (PoW); in these networks there is a decentralized group of individuals known as miners whom verify that transactions are not double spends. 
         Transactions are grouped into blocks, which are added synchronously in a sequence like a chain.  In these networks there is a property called the longest chain of work: the chain that most of the nodes or miners support is maintained and the other chains are forked out of consensus. \n
         Adding blocks to a chain is immensely difficult and costs a lot of computing power, which makes it costly to go back to a previous block and double-spend. In these settings we are never 100% sure that the block a transaction is grouped in is going to be in the longest chain. What can be said however, is that the existence of a longer chain gets lower and lower as more and more blocks are added. \n
         This leads to probabilistic finality, the chance of a double-spend becomes infinitesimally low after X amount of blocks have passed. \n
-        In more recent consensus algorithms such as Tendermint pBFT, Lachesis aBFT, and Casper, we find`,
+        In more recent consensus algorithms such as Tendermint pBFT, Lachesis aBFT, and Casper, we find `,
         spanAfterTwo:`objective and unambiguous finality. \n`,
         contentTwo:`This is the confidence of knowing that all transactions that have happened up to date are completely valid without even the slightest chance of a double spend having occurred as long as more than ⅔ of consensus partaking nodes are honest. \n
         These chains do not use the longest chain of work rule to decide on which blocks are added to consensus. Instead of using the longest chain rule, such protocols usually work in the following way: \n`,
         list: [
             {
                 lid:1.1,
-                li:`A block is proposed by a consensus participating node`,
+                li:`A block is proposed by a consensus participating node.`,
             },
             {
                 lid:1.2,

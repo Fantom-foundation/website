@@ -34,7 +34,7 @@ const Footer = () => {
                     <div className="second-section">
                         <div>&copy;2019 Fantom Foundation</div>
                         <div></div>
-                        <div className="privacy-policy"><a href="/privay-policy/">Privacy Policy</a></div>
+                        <div className="privacy-policy"><a href="/privacy-policy/">Privacy Policy</a></div>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ const Footer = () => {
                             <span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/fantom-foundation/"><img src="/images/footer/linkedin.svg" alt="linkedin" /></a></span>
                             <span><a target="_blank" rel="noopener noreferrer" href="https://medium.com/fantomfoundation"><img src="/images/footer/medium.svg" alt="medium" /></a></span>
                         </p>
-                        <p className="footer-link footer-link-light"><a href="/privay-policy/">Privacy Policy</a></p>
+                        <p className="footer-link footer-link-light"><a href="/privacy-policy/">Privacy Policy</a></p>
                         <p className="footer-link footer-link-light">&copy;2019 Fantom Foundation</p>
                     </div>
                 </div>

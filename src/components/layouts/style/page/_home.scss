@@ -1021,3 +1021,21 @@ h1{
         max-width: 100px !important;
     }
 }
+.not-found-warpper{
+    padding: 120px 0;
+    min-height: 500px;
+    p{
+        margin: 20px auto
+    }
+    .btn {
+        background:  #3478ef;
+         color: #fff;
+         
+    }
+    .btn:hover{
+        color: #fff;
+    }
+    h1, p {
+        color:#555;
+    }
+}

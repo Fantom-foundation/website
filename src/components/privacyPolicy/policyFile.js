@@ -15,11 +15,11 @@ const Privacy = () => {
                     <li>contact information, such as your email address</li>
                     <li>social media (including Telegram) handles and other social media profile information that you make available to us or to the public</li>
                     <li>records of our communications with you, including any messages or emails you send us</li>
-                    <li>device information, server log information, IPaddress, and location information</li>
+                    <li>device information, server log information, IP address, and location information</li>
                     <li>other information that you provide us during the course of business</li>
                     <li>other information that is capable of identifying you</li>
                 </ul>
-                <p>youWithout this information we may not be able to provide you with our products or services (or with all of the features and functionality offered by our products or services) or to respond to queries or requests that you submit to us.</p>
+                <p>you without this information we may not be able to provide you with our products or services (or with all of the features and functionality offered by our products or services) or to respond to queries or requests that you submit to us.</p>
             </div>
             <div className="section">
                 <h4>How we collect personal information</h4>
@@ -39,7 +39,7 @@ const Privacy = () => {
                 <p>In some cases we may be required by law to collect certain types of personal information about you.</p>
             </div>
             <div className="section">
-                <p>Where we collect personal information from you, we will generally do so directly ourselves.  However, in some cases we may collect personal information from a third party, such as through your representatives, contractors who provide services to us, or third parties who refer you to us because they think you may be interested in our productsor services.
+                <p>Where we collect personal information from you, we will generally do so directly ourselves.  However, in some cases we may collect personal information from a third party, such as through your representatives, contractors who provide services to us, or third parties who refer you to us because they think you may be interested in our products or services.
                 </p>
                 <h4>Purposes for which we use personal information</h4>
                 <p>We use personal information that we collect about you for the following purposes:</p>
@@ -89,8 +89,8 @@ const Privacy = () => {
             </div>
             <div className="Storage and security of personal information">
                 <p>We take reasonable steps to ensure that any of your personal information which we hold is accurate, complete and up-to-date.  These steps include promptly updating personal information when we are advised that the information has changed, checking our contact lists for accuracy, and providing individuals with a simple means to update their personal information</p>
-                <p>We store personal information for as long as it is needed for the purpose for which it was collected or as required by law.  Within a reasonable time after the expiry of this period, we will take reasonable steps to de-identify or destroy the personal information which is inour possession or control.</p>
-                <p>We generally store the personal information that we collect in electronic databases, someof which may be held on our behalf by third party data storage providers.  Sometimes we also keep hard copy records of this personal information in physical storage facilities.  Weuse a range of physical and technical security processes and procedures to protect the confidentiality and security of the information that we hold, and we update these from timeto time to address new and emerging security threats.  These measures include:</p>
+                <p>We store personal information for as long as it is needed for the purpose for which it was collected or as required by law.  Within a reasonable time after the expiry of this period, we will take reasonable steps to de-identify or destroy the personal information which is in our possession or control.</p>
+                <p>We generally store the personal information that we collect in electronic databases, someof which may be held on our behalf by third party data storage providers.  Sometimes we also keep hard copy records of this personal information in physical storage facilities.  We use a range of physical and technical security processes and procedures to protect the confidentiality and security of the information that we hold, and we update these from time to time to address new and emerging security threats.  These measures include:</p>
                 <ul>
                     <li>restricting access to our physical and electronic databases, and physical security such as security procedures for access to our business premises; and</li>
                     <li>technological security procedures including password protection, network firewalls, encryption, intrusion detection and site monitoring where practicable to do so.</li>
@@ -109,16 +109,16 @@ const Privacy = () => {
                 <p>These requests should be submitted to us in writing using the contact details below.</p>
                 <p>We will action your request within a reasonable time frame and provide one copy of your personal information free of charge.  If your request is for additional copies or your request is manifestly unfounded, excessive or repetitive, we may refuse your request or charge a reasonable fee.  If we refuse a request or charge a reasonable fee, we will advise you of the reasons for our refusal or any fees within a reasonable time frame.</p>
                 <p>You have a right to request a copy of the personal information you have provided to us in a structured, commonly used and machine-readable format and the right to have that information transmitted or ported to another entity under certain circumstances. </p>
-                <p>There may be cases where we are unable to provide the information you request, such aswhere it would interfere with the privacy, rights or freedoms of others, or result in a breachof confidentiality or applicable laws.  In these cases we will let you know why we cannot comply with your request.</p>
+                <p>There may be cases where we are unable to provide the information you request, such as where it would interfere with the privacy, rights or freedoms of others, or result in a breach of confidentiality or applicable laws.  In these cases we will let you know why we cannot comply with your request.</p>
             </div>
             <div className="section">
                 <h4>How to erase your personal information</h4>
-                <p>You have a right to request the erasure or destruction of your personal information (“the right to be forgotten”) when it is no longer necessary for the purpose for which it was originally collected, it is not being used for the purposes for which it was collected, or you wish to withdraw your consent for certain processing.  You also have the right to ask us todelete or remove your personal data where you have successfully exercised your right to object to processing, where we have processed your personal information unlawfully, or where we are required to erase your personal information to comply with local law.</p>
+                <p>You have a right to request the erasure or destruction of your personal information (“the right to be forgotten”) when it is no longer necessary for the purpose for which it was originally collected, it is not being used for the purposes for which it was collected, or you wish to withdraw your consent for certain processing.  You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing, where we have processed your personal information unlawfully, or where we are required to erase your personal information to comply with local law.</p>
                 <p>There may be cases where we are unable to comply with your request such as where we need to continue processing your personal information in order to comply with applicable laws.  Such requests should be submitted in writing using the contact details below. </p>
             </div>
             <div className="section">
                 <h4>Complaints</h4>
-                <p>We try to meet the highest standards in order to protect your privacy.  However, if you areconcerned about the way in which we are managing your personal information or think wemay have breached our obligations under the applicable privacy or data protection legislation, or any other relevant obligation, please contact us using the contact details setout below</p>
+                <p>We try to meet the highest standards in order to protect your privacy.  However, if you are concerned about the way in which we are managing your personal information or think we may have breached our obligations under the applicable privacy or data protection legislation, or any other relevant obligation, please contact us using the contact details set out below.</p>
                 <p>Complaints must be lodged in writing.  In the complaint, please include your contact details (such as email address, name, address and telephone number) and clearly describe the complaint.  We will deal with the matter within a reasonable time and will keep you informed of the progress of our investigation.</p>
                 <p>If we have not responded to you within a reasonable time or if you feel that your complaint has not been resolved satisfactorily, you can contact us to discuss your concerns.  You are also entitled to make a complaint to the relevant privacy or data protection regulator.</p>
             </div>
@@ -128,7 +128,7 @@ const Privacy = () => {
             </div>
             <div className="section">
                 <h4>Contact details</h4>
-                <p>If you need to contact us or want any further information from us on privacy matters, please contact us at <a href="contact@fantom.foundation">contact@fantom.foundation</a></p>
+                <p>If you need to contact us or want any further information from us on privacy matters, please contact us at <a href="mailto:contact@fantom.foundation">contact@fantom.foundation</a></p>
             </div>
         </div>
     )
