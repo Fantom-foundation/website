@@ -1,7 +1,6 @@
 import React from "react"
 import 'aos/dist/aos.css'
 import WOW from 'wowjs';
-import window from 'global'
 class Hero extends React.Component {
     componentDidMount() {
         const wow = new WOW.WOW({

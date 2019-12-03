@@ -21,8 +21,8 @@ class OffersSection extends React.Component {
                     return(
                             <div className={classname} key={id}>
                                 <div className="offer-text">
-                                    <h4  className="wow fadeInUp" data-wow-duration="600" data-wow-delay={1+"."+(id)+"s"}>{heading}</h4>
-                                    <p   className="wow fadeInUp" data-wow-duration="600" data-wow-delay={1+"."+(id)+"s"} >{des}</p>
+                                    <h4  className="wow fadeInUp" data-wow-duration="600" data-wow-delay={0+"."+(parseInt(id)+parseInt(3))+"s"}>{heading}</h4>
+                                    <p   className="wow fadeInUp" data-wow-duration="600" data-wow-delay={0+"."+(parseInt(id)+parseInt(3))+"s"} >{des}</p>
                                 </div>
                                 <div className="offer-icon">
                                     <img src={img} alt={alt} />

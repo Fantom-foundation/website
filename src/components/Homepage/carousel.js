@@ -79,7 +79,7 @@ class Carousel extends React.Component {
               slidesToShow: 2,
               slidesToScroll: 1,
               dots: false,
-              arrows: false,
+              arrows: true,
             }
         },
         {
@@ -88,7 +88,7 @@ class Carousel extends React.Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: false,
-            arrows: false,
+            arrows: true,
           }
         }
     ],
@@ -98,7 +98,7 @@ class Carousel extends React.Component {
    
     return (
       <div className="inner-container container carousel-section section">
-        <h2 className="slider-heading" data-aos="fade-right">Latest articles</h2>
+        <h2 className="slider-heading wow fadeInLeft" data-wow-duration="600">Latest articles</h2>
         <Slider {...settings}>
           {
             postsState.map((post, index) => {

@@ -840,7 +840,19 @@ h1{
     .carousel-card .subcard a .card-content p {
         font-size: 16px;
     }
-    
+    .slick-prev {
+        left: auto;
+        right: 75px;
+    }
+    .slick-next {
+        right: 25px;
+        left: auto;
+    }
+}
+.slick-next, .slick-prev {
+    width: 40px;
+    height: 30px;
+    z-index: 99;
 }
 .carousel-card a {
     text-decoration: none;
@@ -961,6 +973,17 @@ h1{
     .section.update-form div {
         margin-top: 30px;
     }   
+    .slick-prev {
+        left: 38%;
+        bottom: 0;
+        top: auto;
+    }
+    .slick-next {
+        left: 52%;
+        bottom: 0;
+        top: auto;
+        right: auto;
+    }
 }
 @media (max-width: 414px){
     .grid-inner-container {
