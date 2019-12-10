@@ -36,7 +36,7 @@ class TeamMember extends React.Component{
                                         <p>{designation}</p>
                                     </div>
                                     <div className="member-linkedin">
-                                        <a href={linkedInUrl}>
+                                        <a target="_blank" href={linkedInUrl}>
                                             <img src={linkedInImg} alt= {linkedInAlt} />
                                         </a> 
                                     </div>
