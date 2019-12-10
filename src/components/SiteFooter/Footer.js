@@ -16,7 +16,7 @@ const Footer = () => {
                                 <span><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/FantomFDN"><img src="/images/footer/twitter.svg" alt="twitter" /></a></span>
                                 <span><a target="_blank" rel="noopener noreferrer" href="https://t.me/Fantom_English"><img src="/images/footer/telegram.svg" alt="telegram" /></a></span>
                                 <span><a target="_blank" rel="noopener noreferrer" href="https://github.com/Fantom-Foundation"><img src="/images/footer/github.svg" alt="github" /></a></span>
-                                <span><a target="_blank" rel="noopener noreferrer" href="/"><img src="/images/footer/reddit.svg" alt="reddit" /></a></span>
+                                <span><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/FantomFoundation/"><img src="/images/footer/reddit.svg" alt="reddit" /></a></span>
                                 <span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/fantom-foundation/"><img src="/images/footer/linkedin.svg" alt="linkedin" /></a></span>
                                 <span><a target="_blank" rel="noopener noreferrer" href="https://medium.com/fantomfoundation"><img src="/images/footer/medium.svg" alt="medium" /></a></span>
                             </div>
@@ -50,7 +50,7 @@ const Footer = () => {
                             <span><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/FantomFDN"><img src="/images/footer/twitter.svg" alt="twitter" /></a></span>
                             <span><a target="_blank" rel="noopener noreferrer" href="https://t.me/Fantom_English"><img src="/images/footer/telegram.svg" alt="telegram" /></a></span>
                             <span><a target="_blank" rel="noopener noreferrer" href="https://github.com/Fantom-Foundation"><img src="/images/footer/github.svg" alt="github" /></a></span>
-                            <span><a target="_blank" rel="noopener noreferrer" href="/"><img src="/images/footer/reddit.svg" alt="reddit" /></a></span>
+                            <span><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/FantomFoundation/"><img src="/images/footer/reddit.svg" alt="reddit" /></a></span>
                             <span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/fantom-foundation/"><img src="/images/footer/linkedin.svg" alt="linkedin" /></a></span>
                             <span><a target="_blank" rel="noopener noreferrer" href="https://medium.com/fantomfoundation"><img src="/images/footer/medium.svg" alt="medium" /></a></span>
                         </p>
