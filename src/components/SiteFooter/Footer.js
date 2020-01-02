@@ -1,13 +1,15 @@
 import React from "react"
 
 const Footer = () => {
+    const currentYear = new Date();
+    const year = currentYear.getFullYear();
     return (
         <footer>
             <div className="footer-section">
                 <div className="container footer-inner-container">
                     <div className="first-section">
                         <div className="col first-col">
-                            <div className="footer-logo"> 
+                            <div className="footer-logo">
                                 <a href="/">
                                     <img src="/images/menu-Icon/fantom_logo_white_new.svg" alt="fantom icon" />
                                 </a>
@@ -32,7 +34,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="second-section">
-                        <div>&copy;2019 Fantom Foundation</div>
+                        <div>&copy;{year} Fantom Foundation</div>
                         <div></div>
                         <div className="privacy-policy"><a href="/privacy-policy/">Privacy Policy</a></div>
                     </div>
