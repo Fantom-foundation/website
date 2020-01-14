@@ -210,16 +210,16 @@ export const teamMemberData = [
         linkedInAlt : `linkedin GM Chung`,
         linkedInUrl : `https://www.linkedin.com/in/gmchung/`,
     },
-    {
-        id :  22,
-        imgUrl : `/images/team-member/CJ.png`,
-        imgAlt : `CJ Guan`,
-        name : `CJ Guan`,
-        designation : `Community Manager `,
-        linkedInImg : `/images/team-member/linkedin.png`,
-        linkedInAlt : `linkedin CJ Guan`,
-        linkedInUrl : `http://linkedin.com/in/cj-g-0a130a23`,
-    },
+    // {
+    //     id :  22,
+    //     imgUrl : `/images/team-member/CJ.png`,
+    //     imgAlt : `CJ Guan`,
+    //     name : `CJ Guan`,
+    //     designation : `Community Manager `,
+    //     linkedInImg : `/images/team-member/linkedin.png`,
+    //     linkedInAlt : `linkedin CJ Guan`,
+    //     linkedInUrl : `http://linkedin.com/in/cj-g-0a130a23`,
+    // },
     {
         id :  23,
         imgUrl : `/images/team-member/James.png`,
@@ -230,16 +230,16 @@ export const teamMemberData = [
         linkedInAlt : `linkedin James Zain`,
         linkedInUrl : `https://www.linkedin.com/in/james-zain-795a99138/`,
     },
-    {
-        id :  24,
-        imgUrl : `/images/team-member/Thomas.png`,
-        imgAlt : `Thomas Lin`,
-        name : `Thomas Lin`,
-        designation : `Community Manager`,
-        linkedInImg : `/images/team-member/linkedin.png`,
-        linkedInAlt : `linkedin Thomas Lin`,
-        linkedInUrl : `https://www.linkedin.com/in/thomas-lin1985/`,
-    },
+    // {
+    //     id :  24,
+    //     imgUrl : `/images/team-member/Thomas.png`,
+    //     imgAlt : `Thomas Lin`,
+    //     name : `Thomas Lin`,
+    //     designation : `Community Manager`,
+    //     linkedInImg : `/images/team-member/linkedin.png`,
+    //     linkedInAlt : `linkedin Thomas Lin`,
+    //     linkedInUrl : `https://www.linkedin.com/in/thomas-lin1985/`,
+    // },
 ]
 
 export const teamData = [
