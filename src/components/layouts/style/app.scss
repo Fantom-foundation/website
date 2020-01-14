@@ -11,9 +11,9 @@
 
 @import "~bootstrap/dist/css/bootstrap.min.css";
 $aos-distance: 70px; // It has to be above import
-@import '~aos/src/sass/aos.scss';
+@import "~aos/src/sass/aos.scss";
 // @import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap");
 
 // SETTINGS
 @import "setting/setting";
@@ -28,5 +28,4 @@ $aos-distance: 70px; // It has to be above import
 @import "page/home";
 @import "page/developer";
 @import "page/foundation";
-
-
+@import "page/wallet";
