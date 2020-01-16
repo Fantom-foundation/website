@@ -1,4 +1,7 @@
 .wallet {
+  &.mobile{
+
+  }
   position: relative;
   .dark {
     color: #2b3954;
@@ -79,6 +82,19 @@
   }
 }
 .hero-section.wallet-hero {
+  position: relative;
+  &:after {
+    content: "";
+    background-image: url("/images/wallet/dummy.png");
+    position: absolute;
+    right: 0;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 25%;
+  }
   z-index: unset;
   .buttons-wrapper {
     margin-top: 50px;
@@ -145,5 +161,43 @@
   .create-wallet-wrapper {
     max-width: 670px;
     margin: auto;
+  }
+}
+.half-image-section {
+  padding-top: 100px;
+  margin-bottom: 200px;
+  .half-image-wrapper {
+    margin-top: 250px;
+    .half-img-content {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      .half-image-content,
+      .section-img {
+        flex-basis: 50%;
+      }
+      .section-img {
+        position: relative;
+        .half-image {
+          width: 100%;
+        }
+      }
+      .half-image-content {
+        max-width: 770px;
+        .content {
+          padding-left: 310px;
+        }
+      }
+    }
+    &:nth-of-type(even) {
+      .half-img-content {
+        flex-direction: row-reverse;
+        .content {
+          padding-left: unset;
+          padding-right: 310px;
+        }
+      }
+    }
   }
 }
