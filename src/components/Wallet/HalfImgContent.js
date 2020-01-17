@@ -53,19 +53,19 @@ export default HalfImgContent
 const desktopData = [
   {
     id: `d1`,
-    imgUrl: `/images/wallet/dummy.png`,
+    imgUrl: `/images/wallet/1.png`,
     title: `Safe, secure`,
     content: `Access your wallet with an encrypted keystore file.`,
   },
   {
     id: `d2`,
-    imgUrl: `/images/wallet/dummy.png`,
+    imgUrl: `/images/wallet/2.png`,
     title: `Easy to use`,
     content: `Sending crypto should be simple. We got you.`,
   },
   {
     id: `d3`,
-    imgUrl: `/images/wallet/dummy.png`,
+    imgUrl: `/images/wallet/3.png`,
     title: `Rewarding`,
     content: `Let your FTM work for you. Stake your FTM to secure the network and get rewarded in return.`,
   },
@@ -74,19 +74,19 @@ const desktopData = [
 const mobileData = [
   {
     id: `m1`,
-    imgUrl: `/images/wallet/mob-hero.png`,
+    imgUrl: `/images/wallet/phone-2.png`,
     title: `Secure and \nanonymous`,
     content: `Your private key is safely stored on your phone and never shared. `,
   },
   {
     id: `m2`,
-    imgUrl: `/images/wallet/mob-hero.png`,
+    imgUrl: `/images/wallet/phone-3.png`,
     title: `Send and receive FTM`,
     content: `Yes, it’s as easy as it looks.`,
   },
   {
     id: `m3`,
-    imgUrl: `/images/wallet/mob-hero.png`,
+    imgUrl: `/images/wallet/phone-4.png`,
     title: `Stake on the go`,
     content: `Stake your FTM from your phone, check and claim your rewards.`,
   },

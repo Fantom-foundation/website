@@ -1,4 +1,9 @@
 .wallet {
+  @include devicepoint(991px) {
+    .container {
+      max-width: 90%;
+    }
+  }
   position: relative;
   .dark {
     color: #2b3954;
@@ -81,14 +86,19 @@
   &.mobile {
     .hero-section.wallet-hero {
       &:after {
-        background-image: url("/images/wallet/mob-hero.png");
+        background-image: url("/images/wallet/phone.png");
         max-width: 400px;
         right: 120px;
         background-size: contain;
       }
       @include devicepoint(1199px) {
         &:after {
-          right: 40px;
+          right: 20px;
+        }
+      }
+      @include devicepoint(991px) {
+        &:after {
+          height: 100%;
         }
       }
     }
@@ -99,13 +109,16 @@
           .half-image {
             max-width: 400px;
           }
-        @include devicepoint(1199px) {
-          text-align: right;
+          @include devicepoint(1199px) {
+            text-align: right;
+          }
         }
-      }
         .half-image-content .content {
           padding-left: 110px;
           max-width: 600px;
+          @include devicepoint(991px) {
+            padding-left: 50px;
+          }
         }
       }
 
@@ -138,7 +151,7 @@
   position: relative;
   &:after {
     content: "";
-    background-image: url("/images/wallet/dummy.png");
+    background-image: url("/images/wallet/hero.png");
     position: absolute;
     right: 0;
     background-size: cover;
@@ -147,6 +160,10 @@
     background-repeat: no-repeat;
     right: 0;
     top: 25%;
+    @include devicepoint(991px) {
+      width: 40%;
+      height: 80%;
+    }
   }
   z-index: unset;
   .buttons-wrapper {
@@ -174,7 +191,21 @@
     background-color: #03358c;
     color: #fff;
   }
+  @include devicepoint(991px) {
+    .buttons-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .button {
+      margin-bottom: 30px;
+    }
+  }
   .hero-content {
+    @include devicepoint(991px) {
+      max-width: 460px;
+    }
     h1 {
       width: unset;
       font-size: 64px;
@@ -245,11 +276,21 @@
         .half-image {
           width: 100%;
         }
+        @include devicepoint(1199px) {
+          .half-image {
+            width: 110%;
+            margin-left: -100px;
+            position: relative;
+          }
+        }
       }
       .half-image-content {
         max-width: 600px;
         @include devicepoint(1199px) {
           max-width: 480px;
+        }
+        @include devicepoint(1199px) {
+          max-width: 45%;
         }
         .content {
           padding-left: 200px;
@@ -275,6 +316,10 @@
         @include devicepoint(1199px) {
           .content {
             padding-right: 80px;
+          }
+          .half-image {
+            margin-left: unset;
+            margin-right: -100px;
           }
         }
       }
