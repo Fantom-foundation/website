@@ -10,7 +10,6 @@ class Hero extends React.Component {
   }
   render() {
     const { toggle } = this.props
-    console.log("toggle", toggle)
     return (
       <div className="hero-section wallet-hero">
         <div className="container">
@@ -24,10 +23,12 @@ class Hero extends React.Component {
                   ? "Your FTM, always with you."
                   : "Store, send, receive and stake your FTM."}
               </h4>
-              <div className="buttons-wrapper">
-                <button className="button light-btn">Open Web Wallet</button>
-                <button className="button dark-btn">Download Wallet</button>
-              </div>
+              {!toggle && (
+                <div className="buttons-wrapper wow fadeInUp"  data-wow-duration="600">
+                  <button className="button light-btn">Open Web Wallet</button>
+                  <button className="button dark-btn">Download Wallet</button>
+                </div>
+              )}
             </div>
           </div>
         </div>

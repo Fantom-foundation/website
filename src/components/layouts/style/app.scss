@@ -3,9 +3,17 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 //mixins
-
-@import "mixins/transistion";
+@import "mixins/animation";
+@import "mixins/border-radius-mixin";
+@import "mixins/box-shadow";
+@import "mixins/drop-shadow";
+@import "mixins/grid-mixin";
+@import "mixins/keyframes";
+@import "mixins/linear-gradient";
+@import "mixins/mediaquery";
+@import "mixins/placeholder";
 @import "mixins/transform";
+@import "mixins/transistion";
 
 //bootstrap
 

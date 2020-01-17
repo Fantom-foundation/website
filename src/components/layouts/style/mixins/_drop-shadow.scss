@@ -1,0 +1,5 @@
+// CSS 3 border-radius
+@mixin filter($prop) {
+  -webkit-filter: $prop;
+  filter: $prop;
+}

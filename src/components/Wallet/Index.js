@@ -6,7 +6,9 @@ import HalfImgContent from "./HalfImgContent"
 const Wallet = () => {
   // show mobile data for toggle true
   const [toggle, setToggle] = React.useState(false)
-
+  const setToggleHandler = () => {
+    setToggle(!toggle)
+  }
   return (
     <div className={`wallet ${toggle ? "mobile" : ""}`}>
       <div
@@ -20,7 +22,7 @@ const Wallet = () => {
       </div>
       <Hero toggle={toggle} />
       <HalfImgContent toggle={toggle} />
-      <CreateWallet />
+      <CreateWallet toggle={toggle} setToggle={setToggleHandler} />
     </div>
   )
 }

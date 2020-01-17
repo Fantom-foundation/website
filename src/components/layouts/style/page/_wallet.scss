@@ -1,7 +1,4 @@
 .wallet {
-  &.mobile{
-
-  }
   position: relative;
   .dark {
     color: #2b3954;
@@ -14,6 +11,7 @@
     font-style: normal;
     line-height: 1;
     letter-spacing: normal;
+    margin-bottom: 30px;
   }
   h4 {
     font-size: 28px;
@@ -80,8 +78,63 @@
       }
     }
   }
+  &.mobile {
+    .hero-section.wallet-hero {
+      &:after {
+        background-image: url("/images/wallet/mob-hero.png");
+        max-width: 400px;
+        right: 120px;
+        background-size: contain;
+      }
+      @include devicepoint(1199px) {
+        &:after {
+          right: 40px;
+        }
+      }
+    }
+    .half-image-section {
+      .half-image-wrapper {
+        .section-img {
+          text-align: center;
+          .half-image {
+            max-width: 400px;
+          }
+        @include devicepoint(1199px) {
+          text-align: right;
+        }
+      }
+        .half-image-content .content {
+          padding-left: 110px;
+          max-width: 600px;
+        }
+      }
+
+      .half-image-wrapper:nth-of-type(even) {
+        .half-img-content .content {
+          padding-right: 100px;
+        }
+        @include devicepoint(1199px) {
+          .section-img {
+            text-align: left;
+          }
+          .half-img-content .content {
+            padding-right: 50px;
+            padding-left: unset;
+          }
+        }
+      }
+    }
+    .create-wallet {
+      .create-wallet-wrapper {
+        max-width: 870px;
+      }
+    }
+  }
 }
 .hero-section.wallet-hero {
+  .container {
+    padding: 200px 0px 150px;
+  }
   position: relative;
   &:after {
     content: "";
@@ -139,6 +192,11 @@
 .create-wallet {
   color: #6a7487;
   text-align: center;
+  margin-bottom: 120px;
+  a.wallet-link {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .wallet-link {
     font-size: 28px;
     font-weight: 500;
@@ -146,8 +204,6 @@
     font-style: normal;
     line-height: 1.31;
     letter-spacing: normal;
-    margin-top: 50px;
-    margin-bottom: 40px;
     display: block;
     color: #1965e9;
     @include transition(all 0.3s ease-in-out);
@@ -166,8 +222,15 @@
 .half-image-section {
   padding-top: 100px;
   margin-bottom: 200px;
+  @include devicepoint(1199px) {
+    padding-top: 170px;
+    margin-bottom: 150px;
+  }
   .half-image-wrapper {
     margin-top: 250px;
+    @include devicepoint(1199px) {
+      margin-top: 150px;
+    }
     .half-img-content {
       display: flex;
       justify-content: flex-start;
@@ -184,9 +247,21 @@
         }
       }
       .half-image-content {
-        max-width: 770px;
+        max-width: 600px;
+        @include devicepoint(1199px) {
+          max-width: 480px;
+        }
         .content {
-          padding-left: 310px;
+          padding-left: 200px;
+          @include devicepoint(1199px) {
+            padding-left: 80px;
+          }
+          h2 {
+            color: #2b3954;
+          }
+          h4 {
+            color: #6a7487;
+          }
         }
       }
     }
@@ -195,7 +270,12 @@
         flex-direction: row-reverse;
         .content {
           padding-left: unset;
-          padding-right: 310px;
+          padding-right: 200px;
+        }
+        @include devicepoint(1199px) {
+          .content {
+            padding-right: 80px;
+          }
         }
       }
     }
