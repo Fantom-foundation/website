@@ -35,7 +35,9 @@ class Header extends React.Component {
           </h1>
           <ul className="main-nav">
             <li>
-              <Link to="https://explorer.fantom.network/">Explorer</Link>
+              <a href="https://explorer.fantom.network/" target="_blank">
+                Explorer
+              </a>
             </li>
             <li>
               <Link to="/wallet/">Wallet</Link>
@@ -80,7 +82,9 @@ class Header extends React.Component {
 
             <ul>
               <li>
-                <Link to="https://explorer.fantom.network/">Explorer</Link>
+                <a href="https://explorer.fantom.network/" target="_blank">
+                  Explorer
+                </a>
               </li>
               <li>
                 <Link to="/wallet/">Wallet</Link>

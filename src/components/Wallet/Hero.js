@@ -41,11 +41,11 @@ class Hero extends React.Component {
                   data-wow-duration="600"
                 >
                   <a href="" className="apple-icon">
-                    <img src="/images/wallet/app-store.svg" alt="Apply Store" />
+                    <img src="/images/wallet/app-store.png" alt="Apply Store" />
                   </a>
                   <a href="">
                     <img
-                      src="/images/wallet/google-play.svg"
+                      src="/images/wallet/google-play.png"
                       alt="Google Play"
                     />
                   </a>

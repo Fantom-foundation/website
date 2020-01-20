@@ -114,6 +114,8 @@
       @include devicepoint(991px) {
         &:after {
           height: 100%;
+          max-width: 320px;
+          width: 32%;
         }
       }
       @include devicepoint(767px) {
@@ -132,6 +134,7 @@
       @include devicepoint(600px) {
         &:after {
           bottom: -360px;
+          width: 100%;
         }
       }
       @include devicepoint(480px) {
@@ -148,6 +151,12 @@
     }
     .half-image-section {
       background-repeat: no-repeat;
+      padding-top: 180px;
+      // @include devicepoint()
+      //       .half-image-content,
+      //       .section-img {
+      //         flex-basis: 45%;
+      //       }
       .half-image-wrapper {
         .section-img {
           text-align: center;
@@ -156,6 +165,9 @@
           }
           @include devicepoint(1199px) {
             text-align: right;
+            .half-image {
+              max-width: 320px;
+            }
           }
           @include devicepoint(767px) {
             .half-image {
@@ -274,7 +286,8 @@
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    box-shadow: 0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    @include box-shadow(0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08));
+    text-decoration: none;
   }
   .light-btn {
     box-shadow: 0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
@@ -316,6 +329,9 @@
   .hero-content {
     @include devicepoint(991px) {
       max-width: 460px;
+    }
+    @include devicepoint(767px) {
+      text-align: center;
     }
     h1 {
       width: unset;
@@ -398,11 +414,22 @@
   }
 }
 .half-image-section {
-  background-image: url("/images/wallet/bg-desktop.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  @include devicepoint(767px) {
-    background-image: url("/images/wallet/bg-mob.svg");
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: -1;
+    background-image: url("/images/wallet/bg-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    @include devicepoint(767px) {
+      background-image: url("/images/wallet/bg-mob.svg");
+      background-size: 300%;
+    }
   }
   padding-top: 100px;
   margin-bottom: 200px;
@@ -413,6 +440,9 @@
   @include devicepoint(991px) {
     padding-top: 100px;
   }
+  @include devicepoint(767px) {
+    padding-top: 200px;
+  }
   @include devicepoint(600px) {
     padding-top: 150px;
     margin-bottom: 100px;
@@ -421,7 +451,7 @@
     padding-top: 50px;
   }
   .half-image-wrapper {
-    margin-top: 250px;
+    margin-top: 150px;
     @include devicepoint(1199px) {
       margin-top: 150px;
     }
@@ -439,6 +469,9 @@
       .half-image-content,
       .section-img {
         flex-basis: 50%;
+        @include devicepoint(991px) {
+          flex-basis: 45%;
+        }
       }
       @include devicepoint(767px) {
         flex-direction: column-reverse;
