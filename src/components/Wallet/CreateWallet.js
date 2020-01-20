@@ -31,15 +31,31 @@ class CreateWallet extends React.Component {
               </h4>
             )}
             {toggle ? (
-              <div className="appicons"></div>
+              <div
+                className="buttons-wrapper wow fadeInUp"
+                data-wow-duration="600"
+              >
+                <a href="" className="apple-icon">
+                  <img src="/images/wallet/app-store.svg" alt="Apply Store" />
+                </a>
+                <a href="">
+                  <img src="/images/wallet/google-play.svg" alt="Google Play" />
+                </a>
+              </div>
             ) : (
               <div
                 className="os-icons wow fadeInUp"
                 data-wow-duration="600"
                 data-wow-delay="0.8"
               >
-                <h4>Mac OS</h4>
-                <h4>Windows</h4>
+                <div className="icon-wrapper">
+                  <img src="/images/wallet/apple.svg" alt="Mac OS" />
+                  <h4>Mac OS</h4>
+                </div>
+                <div className="icon-wrapper">
+                  <img src="/images/wallet/windows.svg" alt="Windows" />
+                  <h4>Windows</h4>
+                </div>
               </div>
             )}
             {!toggle && (

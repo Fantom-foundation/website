@@ -23,10 +23,32 @@ class Hero extends React.Component {
                   ? "Your FTM, always with you."
                   : "Store, send, receive and stake your FTM."}
               </h4>
-              {!toggle && (
-                <div className="buttons-wrapper wow fadeInUp"  data-wow-duration="600">
-                  <button className="button light-btn">Open Web Wallet</button>
-                  <button className="button dark-btn">Download Wallet</button>
+              {!toggle ? (
+                <div
+                  className="buttons-wrapper wow fadeInUp"
+                  data-wow-duration="600"
+                >
+                  <a href="" className="button light-btn">
+                    Open Web Wallet
+                  </a>
+                  <a href="" className="button dark-btn">
+                    Download Wallet
+                  </a>
+                </div>
+              ) : (
+                <div
+                  className="buttons-wrapper wow fadeInUp"
+                  data-wow-duration="600"
+                >
+                  <a href="" className="apple-icon">
+                    <img src="/images/wallet/app-store.svg" alt="Apply Store" />
+                  </a>
+                  <a href="">
+                    <img
+                      src="/images/wallet/google-play.svg"
+                      alt="Google Play"
+                    />
+                  </a>
                 </div>
               )}
             </div>
