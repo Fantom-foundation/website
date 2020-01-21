@@ -54,6 +54,19 @@ class Hero extends React.Component {
             </div>
           </div>
         </div>
+        {!toggle ? (
+          <img
+            className="hero-img "
+            src="/images/wallet/hero.png"
+            alt="Web Wallet"
+          />
+        ) : (
+          <img
+            className="hero-img "
+            src="/images/wallet/phone.png"
+            alt="Mobile Wallet"
+          />
+        )}
       </div>
     )
   }

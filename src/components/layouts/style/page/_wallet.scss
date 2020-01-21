@@ -96,12 +96,19 @@
   }
   &.mobile {
     .hero-section.wallet-hero {
-      &:after {
-        background-image: url("/images/wallet/phone.png");
-        max-width: 400px;
-        right: 120px;
-        background-size: contain;
+      .hero-img {
+        right: 10%;
+        @include devicepoint(767px){
+          right: 0;
+          bottom: -230px;
+        }
       }
+      // &:after {
+      // background-image: url("/images/wallet/phone.png");
+      // max-width: 400px;
+      // right: 120px;
+      // background-size: contain;
+      // }
       .buttons-wrapper {
         flex-direction: row;
         justify-content: flex-start;
@@ -159,7 +166,7 @@
       //       }
       .half-image-wrapper {
         .section-img {
-          text-align: center;
+          text-align: center !important;
           .half-image {
             max-width: 400px;
           }
@@ -240,38 +247,53 @@
     }
   }
   position: relative;
-  &:after {
-    content: "";
-    background-image: url("/images/wallet/hero.png");
+  .hero-img {
     position: absolute;
     right: 0;
-    background-size: cover;
-    width: 40%;
-    height: 100%;
-    background-repeat: no-repeat;
-    right: 0;
-    top: 25%;
+    top: 30%;
+    max-width: 50%;
     @include devicepoint(991px) {
-      width: 35%;
-      height: 80%;
+      max-width: 45%;
     }
     @include devicepoint(767px) {
-      width: 100%;
-      height: 100%;
-      background-size: contain;
-      bottom: -480px;
       top: unset;
+      bottom: 0;
       left: 0;
       margin: auto;
-      max-width: calc(100% - 30px);
-    }
-    @include devicepoint(600px) {
-      bottom: -460px;
-    }
-    @include devicepoint(320px) {
-      bottom: -500px;
     }
   }
+  // &:after {
+  //   content: "";
+  //   background-image: url("/images/wallet/hero.png");
+  //   position: absolute;
+  //   right: 0;
+  //   background-size: cover;
+  //   width: 40%;
+  //   height: 100%;
+  //   background-repeat: no-repeat;
+  //   right: 0;
+  //   top: 25%;
+  //   @include devicepoint(991px) {
+  //     width: 35%;
+  //     height: 80%;
+  //   }
+  //   @include devicepoint(767px) {
+  //     width: 100%;
+  //     height: 100%;
+  //     background-size: contain;
+  //     bottom: -480px;
+  //     top: unset;
+  //     left: 0;
+  //     margin: auto;
+  //     max-width: calc(100% - 30px);
+  //   }
+  //   @include devicepoint(600px) {
+  //     bottom: -460px;
+  //   }
+  //   @include devicepoint(320px) {
+  //     bottom: -500px;
+  //   }
+  // }
   z-index: unset;
   .buttons-wrapper {
     margin-top: 50px;
@@ -379,6 +401,7 @@
   a.wallet-link {
     margin-top: 50px;
     margin-bottom: 50px;
+    text-decoration: none;
     @include devicepoint(767px) {
       margin-top: 30px;
       margin-bottom: 30px;
@@ -469,8 +492,13 @@
       .half-image-content,
       .section-img {
         flex-basis: 50%;
+        max-width: 50%;
+        .half-image {
+          max-width: 100%;
+        }
         @include devicepoint(991px) {
           flex-basis: 45%;
+          max-width: 45%;
         }
       }
       @include devicepoint(767px) {
@@ -486,18 +514,18 @@
       .section-img {
         position: relative;
         .half-image {
-          width: 100%;
+          max-width: 100%;
         }
         @include devicepoint(1199px) {
           .half-image {
-            width: 110%;
-            margin-left: -100px;
+            // width: 110%;
+            // margin-left: -100px;
             position: relative;
           }
         }
         @include devicepoint(991px) {
           .half-image {
-            width: 120%;
+            // width: 120%;
           }
         }
         @include devicepoint(767px) {
@@ -543,6 +571,9 @@
     &:nth-of-type(even) {
       .half-img-content {
         flex-direction: row-reverse;
+        .section-img {
+          text-align: right;
+        }
         .content {
           padding-left: unset;
           padding-right: 200px;
@@ -552,8 +583,8 @@
             padding-right: 80px;
           }
           .half-image {
-            margin-left: unset;
-            margin-right: -100px;
+            // margin-left: unset;
+            // margin-right: -100px;
           }
         }
         @include devicepoint(991px) {
