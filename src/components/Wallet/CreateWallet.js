@@ -48,19 +48,24 @@ class CreateWallet extends React.Component {
                 data-wow-duration="600"
                 data-wow-delay="0.8"
               >
-                <div className="icon-wrapper">
+                <a
+                  href="https://github.com/Fantom-foundation/desktop-web-wallet/releases/download/1.0.3/Fantom.Wallet-0.1.0.dmg"
+                  target="_blank"
+                  className="icon-wrapper"
+                >
                   <img src="/images/wallet/apple.svg" alt="Mac OS" />
                   <h4>Mac OS</h4>
-                </div>
-                <div className="icon-wrapper">
+                </a>
+                <a href="#" target="_blank" className="icon-wrapper">
                   <img src="/images/wallet/windows.svg" alt="Windows" />
                   <h4>Windows</h4>
-                </div>
+                </a>
               </div>
             )}
             {!toggle && (
               <a
-                href="#"
+                href="https://wallet.fantom.network/#/"
+                target="_blank"
                 className="wallet-link wow fadeInUp"
                 data-wow-duration="600"
                 data-wow-delay="0.8"

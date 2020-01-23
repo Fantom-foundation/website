@@ -28,10 +28,18 @@ class Hero extends React.Component {
                   className="buttons-wrapper wow fadeInUp"
                   data-wow-duration="600"
                 >
-                  <a href="" className="button light-btn">
+                  <a
+                    href="https://wallet.fantom.network/#/"
+                    target="_blank"
+                    className="button light-btn"
+                  >
                     Open Web Wallet
                   </a>
-                  <a href="" className="button dark-btn">
+                  <a
+                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                    target="_blank"
+                    className="button dark-btn"
+                  >
                     Download Wallet
                   </a>
                 </div>

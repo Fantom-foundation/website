@@ -27,7 +27,7 @@
     letter-spacing: normal;
     @include transition(all 0.3s ease-in-out);
   }
-  @include devicepoint(767px) {
+  @include devicepoint(991px) {
     h2 {
       font-size: 45px;
       line-height: 45px;
@@ -98,9 +98,24 @@
     .hero-section.wallet-hero {
       .hero-img {
         right: 10%;
-        @include devicepoint(767px){
+        max-width: 500px;
+        top: 22%;
+        @include devicepoint(1440px) {
+          right: 5%;
+        }
+        @include devicepoint(1199px) {
           right: 0;
-          bottom: -230px;
+        }
+        @include devicepoint(991px) {
+          max-width: 400px;
+          top: 25%;
+        }
+        @include devicepoint(767px) {
+          right: 0;
+          top: 580px;
+        }
+        @include devicepoint(480px) {
+          max-width: 100%;
         }
       }
       // &:after {
@@ -159,31 +174,34 @@
     .half-image-section {
       background-repeat: no-repeat;
       padding-top: 180px;
-      // @include devicepoint()
-      //       .half-image-content,
-      //       .section-img {
-      //         flex-basis: 45%;
-      //       }
+      @include devicepoint(991px) {
+        padding-top: 70px;
+      }
+      @include devicepoint(767px) {
+        padding-top: 190px;
+      }
       .half-image-wrapper {
         .section-img {
           text-align: center !important;
           .half-image {
-            max-width: 400px;
+            max-width: 500px;
           }
           @include devicepoint(1199px) {
             text-align: right;
+          }
+          @include devicepoint(991px) {
             .half-image {
-              max-width: 320px;
+              max-width: 400px;
             }
           }
           @include devicepoint(767px) {
             .half-image {
-              max-width: 300px;
+              // max-width: 300px;
             }
           }
           @include devicepoint(480px) {
             .half-image {
-              max-width: 220px;
+              max-width: 100%;
             }
           }
         }
@@ -197,6 +215,9 @@
             padding-left: 0;
             max-width: 100%;
           }
+        }
+        @include devicepoint(991px) {
+          margin-top: 70px;
         }
       }
 
@@ -237,7 +258,14 @@
 }
 .hero-section.wallet-hero {
   .container {
-    padding: 200px 15px 150px;
+    padding: 200px 15px;
+    @include devicepoint(1920px) {
+      padding-top: 140px;
+    }
+    @include devicepoint(1199px) {
+      padding-top: 100px;
+      padding-bottom: 150px;
+    }
     @include devicepoint(767px) {
       padding-top: 50px;
       padding-bottom: 300px;
@@ -250,16 +278,26 @@
   .hero-img {
     position: absolute;
     right: 0;
-    top: 30%;
+    top: 17%;
     max-width: 50%;
+    @include devicepoint(1920px) {
+      top: 25%;
+    }
+    @include devicepoint(1199px) {
+      top: 30%;
+    }
     @include devicepoint(991px) {
-      max-width: 45%;
+      top: 50%;
+      max-width: 70%;
+      right: -15%;
     }
     @include devicepoint(767px) {
-      top: unset;
+      top: 90%;
+      right: unset;
       bottom: 0;
       left: 0;
       margin: auto;
+      max-width: 100%;
     }
   }
   // &:after {
@@ -361,11 +399,19 @@
       margin-top: 100px;
       font-weight: bold;
       line-height: 1.69;
+      @include devicepoint(991px) {
+        font-size: 45px;
+        line-height: 45px;
+      }
     }
     h4 {
       font-size: 28px;
       font-weight: 500;
       color: #c2d6fa;
+      @include devicepoint(991px) {
+        font-size: 24px;
+        line-height: 32px;
+      }
     }
     @include devicepoint(767px) {
       max-width: 100%;
@@ -385,7 +431,7 @@
   text-align: center;
   margin-bottom: 120px;
   @include devicepoint(767px) {
-    text-align: left;
+    // text-align: left;
     margin-bottom: 80px;
   }
   @include devicepoint(600px) {
@@ -430,6 +476,10 @@
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    .icon-wrapper {
+      text-decoration: none;
+      color: inherit;
+    }
   }
   .create-wallet-wrapper {
     max-width: 670px;
@@ -457,11 +507,11 @@
   padding-top: 100px;
   margin-bottom: 200px;
   @include devicepoint(1199px) {
-    padding-top: 170px;
+    padding-top: 50px;
     margin-bottom: 150px;
   }
   @include devicepoint(991px) {
-    padding-top: 100px;
+    padding-top: 30px;
   }
   @include devicepoint(767px) {
     padding-top: 200px;
@@ -471,7 +521,7 @@
     margin-bottom: 100px;
   }
   @include devicepoint(480px) {
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .half-image-wrapper {
     margin-top: 150px;
@@ -497,8 +547,8 @@
           max-width: 100%;
         }
         @include devicepoint(991px) {
-          flex-basis: 45%;
-          max-width: 45%;
+          // flex-basis: 45%;
+          // max-width: 45%;
         }
       }
       @include devicepoint(767px) {
@@ -509,6 +559,7 @@
         .half-image-content,
         .section-img {
           flex-basis: 100%;
+          max-width: 100%;
         }
       }
       .section-img {
