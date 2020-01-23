@@ -23,15 +23,64 @@ class Hero extends React.Component {
                   ? "Your FTM, always with you."
                   : "Store, send, receive and stake your FTM."}
               </h4>
-              {!toggle && (
-                <div className="buttons-wrapper wow fadeInUp"  data-wow-duration="600">
-                  <button className="button light-btn">Open Web Wallet</button>
-                  <button className="button dark-btn">Download Wallet</button>
+              {!toggle ? (
+                <div
+                  className="buttons-wrapper wow fadeInUp"
+                  data-wow-duration="600"
+                >
+                  <a
+                    href="https://wallet.fantom.network/#/"
+                    target="_blank"
+                    className="button light-btn"
+                  >
+                    Open Web Wallet
+                  </a>
+                  <a
+                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                    target="_blank"
+                    className="button dark-btn"
+                  >
+                    Download Wallet
+                  </a>
+                </div>
+              ) : (
+                <div
+                  className="buttons-wrapper wow fadeInUp"
+                  data-wow-duration="600"
+                >
+                  <a
+                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                    className="apple-icon"
+                  >
+                    <img src="/images/wallet/app-store.png" alt="Apple Store" />
+                  </a>
+                  <a
+                    className="google-icon"
+                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                  >
+                    <img
+                      src="/images/wallet/google-play.png"
+                      alt="Google Play"
+                    />
+                  </a>
                 </div>
               )}
             </div>
           </div>
         </div>
+        {!toggle ? (
+          <img
+            className="hero-img "
+            src="/images/wallet/hero.png"
+            alt="Web Wallet"
+          />
+        ) : (
+          <img
+            className="hero-img "
+            src="/images/wallet/phone.png"
+            alt="Mobile Wallet"
+          />
+        )}
       </div>
     )
   }

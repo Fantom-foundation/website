@@ -8,7 +8,7 @@ class Header extends React.Component {
     this.state = {
       menuOpen: false,
     }
-  }
+  } 
   toggle = () => {
     this.setState({
       menuOpen: !this.state.menuOpen,
@@ -35,14 +35,12 @@ class Header extends React.Component {
           </h1>
           <ul className="main-nav">
             <li>
-            <a
-                  href="https://explorer.fantom.network/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Explorer
-                </a>
-              
+              <a href="https://explorer.fantom.network/" target="_blank">
+                Explorer
+              </a>
+            </li>
+            <li>
+              <Link to="/wallet/">Wallet</Link>
             </li>
             <li>
               <Link to="/about/">What is Fantom?</Link>
@@ -84,13 +82,12 @@ class Header extends React.Component {
 
             <ul>
               <li>
-              <a
-                  href="https://explorer.fantom.network/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://explorer.fantom.network/" target="_blank">
                   Explorer
                 </a>
+              </li>
+              <li>
+                <Link to="/wallet/">Wallet</Link>
               </li>
               <li>
                 <Link to="/about/">What is Fantom?</Link>

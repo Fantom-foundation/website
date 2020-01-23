@@ -31,20 +31,51 @@ class CreateWallet extends React.Component {
               </h4>
             )}
             {toggle ? (
-              <div className="appicons"></div>
+              <div
+                className="buttons-wrapper wow fadeInUp"
+                data-wow-duration="600"
+              >
+                <a
+                  href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                  className="apple-icon"
+                >
+                  <img src="/images/wallet/app-store.png" alt="Apply Store" />
+                </a>
+                <a
+                  href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                  className="google-icon"
+                >
+                  <img src="/images/wallet/google-play.png" alt="Google Play" />
+                </a>
+              </div>
             ) : (
               <div
                 className="os-icons wow fadeInUp"
                 data-wow-duration="600"
                 data-wow-delay="0.8"
               >
-                <h4>Mac OS</h4>
-                <h4>Windows</h4>
+                <a
+                  href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                  target="_blank"
+                  className="icon-wrapper"
+                >
+                  <img src="/images/wallet/apple.svg" alt="Mac OS" />
+                  <h4>Mac OS</h4>
+                </a>
+                <a
+                  href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                  target="_blank"
+                  className="icon-wrapper"
+                >
+                  <img src="/images/wallet/windows.svg" alt="Windows" />
+                  <h4>Windows</h4>
+                </a>
               </div>
             )}
             {!toggle && (
               <a
-                href="#"
+                href="https://wallet.fantom.network/#/"
+                target="_blank"
                 className="wallet-link wow fadeInUp"
                 data-wow-duration="600"
                 data-wow-delay="0.8"
