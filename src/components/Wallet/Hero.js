@@ -48,10 +48,16 @@ class Hero extends React.Component {
                   className="buttons-wrapper wow fadeInUp"
                   data-wow-duration="600"
                 >
-                  <a href="https://github.com/Fantom-foundation/desktop-web-wallet/releases" className="apple-icon">
-                    <img src="/images/wallet/app-store.png" alt="Apply Store" />
+                  <a
+                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                    className="apple-icon"
+                  >
+                    <img src="/images/wallet/app-store.png" alt="Apple Store" />
                   </a>
-                  <a href="https://github.com/Fantom-foundation/desktop-web-wallet/releases">
+                  <a
+                    className="google-icon"
+                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                  >
                     <img
                       src="/images/wallet/google-play.png"
                       alt="Google Play"
