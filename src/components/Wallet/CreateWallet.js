@@ -35,10 +35,10 @@ class CreateWallet extends React.Component {
                 className="buttons-wrapper wow fadeInUp"
                 data-wow-duration="600"
               >
-                <a href="" className="apple-icon">
+                <a href="https://github.com/Fantom-foundation/desktop-web-wallet/releases" className="apple-icon">
                   <img src="/images/wallet/app-store.png" alt="Apply Store" />
                 </a>
-                <a href="">
+                <a href="https://github.com/Fantom-foundation/desktop-web-wallet/releases">
                   <img src="/images/wallet/google-play.png" alt="Google Play" />
                 </a>
               </div>
@@ -49,14 +49,14 @@ class CreateWallet extends React.Component {
                 data-wow-delay="0.8"
               >
                 <a
-                  href="https://github.com/Fantom-foundation/desktop-web-wallet/releases/download/1.0.3/Fantom.Wallet-0.1.0.dmg"
+                  href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
                   target="_blank"
                   className="icon-wrapper"
                 >
                   <img src="/images/wallet/apple.svg" alt="Mac OS" />
                   <h4>Mac OS</h4>
                 </a>
-                <a href="#" target="_blank" className="icon-wrapper">
+                <a href="https://github.com/Fantom-foundation/desktop-web-wallet/releases" target="_blank" className="icon-wrapper">
                   <img src="/images/wallet/windows.svg" alt="Windows" />
                   <h4>Windows</h4>
                 </a>
