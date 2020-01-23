@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 const Footer = () => {
     const currentYear = new Date();
     const year = currentYear.getFullYear();
@@ -29,6 +29,7 @@ const Footer = () => {
                             <div><a href="https://medium.com/fantomfoundation" target="_blank" rel="noopener noreferrer">Articles</a></div>
                         </div>
                         <div className="col third-col">
+                            <div><Link to="/wallet/">Wallet</Link></div>
                             <div><a href="/foundation/">Foundation</a></div>
                             <div><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank" rel="noopener noreferrer">White Paper</a></div>
                         </div>
