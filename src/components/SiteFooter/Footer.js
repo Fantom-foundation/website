@@ -47,6 +47,7 @@ const Footer = () => {
                         <p className="footer-link"><a href="/about/">What is Fantom?</a></p>
                         <p className="footer-link"><a href="/developer/">Developers</a></p>
                         <p className="footer-link"><a href="https://medium.com/fantomfoundation" target="_blank" rel="noopener noreferrer">Articles</a></p>
+                        <p className="footer-link"><Link to="/wallet/">Wallet</Link></p>
                         <p className="footer-link"><a href="/foundation/">Foundation</a></p>
                         <p className="footer-link"><a href="/Documents/wp_fantom_v1.6.pdf" target="_blank" rel="noopener noreferrer">White Paper</a></p>
                         <p className="footer-link">
