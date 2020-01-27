@@ -49,14 +49,16 @@ class Hero extends React.Component {
                   data-wow-duration="600"
                 >
                   <a
-                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                    href="https://apps.apple.com/us/app/fantom-wallet/id1436694080"
                     className="apple-icon"
+                    target="_blank"
                   >
                     <img src="/images/wallet/app-store.png" alt="Apple Store" />
                   </a>
                   <a
                     className="google-icon"
-                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                    href="https://play.google.com/store/apps/details?id=com.fantomwallet"
+                    target="_blank"
                   >
                     <img
                       src="/images/wallet/google-play.png"

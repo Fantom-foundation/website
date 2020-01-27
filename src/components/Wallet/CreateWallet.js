@@ -36,14 +36,16 @@ class CreateWallet extends React.Component {
                 data-wow-duration="600"
               >
                 <a
-                  href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                  href="https://apps.apple.com/us/app/fantom-wallet/id1436694080"
                   className="apple-icon"
+                  target="_blank"
                 >
                   <img src="/images/wallet/app-store.png" alt="Apply Store" />
                 </a>
                 <a
-                  href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                  href="https://play.google.com/store/apps/details?id=com.fantomwallet"
                   className="google-icon"
+                  target="_blank"
                 >
                   <img src="/images/wallet/google-play.png" alt="Google Play" />
                 </a>
