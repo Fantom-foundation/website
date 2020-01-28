@@ -1,12 +1,12 @@
 import React from "react"
 
 import Layout from "../../components/layouts/layout"
-import DeveloperPage from "../../components/DeveloperPage/index"
+import About from "../../components/About/Chinese/index"
 
 const Developer = (props) => {
     return (
         <Layout location={props.location}>
-            <DeveloperPage />
+            <About />
         </Layout>
     )
 }

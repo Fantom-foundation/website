@@ -1,14 +1,14 @@
 import React from "react"
 
 import Layout from "../../components/layouts/layout"
-import Team from "../../components/foundation/index"
+import DeveloperPage from "../../components/DeveloperPage/Chinese/index"
 
-const TeamMember = (props) => {
+const Developer = (props) => {
     return (
         <Layout location={props.location}>
-            <Team />
+            <DeveloperPage />
         </Layout>
     )
 }
 
-export default TeamMember
+export default Developer

@@ -98,7 +98,7 @@ class Carousel extends React.Component {
    
     return (
       <div className="inner-container container carousel-section section">
-        <h2 className="slider-heading wow fadeInLeft" data-wow-duration="600">Latest articles</h2>
+        <h2 className="slider-heading wow fadeInLeft" data-wow-duration="600">最新文章</h2>
         <Slider {...settings}>
           {
             postsState.map((post, index) => {
