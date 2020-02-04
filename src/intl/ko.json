@@ -27,7 +27,57 @@
     },
     "carousel": {
       "latestArticles": "최신 기사"
-    }
+    },
+    "offerdata": [
+      {
+        "id": "1",
+        "classname": "Scalable offer-item",
+        "heading": "확장성",
+        "des": "팬텀의 합의 알고리즘인 라케시스와 TxFlow는 다른 합의에서 도달하지 못한 영역까지 확장 가능합니다.",
+        "img": "/images/offer-icon/scalable.svg",
+        "alt": "확장성"
+      },
+      {
+        "id": "2",
+        "classname": "Secure offer-item",
+        "heading": "보안성",
+        "des": "비동기 비잔틴 장애 허용 합의 알고리즘은 모든 분산 원장 애플리케이션을 위해 은행 급 보안성을 제공합니다.",
+        "img": "/images/offer-icon/secure.svg",
+        "alt": "보안성"
+      },
+      {
+        "id": "3",
+        "classname": "Fast offer-item",
+        "heading": "빠른 속도",
+        "des": "팬텀의 합의는 많은 거래량 처리가 가능하며, 보안, 반응, 및 빠른 도입이 가능하도록 설계되었습니다.",
+        "img": "/images/offer-icon/fast.svg",
+        "alt": "빠른 속도"
+      },
+      {
+        "id": "4",
+        "classname": "Connected offer-item",
+        "heading": "연결성",
+        "des": "팬텀의 SDK를 사용하는 제품 및 원장은 논-커스터디얼 브릿지(non-custodial bridges) 및 담보된 토큰(bonded tokens)을 통해 서로 상호작용이 가능합니다.",
+        "img": "/images/offer-icon/Connected.svg",
+        "alt": "연결성"
+      },
+      {
+        "id": "5",
+        "classname": "Permissionless offer-item",
+        "heading": "무허가성",
+        "des": "최대한 많은 네트워크 참여자를 확보하기 위해 온-체인 거버넌스로 PoS를 도입하였으며, PoS를 통해 보안되는 네트워크를 위한 팬텀 SDK를 설계하였습니다.",
+        "img": "/images/offer-icon/Permissionless.svg",
+        "alt": "무허가성"
+      },
+      {
+        "id": "6",
+        "classname": "Open-source offer-item",
+        "heading": "오픈소스",
+        "des": "팬텀 핵심 개발팀이 개발한 모든 코드, 연구 자료 및 레포지토리는 누구나 열람 가능하며 검토 및 개선을 위해 사용 가능합니다.",
+        "img": "/images/offer-icon/openSource.svg",
+        "alt": "오픈소스"
+      }
+    ]
   },
   "readMore": "더 읽어보기",
   "learnMore": "더 알아보기",
@@ -153,27 +203,27 @@
         "li4": "our business partners, agents and service providers (including hosting and cloud providers)",
         "li5": "prospective purchasers of all or part of our business or shares in our company or a related entity",
         "li6": "professional advisers who we engage to provide advice on our business",
-        "li7": "government authorities who ask us to disclose that information, or to other people as required by law",
+        "li7": "government authorities who ask us to disclose that information, or to other people as required by law"
       },
       "paragraph2": "Our tokens are ERC-20 and BEP-2 compliant tokens It is possible to identify personal information from (and including) wallet addresses and other data available on the Ethereum blockchain and Binance chain as they are, by nature,  transparent and public ledgers.  Due to the nature of the Ethereum blockchain and Binance chain, we cannot amend or control the disclosure of such personal information."
     },
     "section6": {
       "title": "Disclosure to international recipients",
       "paragraph1": "In some cases we disclose your personal information to recipients who may be located outside the country in which you are located (including contractors and third party service providers).  We may disclose your personal information to our affiliates and related entities, and employees overseas as necessary to provide you with our goods and services.",
-      "paragraph2" : "We have related entities, affiliates and service providers located various countries in the Asia-Pacific region and other countries from time to time, and may disclose personal information to those entities.",
-      "paragraph3" : "We take commercially reasonable steps to ensure that any overseas recipient has appropriate safeguards in place, ensures an adequate level of protection of your personalinformation, and does not breach the privacy law applicable in your jurisdiction or this Privacy Policy in relation to the personal information."
+      "paragraph2": "We have related entities, affiliates and service providers located various countries in the Asia-Pacific region and other countries from time to time, and may disclose personal information to those entities.",
+      "paragraph3": "We take commercially reasonable steps to ensure that any overseas recipient has appropriate safeguards in place, ensures an adequate level of protection of your personalinformation, and does not breach the privacy law applicable in your jurisdiction or this Privacy Policy in relation to the personal information."
     },
     "section7": {
       "title": "Cookies",
       "paragraph1": "Cookies are small text files created and stored on your hard drive by your internet browser software, in order to hold relevant information about the web page you are currently viewing.",
-      "paragraph2" : "Cookies are being used to monitor and observe your use of our websites, compile aggregate data about that use, and provide you with a more effective service (which may include customising parts of our websites based on your preferences and past activities on those websites).",
-      "paragraph3" : "Some third parties (such as providers of data analytics services) may also use cookies over which we have no control.",
-      "paragraph4" : "Most internet browsers have a facility that will allow you to disable all or some cookies altogether – please refer to your browser’s help menu to find out how to do this. While you will still be able to browse our websites with cookies disabled on your internet browser, some website functionality may not be available or may not function correctly. "
+      "paragraph2": "Cookies are being used to monitor and observe your use of our websites, compile aggregate data about that use, and provide you with a more effective service (which may include customising parts of our websites based on your preferences and past activities on those websites).",
+      "paragraph3": "Some third parties (such as providers of data analytics services) may also use cookies over which we have no control.",
+      "paragraph4": "Most internet browsers have a facility that will allow you to disable all or some cookies altogether – please refer to your browser’s help menu to find out how to do this. While you will still be able to browse our websites with cookies disabled on your internet browser, some website functionality may not be available or may not function correctly. "
     },
     "section8": {
       "paragraph1": "We take reasonable steps to ensure that any of your personal information which we hold is accurate, complete and up-to-date.  These steps include promptly updating personal information when we are advised that the information has changed, checking our contact lists for accuracy, and providing individuals with a simple means to update their personal information",
-      "paragraph2" : "We store personal information for as long as it is needed for the purpose for which it was collected or as required by law.  Within a reasonable time after the expiry of this period, we will take reasonable steps to de-identify or destroy the personal information which is in our possession or control.",
-      "paragraph3" : "We generally store the personal information that we collect in electronic databases, someof which may be held on our behalf by third party data storage providers.  Sometimes we also keep hard copy records of this personal information in physical storage facilities.  We use a range of physical and technical security processes and procedures to protect the confidentiality and security of the information that we hold, and we update these from time to time to address new and emerging security threats.  These measures include:",
+      "paragraph2": "We store personal information for as long as it is needed for the purpose for which it was collected or as required by law.  Within a reasonable time after the expiry of this period, we will take reasonable steps to de-identify or destroy the personal information which is in our possession or control.",
+      "paragraph3": "We generally store the personal information that we collect in electronic databases, someof which may be held on our behalf by third party data storage providers.  Sometimes we also keep hard copy records of this personal information in physical storage facilities.  We use a range of physical and technical security processes and procedures to protect the confidentiality and security of the information that we hold, and we update these from time to time to address new and emerging security threats.  These measures include:",
       "ul": {
         "li1": "restricting access to our physical and electronic databases, and physical security such as security procedures for access to our business premises; and",
         "li2": "technological security procedures including password protection, network firewalls, encryption, intrusion detection and site monitoring where practicable to do so."
@@ -203,7 +253,7 @@
       "title": "Complaints",
       "paragraph1": "We try to meet the highest standards in order to protect your privacy.  However, if you are concerned about the way in which we are managing your personal information or think we may have breached our obligations under the applicable privacy or data protection legislation, or any other relevant obligation, please contact us using the contact details set out below.",
       "paragraph2": "Complaints must be lodged in writing.  In the complaint, please include your contact details (such as email address, name, address and telephone number) and clearly describe the complaint.  We will deal with the matter within a reasonable time and will keep you informed of the progress of our investigation. ",
-      "paragraph3" : "If we have not responded to you within a reasonable time or if you feel that your complaint has not been resolved satisfactorily, you can contact us to discuss your concerns.  You are also entitled to make a complaint to the relevant privacy or data protection regulator."
+      "paragraph3": "If we have not responded to you within a reasonable time or if you feel that your complaint has not been resolved satisfactorily, you can contact us to discuss your concerns.  You are also entitled to make a complaint to the relevant privacy or data protection regulator."
     },
     "section12": {
       "title": "Changes to this policy",
@@ -212,8 +262,8 @@
     "section13": {
       "title": "Contact details",
       "paragraph1": "If you need to contact us or want any further information from us on privacy matters, please contact us at ",
-      "a":{
-        "href" : "mailto:contact@fantom.foundation",
+      "a": {
+        "href": "mailto:contact@fantom.foundation",
         "text": "contact@fantom.foundation"
       }
     }
