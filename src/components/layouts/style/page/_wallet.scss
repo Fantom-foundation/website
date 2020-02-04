@@ -1,0 +1,678 @@
+.wallet {
+  @include devicepoint(991px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  position: relative;
+  .dark {
+    color: #2b3954;
+  }
+  h2 {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    @include transition(all 0.3s ease-in-out);
+  }
+  @include devicepoint(991px) {
+    h2 {
+      font-size: 45px;
+      line-height: 45px;
+      margin-bottom: 10px;
+    }
+    h4 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  .wallet-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 60px;
+    .toggle-wrapper {
+      background-color: #fff;
+      min-width: 284px;
+      min-height: 50px;
+      border-radius: 23px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 24px;
+      font-weight: 500;
+      color: #6a7487;
+      cursor: pointer;
+      position: relative;
+      &:before {
+        content: "";
+        width: 50%;
+        height: 100%;
+        background-color: #ecf4fd;
+        position: absolute;
+        left: 50%;
+        border-radius: 23px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        background-color: #ecf4fd;
+        @include transition(all 0.3s ease-in-out);
+      }
+      span {
+        @include transition(all 0.3s ease-in-out);
+        z-index: 100;
+      }
+      span:nth-child(1) {
+        opacity: 0.5;
+      }
+    }
+    &.toggle {
+      span:nth-child(1) {
+        opacity: 1;
+      }
+      span:nth-child(2) {
+        opacity: 0.5;
+      }
+      .toggle-wrapper {
+        &:before {
+          left: 0;
+        }
+      }
+    }
+  }
+  &.mobile {
+    .hero-section.wallet-hero {
+      .hero-img {
+        right: 10%;
+        max-width: 500px;
+        top: 22%;
+        @include devicepoint(1440px) {
+          right: 5%;
+        }
+        @include devicepoint(1199px) {
+          right: 0;
+        }
+        @include devicepoint(991px) {
+          max-width: 400px;
+          top: 25%;
+        }
+        @include devicepoint(767px) {
+          right: 0;
+          top: 580px;
+        }
+        @include devicepoint(480px) {
+          max-width: 100%;
+        }
+      }
+      // &:after {
+      // background-image: url("/images/wallet/phone.png");
+      // max-width: 400px;
+      // right: 120px;
+      // background-size: contain;
+      // }
+      .buttons-wrapper {
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      @include devicepoint(1199px) {
+        &:after {
+          right: 20px;
+        }
+      }
+      @include devicepoint(991px) {
+        &:after {
+          height: 100%;
+          max-width: 320px;
+          width: 32%;
+        }
+      }
+      @include devicepoint(767px) {
+        .container {
+          padding-bottom: 400px;
+        }
+        .buttons-wrapper {
+          justify-content: center;
+        }
+        &:after {
+          right: 0;
+          bottom: -390px;
+          max-width: 300px;
+        }
+      }
+      @include devicepoint(600px) {
+        &:after {
+          bottom: -360px;
+          width: 100%;
+        }
+      }
+      @include devicepoint(480px) {
+        &:after {
+          max-width: 220px;
+          bottom: -450px;
+        }
+        .buttons-wrapper {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .half-image-section {
+      background-repeat: no-repeat;
+      padding-top: 180px;
+      @include devicepoint(991px) {
+        padding-top: 70px;
+      }
+      @include devicepoint(767px) {
+        padding-top: 190px;
+      }
+      .half-image-wrapper {
+        .section-img {
+          text-align: center !important;
+          .half-image {
+            max-width: 500px;
+          }
+          @include devicepoint(1199px) {
+            text-align: right;
+          }
+          @include devicepoint(991px) {
+            .half-image {
+              max-width: 400px;
+            }
+          }
+          @include devicepoint(767px) {
+            .half-image {
+              // max-width: 300px;
+            }
+          }
+          @include devicepoint(480px) {
+            .half-image {
+              max-width: 100%;
+            }
+          }
+        }
+        .half-image-content .content {
+          padding-left: 110px;
+          max-width: 600px;
+          @include devicepoint(991px) {
+            padding-left: 50px;
+          }
+          @include devicepoint(767px) {
+            padding-left: 0;
+            max-width: 100%;
+          }
+        }
+        @include devicepoint(991px) {
+          margin-top: 70px;
+        }
+      }
+
+      .half-image-wrapper:nth-of-type(even) {
+        .half-img-content .content {
+          padding-right: 100px;
+        }
+        @include devicepoint(1199px) {
+          .section-img {
+            text-align: left;
+          }
+          .half-img-content .content {
+            padding-right: 50px;
+            padding-left: unset;
+          }
+        }
+        @include devicepoint(767px) {
+          .half-img-content .content {
+            padding-right: unset;
+          }
+        }
+      }
+    }
+    .create-wallet {
+      .create-wallet-wrapper {
+        max-width: 870px;
+      }
+    }
+  }
+  .apple-icon {
+    img {
+      max-width: 184px;
+      @include devicepoint(991px) {
+        width: 184px;
+      }
+    }
+  }
+  .google-icon {
+    img {
+      max-width: 194px;
+      @include devicepoint(991px) {
+        width: 194px;
+      }
+      @include devicepoint(480px) {
+        width: 184px;
+      }
+    }
+  }
+}
+.hero-section.wallet-hero {
+  .container {
+    padding: 200px 15px;
+    @include devicepoint(1920px) {
+      padding-top: 140px;
+    }
+    @include devicepoint(1199px) {
+      padding-top: 100px;
+      padding-bottom: 150px;
+    }
+    @include devicepoint(767px) {
+      padding-top: 50px;
+      padding-bottom: 300px;
+    }
+    @include devicepoint(480px) {
+      padding-bottom: 200px;
+    }
+  }
+  position: relative;
+  .hero-img {
+    position: absolute;
+    right: 0;
+    top: 17%;
+    max-width: 50%;
+    @include devicepoint(1920px) {
+      top: 25%;
+    }
+    @include devicepoint(1199px) {
+      top: 30%;
+    }
+    @include devicepoint(991px) {
+      top: 50%;
+      max-width: 70%;
+      right: -15%;
+    }
+    @include devicepoint(767px) {
+      top: 90%;
+      right: unset;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      max-width: 100%;
+    }
+  }
+  // &:after {
+  //   content: "";
+  //   background-image: url("/images/wallet/hero.png");
+  //   position: absolute;
+  //   right: 0;
+  //   background-size: cover;
+  //   width: 40%;
+  //   height: 100%;
+  //   background-repeat: no-repeat;
+  //   right: 0;
+  //   top: 25%;
+  //   @include devicepoint(991px) {
+  //     width: 35%;
+  //     height: 80%;
+  //   }
+  //   @include devicepoint(767px) {
+  //     width: 100%;
+  //     height: 100%;
+  //     background-size: contain;
+  //     bottom: -480px;
+  //     top: unset;
+  //     left: 0;
+  //     margin: auto;
+  //     max-width: calc(100% - 30px);
+  //   }
+  //   @include devicepoint(600px) {
+  //     bottom: -460px;
+  //   }
+  //   @include devicepoint(320px) {
+  //     bottom: -500px;
+  //   }
+  // }
+  z-index: unset;
+  .buttons-wrapper {
+    margin-top: 50px;
+  }
+  .button {
+    padding: 12px 35px;
+    min-width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    border-style: solid;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    @include box-shadow(0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08));
+    text-decoration: none;
+  }
+  .light-btn {
+    box-shadow: 0 4px 6px 0 rgba(50, 50, 93, 0.11), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    color: #1965e9;
+    margin-right: 30px;
+  }
+  .dark-btn {
+    background-color: #03358c;
+    color: #fff;
+  }
+  @include devicepoint(991px) {
+    .buttons-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .button {
+      margin-bottom: 30px;
+    }
+  }
+  @include devicepoint(767px) {
+    .buttons-wrapper {
+      align-items: center;
+    }
+    .light-btn {
+      margin-right: 0;
+    }
+  }
+  @include devicepoint(600px) {
+    .buttons-wrapper {
+      margin-top: 20px;
+    }
+    .button {
+      margin-bottom: 20px;
+    }
+  }
+  @include devicepoint(480px) {
+    .buttons-wrapper {
+      .google-icon {
+        img {
+          width: 194px;
+        }
+      }
+    }
+  }
+  .hero-content {
+    @include devicepoint(991px) {
+      max-width: 460px;
+    }
+    @include devicepoint(767px) {
+      text-align: center;
+    }
+    h1 {
+      width: unset;
+      font-size: 64px;
+      margin-top: 100px;
+      font-weight: bold;
+      line-height: 1.69;
+      @include devicepoint(991px) {
+        font-size: 45px;
+        line-height: 45px;
+      }
+    }
+    h4 {
+      font-size: 28px;
+      font-weight: 500;
+      color: #c2d6fa;
+      @include devicepoint(991px) {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+    @include devicepoint(767px) {
+      max-width: 100%;
+      h1 {
+        font-size: 45px;
+        line-height: 45px;
+      }
+      h4 {
+        font-size: 24px;
+        line-height: 38px;
+      }
+    }
+  }
+}
+.create-wallet {
+  color: #6a7487;
+  text-align: center;
+  margin-bottom: 120px;
+  @include devicepoint(767px) {
+    // text-align: left;
+    margin-bottom: 80px;
+  }
+  @include devicepoint(600px) {
+    text-align: center;
+  }
+  .buttons-wrapper {
+    margin-bottom: 20px;
+    text-align: center;
+    @include devicepoint(767px) {
+      margin-top: 30px;
+    }
+  }
+  a.wallet-link {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    @include devicepoint(767px) {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+  .wallet-link {
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    display: block;
+    color: #1965e9;
+    @include transition(all 0.3s ease-in-out);
+    cursor: pointer;
+    @include devicepoint(767px) {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  .os-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    .icon-wrapper {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  .create-wallet-wrapper {
+    max-width: 670px;
+    margin: auto;
+  }
+}
+.half-image-section {
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: -1;
+    background-image: url("/images/wallet/bg-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    @include devicepoint(767px) {
+      background-image: url("/images/wallet/bg-mob.svg");
+      background-size: 300%;
+    }
+  }
+  padding-top: 100px;
+  margin-bottom: 200px;
+  @include devicepoint(1199px) {
+    padding-top: 50px;
+    margin-bottom: 150px;
+  }
+  @include devicepoint(991px) {
+    padding-top: 30px;
+  }
+  @include devicepoint(767px) {
+    padding-top: 200px;
+  }
+  @include devicepoint(600px) {
+    padding-top: 150px;
+    margin-bottom: 100px;
+  }
+  @include devicepoint(480px) {
+    padding-top: 100px;
+  }
+  .half-image-wrapper {
+    margin-top: 150px;
+    @include devicepoint(1199px) {
+      margin-top: 150px;
+    }
+    @include devicepoint(600px) {
+      margin-top: 100px;
+    }
+    @include devicepoint(320px) {
+      margin-top: 70px;
+    }
+    .half-img-content {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      .half-image-content,
+      .section-img {
+        flex-basis: 50%;
+        max-width: 50%;
+        .half-image {
+          max-width: 100%;
+        }
+        @include devicepoint(991px) {
+          // flex-basis: 45%;
+          // max-width: 45%;
+        }
+      }
+      @include devicepoint(767px) {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        .half-image-content,
+        .section-img {
+          flex-basis: 100%;
+          max-width: 100%;
+        }
+      }
+      .section-img {
+        position: relative;
+        .half-image {
+          max-width: 100%;
+        }
+        @include devicepoint(1199px) {
+          .half-image {
+            // width: 110%;
+            // margin-left: -100px;
+            position: relative;
+          }
+        }
+        @include devicepoint(991px) {
+          .half-image {
+            // width: 120%;
+          }
+        }
+        @include devicepoint(767px) {
+          .half-image {
+            width: 100%;
+            margin-left: unset;
+          }
+        }
+      }
+      .half-image-content {
+        max-width: 600px;
+        @include devicepoint(1199px) {
+          max-width: 480px;
+        }
+        @include devicepoint(991px) {
+          max-width: 45%;
+        }
+        @include devicepoint(767px) {
+          max-width: 100%;
+          width: 100%;
+        }
+        .content {
+          padding-left: 200px;
+          @include devicepoint(1199px) {
+            padding-left: 80px;
+          }
+          @include devicepoint(991px) {
+            padding-left: 40px;
+          }
+          @include devicepoint(767px) {
+            padding-left: 0;
+            padding-bottom: 50px;
+          }
+          h2 {
+            color: #2b3954;
+          }
+          h4 {
+            color: #6a7487;
+          }
+        }
+      }
+    }
+    &:nth-of-type(even) {
+      .half-img-content {
+        flex-direction: row-reverse;
+        .section-img {
+          text-align: right;
+        }
+        .content {
+          padding-left: unset;
+          padding-right: 200px;
+        }
+        @include devicepoint(1199px) {
+          .content {
+            padding-right: 80px;
+          }
+          .half-image {
+            // margin-left: unset;
+            // margin-right: -100px;
+          }
+        }
+        @include devicepoint(991px) {
+          .content {
+            padding-right: 40px;
+          }
+        }
+        @include devicepoint(767px) {
+          flex-direction: column-reverse;
+          .content {
+            padding-right: unset;
+          }
+          .half-image {
+            margin-right: unset;
+          }
+        }
+      }
+    }
+  }
+}

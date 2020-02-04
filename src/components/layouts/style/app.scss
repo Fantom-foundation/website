@@ -1,0 +1,39 @@
+// carousel
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+//mixins
+@import "mixins/animation";
+@import "mixins/border-radius-mixin";
+@import "mixins/box-shadow";
+@import "mixins/drop-shadow";
+@import "mixins/grid-mixin";
+@import "mixins/keyframes";
+@import "mixins/linear-gradient";
+@import "mixins/mediaquery";
+@import "mixins/placeholder";
+@import "mixins/transform";
+@import "mixins/transistion";
+
+//bootstrap
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+$aos-distance: 70px; // It has to be above import
+@import "~aos/src/sass/aos.scss";
+// @import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap");
+
+// SETTINGS
+@import "setting/setting";
+
+// COMPONENTS
+@import "components/header";
+@import "components/footer";
+@import "components/animate";
+
+// PAGES
+@import "page/layout";
+@import "page/home";
+@import "page/developer";
+@import "page/foundation";
+@import "page/wallet";

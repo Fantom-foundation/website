@@ -1,0 +1,38 @@
+{
+  "home": {
+    "hero":{
+      "title":"The core of the new internet"
+    },
+    "subtitle": {
+      "title": "The most advanced, fast, and secure consensus for distributed networks.",
+      "description": "Whether you’re issuing a stablecoin, creating a new smart economy, or powering a smart city, Fantom’s modular approach lets you focus on building the perfect decentralized application, or mainnet — as we call it."
+    },
+    "offers": {
+      "title": "Built with the future in mind",
+      "description": "Fantom offers the most powerful foundations for decentralized ledgers."
+    },
+    "intro": {
+      "title": "Introduction to Fantom",
+      "description": "The Ecosystem, The Consensus, The Innovation."
+    },
+    "updates": {
+      "developer":{
+        "title": "Developer Portal",
+        "description": "Open source. Scalable. Secure.."
+      },
+      "foundation":{
+        "title": "The Fantom Foundation",
+        "description": "The people, the culture."
+      }
+    },
+    "carousel": {
+      "latestArticles": "Latest Articles"
+    }
+  },
+  "readMore":"Read More",
+  "learnMore":"Learn More",
+  "notfound": {
+    "header": "Not Found ",
+    "description": "You just hit a route that doesn't exist... the sadness."
+  }
+}

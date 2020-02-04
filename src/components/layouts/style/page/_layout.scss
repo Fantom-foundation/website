@@ -1,0 +1,132 @@
+.slick-prev:before, .slick-next:before {
+    color: #09529b !important;
+    content: url('/images/home/article-arrow.svg')
+  }
+
+  .slick-prev:before {
+    color: #09529b !important;
+    content: url('/images/home/Path.svg')
+  }
+
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+    left: 65%;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #5d535300;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+    left: 60%;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #5d535300;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+.update-section {
+  .main-update {
+    .update-form {
+      position: relative;
+      h3{
+        font-weight: 600;
+        color: #2c3b57;
+      }
+    }
+  }
+}
+
+.update-form:before {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background: url('/images/home/accent-down.svg');
+    left: -15%;
+    top: 110%;
+    background-repeat: no-repeat
+  }
+
+  .update-form:after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background: url('/images/home/accent-up.svg');
+    bottom: 100px;
+    left: 115%;
+    background-repeat: no-repeat
+  }
+
+
+// Media query
+
+@media (min-width: 769px) {
+  h1{
+    font-size: 90px;
+  }
+  h2{
+    font-size: 64px;
+  }
+  h3{
+    font-size: 48px;
+  }
+  h4{
+    font-size: 30px;
+  }
+  p{
+    font-size: 21px; 
+  }
+  .update-form:after {
+    left: 107%;
+  }
+}
+@media (max-width: 768px){
+  h1{
+    font-size: 54px;
+  }
+  h2{
+    font-size: 42px;
+  }
+  h3{
+    font-size: 36px;
+  }
+  h4{
+    font-size: 28px;
+  }
+  p{
+    font-size: 18px; 
+  }
+}
+
+@media (max-width: 360px){
+  .update-section {
+    .main-update {
+      .update-form {
+        div input {
+          width: 95%;
+        }
+      }
+    }
+  }
+}

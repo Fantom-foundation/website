@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504" height="322" viewBox="0 0 504 322">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="504" height="322" rx="15" fill="#3478ef"/>
+    </clipPath>
+    <filter id="button_shape" x="54" y="238" width="129" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Developer_Portal" data-name="Developer Portal" clip-path="url(#clip-path)">
+    <ellipse id="Oval" cx="126" cy="206" rx="126" ry="206" transform="translate(385 -31)" fill="#eaf598"/>
+    <text id="Developer_Portal-2" data-name="Developer Portal" transform="translate(61 46)" fill="#fff" font-size="48" font-family="Muli-SemiBold, Muli" font-weight="600"><tspan x="0" y="48">Developer </tspan><tspan x="0" y="102">Portal</tspan></text>
+    <text id="Open_source._Scalabl" data-name="Open source. Scalabl" transform="translate(62 178)" fill="#fff" font-size="21" font-family="Muli-Regular, Muli" letter-spacing="0.024em"><tspan x="0" y="21">Open source. Scalable. Secure.</tspan></text>
+    <g id="Learn_More_Button" data-name="Learn More Button" transform="translate(60 241)">
+      <g id="button">
+        <g transform="matrix(1, 0, 0, 1, -60, -241)" filter="url(#button_shape)">
+          <rect id="button_shape-2" data-name="button shape" width="117" height="41" rx="20.5" transform="translate(60 241)" fill="#fff"/>
+        </g>
+        <text id="Learn_More" data-name="Learn More" transform="translate(13 10)" fill="#426ed5" font-size="16" font-family="Muli-Bold, Muli" font-weight="700" letter-spacing="0.021em"><tspan x="1.037" y="16">Learn More</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+// CSS 3 box-shadow
+@mixin box-shadow($prop...) {
+  -webkit-box-shadow: $prop;
+  -moz-box-shadow: $prop;
+  box-shadow: $prop;
+}

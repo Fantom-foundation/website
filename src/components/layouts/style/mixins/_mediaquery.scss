@@ -1,0 +1,23 @@
+@mixin devicepoint($point) {
+  @if $point == desktop-large {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  } @else if $point == desktop {
+    @media (max-width: 1199px) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (max-width: 991px) {
+      @content;
+    }
+  } @else if $point == phone {
+    @media (max-width: 480px) {
+      @content;
+    }
+  } @else {
+    @media (max-width: $point) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "home": {
+    "hero":{
+      "title":"新互联网的核心"
+    },
+    "subtitle": {
+      "title": "分布式网络的最先进，快速和安全的共识。",
+      "description": "无论您要发行稳定币，创建新的智慧经济还是为智慧城市提供动力，Fantom的模块化方法都可以让您专注于构建完美的去中心化应用程序或主网，即我们所说的。"
+    },
+    "offers": {
+      "title": "着眼未来",
+      "description": "Fantom为分散分类账提供最强大的基础。"
+    },
+    "intro": {
+      "title": "Fantom简介",
+      "description": "生态系统，共识，创新。"
+    },
+    "updates": {
+      "developer":{
+        "title": "开发者门户",
+        "description": "开源。可扩展安全。"
+      },
+      "foundation":{
+        "title": "The Fantom Foundation",
+        "description": "人民，文化。"
+      }
+    },
+    "carousel": {
+      "latestArticles": "最新文章"
+    }
+  },
+  "readMore":"阅读更多",
+  "learnMore":"学到更多",
+  "notfound": {
+    "header": "未找到 ",
+    "description": "您只是走了一条不存在的路...悲伤。"
+  }
+}

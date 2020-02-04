@@ -1,0 +1,11 @@
+<svg id="Developer_Portal" data-name="Developer Portal" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504" height="322" viewBox="0 0 504 322">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="504" height="322" rx="15" fill="#3478ef"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle-2" data-name="Rectangle" width="504" height="322" rx="15" fill="#3478ef"/>
+  <g id="Developer_Portal-2" data-name="Developer Portal" clip-path="url(#clip-path)">
+    <ellipse id="Oval" cx="126" cy="206" rx="126" ry="206" transform="translate(385 -31)" fill="#eaf598"/>
+  </g>
+</svg>

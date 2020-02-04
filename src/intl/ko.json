@@ -1,0 +1,38 @@
+{
+  "home": {
+    "hero":{
+      "title":"새로운 인터넷의 핵심"
+    },
+    "subtitle": {
+      "title": "분산 네트워크에 대한 최첨단의 빠르고 안전한 합의.",
+      "description": "안정적인 코인 발행, 새로운 스마트 경제 창출 또는 스마트 도시 강화에 관계없이 Fantom의 모듈 식 접근 방식을 통해 완벽한 분산 응용 프로그램 또는 메인 넷을 구축하는 데 집중할 수 있습니다."
+    },
+    "offers": {
+      "title": "미래를 염두에두고 구축",
+      "description": "Fantom은 분산 원장을위한 가장 강력한 기반을 제공합니다."
+    },
+    "intro": {
+      "title": "Fantom 소개",
+      "description": "생태계, 합의, 혁신."
+    },
+    "updates": {
+      "developer":{
+        "title": "개발자 포털",
+        "description": "오픈 소스. 확장 가능 안전한."
+      },
+      "foundation":{
+        "title": "The Fantom Foundation",
+        "description": "사람들, 문화."
+      }
+    },
+    "carousel": {
+      "latestArticles": "최신 기사"
+    }
+  },
+  "readMore":"더 읽어보기",
+  "learnMore":"더 알아보기",
+  "notfound": {
+    "header": "찾을 수 없음 ",
+    "description": "당신은 존재하지 않는 길을 쳤습니다 ... 슬픔."
+  }
+}
