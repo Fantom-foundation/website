@@ -27,7 +27,57 @@
     },
     "carousel": {
       "latestArticles": "Latest Articles"
-    }
+    },
+    "offerdata": [
+      {
+        "id": "1",
+        "classname": "Scalable offer-item",
+        "heading": "Scalable",
+        "des": "Our consensus mechanisms — Lachesis and TxFlow — can scale where others cannot.",
+        "img": "/images/offer-icon/scalable.svg",
+        "alt": "Scalable"
+      },
+      {
+        "id": "2",
+        "classname": "Secure offer-item",
+        "heading": "Secure",
+        "des": "Asynchronous Byzantine Fault Tolerant consensus mechanisms provide bank-grade security for any distributed ledger application.",
+        "img": "/images/offer-icon/secure.svg",
+        "alt": "Secure"
+      },
+      {
+        "id": "3",
+        "classname": "Fast offer-item",
+        "heading": "Fast",
+        "des": "Fantom consensus is designed to support high throughput, while maintaining security, responsivity, and quick settlements.",
+        "img": "/images/offer-icon/fast.svg",
+        "alt": "Fast"
+      },
+      {
+        "id": "4",
+        "classname": "Connected offer-item",
+        "heading": "Connected",
+        "des": "Products and ledgers using Fantom's SDK can interact with each other through non-custodial bridges and bonded tokens.",
+        "img": "/images/offer-icon/Connected.svg",
+        "alt": "Connected"
+      },
+      {
+        "id": "5",
+        "classname": "Permissionless offer-item",
+        "heading": "Permissionless",
+        "des": "We designed Fantom SDK to be used with networks that are secured through Proof-of-Stake, with on-chain governance for maximum network participation.",
+        "img": "/images/offer-icon/Permissionless.svg",
+        "alt": "Permissionless"
+      },
+      {
+        "id": "6",
+        "classname": "Open-source offer-item",
+        "heading": "Open-source",
+        "des": "All code, research, and repositories created by the Fantom core development team are available publicly for peer review and improvements.",
+        "img": "/images/offer-icon/openSource.svg",
+        "alt": "Open-source"
+      }
+    ]
   },
   "readMore": "Read More",
   "learnMore": "Learn More",
@@ -160,20 +210,20 @@
     "section6": {
       "title": "Disclosure to international recipients",
       "paragraph1": "In some cases we disclose your personal information to recipients who may be located outside the country in which you are located (including contractors and third party service providers).  We may disclose your personal information to our affiliates and related entities, and employees overseas as necessary to provide you with our goods and services.",
-      "paragraph2" : "We have related entities, affiliates and service providers located various countries in the Asia-Pacific region and other countries from time to time, and may disclose personal information to those entities.",
-      "paragraph3" : "We take commercially reasonable steps to ensure that any overseas recipient has appropriate safeguards in place, ensures an adequate level of protection of your personalinformation, and does not breach the privacy law applicable in your jurisdiction or this Privacy Policy in relation to the personal information."
+      "paragraph2": "We have related entities, affiliates and service providers located various countries in the Asia-Pacific region and other countries from time to time, and may disclose personal information to those entities.",
+      "paragraph3": "We take commercially reasonable steps to ensure that any overseas recipient has appropriate safeguards in place, ensures an adequate level of protection of your personalinformation, and does not breach the privacy law applicable in your jurisdiction or this Privacy Policy in relation to the personal information."
     },
     "section7": {
       "title": "Cookies",
       "paragraph1": "Cookies are small text files created and stored on your hard drive by your internet browser software, in order to hold relevant information about the web page you are currently viewing.",
-      "paragraph2" : "Cookies are being used to monitor and observe your use of our websites, compile aggregate data about that use, and provide you with a more effective service (which may include customising parts of our websites based on your preferences and past activities on those websites).",
-      "paragraph3" : "Some third parties (such as providers of data analytics services) may also use cookies over which we have no control.",
-      "paragraph4" : "Most internet browsers have a facility that will allow you to disable all or some cookies altogether – please refer to your browser’s help menu to find out how to do this. While you will still be able to browse our websites with cookies disabled on your internet browser, some website functionality may not be available or may not function correctly. "
+      "paragraph2": "Cookies are being used to monitor and observe your use of our websites, compile aggregate data about that use, and provide you with a more effective service (which may include customising parts of our websites based on your preferences and past activities on those websites).",
+      "paragraph3": "Some third parties (such as providers of data analytics services) may also use cookies over which we have no control.",
+      "paragraph4": "Most internet browsers have a facility that will allow you to disable all or some cookies altogether – please refer to your browser’s help menu to find out how to do this. While you will still be able to browse our websites with cookies disabled on your internet browser, some website functionality may not be available or may not function correctly. "
     },
     "section8": {
       "paragraph1": "We take reasonable steps to ensure that any of your personal information which we hold is accurate, complete and up-to-date.  These steps include promptly updating personal information when we are advised that the information has changed, checking our contact lists for accuracy, and providing individuals with a simple means to update their personal information",
-      "paragraph2" : "We store personal information for as long as it is needed for the purpose for which it was collected or as required by law.  Within a reasonable time after the expiry of this period, we will take reasonable steps to de-identify or destroy the personal information which is in our possession or control.",
-      "paragraph3" : "We generally store the personal information that we collect in electronic databases, someof which may be held on our behalf by third party data storage providers.  Sometimes we also keep hard copy records of this personal information in physical storage facilities.  We use a range of physical and technical security processes and procedures to protect the confidentiality and security of the information that we hold, and we update these from time to time to address new and emerging security threats.  These measures include:",
+      "paragraph2": "We store personal information for as long as it is needed for the purpose for which it was collected or as required by law.  Within a reasonable time after the expiry of this period, we will take reasonable steps to de-identify or destroy the personal information which is in our possession or control.",
+      "paragraph3": "We generally store the personal information that we collect in electronic databases, someof which may be held on our behalf by third party data storage providers.  Sometimes we also keep hard copy records of this personal information in physical storage facilities.  We use a range of physical and technical security processes and procedures to protect the confidentiality and security of the information that we hold, and we update these from time to time to address new and emerging security threats.  These measures include:",
       "ul": {
         "li1": "restricting access to our physical and electronic databases, and physical security such as security procedures for access to our business premises; and",
         "li2": "technological security procedures including password protection, network firewalls, encryption, intrusion detection and site monitoring where practicable to do so."
@@ -203,7 +253,7 @@
       "title": "Complaints",
       "paragraph1": "We try to meet the highest standards in order to protect your privacy.  However, if you are concerned about the way in which we are managing your personal information or think we may have breached our obligations under the applicable privacy or data protection legislation, or any other relevant obligation, please contact us using the contact details set out below.",
       "paragraph2": "Complaints must be lodged in writing.  In the complaint, please include your contact details (such as email address, name, address and telephone number) and clearly describe the complaint.  We will deal with the matter within a reasonable time and will keep you informed of the progress of our investigation. ",
-      "paragraph3" : "If we have not responded to you within a reasonable time or if you feel that your complaint has not been resolved satisfactorily, you can contact us to discuss your concerns.  You are also entitled to make a complaint to the relevant privacy or data protection regulator."
+      "paragraph3": "If we have not responded to you within a reasonable time or if you feel that your complaint has not been resolved satisfactorily, you can contact us to discuss your concerns.  You are also entitled to make a complaint to the relevant privacy or data protection regulator."
     },
     "section12": {
       "title": "Changes to this policy",
@@ -212,10 +262,10 @@
     "section13": {
       "title": "Contact details",
       "paragraph1": "If you need to contact us or want any further information from us on privacy matters, please contact us at ",
-      "a":{
-        "href" : "mailto:contact@fantom.foundation",
+      "a": {
+        "href": "mailto:contact@fantom.foundation",
         "text": "contact@fantom.foundation"
       }
     }
-  }  
+  }
 }
