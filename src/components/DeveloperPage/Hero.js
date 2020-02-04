@@ -1,6 +1,6 @@
 import React from "react"
 import WOW from 'wowjs';
-
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 class Hero extends React.Component {
     componentDidMount() {
         const wow = new WOW.WOW({
@@ -12,11 +12,11 @@ class Hero extends React.Component {
         return(
             <div className="hero-section">
                 <div className="container">
-                    <h1 className="wow fadeInUp" data-wow-duration="600">Fantom is open source</h1>
+                    <h1 className="wow fadeInUp" data-wow-duration="600"> <FormattedMessage id="developerPage.hero.title" /></h1>
                 </div>
             </div>
         )
     }   
-}
+} 
 
 export default Hero
