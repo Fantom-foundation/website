@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 // import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 class Header extends React.Component {
@@ -35,18 +36,22 @@ class Header extends React.Component {
           </h1>
           <ul className="main-nav">
             <li>
-              <a href="https://explorer.fantom.network/" target="_blank">
-                Explorer
-              </a>
+              <a href="https://explorer.fantom.network/" target="_blank">                <FormattedMessage id="header.menu.one" /></a>
             </li>
             <li>
-              <Link to="/wallet/">Wallet</Link>
+              <Link to="/wallet/">
+                <FormattedMessage id="header.menu.two" />
+              </Link>
             </li>
             <li>
-              <Link to="/about/">What is Fantom?</Link>
+              <Link to="/about/">
+                <FormattedMessage id="header.menu.three" />
+              </Link>
             </li>
             <li>
-              <Link to="/developer/">Developers</Link>
+              <Link to="/developer/">
+                <FormattedMessage id="header.menu.four" />
+              </Link>
             </li>
             <li>
               <a
@@ -54,11 +59,13 @@ class Header extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Articles
+                <FormattedMessage id="header.menu.five" />
               </a>
             </li>
             <li>
-              <Link to="/foundation/">Foundation</Link>
+              <Link to="/foundation/">
+                <FormattedMessage id="header.menu.six" />
+              </Link>
             </li>
           </ul>
         </div>
@@ -83,17 +90,23 @@ class Header extends React.Component {
             <ul>
               <li>
                 <a href="https://explorer.fantom.network/" target="_blank">
-                  Explorer
+                  <FormattedMessage id="header.menu.one" />
                 </a>
               </li>
               <li>
-                <Link to="/wallet/">Wallet</Link>
+                <Link to="/wallet/">
+                  <FormattedMessage id="header.menu.two" />
+                </Link>
               </li>
               <li>
-                <Link to="/about/">What is Fantom?</Link>
+                <Link to="/about/">
+                  <FormattedMessage id="header.menu.three" />
+                </Link>
               </li>
               <li>
-                <Link to="/developer/">Developers</Link>
+                <Link to="/developer/">
+                  <FormattedMessage id="header.menu.four" />
+                </Link>
               </li>
               <li>
                 <a
@@ -101,11 +114,13 @@ class Header extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Articles
+                  <FormattedMessage id="header.menu.five" />
                 </a>
               </li>
               <li>
-                <Link to="/foundation/">Foundation</Link>
+                <Link to="/foundation/">
+                  <FormattedMessage id="header.menu.six" />
+                </Link>
               </li>
               <li>
                 <a
@@ -113,7 +128,7 @@ class Header extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  White Paper
+                  <FormattedMessage id="header.menu.seven" />
                 </a>
               </li>
             </ul>

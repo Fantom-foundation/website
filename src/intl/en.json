@@ -1,4 +1,17 @@
 {
+  "header": {
+    "menu": {
+      "one": "Explorer",
+      "two": "Wallet",
+      "three": "What is Fantom?",
+      "four": "Developers",
+      "five": "Articles",
+      "six": "Foundation",
+      "seven": "White Paper",
+      "copyright": "©2020 Fantom Foundation",
+      "privacy": "Privacy Policy"
+    }
+  },
   "home": {
     "hero": {
       "title": "The core of the new internet"
