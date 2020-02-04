@@ -19,6 +19,7 @@ const OffersSection = () => {
                         id,
                         classname,
                     } = offerCard;
+
                     return (
                         <div className={classname} key={id}>
                             <div className="offer-text">
