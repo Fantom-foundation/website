@@ -3,8 +3,8 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layouts/layout"
 
 
-const NotFoundPage = () => (
-  <Layout>
+const NotFoundPage = (props) => (
+  <Layout location={props.location}>
     <div className="container">
       <div className="not-found-warpper text-center">
         <h1><FormattedMessage id="notfound.header" /></h1>

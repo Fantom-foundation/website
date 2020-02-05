@@ -5,12 +5,14 @@ import Header from "../SiteHeader/Header"
 import ChineseHeader from "../SiteHeader/ChineseHeader"
 import Footer from "../SiteFooter/Footer"
 import ChineseFooter from "../SiteFooter/ChineseFooter"
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./style/app.scss"
 
 const Layout = ({ children, location }) => {
-  console.log("location", location)
-  let { currentPath } = location
-  const { pathname } = location
+  console.log("location", location.pathname)
+  // let { currentPath } = location
+  let currentPath
+  const pathname = location.pathname
   const pathPrefix = "/"
   currentPath = pathname.replace(pathPrefix, "").replace("/", "")
   let header = "",

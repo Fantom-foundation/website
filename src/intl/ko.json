@@ -103,7 +103,7 @@
     "toggleButtonDesktop": "데스크탑",
     "hero": {
       "title": "팬텀 지갑",
-      "desktopContent": "Your FTM, always with you.",
+      "desktopContent": "여러분의 FTM을 언제나 쉽게 확인해보세요.",
       "mobileContent": "여러분의 FTM을 보관, 전송 그리고 스테이크해보세요.",
       "firstButtonTitle": "웹 지갑 바로가기",
       "secondButtonTitle": "지갑 다운로드"
@@ -132,32 +132,32 @@
       {
         "id": "m1",
         "imgUrl": "/images/wallet/phone1.png",
-        "title": "Secure and \nanonymous",
-        "content": "Your private key is safely stored on your phone and never shared."
+        "title": "뛰어난 보안성과 익명성",
+        "content": "여러분의 휴대폰 속에 프라이빗 키가 안전하게 보관되며 외부에 절대 노출되지 않습니다."
       },
       {
         "id": "m2",
         "imgUrl": "/images/wallet/phone2.png",
-        "title": "Send and receive FTM",
-        "content": "Yes, it’s as easy as it looks."
+        "title": "FTM 주고받기",
+        "content": "보시는 바와 같이 매우 쉽게 사용 가능합니다."
       },
       {
         "id": "m3",
         "imgUrl": "/images/wallet/phone3.png",
-        "title": "Stake on the go",
-        "content": "Stake your FTM from your phone, check and claim your rewards."
+        "title": "간편한 스테이킹",
+        "content": "여러분의 휴대폰을 통해 FTM을 스테이킹하고 보상을 받을 수 있습니다."
       }
     ],
     "createWallet": {
-      "desktopContent": "Get the Fantom wallet app",
+      "desktopContent": "팬텀 지갑 어플을 다운받으세요",
       "mobileContent": "여러분만의 지갑을 생성해보세요",
       "downloadButton": "데스크탑 버전 다운로드:",
       "macText": "맥 OS 버전",
       "windowsText": "윈도우 버전",
       "openWalletText": "또는 웹 지갑 바로가기 >",
-      "lastSectionTextDesktop": "Looking for the web and desktop versions instead?",
+      "lastSectionTextDesktop": "웹 또는 데스크탑 버전이 필요하다면?",
       "lastSectionTextMobile": "모바일 버전이 필요하다면?",
-      "lastSectionLinkDesktop": "Click here for the web and desktop wallets",
+      "lastSectionLinkDesktop": "이곳을 클릭하여 웹 또는 데스크탑 지갑을 사용해보세요",
       "lastSectionLinkMobile": "이곳을 클릭하여 모바일 지갑을 다운받으세요t"
     }
   },

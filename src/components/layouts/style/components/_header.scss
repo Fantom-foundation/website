@@ -49,6 +49,13 @@
           color: $primary-white;
           font-size: $body-font;
           text-decoration: none;
+          &.dropdown-item {
+            color: #212529;
+            text-align: left;
+            &:hover {
+              border: unset;
+            }
+          }
         }
         a[aria-current="page"] {
           border-bottom: 1px solid;

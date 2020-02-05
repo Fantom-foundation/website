@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
+import { Dropdown } from "react-bootstrap"
 // import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 class Header extends React.Component {
@@ -36,7 +37,23 @@ class Header extends React.Component {
           </h1>
           <ul className="main-nav">
             <li>
-              <a href="https://explorer.fantom.network/" target="_blank">                <FormattedMessage id="header.menu.one" /></a>
+              <Dropdown>
+                <Dropdown.Toggle variant="success" id="dropdown-basic">
+                  Language
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="/en">English</Dropdown.Item>
+                  <Dropdown.Item href="/zh">Chinese</Dropdown.Item>
+                  <Dropdown.Item href="/ko">Korean</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </li>
+            <li>
+              <a href="https://explorer.fantom.network/" target="_blank">
+                {" "}
+                <FormattedMessage id="header.menu.one" />
+              </a>
             </li>
             <li>
               <Link to="/wallet/">

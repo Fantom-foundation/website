@@ -1,9 +1,8 @@
 import React from "react"
 import Layout from "../../components/layouts/layout"
 
-
-const NotFoundPage = () => (
-  <Layout>
+const NotFoundPage = props => (
+  <Layout location={props.location}>
     <div className="container">
       <div className="not-found-warpper text-center">
         <h1>NOT FOUND</h1>

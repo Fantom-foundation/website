@@ -103,7 +103,7 @@
     "toggleButtonDesktop": "桌面",
     "hero": {
       "title": "Fantom 钱包",
-      "desktopContent": "Your FTM, always with you.",
+      "desktopContent": "您的FTM，永远陪伴着您.",
       "mobileContent": "储存，提现，充值和权益质押您的FTM.",
       "firstButtonTitle": "打开网页钱包",
       "secondButtonTitle": "下载钱包"
@@ -132,32 +132,32 @@
       {
         "id": "m1",
         "imgUrl": "/images/wallet/phone1.png",
-        "title": "Secure and \nanonymous",
-        "content": "Your private key is safely stored on your phone and never shared."
+        "title": "安全且匿名",
+        "content": "您的私钥已经安全的存储在了您的手机上，并且永远不会被共享."
       },
       {
         "id": "m2",
         "imgUrl": "/images/wallet/phone2.png",
-        "title": "Send and receive FTM",
-        "content": "Yes, it’s as easy as it looks."
+        "title": "提现并且充值 FTM",
+        "content": "是的，就和看起来一样简单."
       },
       {
         "id": "m3",
         "imgUrl": "/images/wallet/phone3.png",
-        "title": "Stake on the go",
-        "content": "Stake your FTM from your phone, check and claim your rewards."
+        "title": "随时随地进行权益质押",
+        "content": "从手机中进行您的FTM权益质押，检查并获取您的奖励."
       }
     ],
     "createWallet": {
-      "desktopContent": "Get the Fantom wallet app",
+      "desktopContent": "下载 Fantom 钱包应用程序",
       "mobileContent": "创立钱包",
       "downloadButton": "下载桌面版本:",
       "macText": "Mac OS苹果系统",
       "windowsText": "Windows  系统",
       "openWalletText": "或者打开网页钱包 >",
-      "lastSectionTextDesktop": "Looking for the web and desktop versions instead?",
+      "lastSectionTextDesktop": "您在寻找网页或桌面版本吗?",
       "lastSectionTextMobile": "在寻找手机版本吗？",
-      "lastSectionLinkDesktop": "Click here for the web and desktop wallets",
+      "lastSectionLinkDesktop": "点击此处来获取网页与桌面钱包",
       "lastSectionLinkMobile": "点击此处使用手机钱包"
     }
   },

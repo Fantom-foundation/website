@@ -1,5 +1,6 @@
 import React from "react"
 import WOW from "wowjs"
+import { FormattedMessage, injectIntl, useIntl } from "gatsby-plugin-intl"
 
 class CreateWallet extends React.Component {
   componentDidMount() {
@@ -19,7 +20,15 @@ class CreateWallet extends React.Component {
               data-wow-duration="600"
               data-wow-delay="0.8"
             >
-              {toggle ? `Get the Fantom wallet app` : `Create your wallet`}
+              {toggle ? (
+                <FormattedMessage
+                  id={`walletPage.createWallet.desktopContent`}
+                />
+              ) : (
+                <FormattedMessage
+                  id={`walletPage.createWallet.mobileContent`}
+                />
+              )}
             </h2>
             {!toggle && (
               <h4
@@ -27,7 +36,9 @@ class CreateWallet extends React.Component {
                 data-wow-duration="600"
                 data-wow-delay="0.8"
               >
-                Download the desktop version:
+                <FormattedMessage
+                  id={`walletPage.createWallet.downloadButton`}
+                />
               </h4>
             )}
             {toggle ? (
@@ -40,7 +51,7 @@ class CreateWallet extends React.Component {
                   className="apple-icon"
                   target="_blank"
                 >
-                  <img src="/images/wallet/app-store.png" alt="Apply Store" />
+                  <img src="/images/wallet/app-store.png" alt="Apple Store" />
                 </a>
                 <a
                   href="https://play.google.com/store/apps/details?id=com.fantomwallet"
@@ -62,7 +73,9 @@ class CreateWallet extends React.Component {
                   className="icon-wrapper"
                 >
                   <img src="/images/wallet/apple.svg" alt="Mac OS" />
-                  <h4>Mac OS</h4>
+                  <h4>
+                    <FormattedMessage id={`walletPage.createWallet.macText`} />
+                  </h4>
                 </a>
                 <a
                   href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
@@ -70,7 +83,11 @@ class CreateWallet extends React.Component {
                   className="icon-wrapper"
                 >
                   <img src="/images/wallet/windows.svg" alt="Windows" />
-                  <h4>Windows</h4>
+                  <h4>
+                    <FormattedMessage
+                      id={`walletPage.createWallet.windowsText`}
+                    />
+                  </h4>
                 </a>
               </div>
             )}
@@ -82,7 +99,9 @@ class CreateWallet extends React.Component {
                 data-wow-duration="600"
                 data-wow-delay="0.8"
               >
-                Or open the Web wallet >
+                <FormattedMessage
+                  id={`walletPage.createWallet.openWalletText`}
+                />
               </a>
             )}
             <h4
@@ -90,9 +109,15 @@ class CreateWallet extends React.Component {
               data-wow-duration="600"
               data-wow-delay="0.8"
             >
-              {toggle
-                ? `Looking for the web and desktop versions instead?`
-                : `Looking for the mobile version instead?`}
+              {toggle ? (
+                <FormattedMessage
+                  id={`walletPage.createWallet.lastSectionTextDesktop`}
+                />
+              ) : (
+                <FormattedMessage
+                  id={`walletPage.createWallet.lastSectionTextMobile`}
+                />
+              )}
             </h4>
             <h4
               className="wallet-link wow fadeInUp"
@@ -100,9 +125,15 @@ class CreateWallet extends React.Component {
               data-wow-delay="0.8"
               onClick={() => setToggle()}
             >
-              {toggle
-                ? `Click here for the web and desktop wallets`
-                : `Click here for the mobile wallet`}
+              {toggle ? (
+                <FormattedMessage
+                  id={`walletPage.createWallet.lastSectionLinkDesktop`}
+                />
+              ) : (
+                <FormattedMessage
+                  id={`walletPage.createWallet.lastSectionLinkMobile`}
+                />
+              )}
             </h4>
           </div>
         </div>
