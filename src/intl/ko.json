@@ -99,26 +99,66 @@
     "description": "당신은 존재하지 않는 길을 쳤습니다 ... 슬픔."
   },
   "walletPage": {
-    "toggleButtonMobile": "Mobile",
-    "toggleButtonDesktop": "Desktop",
+    "toggleButtonMobile": "모바일",
+    "toggleButtonDesktop": "데스크탑",
     "hero": {
-      "title": "Fantom wallet",
+      "title": "팬텀 지갑",
       "desktopContent": "Your FTM, always with you.",
-      "mobileContent": "Store, send, receive and stake your FTM.",
-      "firstButtonTitle": "Open Web Wallet",
-      "secondButtonTitle": "Download Wallet"
+      "mobileContent": "여러분의 FTM을 보관, 전송 그리고 스테이크해보세요.",
+      "firstButtonTitle": "웹 지갑 바로가기",
+      "secondButtonTitle": "지갑 다운로드"
     },
+    "desktopData": [
+      {
+        "id": "d1",
+        "imgUrl": "/images/wallet/desktop1.png",
+        "title": "높은 보안성",
+        "content": "암호화된 키스토어 파일을 통해 여러분의 지갑에 엑세스하세요."
+      },
+      {
+        "id": "d2",
+        "imgUrl": "/images/wallet/desktop2.png",
+        "title": "손쉬운 사용",
+        "content": "암호화폐 전송은 단순해야합니다. 직접 체험해보세요."
+      },
+      {
+        "id": "d3",
+        "imgUrl": "/images/wallet/desktop3.png",
+        "title": "보상",
+        "content": "여러분의 FTM을 스테이크하여 네트워크를 보호하고 이에 대한 보상을 받으세요."
+      }
+    ],
+    "mobileData": [
+      {
+        "id": "m1",
+        "imgUrl": "/images/wallet/phone1.png",
+        "title": "Secure and \nanonymous",
+        "content": "Your private key is safely stored on your phone and never shared."
+      },
+      {
+        "id": "m2",
+        "imgUrl": "/images/wallet/phone2.png",
+        "title": "Send and receive FTM",
+        "content": "Yes, it’s as easy as it looks."
+      },
+      {
+        "id": "m3",
+        "imgUrl": "/images/wallet/phone3.png",
+        "title": "Stake on the go",
+        "content": "Stake your FTM from your phone, check and claim your rewards."
+      }
+    ],
     "createWallet": {
       "desktopContent": "Get the Fantom wallet app",
-      "mobileContent": "Create your wallet",
-      "downloadButton": "Download the desktop version:",
-      "macText": "Mac OS",
-      "windowsText": "Window",
-      "openWalletText": "Or open the Web wallet >",
+      "mobileContent": "여러분만의 지갑을 생성해보세요",
+      "downloadButton": "데스크탑 버전 다운로드:",
+      "macText": "맥 OS 버전",
+      "windowsText": "윈도우 버전",
+      "openWalletText": "또는 웹 지갑 바로가기 >",
       "lastSectionTextDesktop": "Looking for the web and desktop versions instead?",
-      "lastSectionTextMobile": "Looking for the mobile version instead?",
+      "lastSectionTextMobile": "모바일 버전이 필요하다면?",
       "lastSectionLinkDesktop": "Click here for the web and desktop wallets",
-      "lastSectionLinkMobile": "Click here for the mobile wallet"
+      "lastSectionLinkMobile": "이곳을 클릭하여 모바일 지갑을 다운받으세요t"
     }
   },
   "whatisFantomPage": {
@@ -181,7 +221,7 @@
   },
   "developerPage": {
     "hero": {
-      "title": "Fantom is open source"
+      "title": "Fantom은 오픈 소스입니다"
     },
     "learnHeadingData": {
       "heading": "Learn.",

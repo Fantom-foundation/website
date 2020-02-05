@@ -108,18 +108,6 @@
       "firstButtonTitle": "Open Web Wallet",
       "secondButtonTitle": "Download Wallet"
     },
-    "createWallet": {
-      "desktopContent": "Get the Fantom wallet app",
-      "mobileContent": "Create your wallet",
-      "downloadButton": "Download the desktop version:",
-      "macText": "Mac OS",
-      "windowsText": "Window",
-      "openWalletText": "Or open the Web wallet >",
-      "lastSectionTextDesktop": "Looking for the web and desktop versions instead?",
-      "lastSectionTextMobile": "Looking for the mobile version instead?",
-      "lastSectionLinkDesktop": "Click here for the web and desktop wallets",
-      "lastSectionLinkMobile": "Click here for the mobile wallet"
-    },
     "desktopData": [
       {
         "id": "d1",
@@ -139,7 +127,39 @@
         "title": "Rewarding",
         "content": "Let your FTM work for you. Stake your FTM to secure the network and get rewarded in return."
       }
-    ]
+    ],
+    "mobileData": [
+      {
+        "id": "m1",
+        "imgUrl": "/images/wallet/phone1.png",
+        "title": "Secure and \nanonymous",
+        "content": "Your private key is safely stored on your phone and never shared."
+      },
+      {
+        "id": "m2",
+        "imgUrl": "/images/wallet/phone2.png",
+        "title": "Send and receive FTM",
+        "content": "Yes, it’s as easy as it looks."
+      },
+      {
+        "id": "m3",
+        "imgUrl": "/images/wallet/phone3.png",
+        "title": "Stake on the go",
+        "content": "Stake your FTM from your phone, check and claim your rewards."
+      }
+    ],
+    "createWallet": {
+      "desktopContent": "Get the Fantom wallet app",
+      "mobileContent": "Create your wallet",
+      "downloadButton": "Download the desktop version:",
+      "macText": "Mac OS",
+      "windowsText": "Window",
+      "openWalletText": "Or open the Web wallet >",
+      "lastSectionTextDesktop": "Looking for the web and desktop versions instead?",
+      "lastSectionTextMobile": "Looking for the mobile version instead?",
+      "lastSectionLinkDesktop": "Click here for the web and desktop wallets",
+      "lastSectionLinkMobile": "Click here for the mobile wallet"
+    }
   },
   "whatisFantomPage": {
     "hero": {

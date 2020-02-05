@@ -1,51 +1,108 @@
 import React from "react"
 import WOW from "wowjs"
+import { FormattedMessage, injectIntl, useIntl } from "gatsby-plugin-intl"
 
-class HalfImgContent extends React.Component {
-  componentDidMount() {
+const HalfImgContent = ({ toggle }) => {
+  const intl = useIntl()
+  React.useEffect(() => {
     const wow = new WOW.WOW({
       offset: 100,
     })
     wow.init()
-  }
-  render() {
-    const { toggle } = this.props
-    const data = toggle ? mobileData : desktopData
-    return (
-      <div className="half-image-section">
-        {data.map(section => {
-          const { id, imgUrl, title, content } = section
-          return (
-            <div className="half-image-wrapper" key={id}>
-              <div className="half-img-content">
-                <div className="section-img">
-                  <img className="half-image" src={imgUrl} alt={title} />
-                </div>
-                <div className="half-image-content">
-                  <div className="content">
-                    <h2
-                      className="wow fadeInUp"
-                      data-wow-duration="600"
-                      data-wow-delay="0.8"
-                    >
-                      {title}
-                    </h2>
-                    <h4
-                      className="wow fadeInUp"
-                      data-wow-duration="600"
-                      data-wow-delay="0.8"
-                    >
-                      {content}
-                    </h4>
+  })
+
+  const data = toggle ? mobileData : desktopData
+  return (
+    <div className="half-image-section">
+      {toggle
+        ? data.map((section, index) => {
+            const { id, imgUrl, title, content } = section
+            return (
+              <div className="half-image-wrapper" key={id}>
+                <div className="half-img-content">
+                  <div className="section-img">
+                    <img
+                      className="half-image"
+                      // src={imgUrl}
+                      src={intl.formatMessage({
+                        id: `walletPage.mobileData.${index}.imgUrl`,
+                      })}
+                      alt={intl.formatMessage({
+                        id: `walletPage.mobileData.${index}.title`,
+                      })}
+                    />
+                  </div>
+                  <div className="half-image-content">
+                    <div className="content">
+                      <h2
+                        className="wow fadeInUp"
+                        data-wow-duration="600"
+                        data-wow-delay="0.8"
+                      >
+                        <FormattedMessage
+                          id={`walletPage.mobileData.${index}.title`}
+                        />
+                      </h2>
+                      <h4
+                        className="wow fadeInUp"
+                        data-wow-duration="600"
+                        data-wow-delay="0.8"
+                      >
+                        <FormattedMessage
+                          id={`walletPage.mobileData.${index}.content`}
+                        />
+                      </h4>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          )
-        })}
-      </div>
-    )
-  }
+            )
+          })
+        : data.map((section, index) => {
+            const { id, imgUrl, title, content } = section
+            return (
+              <div className="half-image-wrapper" key={id}>
+                <div className="half-img-content">
+                  <div className="section-img">
+                    <img
+                      className="half-image"
+                      // src={imgUrl}
+                      src={intl.formatMessage({
+                        id: `walletPage.desktopData.${index}.imgUrl`,
+                      })}
+                      alt={intl.formatMessage({
+                        id: `walletPage.desktopData.${index}.title`,
+                      })}
+                    />
+                  </div>
+                  <div className="half-image-content">
+                    <div className="content">
+                      <h2
+                        className="wow fadeInUp"
+                        data-wow-duration="600"
+                        data-wow-delay="0.8"
+                      >
+                        <FormattedMessage
+                          id={`walletPage.desktopData.${index}.title`}
+                        />
+                      </h2>
+                      <h4
+                        className="wow fadeInUp"
+                        data-wow-duration="600"
+                        data-wow-delay="0.8"
+                      >
+                        <FormattedMessage
+                          id={`walletPage.desktopData.${index}.content`}
+                        />
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )
+          })}
+    </div>
+  )
 }
 
 export default HalfImgContent
