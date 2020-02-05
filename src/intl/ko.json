@@ -2,7 +2,7 @@
   "header": {
     "menu": {
       "one": "익스플로러",
-      "two": "Wallet",
+      "two": "지갑",
       "three": "팬텀 소개",
       "four": "개발자",
       "five": "기사",
@@ -90,7 +90,10 @@
         "img": "/images/offer-icon/openSource.svg",
         "alt": "오픈소스"
       }
-    ]
+    ],
+    "subscribeform": {
+      "title": "최신 업데이트를 받아보세요"
+    }
   },
   "readMore": "더 읽어보기",
   "learnMore": "더 알아보기",
@@ -224,15 +227,16 @@
       "title": "Fantom은 오픈 소스입니다"
     },
     "learnHeadingData": {
-      "heading": "Learn.",
+      "heading": "배우다",
       "description": "기술백서와 자료를 찾아보실 수 있습니다.",
       "img": "/images/home/learn.svg"
     },
     "buildData": {
-      "heading": "BUILD.",
+      "heading": "BUIDL.",
       "description": "팬텀의 Github 개발자 커뮤니티를 통해 최신 개발상황에 대한 업데이트를 확인해보세요.",
       "href": "https://github.com/Fantom-foundation",
-      "img": "/images/home/600px-Octicons-mark-github.png"
+      "img": "/images/home/600px-Octicons-mark-github.png",
+      "getstarted": "지금 시작하세요"
     },
     "learnMoreData": [
       {

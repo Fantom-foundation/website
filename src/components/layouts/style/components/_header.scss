@@ -52,6 +52,8 @@
           &.dropdown-item {
             color: #212529;
             text-align: left;
+            font-size: 17px;
+            padding: 2px 11px;
             &:hover {
               border: unset;
             }
@@ -62,6 +64,31 @@
         }
         a:hover {
           border-bottom: 1px solid;
+        }
+        .dropdown{
+          padding: 0;
+        }
+        .dropdown,
+        .dropdown button {
+          background-color: transparent;
+          border: none;
+          &:focus {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            box-shadow: none;
+          }
+          &:hover {
+            background-color: transparent;
+          }
+          transition: all 0.3s ease;
+        }
+        .dropdown button {
+          padding: 4px 0;
+          &:hover {
+            border-bottom: 1px solid;
+            border-radius: 0;
+          }
         }
       }
     }

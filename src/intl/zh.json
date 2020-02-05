@@ -90,7 +90,10 @@
         "img": "/images/offer-icon/openSource.svg",
         "alt": "开放源码"
       }
-    ]
+    ],
+    "subscribeform": {
+      "title": "获取最新更新"
+    }
   },
   "readMore": "阅读更多",
   "learnMore": "学到更多",
@@ -224,15 +227,16 @@
       "title": "Fantom是开源的"
     },
     "learnHeadingData": {
-      "heading": "Learn.",
-      "description": "Browse our technical papers and resources.",
+      "heading": "学习",
+      "description": "浏览我们的技术书籍和资源.",
       "img": "/images/home/learn.svg"
     },
     "buildData": {
       "heading": "建造",
       "description": "在Github上加入我们的开发者社区以及了解我们的最新进展.",
       "href": "https://github.com/Fantom-foundation",
-      "img": "/images/home/600px-Octicons-mark-github.png"
+      "img": "/images/home/600px-Octicons-mark-github.png",
+      "getstarted": "现在就开始"
     },
     "learnMoreData": [
       {

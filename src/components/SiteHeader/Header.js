@@ -37,19 +37,6 @@ class Header extends React.Component {
           </h1>
           <ul className="main-nav">
             <li>
-              <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic">
-                  Language
-                </Dropdown.Toggle>
-
-                <Dropdown.Menu>
-                  <Dropdown.Item href="/en">English</Dropdown.Item>
-                  <Dropdown.Item href="/zh">Chinese</Dropdown.Item>
-                  <Dropdown.Item href="/ko">Korean</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </li>
-            <li>
               <a href="https://explorer.fantom.network/" target="_blank">
                 {" "}
                 <FormattedMessage id="header.menu.one" />
@@ -83,6 +70,19 @@ class Header extends React.Component {
               <Link to="/foundation/">
                 <FormattedMessage id="header.menu.six" />
               </Link>
+            </li>
+            <li>
+              <Dropdown>
+                <Dropdown.Toggle variant="success" id="dropdown-basic">
+                  Languages
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="/en">English</Dropdown.Item>
+                  <Dropdown.Item href="/zh">Chinese</Dropdown.Item>
+                  <Dropdown.Item href="/ko">Korean</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </li>
           </ul>
         </div>
