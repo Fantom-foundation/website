@@ -90,7 +90,10 @@
         "img": "/images/offer-icon/openSource.svg",
         "alt": "Open-source"
       }
-    ]
+    ],
+    "subscribeform": {
+      "title": "Get the latest updates"
+    }
   },
   "readMore": "Read More",
   "learnMore": "Learn More",

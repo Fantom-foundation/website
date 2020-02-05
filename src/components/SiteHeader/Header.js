@@ -74,7 +74,7 @@ class Header extends React.Component {
             <li>
               <Dropdown>
                 <Dropdown.Toggle variant="success" id="dropdown-basic">
-                  Languages
+                  Lang
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>

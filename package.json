@@ -7,6 +7,7 @@
   "scripts": {
     "build": "gatsby build",
     "deploy:dev": "npm run build && aws s3 sync public/ s3://fantom.foundation/ --region us-east-2 --delete",
+    "deploy:staging": "gatsby build && firebase deploy",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
