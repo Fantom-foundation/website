@@ -10,16 +10,19 @@ const languageName = {
 }
 
 const Language = () => {
-  const [isToggled, setToggled] = React.useState(false);
+  const [isToggled, setToggled] = React.useState(false)
   return (
     <div>
-      <div className={`right-nav ${isToggled ? `show ` : `hide`}`}
+      <div
+        className={`right-nav ${isToggled ? `show ` : `hide`}`}
         style={{
           float: `right`,
-          position: `relative`
+          position: `relative`,
         }}
       >
-        <div className="menu-btn" onClick={() => setToggled(!isToggled)}
+        <div
+          className="menu-btn"
+          onClick={() => setToggled(!isToggled)}
           style={{
             cursor: `pointer`,
           }}
@@ -27,13 +30,21 @@ const Language = () => {
           <IntlContextConsumer>
             {({ languages, language: currentLocale }) =>
               languages.map(language => (
-                <span  className={currentLocale === language ? `active` : ``} >
+                <span
+                  key={languageName[language]}
+                  className={currentLocale === language ? `active` : ``}
+                >
                   {languageName[language]}
                 </span>
               ))
             }
-          </IntlContextConsumer> <img className="desktop-img" src="/images/Header/down-arrow.svg" />
-          <img className="mobile-img" src="/images/Header/down-arrow-blue.svg" /> </div>
+          </IntlContextConsumer>{" "}
+          <img className="desktop-img" src="/images/Header/down-arrow.svg" />
+          <img
+            className="mobile-img"
+            src="/images/Header/down-arrow-blue.svg"
+          />{" "}
+        </div>
         <div className={`subMenu ${isToggled ? `show` : `hide`}`}>
           <IntlContextConsumer>
             {({ languages, language: currentLocale }) =>

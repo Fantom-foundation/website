@@ -264,9 +264,9 @@ header.header.nav-development .container .main-nav li a {
     }
     ul {
       list-style-type: none;
-      margin-top: 165px;
+      margin-top: 75px;
       li {
-        margin-top: 40px;
+        margin-top: 20px;
         a {
           font-weight: 600;
           font-size: 22px;
@@ -361,12 +361,16 @@ header.header.nav-development .container .main-nav li a {
   }
 }
 
-// @media (max-width: 769px) and (min-width: 481px){
-//     .sidenav .sideNav-button span img {
-//         vertical-align: top;
-//         padding-bottom: 2px;
-//         position: absolute;
-//         top: -6px;
-//         right: 10px;
-//     }
-// }
+@media (max-width: 991px) {
+  .slide-right {
+    .mobile-language {
+      margin-top: 5px;
+      .subMenu{
+        margin-top: 10px;
+        a{
+          margin: 0;
+        }
+      }
+    }
+  }
+}
