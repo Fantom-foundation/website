@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
-import { Dropdown } from "react-bootstrap"
+// import { Link } from "gatsby"
+import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl"
+import Language from "./language"
 // import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 class Header extends React.Component {
@@ -72,17 +72,7 @@ class Header extends React.Component {
               </Link>
             </li>
             <li>
-              <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic">
-                  Lang
-                </Dropdown.Toggle>
-
-                <Dropdown.Menu>
-                  <Dropdown.Item href="/en">English</Dropdown.Item>
-                  <Dropdown.Item href="/zh">Chinese</Dropdown.Item>
-                  <Dropdown.Item href="/ko">Korean</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
+              <Language/>
             </li>
           </ul>
         </div>
@@ -147,6 +137,9 @@ class Header extends React.Component {
                 >
                   <FormattedMessage id="header.menu.seven" />
                 </a>
+              </li>
+              <li className="mobile-language">
+                <Language/>
               </li>
             </ul>
           </div>
