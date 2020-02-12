@@ -34,5 +34,19 @@ module.exports = {
         endpoint: 'https://foundation.us18.list-manage.com/subscribe/post?u=bb222487a3611557609e8cf8d&amp;id=8e37e03fe6',
       },
     },
+    {
+      resolve: "gatsby-plugin-netlify",
+      options: {
+        mergeSecurityHeaders: true,
+        headers: {
+          '/*': ['X-Frame-Options: sameorigin'],
+          "/**/*.html": ["cache-control: public, max-age=300"],
+          "/static/*": ["cache-control: public, max-age=31536000, immutable"],
+          "/*.js": ["cache-control: public, max-age=31536000, immutable"],
+          "/*.css": ["cache-control: public, max-age=31536000, immutable"],
+          "/sw.js": ["cache-control: public, max-age=0, must-revalidate"],
+        },
+      },
+    },
   ],
 }
