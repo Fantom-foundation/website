@@ -1,0 +1,425 @@
+{
+  "header": {
+    "menu": {
+      "one": "익스플로러",
+      "two": "지갑",
+      "three": "팬텀 소개",
+      "four": "개발자",
+      "five": "기사",
+      "six": "재단",
+      "seven": "백서",
+      "copyright": "©2020년 팬텀 재단",
+      "privacy": "개인정보정책"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "새로운 인터넷의 핵심"
+    },
+    "subtitle": {
+      "title": "분산 네트워크에 대한 최첨단의 빠르고 안전한 합의.",
+      "description": "안정적인 코인 발행, 새로운 스마트 경제 창출 또는 스마트 도시 강화에 관계없이 Fantom의 모듈 식 접근 방식을 통해 완벽한 분산 응용 프로그램 또는 메인 넷을 구축하는 데 집중할 수 있습니다."
+    },
+    "offers": {
+      "title": "미래를 염두에두고 구축",
+      "description": "Fantom은 분산 원장을위한 가장 강력한 기반을 제공합니다."
+    },
+    "intro": {
+      "title": "팬텀을 소개합니다",
+      "description": "생태계, 합의, 그리고 혁신"
+    },
+    "updates": {
+      "developer": {
+        "title": "개발자 포털",
+        "description": "오픈소스, 확장성, 보안성"
+      },
+      "foundation": {
+        "title": "팬텀 재단",
+        "description": "사람 그리고 문화"
+      }
+    },
+    "carousel": {
+      "latestArticles": "최신 기사"
+    },
+    "offerdata": [
+      {
+        "id": "1",
+        "classname": "Scalable offer-item",
+        "heading": "확장성",
+        "des": "팬텀의 합의 알고리즘인 라케시스와 TxFlow는 다른 합의에서 도달하지 못한 영역까지 확장 가능합니다.",
+        "img": "/images/offer-icon/scalable.svg",
+        "alt": "확장성"
+      },
+      {
+        "id": "2",
+        "classname": "Secure offer-item",
+        "heading": "보안성",
+        "des": "비동기 비잔틴 장애 허용 합의 알고리즘은 모든 분산 원장 애플리케이션을 위해 은행 급 보안성을 제공합니다.",
+        "img": "/images/offer-icon/secure.svg",
+        "alt": "보안성"
+      },
+      {
+        "id": "3",
+        "classname": "Fast offer-item",
+        "heading": "빠른 속도",
+        "des": "팬텀의 합의는 많은 거래량 처리가 가능하며, 보안, 반응, 및 빠른 도입이 가능하도록 설계되었습니다.",
+        "img": "/images/offer-icon/fast.svg",
+        "alt": "빠른 속도"
+      },
+      {
+        "id": "4",
+        "classname": "Connected offer-item",
+        "heading": "연결성",
+        "des": "팬텀의 SDK를 사용하는 제품 및 원장은 논-커스터디얼 브릿지(non-custodial bridges) 및 담보된 토큰(bonded tokens)을 통해 서로 상호작용이 가능합니다.",
+        "img": "/images/offer-icon/Connected.svg",
+        "alt": "연결성"
+      },
+      {
+        "id": "5",
+        "classname": "Permissionless offer-item",
+        "heading": "무허가성",
+        "des": "최대한 많은 네트워크 참여자를 확보하기 위해 온-체인 거버넌스로 PoS를 도입하였으며, PoS를 통해 보안되는 네트워크를 위한 팬텀 SDK를 설계하였습니다.",
+        "img": "/images/offer-icon/Permissionless.svg",
+        "alt": "무허가성"
+      },
+      {
+        "id": "6",
+        "classname": "Open-source offer-item",
+        "heading": "오픈소스",
+        "des": "팬텀 핵심 개발팀이 개발한 모든 코드, 연구 자료 및 레포지토리는 누구나 열람 가능하며 검토 및 개선을 위해 사용 가능합니다.",
+        "img": "/images/offer-icon/openSource.svg",
+        "alt": "오픈소스"
+      }
+    ],
+    "subscribeform": {
+      "title": "최신 업데이트를 받아보세요"
+    }
+  },
+  "readMore": "더 읽어보기",
+  "learnMore": "더 알아보기",
+  "notfound": {
+    "header": "찾을 수 없음 ",
+    "description": "당신은 존재하지 않는 길을 쳤습니다 ... 슬픔."
+  },
+  "walletPage": {
+    "toggleButtonMobile": "모바일",
+    "toggleButtonDesktop": "데스크탑",
+    "hero": {
+      "title": "팬텀 지갑",
+      "desktopContent": "여러분의 FTM을 언제나 쉽게 확인해보세요.",
+      "mobileContent": "여러분의 FTM을 보관, 전송 그리고 스테이크해보세요.",
+      "firstButtonTitle": "웹 지갑 바로가기",
+      "secondButtonTitle": "지갑 다운로드"
+    },
+    "desktopData": [
+      {
+        "id": "d1",
+        "imgUrl": "/images/wallet/desktop1.png",
+        "title": "높은 보안성",
+        "content": "암호화된 키스토어 파일을 통해 여러분의 지갑에 엑세스하세요."
+      },
+      {
+        "id": "d2",
+        "imgUrl": "/images/wallet/desktop2.png",
+        "title": "손쉬운 사용",
+        "content": "암호화폐 전송은 단순해야합니다. 직접 체험해보세요."
+      },
+      {
+        "id": "d3",
+        "imgUrl": "/images/wallet/desktop3.png",
+        "title": "보상",
+        "content": "여러분의 FTM을 스테이크하여 네트워크를 보호하고 이에 대한 보상을 받으세요."
+      }
+    ],
+    "mobileData": [
+      {
+        "id": "m1",
+        "imgUrl": "/images/wallet/phone1.png",
+        "title": "뛰어난 보안성과 익명성",
+        "content": "여러분의 휴대폰 속에 프라이빗 키가 안전하게 보관되며 외부에 절대 노출되지 않습니다."
+      },
+      {
+        "id": "m2",
+        "imgUrl": "/images/wallet/phone2.png",
+        "title": "FTM 주고받기",
+        "content": "보시는 바와 같이 매우 쉽게 사용 가능합니다."
+      },
+      {
+        "id": "m3",
+        "imgUrl": "/images/wallet/phone3.png",
+        "title": "간편한 스테이킹",
+        "content": "여러분의 휴대폰을 통해 FTM을 스테이킹하고 보상을 받을 수 있습니다."
+      }
+    ],
+    "createWallet": {
+      "desktopContent": "팬텀 지갑 어플을 다운받으세요",
+      "mobileContent": "여러분만의 지갑을 생성해보세요",
+      "downloadButton": "데스크탑 버전 다운로드:",
+      "macText": "맥 OS 버전",
+      "windowsText": "윈도우 버전",
+      "openWalletText": "또는 웹 지갑 바로가기 >",
+      "lastSectionTextDesktop": "웹 또는 데스크탑 버전이 필요하다면?",
+      "lastSectionTextMobile": "모바일 버전이 필요하다면?",
+      "lastSectionLinkDesktop": "이곳을 클릭하여 웹 또는 데스크탑 지갑을 사용해보세요",
+      "lastSectionLinkMobile": "이곳을 클릭하여 모바일 지갑을 다운받으세요t"
+    }
+  },
+  "whatisFantomPage": {
+    "hero": {
+      "title": "팬텀 소개"
+    },
+    "aboutData": [
+      {
+        "id": "1",
+        "heading": "소개",
+        "spanOne": "팬텀은 기술 구성 요소 중 하나로,",
+        "content": "이를 활용하여 더 큰 애플리케이션 생태계를 구축하기 위한 기술 스택을 구성할 수 있습니다.\n \n 팬텀은 라케시스 비동기식 비잔틴 장애 허용(aBFT) 및 TxFlow 합의 알고리즘을 개발하는데 집중하고 있습니다.\n \n aBFT는 이전 거래가 확인되기를 기다리는 대신 거래가 네트워크에 참여함과 동시에 확인되는 것을 의미하며, 이를 통해 네트워크 속도를 크게 향상시킬 수 있습니다.\n \n 단일 분산 원장에 모든 컴퓨팅 파워와 사용량을 집중시킬 필요 없이, 팬텀 생태계의 사용자는 상호 의사 소통과 함께 핵심 역할을 수행하는 합의를 사용하여 독립적인 분산 원장을 배포 가능합니다.\n \n"
+      },
+      {
+        "id": 2,
+        "heading": "우리는 왜 또다른 분산 원장을 필요로 할까요?",
+        "content": "세계의 대다수 기업이 하나의 중앙 데이터베이스를 사용할 경우, 거래 처리 시 병목 현상이 빠르게 발생하게 됩니다. \n \n 비트코인 및 탈중앙화 스마트 컨트랙트 플랫폼의 등장과 함께, 안전, 보안 및 효율성 향상을 위해 중앙화된 네트워크에서 단일 원장으로 전환하고자 하는 전반적인 산업의 변화를 찾아볼 수 있었습니다.\n \n 하지만 이러한 예상과는 달리, 탈중앙화 네트워크는 여러 노드가 서로 통신해야기 때문에 대기 시간이 길 수 밖에 없었으며 이로 인해 중앙 집중식 네트워크보다 응답성 및 확장성이 떨어졌습니다.\n \n 팬텀은 탈중앙화된 무허가 네트워크의 미래를 믿습니다. 분산 원장은 금융, 공급망 관리 및 공유 경제 전반에 걸쳐 산업의 시스템을 대체시킬 잠재력이 있습니다.\n \n 하지만 꼭 단일 원장만이 정답이라고는 생각하지 않습니다. \n \n 팬텀의 비전은 사용자가 상호 운영 가능한 네트워크 내에서 자신의 분산 원장을 쉽게 배포하고 관리하여, 다른 분산 원장과 자유롭게 통신하고 거래할 수 있도록 하는 것입니다. \n \n 팬텀은 최고의 분산화 원장을 만드는 것이 아닌 최고의 합의 알고리즘을 구축하는데 중점을 두고 있습니다. \n \n 분산 원장은 하나의 플랫폼으로, 합의 알고리즘은 하나의 모듈로 사용될 수 있습니다. 사용자는 Fantom SDK부터 이더리움 가상 머신(EVM)까지 다양한 유형의 미들웨어와 함께 라케시스 aBFT와 TxFlow에 의해 구동되는 자신만의 분산 원장을 구성할 수 있습니다. \n \n "
+      },
+      {
+        "id": 3,
+        "heading": "라케시스 aBFT 와 TxFlow는 무엇인가요?",
+        "spanOne": "라케시스 aBFT는",
+        "content": "팬텀의 핵심 비동기식 리더가 없는 비잔틴 장애 허용 합의 프로토콜입니다. \n \n 이는 작은 정보가 빠르게 네트워크에 전파되는 가십 프로토콜 원칙을 기반으로 하고 있습니다. 이러한 기술을 기반으로 배포된 분산 원장은 최고 수준의 네트워크 보안, 높은 거래 처리량, 그리고 짧은 완결성을 제공합니다. \n \n 사용자의 요구에 알맞는 분산 원장을 최대한 쉽게 구축할 수 있도록 라케시스 aBFT는 코스모스 SDK 및 Go-Ethereum과 상호 호환성이 뛰어나게끔 설계되었습니다. \n \n \n \n",
+        "spanTwo": "TxFlow는",
+        "contentTwo": "거래 응답성을 위한 프로토콜입니다. 이는 새로운 합의 메커니즘이 아닌, 사용자가 거래를 생성함과 동시에 합의를 실행하여 실시간으로 확인을 진행하게 해주는 프로토콜입니다.\n \n 블록을 생성하고 투표에 사용되는 BFT 같은 일반적인 합의 시스템은 여전히 보조적인, 혹은 기본적인 보안 메커니즘을 필요로 합니다. 만약 거래가 블록 제안 전 충분한 투표를 받지 못한 경우에도 추가가 되어야하기 때문입니다. \n \n "
+      },
+      {
+        "id": 4,
+        "heading": "What is finality?",
+        "contentBefore": "완결성이란 무엇이며 왜 중요한지를 설명하기 전, 이중지불 문제에 대해 다뤄보도록 하겠습니다.",
+        "spanAfter": "이중지불 문제에 대해 다뤄보도록 하겠습니다.",
+        "content": "이중 지불은 같은 디지털 화폐가 두번 이상 지불되는 문제를 의미합니다.\n \n 이것은 컴퓨터의 숫자가 매우 쉽게 재현되기 때문에 발생하는 디지털 자산과 화폐의 고유 결함입니다. 이러한 문제는 기프트 카드 시장과 비슷합니다. 기프트 카드처럼 금전적 가치가 담긴 바우처 코드가 여러 사람에게 복제될 수 있지만 이는 단 한 번만 사용이 가능합니다. \n \n 간단히 말하자면, 완결성은 커피 한 잔을 구매하게 되면, 해당 돈으로 차 한 잔을 구매할 수 없게 됩니다. \n \n 계산원에서 가치를 이전함과 동시에 자신의 지갑에서 출금되어 그들의 지갑에 추가됩니다. 이는 굉장히 중요합니다. 가맹점이나 서비스 제공자는 서비스를 제공하거나 상품의 소유권을 양도하기 전 돈이 제대로 지불되었는지 확인해야하기 때문입니다. \n \n 비트코인과 이더리움은 작업 증명(Proof of Work)이라는 합의 메커니즘을 사용하며, 이러한 네트워크의 경우 거래가 이중 지불이 아님을 확인하기 위해 주로 채굴자라고 알려져 있는 분산된 개인 그룹이 존재합니다.모든 거래는 블록으로 그룹화되며 체인에 순서대로 동기식으로 추가됩니다. 이러한 네트워크에는 가장 긴 체인을 택하는 특징이 있습니다. 가장 긴 체인은 대다수의 노드 혹은 채굴자에 의해 유지되며, 반대로 다른 체인들은 합의에서 벗어나게 됩니다.\n \n 체인에 블록을 더하는 것은 매우 어렵고 많은 컴퓨팅 파워를 필요로 하기 때문에 이중지불 공격을 하기엔 너무 많은 비용이 필요로 합니다. 이런 환경에서 많은 거래가 담긴 블록이 가장 긴 체인이라고 100% 확신할 수 없으며, 더 많은 블록이 추가될수록 긴 체인이 생성될 확률은 낮아지게 됨을 알 수 있습니다. \n \n 최종적으로 완결성에 도달하게 되며, 여러 블록이 생성된 후에는 이중 지불의 가능성이 0에 수렴하게 됩니다. \n \n 텐더민트 pBFT,",
+        "spanAfterTwo": " 라케시스 aBFT 그리고 케스퍼와 같은 최신 합의 알고리즘을 통해 ⅔ 이상의 노드가 ",
+        "contentTwo": "정직하게 합의 과정에 참여한다면 지금까지 발생한 모든 거래들은 이중 지불이 발생할 가능성이 매우 낮아질것이라 확신합니다. \n \n 이 체인들은 합의를 위해 어떤 블록들이 추가될 것인지를 결정할때 가장 긴 작업체인 방식을 따르지 않습니다. 이러한 프로토콜은 가장 긴 작업 체인 방식을 따르는 대신에, 보통 다음과 같은 방식으로 작동 합니다. \n \n ",
+        "list": [
+          {
+            "lid": 1.1,
+            "li": "블록은 합의에 참여한 노드에 의해 제안됩니다."
+          },
+          {
+            "lid": 1.2,
+            "li": "모든 검증자 노드들은 최소 2/3이상 그들의 사전 커밋을 보낸 블록을 한 번 승인합니다. "
+          },
+          {
+            "lid": 1.3,
+            "li": "해당 블록은 최종적이고 2/3이상의 커밋을 받으면 합의에 포함됩니다."
+          },
+          {
+            "lid": 1.4,
+            "li": "이때 검증자 노드 중 ⅓ 이상이 악의를 갖고 있지 않다면 완결성이 보장됩니다."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "heading": "팬텀을 한 문장으로 정리하자면?",
+        "content": "간단히 말해서, 팬텀은 모든 종류의 분산 원장 관련 제품의 기반이 되는 오픈 소스의 도구 세트 입니다. \n \n 팬텀은 자신의 필요에 맞춰 분산 원장을 만들기를 원하는 사람들이 팬텀을 하나의 모듈로 사용할 수 있도록 최고의 합의 알고리즘을 만드는 것입니다. \n \n 재단은 분산 원장 관련 제품 개발 시 팬텀의 합의를 기반으로 자체적으로 개발한 모듈을 더해 그들 자신만의 제품을 만들기를 바라며, 이러한 개발자와 기업이 함께 뭉쳐 커뮤니티를 만들어나가기를 권장합니다. \n \n"
+      }
+    ]
+  },
+  "developerPage": {
+    "hero": {
+      "title": "Fantom은 오픈 소스입니다"
+    },
+    "learnHeadingData": {
+      "heading": "배우다",
+      "description": "기술백서와 자료를 찾아보실 수 있습니다.",
+      "img": "/images/home/learn.svg"
+    },
+    "buildData": {
+      "heading": "BUIDL.",
+      "description": "팬텀의 Github 개발자 커뮤니티를 통해 최신 개발상황에 대한 업데이트를 확인해보세요.",
+      "href": "https://github.com/Fantom-foundation",
+      "img": "/images/home/600px-Octicons-mark-github.png",
+      "getstarted": "지금 시작하세요"
+    },
+    "learnMoreData": [
+      {
+        "id": 1,
+        "heading": "디파이 모듈",
+        "link": "/Documents/documents.pdf",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 2,
+        "heading": "스마트 컨트랙트의 경제성",
+        "link": "https://arxiv.org/pdf/1910.11143.pdf",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 3,
+        "heading": "스테어DAG",
+        "link": "https://arxiv.org/abs/1908.11810",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 4,
+        "heading": "StakeDag",
+        "link": "https://arxiv.org/abs/1907.03655",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 5,
+        "heading": "ONLAY: Online Layering",
+        "link": "https://arxiv.org/abs/1905.04867",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 6,
+        "heading": "팬텀: 비동기 분산 시스템을 위한 확장 가능한 프레임워크",
+        "link": "https://arxiv.org/abs/1810.10360",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 7,
+        "heading": "Opera",
+        "link": "/Documents/Fantom_Paper_vRelease.pdf",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      }
+    ]
+  },
+  "foundationPage": {
+    "hero": {
+      "title": "팬텀 재단"
+    },
+    "teamData": {
+      "heading": "팬텀 팀을 소개합니다",
+      "description": "팬텀의 팀원들은 네트워킹, 분산 시스템, 미들웨어 연구 및 기술 회사의 운영면에서 수년간의 연구 개발 경험이 있습니다."
+    }
+  },
+  "privacyPage": {
+    "section1": {
+      "title": "Website Privacy Policy",
+      "paragraph1": "This privacy policy applies to Fantom Foundation’s websites",
+      "paragraph2": "Protecting your privacy is important to us.  We are the controller of your personal information and this policy explains how we manage personal information within our organisation."
+    },
+    "section2": {
+      "title": "Kinds of personal information we collect",
+      "paragraph1": "The kinds of personal information that we collect and hold about you may include:",
+      "ul": {
+        "li1": "contact information, such as your email address",
+        "li2": "social media (including Telegram) handles and other social media profile information that you make available to us or to the public",
+        "li3": "records of our communications with you, including any messages or emails you send us",
+        "li4": "device information, server log information, IP address, and location information",
+        "li5": "other information that you provide us during the course of business",
+        "li6": "other information that is capable of identifying you"
+      },
+      "paragraph2": "you without this information we may not be able to provide you with our products or services (or with all of the features and functionality offered by our products or services) or to respond to queries or requests that you submit to us."
+    },
+    "section3": {
+      "title": "How we collect personal information",
+      "paragraph1": "We collect personal information about you in the following ways:",
+      "ul": {
+        "li1": "when you contact us via email or social media (such as Telegram)",
+        "li2": "when you submit a query or request to us",
+        "li3": "when you respond to a survey that we run, participate in any sale bounty campaign or fill in forms on one of our websites",
+        "li4": "by tracking your use of our products and services (including our website)",
+        "li5": "through analytics providers (such as Google which processes personal information subject to its own privacy policy:",
+        "a": {
+          "href": "https://policies.google.com/privacy/partners",
+          "text": "https://policies.google.com/privacy/partners)"
+        },
+        "li6": "from public sources (including social media platforms which have their own separate privacy policies that govern the access and use of personal information held by those sources)",
+        "li7": "from third parties who are entitled to disclose that information to us",
+        "li8": "when you apply for a job with us"
+      },
+      "paragraph2": "In some cases we may be required by law to collect certain types of personal information about you."
+    },
+    "section4": {
+      "title": "Purposes for which we use personal information",
+      "paragraph1": "Where we collect personal information from you, we will generally do so directly ourselves.  However, in some cases we may collect personal information from a third party, such as through your representatives, contractors who provide services to us, or third parties who refer you to us because they think you may be interested in our products or services.",
+      "paragraph2": "We use personal information that we collect about you for the following purposes:",
+      "ul": {
+        "li1": "to enable us to provide our products and services (including providing services on the public Ethereum blockchain)",
+        "li2": "to answer your queries and requests",
+        "li3": "to comply with our legal and regulatory obligations, or as otherwise required or authorised by law",
+        "li4": "to carry out market analysis and research including through the use of data analytics to improve our products and services",
+        "li5": "to monitor use of products and services including use of tokens",
+        "li6": "to manage and resolve any legal or commercial complaints or issues",
+        "li7": "to carry out planning and forecasting activities and other internal business processes",
+        "li8": "to keep you informed about our activities, including by sending out communications about our tokens, and the development of the future FANTOM Platform"
+      },
+      "paragraph3": "We may from time to time use your personal information in order to send you marketing materials about products or services that we think you may be interested in (including in some cases products and services that are provided by a third party).  You can opt-out of receiving marketing communications from us by contacting us using the contact details below or following the “unsubscribe” link in the communication.",
+      "paragraph4": "We may also use and disclose your information for other purposes as authorised by you, or in accordance with your requests or instructions."
+    },
+    "section5": {
+      "title": "People to whom we disclose personal information",
+      "paragraph1": "We may share personal information about you with:",
+      "ul": {
+        "li1": "your representatives, advisers and others you have authorised to interact with us on your behalf",
+        "li2": "our staff who need the information to discharge their duties",
+        "li3": "our affiliates and related entities within our corporate group including those located outside the country in which you are located",
+        "li4": "our business partners, agents and service providers (including hosting and cloud providers)",
+        "li5": "prospective purchasers of all or part of our business or shares in our company or a related entity",
+        "li6": "professional advisers who we engage to provide advice on our business",
+        "li7": "government authorities who ask us to disclose that information, or to other people as required by law"
+      },
+      "paragraph2": "Our tokens are ERC-20 and BEP-2 compliant tokens It is possible to identify personal information from (and including) wallet addresses and other data available on the Ethereum blockchain and Binance chain as they are, by nature,  transparent and public ledgers.  Due to the nature of the Ethereum blockchain and Binance chain, we cannot amend or control the disclosure of such personal information."
+    },
+    "section6": {
+      "title": "Disclosure to international recipients",
+      "paragraph1": "In some cases we disclose your personal information to recipients who may be located outside the country in which you are located (including contractors and third party service providers).  We may disclose your personal information to our affiliates and related entities, and employees overseas as necessary to provide you with our goods and services.",
+      "paragraph2": "We have related entities, affiliates and service providers located various countries in the Asia-Pacific region and other countries from time to time, and may disclose personal information to those entities.",
+      "paragraph3": "We take commercially reasonable steps to ensure that any overseas recipient has appropriate safeguards in place, ensures an adequate level of protection of your personalinformation, and does not breach the privacy law applicable in your jurisdiction or this Privacy Policy in relation to the personal information."
+    },
+    "section7": {
+      "title": "Cookies",
+      "paragraph1": "Cookies are small text files created and stored on your hard drive by your internet browser software, in order to hold relevant information about the web page you are currently viewing.",
+      "paragraph2": "Cookies are being used to monitor and observe your use of our websites, compile aggregate data about that use, and provide you with a more effective service (which may include customising parts of our websites based on your preferences and past activities on those websites).",
+      "paragraph3": "Some third parties (such as providers of data analytics services) may also use cookies over which we have no control.",
+      "paragraph4": "Most internet browsers have a facility that will allow you to disable all or some cookies altogether – please refer to your browser’s help menu to find out how to do this. While you will still be able to browse our websites with cookies disabled on your internet browser, some website functionality may not be available or may not function correctly. "
+    },
+    "section8": {
+      "paragraph1": "We take reasonable steps to ensure that any of your personal information which we hold is accurate, complete and up-to-date.  These steps include promptly updating personal information when we are advised that the information has changed, checking our contact lists for accuracy, and providing individuals with a simple means to update their personal information",
+      "paragraph2": "We store personal information for as long as it is needed for the purpose for which it was collected or as required by law.  Within a reasonable time after the expiry of this period, we will take reasonable steps to de-identify or destroy the personal information which is in our possession or control.",
+      "paragraph3": "We generally store the personal information that we collect in electronic databases, someof which may be held on our behalf by third party data storage providers.  Sometimes we also keep hard copy records of this personal information in physical storage facilities.  We use a range of physical and technical security processes and procedures to protect the confidentiality and security of the information that we hold, and we update these from time to time to address new and emerging security threats.  These measures include:",
+      "ul": {
+        "li1": "restricting access to our physical and electronic databases, and physical security such as security procedures for access to our business premises; and",
+        "li2": "technological security procedures including password protection, network firewalls, encryption, intrusion detection and site monitoring where practicable to do so."
+      }
+    },
+    "section9": {
+      "title": "Your legal rights regarding your personal information",
+      "paragraph1": "You have a right to:",
+      "ul": {
+        "li1": "access and request a copy of your personal information to check how we are using your personal information",
+        "li2": "correct or rectify any personal information that is out-of-date, incorrect, incomplete or misleading",
+        "li3": "withdraw any consent previously given by you to the processing of your personal information",
+        "li4": "object to the processing of your personal information",
+        "li5": "ask us to restrict or suspend the use of your personal information"
+      },
+      "paragraph2": "These requests should be submitted to us in writing using the contact details below.",
+      "paragraph3": "We will action your request within a reasonable time frame and provide one copy of your personal information free of charge.  If your request is for additional copies or your request is manifestly unfounded, excessive or repetitive, we may refuse your request or charge a reasonable fee.  If we refuse a request or charge a reasonable fee, we will advise you of the reasons for our refusal or any fees within a reasonable time frame.",
+      "paragraph4": "You have a right to request a copy of the personal information you have provided to us in a structured, commonly used and machine-readable format and the right to have that information transmitted or ported to another entity under certain circumstances.",
+      "paragraph5": "There may be cases where we are unable to provide the information you request, such as where it would interfere with the privacy, rights or freedoms of others, or result in a breach of confidentiality or applicable laws.  In these cases we will let you know why we cannot comply with your request."
+    },
+    "section10": {
+      "title": "How to erase your personal information",
+      "paragraph1": "You have a right to request the erasure or destruction of your personal information (“the right to be forgotten”) when it is no longer necessary for the purpose for which it was originally collected, it is not being used for the purposes for which it was collected, or you wish to withdraw your consent for certain processing.  You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing, where we have processed your personal information unlawfully, or where we are required to erase your personal information to comply with local law.",
+      "paragraph2": "There may be cases where we are unable to comply with your request such as where we need to continue processing your personal information in order to comply with applicable laws.  Such requests should be submitted in writing using the contact details below. "
+    },
+    "section11": {
+      "title": "Complaints",
+      "paragraph1": "We try to meet the highest standards in order to protect your privacy.  However, if you are concerned about the way in which we are managing your personal information or think we may have breached our obligations under the applicable privacy or data protection legislation, or any other relevant obligation, please contact us using the contact details set out below.",
+      "paragraph2": "Complaints must be lodged in writing.  In the complaint, please include your contact details (such as email address, name, address and telephone number) and clearly describe the complaint.  We will deal with the matter within a reasonable time and will keep you informed of the progress of our investigation. ",
+      "paragraph3": "If we have not responded to you within a reasonable time or if you feel that your complaint has not been resolved satisfactorily, you can contact us to discuss your concerns.  You are also entitled to make a complaint to the relevant privacy or data protection regulator."
+    },
+    "section12": {
+      "title": "Changes to this policy",
+      "paragraph1": "We may make changes to this policy from time to time, to take into account changes to our standard practices and procedures or where necessary to comply with new laws and regulations.  The latest version of this policy will always be available on our website."
+    },
+    "section13": {
+      "title": "Contact details",
+      "paragraph1": "If you need to contact us or want any further information from us on privacy matters, please contact us at ",
+      "a": {
+        "href": "mailto:contact@fantom.foundation",
+        "text": "contact@fantom.foundation"
+      }
+    }
+  }
+}

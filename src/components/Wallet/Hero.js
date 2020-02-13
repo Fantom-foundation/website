@@ -1,5 +1,6 @@
 import React from "react"
 import WOW from "wowjs"
+import { FormattedMessage, injectIntl, useIntl } from "gatsby-plugin-intl"
 
 class Hero extends React.Component {
   componentDidMount() {
@@ -16,12 +17,14 @@ class Hero extends React.Component {
           <div className="hero-content">
             <div className="content">
               <h1 className="wow fadeInUp" data-wow-duration="600">
-                Fantom wallet
+                <FormattedMessage id={`walletPage.hero.title`} />
               </h1>
               <h4 className="wow fadeInUp" data-wow-duration="600">
-                {toggle
-                  ? "Your FTM, always with you."
-                  : "Store, send, receive and stake your FTM."}
+                {toggle ? (
+                  <FormattedMessage id={`walletPage.hero.desktopContent`} />
+                ) : (
+                  <FormattedMessage id={`walletPage.hero.mobileContent`} />
+                )}
               </h4>
               {!toggle ? (
                 <div
@@ -33,14 +36,16 @@ class Hero extends React.Component {
                     target="_blank"
                     className="button light-btn"
                   >
-                    Open Web Wallet
+                    <FormattedMessage id={`walletPage.hero.firstButtonTitle`} />
                   </a>
                   <a
                     href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
                     target="_blank"
                     className="button dark-btn"
                   >
-                    Download Wallet
+                    <FormattedMessage
+                      id={`walletPage.hero.secondButtonTitle`}
+                    />
                   </a>
                 </div>
               ) : (
@@ -49,14 +54,16 @@ class Hero extends React.Component {
                   data-wow-duration="600"
                 >
                   <a
-                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                    href="https://apps.apple.com/us/app/fantom-wallet/id1436694080"
                     className="apple-icon"
+                    target="_blank"
                   >
                     <img src="/images/wallet/app-store.png" alt="Apple Store" />
                   </a>
                   <a
                     className="google-icon"
-                    href="https://github.com/Fantom-foundation/desktop-web-wallet/releases"
+                    href="https://play.google.com/store/apps/details?id=com.fantomwallet"
+                    target="_blank"
                   >
                     <img
                       src="/images/wallet/google-play.png"

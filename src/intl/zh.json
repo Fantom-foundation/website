@@ -1,0 +1,425 @@
+{
+  "header": {
+    "menu": {
+      "one": "Explorer",
+      "two": "Wallet",
+      "three": "Fantom是什么？",
+      "four": "研发者",
+      "five": "文章",
+      "six": "基金会",
+      "seven": "白皮书",
+      "copyright": "©2020 Fantom基金有限公司",
+      "privacy": "隐私政策"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "新互联网的核心"
+    },
+    "subtitle": {
+      "title": "分布式网络的最先进，快速和安全的共识。",
+      "description": "无论您要发行稳定币，创建新的智慧经济还是为智慧城市提供动力，Fantom的模块化方法都可以让您专注于构建完美的去中心化应用程序或主网，即我们所说的。"
+    },
+    "offers": {
+      "title": "着眼未来",
+      "description": "Fantom为分散分类账提供最强大的基础。"
+    },
+    "intro": {
+      "title": "Fantom简介",
+      "description": "生态系统，共识，创新。"
+    },
+    "updates": {
+      "developer": {
+        "title": "开发者门户",
+        "description": "开源。可扩展安全。"
+      },
+      "foundation": {
+        "title": "The Fantom Foundation",
+        "description": "人民，文化。"
+      }
+    },
+    "carousel": {
+      "latestArticles": "最新文章"
+    },
+    "offerdata": [
+      {
+        "id": "1",
+        "classname": "Scalable offer-item",
+        "heading": "可扩展",
+        "des": "我们的共识算法-Lachesis和TxFlow-可以在其他算法不能的扩展的领域扩展.",
+        "img": "/images/offer-icon/scalable.svg",
+        "alt": "可扩展"
+      },
+      {
+        "id": "2",
+        "classname": "Secure offer-item",
+        "heading": "安全度",
+        "des": "异步拜占庭容错算法将为任何分布式账本的应用程序提供银行级别的安全性.",
+        "img": "/images/offer-icon/secure.svg",
+        "alt": "安全度"
+      },
+      {
+        "id": "3",
+        "classname": "Fast offer-item",
+        "heading": "快速",
+        "des": "Fantom 共识算法的设计是以支持高数量，同时维护安全性，响应性和快速的解决方案.",
+        "img": "/images/offer-icon/fast.svg",
+        "alt": "快速"
+      },
+      {
+        "id": "4",
+        "classname": "Connected offer-item",
+        "heading": "Connected",
+        "des": "使用Fantom SDK的产品和账本可以通过非托管网桥和绑定的货币进行互动.",
+        "img": "/images/offer-icon/Connected.svg",
+        "alt": "Connected"
+      },
+      {
+        "id": "5",
+        "classname": "Permissionless offer-item",
+        "heading": "无需许可",
+        "des": "我们设计的Fantom SDK将被用于通过被权益证明守护的网络，与链上治理，以最大限度的参与网络.",
+        "img": "/images/offer-icon/Permissionless.svg",
+        "alt": "无需许可"
+      },
+      {
+        "id": "6",
+        "classname": "Open-source offer-item",
+        "heading": "开放源码",
+        "des": "Fantom核心开发团队创建的所有代码，研究和存储库都可以公开供评审与改进为使用.",
+        "img": "/images/offer-icon/openSource.svg",
+        "alt": "开放源码"
+      }
+    ],
+    "subscribeform": {
+      "title": "获取最新更新"
+    }
+  },
+  "readMore": "阅读更多",
+  "learnMore": "学到更多",
+  "notfound": {
+    "header": "未找到 ",
+    "description": "您只是走了一条不存在的路...悲伤。"
+  },
+  "walletPage": {
+    "toggleButtonMobile": "手机",
+    "toggleButtonDesktop": "桌面",
+    "hero": {
+      "title": "Fantom 钱包",
+      "desktopContent": "您的FTM，永远陪伴着您.",
+      "mobileContent": "储存，提现，充值和权益质押您的FTM.",
+      "firstButtonTitle": "打开网页钱包",
+      "secondButtonTitle": "下载钱包"
+    },
+    "desktopData": [
+      {
+        "id": "d1",
+        "imgUrl": "/images/wallet/desktop1.png",
+        "title": "安全可靠",
+        "content": "使用加密的密钥库文件来访问您的钱包."
+      },
+      {
+        "id": "d2",
+        "imgUrl": "/images/wallet/desktop2.png",
+        "title": "易于使用",
+        "content": "发送加密货币理应很简单. 包在我们身上."
+      },
+      {
+        "id": "d3",
+        "imgUrl": "/images/wallet/desktop3.png",
+        "title": "奖励",
+        "content": "让您的FTM为您服务. 利用您的FTM来保护网络的安全并获得奖励."
+      }
+    ],
+    "mobileData": [
+      {
+        "id": "m1",
+        "imgUrl": "/images/wallet/phone1.png",
+        "title": "安全且匿名",
+        "content": "您的私钥已经安全的存储在了您的手机上，并且永远不会被共享."
+      },
+      {
+        "id": "m2",
+        "imgUrl": "/images/wallet/phone2.png",
+        "title": "提现并且充值 FTM",
+        "content": "是的，就和看起来一样简单."
+      },
+      {
+        "id": "m3",
+        "imgUrl": "/images/wallet/phone3.png",
+        "title": "随时随地进行权益质押",
+        "content": "从手机中进行您的FTM权益质押，检查并获取您的奖励."
+      }
+    ],
+    "createWallet": {
+      "desktopContent": "下载 Fantom 钱包应用程序",
+      "mobileContent": "创立钱包",
+      "downloadButton": "下载桌面版本:",
+      "macText": "Mac OS苹果系统",
+      "windowsText": "Windows  系统",
+      "openWalletText": "或者打开网页钱包 >",
+      "lastSectionTextDesktop": "您在寻找网页或桌面版本吗?",
+      "lastSectionTextMobile": "在寻找手机版本吗？",
+      "lastSectionLinkDesktop": "点击此处来获取网页与桌面钱包",
+      "lastSectionLinkMobile": "点击此处使用手机钱包"
+    }
+  },
+  "whatisFantomPage": {
+    "hero": {
+      "title": "Fantom 是什么"
+    },
+    "aboutData": [
+      {
+        "id": "1",
+        "heading": "介绍",
+        "spanOne": "Fantom是一系列技术组件，",
+        "content": "当它们组合在一起时，就形成了一个技术堆叠，允许在基础上构建一个更大的应用程序生态系统. \n \n 我们的开发重点是Lachesis异步拜占庭容错（“aBFT”）和TxFlow共识算法. \n \n “aBFT” 意味着交易在进入网络后会尽快得到确认，而不是优先等待之前的交易得到确认。这大大的加快了网络与交易的速度.\n \n Fantom的生态系统的用户将不需要把所有计算能力和所有使用集中在一个分散的分类账上，用户反而可以以共识为核心来部署自己的独立分布式分类账，同时能够用此来交流.\n \n"
+      },
+      {
+        "id": 2,
+        "heading": "我们为什么需要另一个分布式账本？",
+        "content": "如果世界上大多数企业使用同一个单一的集中数据库，交易将很快就会受到限制. \n \n 随着比特币和分散式智能合约平台的兴起，我们看到全行业都在呼吁从集中式网络完全迁移到单一账本，以实现安稳、安全以及更高效率. \n \n 与这些期望相反，分散式网络发现由于多个节点相互通信而引入的延迟，其固有的响应性和可扩展性不如集中式网络. \n \n 与这些期望相反，分散式网络发现由于多个节点相互通信而引入的延迟，其固有的响应性和可扩展性不如集中式网络. \n \n 但我们不认为一本账本就一定能解决问题. \n \n Fantom的愿景是让用户能够在一个可互操作的网络中轻松地部署和定制自己的分布式账本，在这个网络中，用户可以与其他分布式账本自由地进行交流和交易. \n \n 我们的重点不是建立最好的分布式账本，而是建立尽可能最好的共识算法. \n \n 分布式账本被认为是一个平台，而共识算法被认为是一个模块. 用户将能够部署自己的分布式账本，而这些账本将由Lachesis aBFT和/或TxFlow提供支持，并与Fantom SDK到以太坊虚拟机（EVM）等不同类型的中间件结合。 \n \n "
+      },
+      {
+        "id": 3,
+        "heading": "Lachesis aBFT和TxFlow是什么？",
+        "spanOne": "Lachesis aBFT是",
+        "content": "Fantom的核心异步无领导拜占庭容错共识算法. \n \n 它基于流行病协议的原理，在流行病协议中，将会有少量信息在网络中快速传播. 部署在这项技术之上的分布式账本提供了最高级别的网络安全，高速度与数量和较低时间限制的完成交易. \n \n 为了尽可能更容易的构建适合用户需求的分布式帐簿，我们设计了Lachesis aBFT为具有高度适应性和兼容现有的代码库，如Cosmos SDK和Go-Ethereum. \n \n \n \n",
+        "spanTwo": "TxFlow是一",
+        "contentTwo": "种交易响应的协议. 它不是一个新的共识算法，而是一个并发运行以达成共识的协议，在此协议中用户将可以实时提交交易并接收确认. \n \n 常规的共识算法，比如BFT创建区块并对它们进行投票，仍然需要作为次要的或者可能更主要的安全机制. 因此，若是在该交易的整体提案之前没有获得足够的票数，它将仍然被添加.\n \n "
+      },
+      {
+        "id": 4,
+        "heading": "什么是不可改变性？",
+        "contentBefore": "在解释什么是不可改变性以及为什么它的重要性的之前，让我们先回顾一下双重支出问题. ",
+        "spanAfter": "让我们先回顾一下双重支出问题. ",
+        "content": "双重支出是一个问题，这代表着同一个加密货币可以被多次支出.\n \n 这是电子资产和加密货币独有的一个缺陷，因为计算机上的数字相对来说比较容易被复制. 这一个问题类似与礼品卡市场，礼品卡的价值被存储在一个简单的代金券代码中，可以复制并分发给多人，然而只能被兑换一次. \n \n 简单的来说，不可改变性就是你知道当你买一杯咖啡时，用来付款咖啡的钱不能再次使用用来付款买一杯茶. \n \n 你把价值转移给收银员，然后从你的钱包里减去，再加到他们的钱包里. 这一点很重要，因为在提供服务或转让商品所有权之前，商家或服务提供商希望确保他们收到了钱. \n \n 比特币和以太坊使用着一种被称为工作量证明机制（PoW）的共识算法；在这些网络中，有一个被称为矿工的分散个人团体，他们的验证证明着进行了的交易不是双重支出.所有的交易会在区块中被分组，这些区块将会像锁链一样的按着顺序同步被添加. 在这些网络中，有一个称为最长工作链的存在：这个存在是基于拥有最多数量节点或矿工支持以及被维护的链，而其他的意见不统一的链将会从共识脱离掉. \n \n 在一个链中添加区块是非常困难的并且需要耗费大量的电子计算能力，这使得回到之前的区块并实行双重支出的花费处于非常昂贵的价位. 在这些设置中，我们永远无法100%确定进行交易的分组所在的区块是位于最长工作链中. 然而，随着越来越多区块的增加，相对来说长的工作链的存在几率将会是越来越低的. \n \n 这导致了不可改变性的概率，在X个区块通过之后，双重支出的可能性变得极低. \n \n 在最近的共识算法中，比如Tendermint pBFT、",
+        "spanAfterTwo": "Lachesis aBFT和Casper，我们发现这是一种信心 ",
+        "contentTwo": "，即只要共识共享节点的诚实度超过 ⅔，就可以知道所有最新发生的交易都是完全有效的，甚至没有任何发生双重支出的任何可能性. \n \n 这些链不使用最长工作链的规则来决定将哪些区块添加到共识算法中. 此类协议通常不使用最长工作链的规则， 而是以以下方式决定的：\n \n ",
+        "list": [
+          {
+            "lid": 1.1,
+            "li": "区块是被参与的节点通过共识算法提出的"
+          },
+          {
+            "lid": 1.2,
+            "li": "所有验证的节点在超过⅔时会发送其预期承诺时确认的区块."
+          },
+          {
+            "lid": 1.3,
+            "li": "区块是最不可改变的，一旦一个节点收到了 ⅔ 的承诺，它就将会被包含在共识中."
+          },
+          {
+            "lid": 1.4,
+            "li": "除非验证的节点 ⅓ 或更多是恶意的，否则原交易还是会保证它的不可改变性."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "heading": "所以 Fantom 到底是什么？",
+        "content": "简而言之，Fantom是一套属于开放源码性质的工具，用于构建各种分布式账本相关产品. \n \n 我们的主要关注点是建立最好的共识算法，让它可以作为一个模块，满足那些希望创建一个分布式账本的用户们的需求. \n \n 基金会鼓励开发者和企业在共识算法的基础上形成一个社区，并添加自己的模块来创建一个产品、社区以及企业和开发者们的生态系统，让他们可以在共识算法的基础上构建并添加自己的模块来创建分布式账本相关产品. \n \n"
+      }
+    ]
+  },
+  "developerPage": {
+    "hero": {
+      "title": "Fantom是开源的"
+    },
+    "learnHeadingData": {
+      "heading": "学习",
+      "description": "浏览我们的技术书籍和资源.",
+      "img": "/images/home/learn.svg"
+    },
+    "buildData": {
+      "heading": "建造",
+      "description": "在Github上加入我们的开发者社区以及了解我们的最新进展.",
+      "href": "https://github.com/Fantom-foundation",
+      "img": "/images/home/600px-Octicons-mark-github.png",
+      "getstarted": "现在就开始"
+    },
+    "learnMoreData": [
+      {
+        "id": 1,
+        "heading": "中心化金融(DeFi) 模块",
+        "link": "/Documents/documents.pdf",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 2,
+        "heading": "智能合约经济学",
+        "link": "https://arxiv.org/pdf/1910.11143.pdf",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 3,
+        "heading": "阶梯式有向无环图",
+        "link": "https://arxiv.org/abs/1908.11810",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 4,
+        "heading": "StakeDag",
+        "link": "https://arxiv.org/abs/1907.03655",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 5,
+        "heading": "ONLAY: Online Layering",
+        "link": "https://arxiv.org/abs/1905.04867",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 6,
+        "heading": "Fantom：异步分布式系统的可扩展模版",
+        "link": "https://arxiv.org/abs/1810.10360",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      },
+      {
+        "id": 7,
+        "heading": "Opera",
+        "link": "/Documents/Fantom_Paper_vRelease.pdf",
+        "imgSrc": "/images/home/Arrow-Forward.svg"
+      }
+    ]
+  },
+  "foundationPage": {
+    "hero": {
+      "title": "Fantom基金会"
+    },
+    "teamData": {
+      "heading": "了解团队",
+      "description": "我们的团队成员在网络，分布式系统，中间件研究和运行技术公司方面都有多年的研发经验."
+    }
+  },
+  "privacyPage": {
+    "section1": {
+      "title": "Website Privacy Policy",
+      "paragraph1": "This privacy policy applies to Fantom Foundation’s websites",
+      "paragraph2": "Protecting your privacy is important to us.  We are the controller of your personal information and this policy explains how we manage personal information within our organisation."
+    },
+    "section2": {
+      "title": "Kinds of personal information we collect",
+      "paragraph1": "The kinds of personal information that we collect and hold about you may include:",
+      "ul": {
+        "li1": "contact information, such as your email address",
+        "li2": "social media (including Telegram) handles and other social media profile information that you make available to us or to the public",
+        "li3": "records of our communications with you, including any messages or emails you send us",
+        "li4": "device information, server log information, IP address, and location information",
+        "li5": "other information that you provide us during the course of business",
+        "li6": "other information that is capable of identifying you"
+      },
+      "paragraph2": "you without this information we may not be able to provide you with our products or services (or with all of the features and functionality offered by our products or services) or to respond to queries or requests that you submit to us."
+    },
+    "section3": {
+      "title": "How we collect personal information",
+      "paragraph1": "We collect personal information about you in the following ways:",
+      "ul": {
+        "li1": "when you contact us via email or social media (such as Telegram)",
+        "li2": "when you submit a query or request to us",
+        "li3": "when you respond to a survey that we run, participate in any sale bounty campaign or fill in forms on one of our websites",
+        "li4": "by tracking your use of our products and services (including our website)",
+        "li5": "through analytics providers (such as Google which processes personal information subject to its own privacy policy:",
+        "a": {
+          "href": "https://policies.google.com/privacy/partners",
+          "text": "https://policies.google.com/privacy/partners)"
+        },
+        "li6": "from public sources (including social media platforms which have their own separate privacy policies that govern the access and use of personal information held by those sources)",
+        "li7": "from third parties who are entitled to disclose that information to us",
+        "li8": "when you apply for a job with us"
+      },
+      "paragraph2": "In some cases we may be required by law to collect certain types of personal information about you."
+    },
+    "section4": {
+      "title": "Purposes for which we use personal information",
+      "paragraph1": "Where we collect personal information from you, we will generally do so directly ourselves.  However, in some cases we may collect personal information from a third party, such as through your representatives, contractors who provide services to us, or third parties who refer you to us because they think you may be interested in our products or services.",
+      "paragraph2": "We use personal information that we collect about you for the following purposes:",
+      "ul": {
+        "li1": "to enable us to provide our products and services (including providing services on the public Ethereum blockchain)",
+        "li2": "to answer your queries and requests",
+        "li3": "to comply with our legal and regulatory obligations, or as otherwise required or authorised by law",
+        "li4": "to carry out market analysis and research including through the use of data analytics to improve our products and services",
+        "li5": "to monitor use of products and services including use of tokens",
+        "li6": "to manage and resolve any legal or commercial complaints or issues",
+        "li7": "to carry out planning and forecasting activities and other internal business processes",
+        "li8": "to keep you informed about our activities, including by sending out communications about our tokens, and the development of the future FANTOM Platform"
+      },
+      "paragraph3": "We may from time to time use your personal information in order to send you marketing materials about products or services that we think you may be interested in (including in some cases products and services that are provided by a third party).  You can opt-out of receiving marketing communications from us by contacting us using the contact details below or following the “unsubscribe” link in the communication.",
+      "paragraph4": "We may also use and disclose your information for other purposes as authorised by you, or in accordance with your requests or instructions."
+    },
+    "section5": {
+      "title": "People to whom we disclose personal information",
+      "paragraph1": "We may share personal information about you with:",
+      "ul": {
+        "li1": "your representatives, advisers and others you have authorised to interact with us on your behalf",
+        "li2": "our staff who need the information to discharge their duties",
+        "li3": "our affiliates and related entities within our corporate group including those located outside the country in which you are located",
+        "li4": "our business partners, agents and service providers (including hosting and cloud providers)",
+        "li5": "prospective purchasers of all or part of our business or shares in our company or a related entity",
+        "li6": "professional advisers who we engage to provide advice on our business",
+        "li7": "government authorities who ask us to disclose that information, or to other people as required by law"
+      },
+      "paragraph2": "Our tokens are ERC-20 and BEP-2 compliant tokens It is possible to identify personal information from (and including) wallet addresses and other data available on the Ethereum blockchain and Binance chain as they are, by nature,  transparent and public ledgers.  Due to the nature of the Ethereum blockchain and Binance chain, we cannot amend or control the disclosure of such personal information."
+    },
+    "section6": {
+      "title": "Disclosure to international recipients",
+      "paragraph1": "In some cases we disclose your personal information to recipients who may be located outside the country in which you are located (including contractors and third party service providers).  We may disclose your personal information to our affiliates and related entities, and employees overseas as necessary to provide you with our goods and services.",
+      "paragraph2": "We have related entities, affiliates and service providers located various countries in the Asia-Pacific region and other countries from time to time, and may disclose personal information to those entities.",
+      "paragraph3": "We take commercially reasonable steps to ensure that any overseas recipient has appropriate safeguards in place, ensures an adequate level of protection of your personalinformation, and does not breach the privacy law applicable in your jurisdiction or this Privacy Policy in relation to the personal information."
+    },
+    "section7": {
+      "title": "Cookies",
+      "paragraph1": "Cookies are small text files created and stored on your hard drive by your internet browser software, in order to hold relevant information about the web page you are currently viewing.",
+      "paragraph2": "Cookies are being used to monitor and observe your use of our websites, compile aggregate data about that use, and provide you with a more effective service (which may include customising parts of our websites based on your preferences and past activities on those websites).",
+      "paragraph3": "Some third parties (such as providers of data analytics services) may also use cookies over which we have no control.",
+      "paragraph4": "Most internet browsers have a facility that will allow you to disable all or some cookies altogether – please refer to your browser’s help menu to find out how to do this. While you will still be able to browse our websites with cookies disabled on your internet browser, some website functionality may not be available or may not function correctly. "
+    },
+    "section8": {
+      "paragraph1": "We take reasonable steps to ensure that any of your personal information which we hold is accurate, complete and up-to-date.  These steps include promptly updating personal information when we are advised that the information has changed, checking our contact lists for accuracy, and providing individuals with a simple means to update their personal information",
+      "paragraph2": "We store personal information for as long as it is needed for the purpose for which it was collected or as required by law.  Within a reasonable time after the expiry of this period, we will take reasonable steps to de-identify or destroy the personal information which is in our possession or control.",
+      "paragraph3": "We generally store the personal information that we collect in electronic databases, someof which may be held on our behalf by third party data storage providers.  Sometimes we also keep hard copy records of this personal information in physical storage facilities.  We use a range of physical and technical security processes and procedures to protect the confidentiality and security of the information that we hold, and we update these from time to time to address new and emerging security threats.  These measures include:",
+      "ul": {
+        "li1": "restricting access to our physical and electronic databases, and physical security such as security procedures for access to our business premises; and",
+        "li2": "technological security procedures including password protection, network firewalls, encryption, intrusion detection and site monitoring where practicable to do so."
+      }
+    },
+    "section9": {
+      "title": "Your legal rights regarding your personal information",
+      "paragraph1": "You have a right to:",
+      "ul": {
+        "li1": "access and request a copy of your personal information to check how we are using your personal information",
+        "li2": "correct or rectify any personal information that is out-of-date, incorrect, incomplete or misleading",
+        "li3": "withdraw any consent previously given by you to the processing of your personal information",
+        "li4": "object to the processing of your personal information",
+        "li5": "ask us to restrict or suspend the use of your personal information"
+      },
+      "paragraph2": "These requests should be submitted to us in writing using the contact details below.",
+      "paragraph3": "We will action your request within a reasonable time frame and provide one copy of your personal information free of charge.  If your request is for additional copies or your request is manifestly unfounded, excessive or repetitive, we may refuse your request or charge a reasonable fee.  If we refuse a request or charge a reasonable fee, we will advise you of the reasons for our refusal or any fees within a reasonable time frame.",
+      "paragraph4": "You have a right to request a copy of the personal information you have provided to us in a structured, commonly used and machine-readable format and the right to have that information transmitted or ported to another entity under certain circumstances.",
+      "paragraph5": "There may be cases where we are unable to provide the information you request, such as where it would interfere with the privacy, rights or freedoms of others, or result in a breach of confidentiality or applicable laws.  In these cases we will let you know why we cannot comply with your request."
+    },
+    "section10": {
+      "title": "How to erase your personal information",
+      "paragraph1": "You have a right to request the erasure or destruction of your personal information (“the right to be forgotten”) when it is no longer necessary for the purpose for which it was originally collected, it is not being used for the purposes for which it was collected, or you wish to withdraw your consent for certain processing.  You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing, where we have processed your personal information unlawfully, or where we are required to erase your personal information to comply with local law.",
+      "paragraph2": "There may be cases where we are unable to comply with your request such as where we need to continue processing your personal information in order to comply with applicable laws.  Such requests should be submitted in writing using the contact details below. "
+    },
+    "section11": {
+      "title": "Complaints",
+      "paragraph1": "We try to meet the highest standards in order to protect your privacy.  However, if you are concerned about the way in which we are managing your personal information or think we may have breached our obligations under the applicable privacy or data protection legislation, or any other relevant obligation, please contact us using the contact details set out below.",
+      "paragraph2": "Complaints must be lodged in writing.  In the complaint, please include your contact details (such as email address, name, address and telephone number) and clearly describe the complaint.  We will deal with the matter within a reasonable time and will keep you informed of the progress of our investigation. ",
+      "paragraph3": "If we have not responded to you within a reasonable time or if you feel that your complaint has not been resolved satisfactorily, you can contact us to discuss your concerns.  You are also entitled to make a complaint to the relevant privacy or data protection regulator."
+    },
+    "section12": {
+      "title": "Changes to this policy",
+      "paragraph1": "We may make changes to this policy from time to time, to take into account changes to our standard practices and procedures or where necessary to comply with new laws and regulations.  The latest version of this policy will always be available on our website."
+    },
+    "section13": {
+      "title": "Contact details",
+      "paragraph1": "If you need to contact us or want any further information from us on privacy matters, please contact us at ",
+      "a": {
+        "href": "mailto:contact@fantom.foundation",
+        "text": "contact@fantom.foundation"
+      }
+    }
+  }
+}
