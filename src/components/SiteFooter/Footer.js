@@ -105,6 +105,9 @@ const Footer = () => {
                   <FormattedMessage id="header.menu.seven" />
                 </a>
               </div>
+              <div>
+                <Link to="/roadmap/"><FormattedMessage id="header.menu.eight" /></Link>
+              </div>
             </div>
           </div>
           <div className="second-section">
@@ -149,6 +152,9 @@ const Footer = () => {
               >
                 <FormattedMessage id="header.menu.seven" />
               </a>
+            </p>
+            <p className="footer-link">
+              <Link to="/roadmap/"><FormattedMessage id="header.menu.eight" /></Link>
             </p>
             <p className="footer-link">
               <span>

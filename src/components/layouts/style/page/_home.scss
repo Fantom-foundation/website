@@ -33,7 +33,7 @@ h1{
     font-family: "Work Sans", Helvetica, sans-serif;
 }
 .section{
-    margin-top: 150px;
+    margin-top: 80px;
     margin-bottom: 100px;
 }
 .hero-section{
@@ -45,7 +45,7 @@ h1{
     position: relative;
     z-index: -1; 
     .container {     
-        padding: 150px 0px;
+        padding: 60px 0px  150px ;
         h1{
             width: 70%;
             font-size: $h1;
@@ -73,7 +73,7 @@ h1{
 
 .offer {
     background: $light-grey;
-    padding: 50px 32px;
+    padding: 50px 0px;
     border-radius: 20px;
     h2 {
         font-size: $h2;
@@ -89,6 +89,10 @@ h1{
     justify-content: space-between;
     flex-flow: row wrap;
     margin-top: 10px;
+    @media (min-width: 769px){
+        margin : 10px -15px 0;
+    }
+    
     .Scalable {
         .offer-icon {
             background: #95b3f6;
@@ -346,7 +350,7 @@ h1{
                     margin-bottom: 20px;
                 }
                 p{
-                    font-size: 21px;
+                    font-size: 18px;
                     font-weight: lighter;
                     width: 335px;
                     line-height: 1.52;
@@ -416,7 +420,7 @@ h1{
 }
 .inner-container.carousel-section {
     .slider-heading {
-        font-size: 32px;
+        font-size: 26px;
         color: #2c3b57;
     }
 }
@@ -721,7 +725,7 @@ h1{
             p {
             width: 80%;
             margin-top: 30px;
-            font-size: 21px;
+            font-size: 18px;
             font-weight: normal;
             }
         }
