@@ -191,6 +191,37 @@ export const teamMemberData = [
     },
     {
         id :  19,
+        imgUrl : `/images/team-member/jakub.png`,
+        imgAlt : `Jakub Stepanik`,
+        name : `Jakub Stepanik`,
+        designation : `Developer`,
+        // linkedInImg : `/images/team-member/linkedin.png`,
+        // linkedInAlt : `linkedin Oleg`,
+        // linkedInUrl : `https://www.linkedin.com/in/oleg-kislitsin-466b38ba/`,
+    },
+    {
+        id :  20,
+        imgUrl : `/images/team-member/pavel.png`,
+        imgAlt : `Pavel Spacil`,
+        name : `Pavel Spacil`,
+        designation : `Developer`,
+        // linkedInImg : `/images/team-member/linkedin.png`,
+        // linkedInAlt : `linkedin Oleg`,
+        // linkedInUrl : `https://www.linkedin.com/in/oleg-kislitsin-466b38ba/`,
+    },
+    {
+        id :  21,
+        imgUrl : `/images/team-member/jiri.png`,
+        imgAlt : `Jirka Malek`,
+        name : `Jirka Malek`,
+        designation : `Developer`,
+        // linkedInImg : `/images/team-member/linkedin.png`,
+        // linkedInAlt : `linkedin Oleg`,
+        // linkedInUrl : `https://www.linkedin.com/in/oleg-kislitsin-466b38ba/`,
+    },
+   
+    {
+        id :  22,
         imgUrl : `/images/team-member/Kevin.png`,
         imgAlt : `Kevin Kim`,
         name : `Kevin Kim`,
@@ -201,7 +232,7 @@ export const teamMemberData = [
     },
 
     {
-        id :  20,
+        id :  23,
         imgUrl : `/images/team-member/Brian.png`,
         imgAlt : `Brian Yun`,
         name : `Brian Yun`,
@@ -211,7 +242,7 @@ export const teamMemberData = [
         linkedInUrl : `https://www.linkedin.com/in/brian-yun-4b0004119/`,
     },
     {
-        id :  21,
+        id :  24,
         imgUrl : `/images/team-member/GM.png`,
         imgAlt : `GM Chung`,
         name : `GM Chung`,
@@ -231,7 +262,7 @@ export const teamMemberData = [
     //     linkedInUrl : `http://linkedin.com/in/cj-g-0a130a23`,
     // },
     {
-        id :  22,
+        id :  25,
         imgUrl : `/images/team-member/James.png`,
         imgAlt : `James Zain`,
         name : `James Zain`,
@@ -242,7 +273,7 @@ export const teamMemberData = [
     },
 
     {
-        id :  23,
+        id :  26,
         imgUrl : `/images/team-member/ConnorHughe.gif`,
         imgAlt : `Connor Hughes`,
         name : `Connor Hughes`,
