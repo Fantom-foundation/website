@@ -44,7 +44,7 @@ export const teamMemberData = [
         imgUrl : `/images/team-member/Barek Sekandari.png`,
         imgAlt : `Barek Sekandari`,
         name : `Barek Sekandari`,
-        designation : `Partnerships`,
+        designation : `Director, Business Development`,
         linkedInImg : `/images/team-member/linkedin.png`,
         linkedInAlt : `linkedin Barek`,
         linkedInUrl : `https://www.linkedin.com/in/bariq-sikandari-597752153/`,
@@ -240,8 +240,8 @@ export const teamMemberData = [
         linkedInAlt : `linkedin James Zain`,
         linkedInUrl : `https://www.linkedin.com/in/james-zain-795a99138/`,
     },
-    
-    { 
+
+    {
         id :  23,
         imgUrl : `/images/team-member/ConnorHughe.gif`,
         imgAlt : `Connor Hughes`,
