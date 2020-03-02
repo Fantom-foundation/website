@@ -87,3 +87,12 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ```shell
     npm run deploy:dev
     ```
+
+
+8. If you see this error  
+
+```
+"window" is not available during server side rendering.
+ ```
+ Then goto src/components/wow and open wow.js, copy the code and paste that code into node_modules/wowjs/dist/wow.js 
+ There is a error in new update of wow.js module.
