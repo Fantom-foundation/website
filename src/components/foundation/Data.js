@@ -135,9 +135,9 @@ export const teamMemberData = [
         imgAlt : `Alexandr Guzev`,
         name : `Alexander Guzev`,
         designation : `Developer`,
-        linkedInImg : ``,
-        linkedInAlt : ``,
-        linkedInUrl : ``,
+        linkedInImg : `/images/team-member/linkedin.png`,
+        linkedInAlt : `linkedin Alexandr`,
+        linkedInUrl : `https://www.linkedin.com/in/aaguzev/`,
     },
     {
         id :  14,
