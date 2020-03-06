@@ -194,7 +194,7 @@ export const teamMemberData = [
         imgUrl : `/images/team-member/jakub.png`,
         imgAlt : `Jakub Stepanik`,
         name : `Jakub Stepanik`,
-        designation : `Developer`,
+        designation : `Enterprise Solutions`,
         // linkedInImg : `/images/team-member/linkedin.png`,
         // linkedInAlt : `linkedin Oleg`,
         // linkedInUrl : `https://www.linkedin.com/in/oleg-kislitsin-466b38ba/`,
@@ -219,7 +219,7 @@ export const teamMemberData = [
         // linkedInAlt : `linkedin Oleg`,
         // linkedInUrl : `https://www.linkedin.com/in/oleg-kislitsin-466b38ba/`,
     },
-   
+
     {
         id :  22,
         imgUrl : `/images/team-member/Kevin.png`,
